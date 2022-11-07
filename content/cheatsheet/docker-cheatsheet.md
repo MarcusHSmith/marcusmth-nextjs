@@ -1,7 +1,7 @@
 ---
 path: cheatsheet
-date: 2020-07-29T15:35:49.141Z
-lastUpdated: 2021-07-14T22:24:44.379Z
+date: "2020-07-29T15:35:49.141Z"
+lastUpdated: "2021-07-14T22:24:44.379Z"
 title: Docker Cheatsheet
 description: My favorite Docker Commands
 tags:
