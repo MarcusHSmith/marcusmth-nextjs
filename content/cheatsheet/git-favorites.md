@@ -1,7 +1,7 @@
 ---
 path: cheatsheet
 date: "2019-10-27T22:12:03.284Z"
-lastUpdated: "2022-08-24T19:12:54.124Z"
+lastUpdated: "2022-09-27T16:22:37.189Z"
 title: Git Cheatsheet
 description: My favorite Git Commands
 tags:
@@ -38,3 +38,5 @@ To squash commits `$ git rebase -i HEAD~10` (or however many commits are specifi
 ### Posts
 
 [How to write a good commit message](https://juffalow.com/other/write-good-git-commit-message) by Matej Jellus
+
+[﻿Fix Yarn Incorrect integrity when fetching from the cache](https://marcusmth.com/solve-yarn-incorrect-integrity-when-fetching-from-the-cache/)

@@ -20,14 +20,13 @@ export function PostList({posts, category}: IProps): ReactElement {
         return posts.sort((a, b) => {
           const dateA = new Date(a.frontmatter.lastUpdated)
           const dateB = new Date(b.frontmatter.lastUpdated)
-          return dateB.getUTCDate() - dateA.getUTCDate()
+          return dateB.getTime() - dateA.getTime()
         })
       }, [posts])
       return (
         <div className='p-8'>
           <HeaderBio presenation='full'/>
           {sortedPosts.map(({ slug, frontmatter }) => {
-            console.log(frontmatter)
             return (
             <div
               key={slug}
