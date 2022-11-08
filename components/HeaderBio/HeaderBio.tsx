@@ -66,7 +66,7 @@ function InternalLinks(): ReactElement {
 
 function ExternalLinks(): ReactElement{
     return (
-      <div className="flex gap-1">
+      <div className="flex flex-wrap gap-1">
           <a href={`https://www.youtube.com/channel/UCzLPnJlM_5IEe2djVMB2jLA`}>Youtube</a>
           <a href={`https://www.instagram.com/marcusmth`}>Instagram</a>
           <a href={`https://twitter.com/marcusmth`}>Twitter</a>
