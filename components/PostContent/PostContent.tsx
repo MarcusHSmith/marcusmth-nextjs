@@ -6,8 +6,8 @@ export default function PostPage({ frontmatter, content }) {
       <div className='prose mx-auto'>
         <HeaderBio presenation='min'/>
         <div className='flex flex-col'>
-          <span>{frontmatter.title}</span>
-          <span>{new Date(frontmatter.lastUpdated).toDateString()}</span>
+          <span className="font-bold text-lg">{frontmatter.title}</span>
+          <span className="font-light text-xs">{new Date(frontmatter.lastUpdated).toDateString()}</span>
           {frontmatter.tags.map((t) => {
             return (
               <div key={t} className='bg-blue-500 w-min rounded-lg'>
@@ -15,6 +15,7 @@ export default function PostPage({ frontmatter, content }) {
               </div>
             )
           })}
+          <hr className="my-4"/>
         </div>
         <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
       </div>

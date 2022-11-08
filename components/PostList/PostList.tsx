@@ -44,8 +44,8 @@ export function PostList({posts, category}: IProps): ReactElement {
             >
                 <div className='p-4 flex justify-between'>
                   <div className='flex flex-col'>
-                    <span className='text-lg text-blue-500'>{frontmatter.title}</span>
-                    <span className='text-xs'>{new Date(frontmatter.lastUpdated).toDateString()}</span>
+                    <span className='font-bold text-lg text-blue-500'>{frontmatter.title}</span>
+                    <span className='font-light text-xs'>{new Date(frontmatter.lastUpdated).toDateString()}</span>
                     <span className='text-m'>{frontmatter.description}</span>
                   </div>
                     <div className='h-20 max-w-l w-20 relative'>
