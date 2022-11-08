@@ -8,7 +8,7 @@ tags:
   - Youtube
 isPublished: true
 featuredImage:
-  src: "./Youtube-logo.png"
+  src: "Youtube-logo.png"
   alt: "Youtube Logo"
 ---
 

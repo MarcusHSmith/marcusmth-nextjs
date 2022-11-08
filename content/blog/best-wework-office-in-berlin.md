@@ -8,7 +8,7 @@ tags:
   - wework
 isPublished: true
 featuredImage:
-  src: "./WeWork-logo.png"
+  src: "WeWork-logo.png"
   alt: "WeWork Logo"
 ---
 
