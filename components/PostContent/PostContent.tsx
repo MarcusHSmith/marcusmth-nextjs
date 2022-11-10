@@ -1,21 +1,16 @@
 import { HeaderBio } from "../HeaderBio/HeaderBio";
 import md from 'markdown-it';
+import { TagList } from "../TagList/TagList";
 
 export default function PostPage({ frontmatter, content }) {
     return (
       <div className='prose mx-auto'>
         <HeaderBio presenation='min'/>
-        <div className='flex flex-col'>
+        <div className='flex flex-col gap-1'>
           <span className="font-bold text-lg">{frontmatter.title}</span>
           <span className="font-light text-xs">{new Date(frontmatter.lastUpdated).toDateString()}</span>
-          {frontmatter.tags.map((t) => {
-            return (
-              <div key={t} className='bg-blue-500 w-min rounded-lg'>
-                <span className='text-white p-2'>{t}</span>
-              </div>
-            )
-          })}
-          <hr className="my-4"/>
+          <TagList tags={frontmatter.tags}/>
+          <hr/>
         </div>
         <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
       </div>

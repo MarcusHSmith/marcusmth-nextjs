@@ -24,7 +24,7 @@ export function PostList({posts, category}: IProps): ReactElement {
         })
       }, [posts])
       return (
-        <div className='p-8'>
+        <div className='p-4'>
           <HeaderBio presenation='full'/>
           {sortedPosts.map(({ slug, frontmatter }) => {
             return (
