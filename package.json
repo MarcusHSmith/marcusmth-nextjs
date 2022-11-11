@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.8",
+    "embla-carousel-react": "^7.0.5",
     "esbuild": "^0.15.12",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",

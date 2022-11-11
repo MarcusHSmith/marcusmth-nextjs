@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
-import { HeaderBio } from "../../../components/HeaderBio/HeaderBio";
+import { HeaderBio } from "../../../../components/HeaderBio/HeaderBio";
 import Image from 'next/image';
+import router from "next/router";
 
 enum ACCOLADE {
     BEST_LOCATION = "Best Location",
@@ -19,7 +20,7 @@ interface ILocationData {
     allImages: string[]
 }
 
-const data: ILocationData[] = [
+export const data: ILocationData[] = [
     {
         name: "7 Rue De Madrid",
         address: "7 rue de Madrid Paris, Ile-de-France 75008",
@@ -74,7 +75,10 @@ function BestAccolade({accolade}:{accolade: ACCOLADE}): ReactElement {
         return position !== -1
     })
     return (
-        <div className="flex flex-row m-2 rounded-l shadow-lg rounded-xl overflow-hidden">
+        <button 
+            className="flex flex-row m-2 rounded-l shadow-lg rounded-xl overflow-hidden"
+            onClick={() => router.push(`/reports/wework/paris/${locationDetails.address}`)}
+            >
             <div className="w-40 h-40 bg-green-500 relative">
                 <Image
                     className="bg-purple-500"
@@ -87,6 +91,6 @@ function BestAccolade({accolade}:{accolade: ACCOLADE}): ReactElement {
                 <span className="text-xl font-bold text-purple-500">{`${accolade.toString()}`}</span>
                 <span>{locationDetails.name}</span>
             </div>
-        </div>
+        </button>
     )
 }
