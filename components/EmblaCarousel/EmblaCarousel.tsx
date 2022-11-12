@@ -44,7 +44,6 @@ export const EmblaCarousel = ({images}: {images: string[]}) => {
 
                     <div  className="w-64 h-64 bg-green-500 relative">
                         <Image
-                            className="bg-purple-500"
                             src={`/images/${i}`}
                             alt={i}
                             fill

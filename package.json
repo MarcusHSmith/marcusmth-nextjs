@@ -13,6 +13,7 @@
     "embla-carousel-react": "^7.0.5",
     "esbuild": "^0.15.12",
     "gray-matter": "^4.0.3",
+    "mapbox-gl": "^2.10.0",
     "markdown-it": "^13.0.1",
     "mdx-bundler": "^9.0.1",
     "next": "13.0.0",

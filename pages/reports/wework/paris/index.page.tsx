@@ -18,6 +18,10 @@ interface ILocationData {
     accolades: ACCOLADE[]
     primaryImage: string
     allImages: string[]
+    location: {
+        lat: number
+        lng: number
+    }
 }
 
 export const data: ILocationData[] = [
@@ -29,7 +33,11 @@ export const data: ILocationData[] = [
             ACCOLADE.MOST_BEAUTIFUL
         ],
         primaryImage: "IMG_6212.jpeg",
-        allImages: ["IMG_6212.jpeg", "IMG_0471.png"]
+        allImages: ["IMG_6212.jpeg", "IMG_0471.png"],
+        location: {
+            lat: 0.1,
+            lng: 0.1,
+        }
     },
     {
         name: "33 Rue la Fayette",
@@ -39,7 +47,11 @@ export const data: ILocationData[] = [
             ACCOLADE.BEST_LATE_NIGHT
         ],
         primaryImage: "IMG_0462.png",
-        allImages: ["IMG_0462.png", "IMG_0463.png"]
+        allImages: ["IMG_0462.png", "IMG_0463.png"],
+        location: {
+            lat: 48.874340,
+            lng: 2.337680,
+        }
     },
     {
         name: "5 Rue des Italiens",
@@ -50,7 +62,11 @@ export const data: ILocationData[] = [
             ACCOLADE.BEST_LOCATION
         ],
         primaryImage: "IMG_1007.png",
-        allImages: ["IMG_1007.png", "IMG_1006.png", "IMG_1005.png"]
+        allImages: ["IMG_1007.png", "IMG_1006.png", "IMG_1005.png"],
+        location: {
+            lat: 0.1,
+            lng: 0.1,
+        }
     }
 ]
 
@@ -79,16 +95,16 @@ function BestAccolade({accolade}:{accolade: ACCOLADE}): ReactElement {
             className="flex flex-row m-2 rounded-l shadow-lg rounded-xl overflow-hidden"
             onClick={() => router.push(`/reports/wework/paris/${locationDetails.address}`)}
             >
-            <div className="w-40 h-40 bg-green-500 relative">
+            <div className="w-40 h-40 relative">
                 <Image
-                    className="bg-purple-500"
+                    className="aspect-square"
                     src={`/images/${locationDetails.primaryImage}`}
                     alt={locationDetails.name}
                     fill
                     />
             </div>
             <div className="mx-2 grow flex flex-col">
-                <span className="text-xl font-bold text-purple-500">{`${accolade.toString()}`}</span>
+                <span className="text-xl font-bold">{`${accolade.toString()}`}</span>
                 <span>{locationDetails.name}</span>
             </div>
         </button>
