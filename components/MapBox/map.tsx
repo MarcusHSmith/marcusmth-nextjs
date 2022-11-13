@@ -11,7 +11,7 @@ export interface ILocation {
 
 export default function Map({location}: {location: ILocation}) {
   const [pageIsMounted, setPageIsMounted] = useState(false);
-  const [Map, setMap] = useState();
+  const [map, setMap] = useState(undefined);
   
   mapboxgl.accessToken =
     "pk.eyJ1Ijoid2FubmFkYyIsImEiOiJjazBja2M1ZzYwM2lnM2dvM3o1bmF1dmV6In0.50nuNnApjrJYkMfR2AUpXA";
@@ -28,20 +28,20 @@ export default function Map({location}: {location: ILocation}) {
 
     initializeMap(mapboxgl, map);
     setMap(map);
-  }, []);
+  }, [location]);
 
   useEffect(() => {
     if (pageIsMounted) {
-      Map.on("load", function () {
+      map.on("load", function () {
         new mapboxgl.Marker({ })
         .setLngLat([location.lng, location.lat])
-        .addTo(Map);
+        .addTo(map);
       });
     }
-  }, [pageIsMounted, setMap, Map, location]);
+  }, [pageIsMounted, setMap, map, location]);
 
   return (
-    <div className="bg-orange-500">
+    <div className="">
       <Head>
         <link
           href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css"
