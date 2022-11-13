@@ -97,10 +97,10 @@ function BestAccolade({accolade}:{accolade: ACCOLADE}): ReactElement {
             >
             <div className="w-40 h-40 relative">
                 <Image
-                    className="aspect-square"
                     src={`/images/${locationDetails.primaryImage}`}
                     alt={locationDetails.name}
                     fill
+                    
                     />
             </div>
             <div className="mx-2 grow flex flex-col">
