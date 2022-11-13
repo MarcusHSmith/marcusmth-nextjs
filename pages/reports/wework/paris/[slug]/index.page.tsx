@@ -26,7 +26,7 @@ export default function PostPage() {
       <span className="font-bold text-lg">{locationData.name}</span>
           <hr/>
         <div className='flex flex-row justify-between'>
-          <div className='h-64 aspect-square'>
+          <div className='h-64 w-64 aspect-square'>
            <EmblaCarousel images={locationData.allImages} />
           </div>
           <div className='h-64 relative'>
