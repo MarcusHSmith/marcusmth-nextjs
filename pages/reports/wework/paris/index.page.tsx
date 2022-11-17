@@ -159,7 +159,13 @@ export const data: ILocationData[] = [
         location: {
             lat: 0.1,
             lng: 0.1,
-        }
+        },
+        positives: [
+            "The roof deck has ample table space"
+        ],
+        negatives: [
+            "There aren't enough phone booths"
+        ]
     },
     {
         name: "92 Av. des Champs-Élysées",
