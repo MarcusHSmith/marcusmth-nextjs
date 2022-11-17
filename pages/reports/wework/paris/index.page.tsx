@@ -224,7 +224,7 @@ function Location({locationDetails, accolade}:{locationDetails: ILocationData, a
             className="flex flex-row m-2 rounded-l shadow-lg rounded-xl overflow-hidden"
             onClick={() => router.push(`/reports/wework/paris/${locationDetails.address}`)}
             >
-            <div className="w-40 h-40 relative">
+            <div className="w-40 h-40 relative flex-none">
                 {locationDetails.primaryImage && <Image
                     src={`/images/${locationDetails.primaryImage}`}
                     alt={locationDetails.name}
@@ -235,6 +235,11 @@ function Location({locationDetails, accolade}:{locationDetails: ILocationData, a
             <div className="mx-2 grow flex flex-col">
                 {accolade && <span className="text-xl font-bold">{`${accolade.toString()}`}</span>}
                 <span>{locationDetails.name}</span>
+                {locationDetails.positives && locationDetails.positives.length > 0 && (
+                    <div className="px-2">
+                        <span className="italic text-xs">{locationDetails.positives[0]}</span>
+                    </div>
+                )}
             </div>
         </button>
     )

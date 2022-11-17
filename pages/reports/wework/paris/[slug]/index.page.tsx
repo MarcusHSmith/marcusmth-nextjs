@@ -58,28 +58,10 @@ export default function PostPage() {
           </>
         )}
         {locationData.positives && locationData.positives.length > 0 && (
-          <>
-            <Header text='Positives'/>
-            {locationData.positives.map((a) => {
-              return (
-                <div key={a}>
-                  <span>{a}</span>
-                </div>
-              )
-            })}
-          </>
+          <Details header='Positives' content={locationData.positives}/>
         )}
         {locationData.negatives && locationData.negatives.length > 0 && (
-          <>
-            <Header text='Negatives'/>
-            {locationData.negatives.map((a) => {
-              return (
-                <div key={a}>
-                  <span>{a}</span>
-                </div>
-              )
-            })}
-          </>
+          <Details header='Negatives' content={locationData.negatives}/>
         )}
       </div>
     </div>
@@ -88,4 +70,19 @@ export default function PostPage() {
 
 function Header({text}: {text:string}): ReactElement {
   return (<span className='text-xl font-bold'>{text}</span>)
+}
+
+function Details({header, content}: {header: string, content: string[]}): ReactElement {
+  return (
+    <div className='flex flex-col'>
+      <Header text={header}/>
+      {content.map((a) => {
+        return (
+          <div key={a}>
+            <span className='italic'>{a}</span>
+          </div>
+        )
+      })}
+    </div>
+  )
 }
