@@ -41,7 +41,11 @@ export const data: ILocationData[] = [
         location: {
             lat: 48.878440,
             lng: 2.321100,
-        }
+        },
+         positives: [
+            "Beautiful coworking space on the top floor, but gets crowded fast.",
+            "Private roofotp with incredible 360 views, and multiple outdoor terraces."
+        ]
     },
     {
         name: "33 Rue la Fayette",
@@ -96,7 +100,10 @@ export const data: ILocationData[] = [
         location: {
             lat: 48.831810,
             lng: 2.385900,
-        }
+        },
+         positives: [
+            "Bercy Village is a 2min walk from the office, and has great options for food and shopping."
+         ]
     },
     {
         name: "198 Avenue De France",
@@ -122,7 +129,7 @@ export const data: ILocationData[] = [
             lng: 0.1,
         },
         negatives: [
-            "The doors lock at 6pm"
+            "No re-entry after 6pm."
         ]
     },
     {
@@ -176,7 +183,8 @@ export const data: ILocationData[] = [
             lng: 0.1,
         },
         positives: [
-            "L'Italien is an amazing pizza restaurant. If you happen to be vegan they also have a solid option."
+            "L'Italien is an amazing pizza restaurant nearby. If you happen to be vegan they also have a solid option.",
+            "Check out the terrace on the 4th floor for a great view of the Champs Elysee and Eiffel Tower."
         ]
     }
 ]
