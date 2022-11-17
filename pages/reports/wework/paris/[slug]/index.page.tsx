@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { ReactElement } from 'react';
 import { EmblaCarousel } from '../../../../../components/EmblaCarousel/EmblaCarousel';
 import { HeaderBio } from '../../../../../components/HeaderBio/HeaderBio';
 import Map from '../../../../../components/MapBox/map';
@@ -24,7 +25,7 @@ export default function PostPage() {
     <div className='prose mx-auto'>
       <HeaderBio presenation='min'/>
       <div className='flex flex-col gap-1'>
-      <span className="font-bold text-lg">{locationData.name}</span>
+      <Header text={locationData.name}/>
       <Link href={'/reports/wework/paris'}>Paris Guide</Link>
           <hr/>
         <div className='flex flex-row justify-between'>
@@ -38,7 +39,7 @@ export default function PostPage() {
           </div>
         </div>
         <div>
-          <span>Location</span> <br/>
+          <Header text='Location'/> <br/>
           <a href={`https://www.google.com/maps?q=${locationData.address}`}>{locationData.address}</a>
         </div>
         <div>
@@ -46,7 +47,7 @@ export default function PostPage() {
         </div>
         {locationData.accolades.length > 0 && (
           <>
-            <span className='text-xl font-bold'>Accolades</span>
+            <Header text='Accolades'/>
             {locationData.accolades.map((a) => {
               return (
                 <div key={a}>
@@ -58,7 +59,7 @@ export default function PostPage() {
         )}
         {locationData.positives && locationData.positives.length > 0 && (
           <>
-            <span className='text-xl font-bold'>Positives</span>
+            <Header text='Positives'/>
             {locationData.positives.map((a) => {
               return (
                 <div key={a}>
@@ -70,7 +71,7 @@ export default function PostPage() {
         )}
         {locationData.negatives && locationData.negatives.length > 0 && (
           <>
-            <span className='text-xl font-bold'>Negatives</span>
+            <Header text='Negatives'/>
             {locationData.negatives.map((a) => {
               return (
                 <div key={a}>
@@ -80,8 +81,11 @@ export default function PostPage() {
             })}
           </>
         )}
-
       </div>
     </div>
   );
+}
+
+function Header({text}: {text:string}): ReactElement {
+  return (<span className='text-xl font-bold'>{text}</span>)
 }

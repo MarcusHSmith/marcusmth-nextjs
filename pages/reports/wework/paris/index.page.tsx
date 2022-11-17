@@ -188,7 +188,7 @@ export default function BestWeWork(): ReactElement {
         <div className='flex flex-col gap-1'>
           <span className="font-bold text-lg">Best WeWork in Paris</span>
           <hr/>
-          <span>I spent October and November 2023 living in and more importantly exploring Paris&apos;s WeWork locations. Here's my guide to the best WeWork locations. I recommend you visit them all, they provide a forcing function to experience new corners of the city.</span>
+          <span>I spent October and November 2022 living in and more importantly exploring Paris&apos;s WeWork locations. Here's my guide to the best WeWork locations. I recommend you visit them all, they provide a forcing function to experience new corners of the city.</span>
           <BestAccolade accolade={ACCOLADE.BEST_OVERALL}/>
           <BestAccolade accolade={ACCOLADE.BEST_LOCATION}/>
           <BestAccolade accolade={ACCOLADE.BEST_LATE_NIGHT}/>
@@ -197,6 +197,12 @@ export default function BestWeWork(): ReactElement {
           <BestAccolade accolade={ACCOLADE.BEST_VIEW}/>
           <BestAccolade accolade={ACCOLADE.MOST_BEAUTIFUL}/>
           <BestAccolade accolade={ACCOLADE.BEST_FOOD_OPTIONS}/>
+          <span className="font-bold">The Rest</span>
+          {data.filter((l) => l.accolades.length === 0).sort((a,b) => {
+            return b.allImages.length - a.allImages.length
+          }).map((l) => {
+            return <Location key={l.name} locationDetails={l} />
+          })}
         </div>
       </div>
     )
@@ -207,6 +213,12 @@ function BestAccolade({accolade}:{accolade: ACCOLADE}): ReactElement {
         const position = d.accolades.findIndex((a) => a === accolade)
         return position !== -1
     })
+    return (
+        <Location locationDetails={locationDetails} accolade={accolade} />
+    )
+}
+
+function Location({locationDetails, accolade}:{locationDetails: ILocationData, accolade?: ACCOLADE}): ReactElement {
     return (
         <button 
             className="flex flex-row m-2 rounded-l shadow-lg rounded-xl overflow-hidden"
@@ -221,7 +233,7 @@ function BestAccolade({accolade}:{accolade: ACCOLADE}): ReactElement {
                     />}
             </div>
             <div className="mx-2 grow flex flex-col">
-                <span className="text-xl font-bold">{`${accolade.toString()}`}</span>
+                {accolade && <span className="text-xl font-bold">{`${accolade.toString()}`}</span>}
                 <span>{locationDetails.name}</span>
             </div>
         </button>
