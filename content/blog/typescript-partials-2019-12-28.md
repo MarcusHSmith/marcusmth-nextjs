@@ -3,10 +3,11 @@ path: blog
 date: "2019-12-28T22:13:05.284Z"
 lastUpdated: "2019-12-28T22:13:05.284Z"
 title: Creating and retrieving using Typescript Partials
-description: How to use Tyescript Partials which is useful in React projects
+description: How to use Typescript Partials which is useful in React projects
 isPublished: true
 tags:
   - react
+  - typescript
 ---
 
 Last week I had an interesting problem in typescript. A database column needed to store json blobs that fit multiple interfaces. These interfaces were often overlapping.
@@ -28,7 +29,7 @@ However typescript doesn't allow OR checks on interfaces. The best solution ende
 
 On the retrieval side, it needed to determine what interface to `Zoo` json conforms to. One solution was to check every field against what was provided but that would be expensive and not scalable. The solution was to have a key for each interface and check if is in the interface.
 
-Each Animal type is given a field to reference its interface. Sharks are given `typeIsShark` while Eagle are given `TypeIsEagle`. On retrieval at runtime the interface can be checked with `"TypeIsEagle" in arg` and then displayed accordingly.
+Each Animal type is given a field to reference its interface. Sharks are given `typeIsShark` while Eagle are given `TypeIsEagle`. These are both set to optional. On retrieval at runtime the interface can be checked with `"TypeIsEagle" in arg` and then displayed accordingly.
 
 ```
 import React from "react"
