@@ -10,7 +10,7 @@ enum ACCOLADE {
     BEST_FOR_MEETINGS = "Best for Meetings",
     BEST_FOR_REMOTE = "Best for Remote Work",
     BEST_VIEW = "Best View",
-    MOST_BEAUTIFUL = "Most Beautiful Environment",
+    MOST_BEAUTIFUL = "Most Beautiful Space",
     BEST_FOOD_OPTIONS = "Best food options"
 }
 interface ILocationData {
@@ -260,7 +260,7 @@ function Location({locationDetails, accolade}:{locationDetails: ILocationData, a
                 <span>{locationDetails.name}</span>
                 {locationDetails.positives && locationDetails.positives.length > 0 && (
                     <div className="px-2">
-                        <span className="italic text-xs">{locationDetails.positives[0]}</span>
+                        <span className="italic text-xs"><q>{locationDetails.positives[0]}</q></span>
                     </div>
                 )}
             </div>

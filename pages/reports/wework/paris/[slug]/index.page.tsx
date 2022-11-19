@@ -79,7 +79,7 @@ function Details({header, content}: {header: string, content: string[]}): ReactE
       {content.map((a) => {
         return (
           <div key={a}>
-            <span className='italic'>{a}</span>
+            <span className='italic'><q>{a}</q></span>
           </div>
         )
       })}
