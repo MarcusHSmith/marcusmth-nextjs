@@ -59,7 +59,10 @@ export const data: ILocationData[] = [
         location: {
             lat: 48.874340,
             lng: 2.337680,
-        }
+        },
+        positives: [
+            "The original WeWork in Paris, and still one of the best.",
+        ]
     },
     {
         name: "5 Rue des Italiens",
@@ -69,12 +72,15 @@ export const data: ILocationData[] = [
             ACCOLADE.BEST_FOR_MEETINGS,
             ACCOLADE.BEST_LOCATION
         ],
-        primaryImage: "IMG_1007.png",
-        allImages: ["IMG_1007.png", "IMG_1006.png", "IMG_1005.png"],
+        primaryImage: "IMG_0338.png",
+        allImages: ["IMG_0338.png", "IMG_0978.png"],
         location: {
             lat: 48.871990,
             lng: 2.335660,
-        }
+        },
+        positives: [
+            "Hyang-Ly has excellent Korea BBQ nearby"
+        ]
     },
     {
         name: "106 Boulevard Haussmann",
@@ -83,12 +89,15 @@ export const data: ILocationData[] = [
         accolades: [
             ACCOLADE.BEST_FOR_REMOTE
         ],
-        primaryImage: null,
-        allImages: [],
+        primaryImage: "IMG_1007.png",
+        allImages: ["IMG_1007.png", "IMG_1006.png", "IMG_1005.png"],
         location: {
             lat: 48.874660,
             lng: 2.321490,
-        }
+        },
+        positives: [
+            "More than enough phone booths and meeting rooms especially late at night."
+        ]
     },
     {
         name: "8 Rue des Pirogues de Bercy",
@@ -125,8 +134,8 @@ export const data: ILocationData[] = [
         primaryImage: null,
         allImages: [],
         location: {
-            lat: 0.1,
-            lng: 0.1,
+            lat: 48.861620,
+            lng: 2.358760,
         },
         negatives: [
             "No re-entry after 6pm."
@@ -140,8 +149,8 @@ export const data: ILocationData[] = [
         primaryImage: null,
         allImages: [],
         location: {
-            lat: 0.1,
-            lng: 0.1,
+            lat: 48.880970,
+            lng: 2.370550,
         }
     },
     {
@@ -152,8 +161,8 @@ export const data: ILocationData[] = [
         primaryImage: "IMG_0571.png",
         allImages: ["IMG_0571.png"],
         location: {
-            lat: 0.1,
-            lng: 0.1,
+            lat: 48.880550,
+            lng: 2.327650,
         }
     },
     {
@@ -164,8 +173,8 @@ export const data: ILocationData[] = [
         primaryImage: "IMG_0499.png",
         allImages: ["IMG_0499.png", "IMG_1093.png"],
         location: {
-            lat: 0.1,
-            lng: 0.1,
+            lat: 48.871630,
+            lng: 2.310910,
         },
         positives: [
             "The roof deck has ample table space"
@@ -185,8 +194,8 @@ export const data: ILocationData[] = [
         primaryImage: "IMG_0838.png",
         allImages: ["IMG_0838.png", "IMG_0825.png", "IMG_0520.png", "IMG_0829.png"],
         location: {
-            lat: 0.1,
-            lng: 0.1,
+            lat: 48.8715296,
+            lng: 2.3032185,
         },
         positives: [
             "L'Italien is an amazing pizza restaurant nearby. If you happen to be vegan they also have a solid option.",
