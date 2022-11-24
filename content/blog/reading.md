@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2022-11-18T19:29:46.324Z"
+lastUpdated: "2022-11-24T19:29:46.324Z"
 title: Marcus's Reading List
 description: Book list from a Software Engineer
 tags:
@@ -20,7 +20,7 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2022
 
-🏃‍♂️ [Action Park](https://www.amazon.com/dp/0143134515/?coliid=IFGAH0LZJC8HP&colid=39VIPIWI8S6H9&psc=1&ref_=lv_ov_lig_dp_it) by Andy Mulvihill
+[Action Park](https://www.amazon.com/dp/0143134515/?coliid=IFGAH0LZJC8HP&colid=39VIPIWI8S6H9&psc=1&ref_=lv_ov_lig_dp_it) by Andy Mulvihill
 
 🏃‍♂️🔊 [How to Decide](https://www.amazon.com/How-Decide-Simple-Making-Choices/dp/B088P4XLVB/ref=sr_1_1?crid=V1QXV88HOTN&keywords=how+to+decide&qid=1667849326&sprefix=how+to+decide%2Caps%2C168&sr=8-1) by [@AnnieDuke](https://twitter.com/AnnieDuke)
 
