@@ -4,12 +4,12 @@ import { ReactElement, useMemo } from "react";
 import { FULL_NAME } from "../../utils/constants";
 
 interface IProps {
-  presenation: 'min' | 'full'
+  presentation: 'min' | 'full'
 }
 
-export function HeaderBio({presenation = 'full'}: IProps): ReactElement {
+export function HeaderBio({presentation: presentation = 'full'}: IProps): ReactElement {
     const rightContent = useMemo(() => {
-      switch (presenation) {
+      switch (presentation) {
         case 'min':
           return (
             <div>
@@ -32,7 +32,7 @@ export function HeaderBio({presenation = 'full'}: IProps): ReactElement {
           </div>
         )
       }
-    }, [presenation])
+    }, [presentation])
 
     return (
       <div

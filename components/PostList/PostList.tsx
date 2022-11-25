@@ -26,7 +26,7 @@ export function PostList({posts, category, limit = undefined}: IProps): ReactEle
           return sortedList.slice(0, limit)
         }
         return sortedList
-      }, [posts])
+      }, [limit, posts])
       return (
         
           <div>
@@ -34,7 +34,7 @@ export function PostList({posts, category, limit = undefined}: IProps): ReactEle
             return (
             <div
               key={slug}
-              className='border border-gray-200 m-2 rounded-l shadow-lg overflow-hidden flex flex-col'
+              className='border border-gray-200 my-2 rounded-l shadow-lg overflow-hidden flex flex-col'
               onClick={() => {
                 switch(category) {
                     case 'blog':
