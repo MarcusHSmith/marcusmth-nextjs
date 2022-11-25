@@ -8,7 +8,6 @@ interface IProps {
 }
 
 export function HeaderBio({presenation = 'full'}: IProps): ReactElement {
-
     const rightContent = useMemo(() => {
       switch (presenation) {
         case 'min':
@@ -58,7 +57,7 @@ export function HeaderBio({presenation = 'full'}: IProps): ReactElement {
 function InternalLinks(): ReactElement {
     return (
         <div className="flex gap-1">
-            <Link href={`/`}><span>Posts</span></Link>
+            <Link href={`/blog`}><span>Posts</span></Link>
             <Link href={`/cheatsheet`}><span>Cheatsheets</span></Link>
         </div>
       )

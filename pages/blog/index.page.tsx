@@ -5,10 +5,10 @@ import { PostList } from '../../components/PostList/PostList';
 
 export async function getStaticProps() {
   // Get all our posts
-  const files = fs.readdirSync('content/cheatsheet');
+  const files = fs.readdirSync('content/blog');
   const posts = files.map((fileName) => {
     const slug = fileName.replace('.md', '');
-    const readFile = fs.readFileSync(`content/cheatsheet/${fileName}`, 'utf-8');
+    const readFile = fs.readFileSync(`content/blog/${fileName}`, 'utf-8');
     const { data: frontmatter } = matter(readFile)
     
     return {
@@ -26,7 +26,7 @@ return {
 export default function Home({ posts }) {
   return (
     <HomeLayout>
-      <PostList posts={posts} category='cheatsheet'/>
+      <PostList posts={posts} category='blog'/>
     </HomeLayout>
   );
 }

@@ -1,6 +1,5 @@
 import { ReactElement, useMemo } from "react";
 import Image from 'next/image';
-import { HeaderBio } from "../HeaderBio/HeaderBio";
 import router from "next/router";
 
 export interface IPost {
@@ -13,19 +12,24 @@ export interface IPost {
 interface IProps {
     posts: IPost[]
     category: 'blog' | 'cheatsheet'
+    limit?: number
 }
 
-export function PostList({posts, category}: IProps): ReactElement {
+export function PostList({posts, category, limit = undefined}: IProps): ReactElement {
     const sortedPosts = useMemo(() => {
-        return posts.sort((a, b) => {
+        const sortedList =  posts.sort((a, b) => {
           const dateA = new Date(a.frontmatter.lastUpdated)
           const dateB = new Date(b.frontmatter.lastUpdated)
           return dateB.getTime() - dateA.getTime()
         })
+        if (limit) {
+          return sortedList.slice(0, limit)
+        }
+        return sortedList
       }, [posts])
       return (
-        <div className='p-4'>
-          <HeaderBio presenation='full'/>
+        
+          <div>
           {sortedPosts.map(({ slug, frontmatter }) => {
             return (
             <div
@@ -58,6 +62,6 @@ export function PostList({posts, category}: IProps): ReactElement {
                   </div>
             </div>
           )})}
-        </div>
+          </div>
       );
 }

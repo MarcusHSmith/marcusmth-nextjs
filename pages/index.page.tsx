@@ -1,5 +1,6 @@
 import fs from 'fs';
 import matter from 'gray-matter';
+import { HomeLayout } from '../components/HomeLayout/HomeLayout';
 import { PostList } from '../components/PostList/PostList';
 
 export async function getStaticProps() {
@@ -24,6 +25,8 @@ return {
 
 export default function Home({ posts }) {
   return (
-    <PostList posts={posts} category='blog'/>
+    <HomeLayout>
+      <PostList posts={posts} category='blog' limit={5}/>
+    </HomeLayout>
   );
 }
