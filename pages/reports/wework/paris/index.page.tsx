@@ -1,32 +1,6 @@
 import { ReactElement } from "react";
-import { HeaderBio } from "../../../../components/HeaderBio/HeaderBio";
-import Image from 'next/image';
-import router from "next/router";
-
-enum ACCOLADE {
-    BEST_OVERALL = "Best Overall",
-    BEST_LOCATION = "Best Location",
-    BEST_LATE_NIGHT = "Best for Late Nights",
-    BEST_FOR_MEETINGS = "Best for Meetings",
-    BEST_FOR_REMOTE = "Best for Remote Work",
-    BEST_VIEW = "Best View",
-    MOST_BEAUTIFUL = "Most Beautiful Space",
-    BEST_FOOD_OPTIONS = "Best food options"
-}
-interface ILocationData {
-    name: string
-    address: string
-    weworkURL: URL
-    accolades: ACCOLADE[]
-    primaryImage: string
-    allImages: string[]
-    location: {
-        lat: number
-        lng: number
-    }
-    positives?: string[]
-    negatives?: string[]
-}
+import { ACCOLADE, CITY, ILocationData } from "../interfaces";
+import BestWeWork from "../../../../components/BestWeWorkLayout/BestWeWorkLayout";
 
 export const data: ILocationData[] = [
     {
@@ -204,66 +178,6 @@ export const data: ILocationData[] = [
     }
 ]
 
-export default function BestWeWork(): ReactElement {
-    return (
-        <div className='prose mx-auto'>
-        <HeaderBio presenation='min'/>
-        <div className='flex flex-col gap-1'>
-          <span className="font-bold text-lg">Best WeWork in Paris</span>
-          <hr/>
-          <span>I spent October and November 2022 living in and more importantly exploring Paris&apos;s WeWork locations. Here&apos;s my guide to the best WeWork locations. I recommend you visit them all, they provide a forcing function to experience new corners of the city.</span>
-          <BestAccolade accolade={ACCOLADE.BEST_OVERALL}/>
-          <BestAccolade accolade={ACCOLADE.BEST_LOCATION}/>
-          <BestAccolade accolade={ACCOLADE.BEST_LATE_NIGHT}/>
-          <BestAccolade accolade={ACCOLADE.BEST_FOR_MEETINGS}/>
-          <BestAccolade accolade={ACCOLADE.BEST_FOR_REMOTE}/>
-          <BestAccolade accolade={ACCOLADE.BEST_VIEW}/>
-          <BestAccolade accolade={ACCOLADE.MOST_BEAUTIFUL}/>
-          <BestAccolade accolade={ACCOLADE.BEST_FOOD_OPTIONS}/>
-          <span className="font-bold">The Rest</span>
-          {data.filter((l) => l.accolades.length === 0).sort((a,b) => {
-            return b.allImages.length - a.allImages.length
-          }).map((l) => {
-            return <Location key={l.name} locationDetails={l} />
-          })}
-        </div>
-      </div>
-    )
-}
-
-function BestAccolade({accolade}:{accolade: ACCOLADE}): ReactElement {
-    const locationDetails = data.find((d: ILocationData) => {
-        const position = d.accolades.findIndex((a) => a === accolade)
-        return position !== -1
-    })
-    return (
-        <Location locationDetails={locationDetails} accolade={accolade} />
-    )
-}
-
-function Location({locationDetails, accolade}:{locationDetails: ILocationData, accolade?: ACCOLADE}): ReactElement {
-    return (
-        <button 
-            className="flex flex-row m-2 rounded-l shadow-lg rounded-xl overflow-hidden"
-            onClick={() => router.push(`/reports/wework/paris/${locationDetails.address}`)}
-            >
-            <div className="w-40 h-40 relative flex-none">
-                {locationDetails.primaryImage && <Image
-                    src={`/images/${locationDetails.primaryImage}`}
-                    alt={locationDetails.name}
-                    fill
-                    
-                    />}
-            </div>
-            <div className="mx-2 grow flex flex-col">
-                {accolade && <span className="text-xl font-bold">{`${accolade.toString()}`}</span>}
-                <span>{locationDetails.name}</span>
-                {locationDetails.positives && locationDetails.positives.length > 0 && (
-                    <div className="px-2">
-                        <span className="italic text-xs"><q>{locationDetails.positives[0]}</q></span>
-                    </div>
-                )}
-            </div>
-        </button>
-    )
+export default function Index(): ReactElement {
+    return <BestWeWork city={CITY.PARIS} locationData={data}/>
 }

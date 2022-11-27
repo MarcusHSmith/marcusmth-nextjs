@@ -1,10 +1,11 @@
 import fs from 'fs';
 import matter from 'gray-matter';
-import { ReactElement } from 'react';
+import { ReactElement, useMemo } from 'react';
 import { HomeLayout } from '../components/HomeLayout/HomeLayout';
 import { PostList } from '../components/PostList/PostList';
 import Image from 'next/image';
 import router from 'next/router';
+import { CITY } from './reports/wework/interfaces';
 
 export async function getStaticProps() {
   // Get all our posts
@@ -39,11 +40,28 @@ function Reports(): ReactElement {
   return (
     <div>
       <div className='w-full h-44'>
-        <button onClick={() => router.push(`/reports/wework/paris`)} className='aspect-square rounded-xl overflow-hidden h-full relative'>
-          <Image className='opacity-70 hover:opacity-60' src='/images/IMG_6212.jpeg' alt='WeWork' object-fit="contain" fill/>
-          <p className='absolute w-full bg-black bg-opacity-10 text-center bottom-0 font-bold text-white text-xl'>WeWork Guide Paris</p>
-        </button>
+        <div className='w-full h-full space-x-4'>
+          <ReportItem city={CITY.PARIS}/>
+          <ReportItem city={CITY.BERLIN}/>
+        </div>
       </div>
     </div>
   );
+}
+
+function ReportItem({city}:{city: CITY}): ReactElement {
+  const imageSrc = useMemo(() => {
+    switch (city) {
+      case CITY.PARIS:
+        return '/images/IMG_6212.jpeg';
+      case CITY.BERLIN:
+        return '/images/IMG_1106.png';
+    }
+  }, [city])
+  return (
+    <button onClick={() => router.push(`/reports/wework/${city.toLocaleLowerCase()}`)} className='aspect-square rounded-xl overflow-hidden h-full relative'>
+      <Image className='opacity-70 hover:opacity-60' src={imageSrc} alt='WeWork' object-fit="contain" fill/>
+      <p className='absolute w-full bg-black bg-opacity-10 text-center bottom-0 font-bold text-white text-xl'>WeWork Guide {city}</p>
+    </button>
+  )
 }

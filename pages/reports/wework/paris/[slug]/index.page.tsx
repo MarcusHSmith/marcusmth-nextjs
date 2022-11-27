@@ -23,7 +23,7 @@ export default function PostPage() {
   }
   return (
     <div className='prose mx-auto'>
-      <HeaderBio presenation='min'/>
+      <HeaderBio presentation='min'/>
       <div className='flex flex-col gap-1'>
       <Header text={locationData.name}/>
       <Link href={'/reports/wework/paris'}>Paris Guide</Link>
