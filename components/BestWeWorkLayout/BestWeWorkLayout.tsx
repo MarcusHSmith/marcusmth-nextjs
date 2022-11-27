@@ -135,10 +135,16 @@ function Location({
       }
     >
       <div className="w-40 h-40 relative flex-none">
-        {locationDetails.primaryImage && (
+        {locationDetails.primaryImage ? (
           <Image
             src={`/images/${locationDetails.primaryImage}`}
             alt={locationDetails.name}
+            fill
+          />
+        ) : (
+          <Image
+            src={`/images/WeWork-logo.png`}
+            alt="WeWork logo"
             fill
           />
         )}

@@ -55,7 +55,7 @@ function ReportItem({city}:{city: CITY}): ReactElement {
       case CITY.PARIS:
         return '/images/IMG_6212.jpeg';
       case CITY.BERLIN:
-        return '/images/IMG_1106.png';
+        return '/images/IMG_7360.png';
     }
   }, [city])
   return (
