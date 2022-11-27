@@ -26,16 +26,17 @@ export default function BestWeWork({
   const citySummary = useMemo(() => {
     switch (city) {
       case CITY.BERLIN:
-        return `During the summer of 2022 I lived in Berlin for two months. I utilized WeWork All Access pass to visit many of the available offices. During this time I found my favorites and discovered some flaws in other.
-
-        As an American working on EST time I worked from 3pm through 11pm or midnight. This allowed me to catch the last hours of baristas, work while the beer taps were opened (usually from 5-6), and then watch the sunset with the remaining expats.
-        
-        One major flaw with many of the Berlin locations is that they're not technically 24 hour offices. If you leave after an undisclosed time your keycard won't allow reentry. This was a major issue when goes out for dinner around 7pm.`
+        return (
+        <div>
+        <p>During the summer of 2022 I lived in Berlin for two months. I utilized WeWork All Access pass to visit many of the available offices. During this time I found my favorites and discovered some flaws in other.</p>
+        <p>As an American working on EST time I worked from 3pm through 11pm or midnight. This allowed me to catch the last hours of baristas, work while the beer taps were opened (usually from 5-6), and then watch the sunset with the remaining expats.</p>
+        <p>One major flaw with many of the Berlin locations is that they're not technically 24 hour offices. If you leave after an undisclosed time your keycard won't allow reentry. This was a major issue when goes out for dinner around 7pm.</p>
+        </div>)
       case CITY.PARIS:
-        return `I spent October and November 2022 living in and more importantly
+        return <p>I spent October and November 2022 living in and more importantly
         exploring Paris&apos;s WeWork locations. Here&apos;s my guide to the
         best WeWork locations. I recommend you visit them all, they provide a
-        forcing function to experience new corners of the city.`
+        forcing function to experience new corners of the city.</p>
     }
   }, [city]);
   return (
@@ -44,9 +45,7 @@ export default function BestWeWork({
       <div className="flex flex-col gap-1">
         <span className="font-bold text-lg">Best WeWork in {city}</span>
         <hr />
-        <span>
-          {citySummary}
-        </span>
+        {citySummary}
         <BestAccolade
           accolade={ACCOLADE.BEST_OVERALL}
           locationData={locationData}
