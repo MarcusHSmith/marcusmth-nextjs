@@ -30,8 +30,10 @@ return {
 export default function Home({ posts }) {
   return (
     <HomeLayout>
-      <Reports/>
-      <PostList posts={posts} category='blog' limit={5}/>
+      <>
+        <Reports/>
+        <PostList posts={posts} category='blog' limit={5}/>
+      </>
     </HomeLayout>
   );
 }

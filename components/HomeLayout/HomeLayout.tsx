@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import { HeaderBio } from "../HeaderBio/HeaderBio";
 
 interface IProps {
-    children: ReactElement[]
+    children: ReactElement
 }
 
 export function HomeLayout({children}: IProps): ReactElement {

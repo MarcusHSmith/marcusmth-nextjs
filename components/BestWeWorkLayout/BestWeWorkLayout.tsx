@@ -30,7 +30,7 @@ export default function BestWeWork({
         <div>
         <p>During the summer of 2022 I lived in Berlin for two months. I utilized WeWork All Access pass to visit many of the available offices. During this time I found my favorites and discovered some flaws in other.</p>
         <p>As an American working on EST time I worked from 3pm through 11pm or midnight. This allowed me to catch the last hours of baristas, work while the beer taps were opened (usually from 5-6), and then watch the sunset with the remaining expats.</p>
-        <p>One major flaw with many of the Berlin locations is that they're not technically 24 hour offices. If you leave after an undisclosed time your keycard won't allow reentry. This was a major issue when goes out for dinner around 7pm.</p>
+        <p>One major flaw with many of the Berlin locations is that they&apos;re not technically 24 hour offices. If you leave after an undisclosed time your keycard won&apos;t allow reentry. This was a major issue when goes out for dinner around 7pm.</p>
         </div>)
       case CITY.PARIS:
         return <p>I spent October and November 2022 living in and more importantly
