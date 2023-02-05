@@ -6,7 +6,7 @@ title: Best WeWork Office in Berlin
 description: Where you should reserve a desk to work while in Berlin, Germany
 tags:
   - wework
-isPublished: true
+isPublished: false
 featuredImage:
   src: "WeWork-logo.png"
   alt: "WeWork Logo"
