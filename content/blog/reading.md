@@ -1,13 +1,14 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2022-12-31T19:29:46.324Z"
+lastUpdated: "2023-02-05T19:29:46.324Z"
 title: Marcus's Reading List
 description: Book list from a Software Engineer
 tags:
   - reading
 isPublished: true
 ---
+
 This page is a history of books I've read and maybe some I'd recommend. Too often I consume books and forget both that I read them and what I learned. This page is inspired by Joe Fabisevich's [reading list.](https://www.fabisevi.ch/reading-list/)
 
 ### Guide
@@ -18,13 +19,21 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 🔊 for audiobooks
 
+## 2023
+
+🏃 [Status and Culture](https://www.amazon.com/gp/product/B09JVG323B/ref=ppx_yo_dt_b_d_asin_title_o02?ie=UTF8&psc=1) by [@wdavidmarx](https://twitter.com/wdavidmarx?s=20&t=ajoEyzbyMRHU8XAJC2gwVQ)
+
+🏃🔊 [Liar's Poker](https://www.amazon.com/Liars-Poker-Norton-Paperback-Michael/dp/039333869X) by Michael Lewis
+
+[Endurance](https://www.amazon.com/gp/product/B00IC8VF10/ref=ppx_yo_dt_b_d_asin_title_o06?ie=UTF8&psc=1) by Alfred Lansing
+
 ## 2022
 
 [Everything I Need I Get from You](https://a.co/d/7FX3Akd) by Kaitlyn Tiffany
 
 [Action Park](https://www.amazon.com/dp/0143134515/?coliid=IFGAH0LZJC8HP&colid=39VIPIWI8S6H9&psc=1&ref_=lv_ov_lig_dp_it) by Andy Mulvihill
 
-🏃‍♂️🔊 [How to Decide](https://www.amazon.com/How-Decide-Simple-Making-Choices/dp/B088P4XLVB/ref=sr_1_1?crid=V1QXV88HOTN&keywords=how+to+decide&qid=1667849326&sprefix=how+to+decide%2Caps%2C168&sr=8-1) by [@AnnieDuke](https://twitter.com/AnnieDuke)
+🔊 [How to Decide](https://www.amazon.com/How-Decide-Simple-Making-Choices/dp/B088P4XLVB/ref=sr_1_1?crid=V1QXV88HOTN&keywords=how+to+decide&qid=1667849326&sprefix=how+to+decide%2Caps%2C168&sr=8-1) by [@AnnieDuke](https://twitter.com/AnnieDuke)
 
 🔊 [Who: The A Method for Hiring](https://www.amazon.com/Who-Geoff-Smart-Randy-Street-audiobook/dp/B001H97LVO/ref=sr_1_1?crid=2NWWZ3AYQ06FG&keywords=who+hiring&qid=1663192671&sprefix=who+hiring%2Caps%2C68&sr=8-1) by Geoff Smart
 
@@ -156,7 +165,7 @@ Annelies Hartmann Hampel Memoirs by Annelies Hartmann Hampel
 
 [Mate: Become the Man Women Want](https://amzn.to/39Ed7z6) by [@TuckerMax](https://twitter.com/TuckerMax?s=20)
 
-[Letters from a Self-Made Merchant to his Son](<>) by [](<>)
+[Letters from a Self-Made Merchant to his Son]() by []()
 
 [Ishmael](https://amzn.to/3eQqcIo) by Daniel Quinn
 
