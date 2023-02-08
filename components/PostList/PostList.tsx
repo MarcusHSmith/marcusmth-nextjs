@@ -1,6 +1,7 @@
 import { ReactElement, useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import router from "next/router";
+import Link from "next/link";
 
 export interface IPost {
   slug: string;
@@ -35,45 +36,45 @@ export function PostList({
     }
     setSortedPosts(sortedList);
   }, [limit, posts]);
+
+  let rootUrl = "/";
+  if (category === "cheatsheet") {
+    rootUrl = `/cheatsheet/`;
+  }
   return (
     <div>
       {sortedPosts.map(({ slug, frontmatter }) => {
         return (
-          <div
+          <Link
             key={slug}
-            className="border border-gray-200 my-2 rounded-l shadow-lg overflow-hidden flex flex-col"
-            onClick={() => {
-              switch (category) {
-                case "blog":
-                  router.push(`/${slug}`);
-                  return;
-                case "cheatsheet":
-                  router.push(`/cheatsheet/${slug}`);
-                  return;
-              }
-            }}
+            href={`${rootUrl}${slug}`}
+            style={{ textDecoration: "none" }}
           >
-            <div className="p-4 flex justify-between">
-              <div className="flex flex-col">
-                <span className="font-bold text-lg text-blue-500">
-                  {frontmatter.title}
-                </span>
-                <span className="font-light text-xs">
-                  {new Date(frontmatter.lastUpdated).toDateString()}
-                </span>
-                <span className="text-m">{frontmatter.description}</span>
-              </div>
-              <div className="h-20 max-w-l w-20 relative">
-                {frontmatter.featuredImage && (
-                  <Image
-                    src={`/images/${frontmatter.featuredImage?.src}`}
-                    alt={frontmatter.featuredImage?.alt}
-                    fill={true}
-                  />
-                )}
+            <div className="border border-gray-200 my-2 rounded-l shadow-lg overflow-hidden flex flex-col">
+              <div className="p-4 flex justify-between">
+                <div className="flex flex-col">
+                  <span className="font-bold text-lg text-blue-500">
+                    {frontmatter.title}
+                  </span>
+                  <span className="font-light text-xs text-black">
+                    {new Date(frontmatter.lastUpdated).toDateString()}
+                  </span>
+                  <span className="text-m text-black">
+                    {frontmatter.description}
+                  </span>
+                </div>
+                <div className="h-20 max-w-l w-20 relative">
+                  {frontmatter.featuredImage && (
+                    <Image
+                      src={`/images/${frontmatter.featuredImage?.src}`}
+                      alt={frontmatter.featuredImage?.alt}
+                      fill={true}
+                    />
+                  )}
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         );
       })}
     </div>
