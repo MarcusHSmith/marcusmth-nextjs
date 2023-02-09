@@ -79,3 +79,5 @@ I'm still learning about Youtube SEO and increasing CTR (Click Through Rate). Fo
 If you made it this far 🙏 thank you. I hope you learned something and are encouraged to go out and create your own channel. Let me know how your process is different and improved.
 
 Watch [Walk Kreuzberg](https://www.youtube.com/watch?v=22tp0eqdTLM) which is my most viewed video so far!🖤
+
+If you found this helpful you may enjoy [Nomadic Ambience Camera Equipment](/nomadic-ambience-camera-equipment) or [How monetized my channel](/how-to-get-monetized-on-youtube-in-2023)

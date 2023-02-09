@@ -32,3 +32,5 @@ At the surface this sounds like channel suicide, however it’s now built into Y
 ![Youtube Promotion 02-05-2023](/images/youtube-promotions-02-05-2023.jpg)
 
 Thus far I’ve spent $127.61 and received 13,144 views and 2,222 subscribers. I’ve found that targeting cheaper countries gives better return on investment as well as targeting countries where the video takes place.
+
+If you found this helpful you may enjoy [My guide to filming walking videos](/how-to-film-walking-videos-for-youtube) or [Nomadic Ambience Camera Equipment](/nomadic-ambience-camera-equipment)
