@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2023-02-05T19:29:46.324Z"
+lastUpdated: "2023-03-05T19:29:46.324Z"
 title: Marcus's Reading List
 description: Book list from a Software Engineer
 tags:
@@ -21,9 +21,15 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2023
 
-🏃 [Status and Culture](https://www.amazon.com/gp/product/B09JVG323B/ref=ppx_yo_dt_b_d_asin_title_o02?ie=UTF8&psc=1) by [@wdavidmarx](https://twitter.com/wdavidmarx?s=20&t=ajoEyzbyMRHU8XAJC2gwVQ)
+🏃🔊 [Trillion Dollar Coach](https://www.amazon.com/Trillion-Dollar-Coach-audiobook/dp/B07MVKGV9V/ref=sr_1_1?crid=2AQL0N23A6D3T&keywords=trillion+dollar+coach&qid=1678066780&sprefix=trillion+dollar+coach%2Caps%2C71&sr=8-1) by Eric Schmidt, Jonathan Rosenberg, Alan Eagle
 
-🏃🔊 [Liar's Poker](https://www.amazon.com/Liars-Poker-Norton-Paperback-Michael/dp/039333869X) by Michael Lewis
+🏃 [Leaving the Atocha Station](https://www.amazon.com/Leaving-Atocha-Station-Ben-Lerner-ebook/dp/B00BVTUYXW/ref=sr_1_1?crid=1AZ4KB7C294K1&keywords=Leaving+the+Atocha+Station&qid=1678066752&sprefix=leaving+the+atocha+station%2Caps%2C68&sr=8-1) by Ben Lerner
+
+🔊 [Casino Royal](https://www.amazon.com/James-Bond-Casino-Royale-Flemings/dp/1524100684/ref=sr_1_1?crid=2Y3HJJUUUWTXG&keywords=casino+royale+ian+fleming&qid=1678066731&sprefix=casino+royale+ian+fleming%2Caps%2C72&sr=8-1) by Ian Fleming
+
+[Status and Culture](https://www.amazon.com/gp/product/B09JVG323B/ref=ppx_yo_dt_b_d_asin_title_o02?ie=UTF8&psc=1) by [@wdavidmarx](https://twitter.com/wdavidmarx?s=20&t=ajoEyzbyMRHU8XAJC2gwVQ)
+
+🔊 [Liar's Poker](https://www.amazon.com/Liars-Poker-Norton-Paperback-Michael/dp/039333869X) by Michael Lewis
 
 [Endurance](https://www.amazon.com/gp/product/B00IC8VF10/ref=ppx_yo_dt_b_d_asin_title_o06?ie=UTF8&psc=1) by Alfred Lansing
 
