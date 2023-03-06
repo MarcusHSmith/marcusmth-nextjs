@@ -5,14 +5,14 @@ import styles from "./styles/Home.module.css";
 const mapboxgl = require("mapbox-gl/dist/mapbox-gl.js");
 
 export interface ILocation {
-  lat: number
-  lng: number
+  lat: number;
+  lng: number;
 }
 
-export default function Map({location}: {location: ILocation}) {
+export default function Map({ location }: { location: ILocation }) {
   const [pageIsMounted, setPageIsMounted] = useState(false);
   const [map, setMap] = useState(undefined);
-  
+
   mapboxgl.accessToken =
     "pk.eyJ1Ijoid2FubmFkYyIsImEiOiJjazBja2M1ZzYwM2lnM2dvM3o1bmF1dmV6In0.50nuNnApjrJYkMfR2AUpXA";
 
@@ -33,9 +33,9 @@ export default function Map({location}: {location: ILocation}) {
   useEffect(() => {
     if (pageIsMounted) {
       map.on("load", function () {
-        new mapboxgl.Marker({ })
-        .setLngLat([location.lng, location.lat])
-        .addTo(map);
+        new mapboxgl.Marker({})
+          .setLngLat([location.lng, location.lat])
+          .addTo(map);
       });
     }
   }, [pageIsMounted, setMap, map, location]);
