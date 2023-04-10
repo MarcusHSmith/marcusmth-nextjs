@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2023-03-05T19:29:46.324Z"
+lastUpdated: "2023-04-10T19:29:46.324Z"
 title: Marcus's Reading List
 description: Book list from a Software Engineer
 tags:
@@ -21,9 +21,13 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2023
 
-🏃🔊 [Trillion Dollar Coach](https://www.amazon.com/Trillion-Dollar-Coach-audiobook/dp/B07MVKGV9V/ref=sr_1_1?crid=2AQL0N23A6D3T&keywords=trillion+dollar+coach&qid=1678066780&sprefix=trillion+dollar+coach%2Caps%2C71&sr=8-1) by Eric Schmidt, Jonathan Rosenberg, Alan Eagle
+🏃🔊 [How to Get Rich](https://www.amazon.com/How-Get-Rich-Greatest-Entrepreneurs/dp/B088TTJPS3/ref=sr_1_1?crid=1YIY4R69G04Q0&keywords=how+to+get+rich&qid=1681161926&s=audible&sprefix=how+to+get+r%2Caudible%2C473&sr=1-1) by Felix Dennis
 
-🏃 [Leaving the Atocha Station](https://www.amazon.com/Leaving-Atocha-Station-Ben-Lerner-ebook/dp/B00BVTUYXW/ref=sr_1_1?crid=1AZ4KB7C294K1&keywords=Leaving+the+Atocha+Station&qid=1678066752&sprefix=leaving+the+atocha+station%2Caps%2C68&sr=8-1) by Ben Lerner
+🏃 [Gang Leader for a Day](https://www.amazon.com/Gang-Leader-for-Day-audiobook/dp/B0012H0G5E/ref=sr_1_1?crid=4L0AECND70H4&keywords=gang+leader+for+a+day&qid=1681161840&sprefix=gang+leader+for+a%2Caps%2C427&sr=8-1) by Sudhir Venkatesh
+
+🔊 [Trillion Dollar Coach](https://www.amazon.com/Trillion-Dollar-Coach-audiobook/dp/B07MVKGV9V/ref=sr_1_1?crid=2AQL0N23A6D3T&keywords=trillion+dollar+coach&qid=1678066780&sprefix=trillion+dollar+coach%2Caps%2C71&sr=8-1) by Eric Schmidt, Jonathan Rosenberg, Alan Eagle
+
+🥱 [Leaving the Atocha Station](https://www.amazon.com/Leaving-Atocha-Station-Ben-Lerner-ebook/dp/B00BVTUYXW/ref=sr_1_1?crid=1AZ4KB7C294K1&keywords=Leaving+the+Atocha+Station&qid=1678066752&sprefix=leaving+the+atocha+station%2Caps%2C68&sr=8-1) by Ben Lerner
 
 🔊 [Casino Royal](https://www.amazon.com/James-Bond-Casino-Royale-Flemings/dp/1524100684/ref=sr_1_1?crid=2Y3HJJUUUWTXG&keywords=casino+royale+ian+fleming&qid=1678066731&sprefix=casino+royale+ian+fleming%2Caps%2C72&sr=8-1) by Ian Fleming
 
