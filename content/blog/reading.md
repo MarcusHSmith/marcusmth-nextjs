@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2023-04-10T19:29:46.324Z"
+lastUpdated: "2023-05-02T19:29:46.324Z"
 title: Marcus's Reading List
 description: Book list from a Software Engineer
 tags:
@@ -21,7 +21,7 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2023
 
-🏃🔊 [How to Get Rich](https://www.amazon.com/How-Get-Rich-Greatest-Entrepreneurs/dp/B088TTJPS3/ref=sr_1_1?crid=1YIY4R69G04Q0&keywords=how+to+get+rich&qid=1681161926&s=audible&sprefix=how+to+get+r%2Caudible%2C473&sr=1-1) by Felix Dennis
+🔊 [How to Get Rich](https://www.amazon.com/How-Get-Rich-Greatest-Entrepreneurs/dp/B088TTJPS3/ref=sr_1_1?crid=1YIY4R69G04Q0&keywords=how+to+get+rich&qid=1681161926&s=audible&sprefix=how+to+get+r%2Caudible%2C473&sr=1-1) by Felix Dennis
 
 🏃 [Gang Leader for a Day](https://www.amazon.com/Gang-Leader-for-Day-audiobook/dp/B0012H0G5E/ref=sr_1_1?crid=4L0AECND70H4&keywords=gang+leader+for+a+day&qid=1681161840&sprefix=gang+leader+for+a%2Caps%2C427&sr=8-1) by Sudhir Venkatesh
 
