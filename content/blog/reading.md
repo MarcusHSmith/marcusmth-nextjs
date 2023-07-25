@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2023-07-23T19:29:46.324Z"
+lastUpdated: "2023-07-25T19:29:46.324Z"
 title: Marcus's Reading List
 description: Book list from a Software Engineer
 tags:
@@ -21,7 +21,9 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2023
 
-🏃‍♂️ [The Curious Incident of the Dog in the Night-Time](https://a.co/d/1qTkFsb) by Mark Haddon
+🏃‍♂️ [Fast Fiction, VOL 2 Man vs. Machine](https://www.amazon.com/dp/B0C9WH6RQ2?ref_=cm_sw_r_cp_ud_dp_2A0W7HKYVA4C9M52H8GE) by Scotty Cornfield 
+
+[The Curious Incident of the Dog in the Night-Time](https://a.co/d/1qTkFsb) by Mark Haddon
 
 🏃‍♂️🔊 [The Snowball](https://a.co/d/hVk8RaN) by Alice Schroeder
 
