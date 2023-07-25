@@ -25,7 +25,7 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 🏃‍♂️🔊 [The Snowball](https://a.co/d/hVk8RaN) by Alice Schroeder
 
-[Black Edge]([https://www.amazon.com/Gang-Leader-for-Day-audiobook/dp/B0012H0G5E/ref=sr_1_1?crid=4L0AECND70H4&keywords=gang+leader+for+a+day&qid=1681161840&sprefix=gang+leader+for+a%2Caps%2C427&sr=8-1](https://www.amazon.com/Black-Edge-Sheelah-Kolhatkar-audiobook/dp/B06WWQPY3J/ref=sr_1_1?crid=1P3VMH1PDY0CR&keywords=black+edge&qid=1684434282&sprefix=black+edge%2Caps%2C191&sr=8-1)) by [@sheelahk](https://twitter.com/sheelahk?s=20)
+[Black Edge](https://a.co/d/dXbS1eX) by [@sheelahk](https://twitter.com/sheelahk?s=20)
 
 🔊 [How to Turn Down a Billion Dollars]([https://www.amazon.com/How-Get-Rich-Greatest-Entrepreneurs/dp/B088TTJPS3/ref=sr_1_1?crid=1YIY4R69G04Q0&keywords=how+to+get+rich&qid=1681161926&s=audible&sprefix=how+to+get+r%2Caudible%2C473&sr=1-1](https://www.amazon.es/Turn-Down-Billion-Dollars-International/dp/1250108616)) by [@GallagherBilly](https://twitter.com/GallagherBilly?s=20)
 
