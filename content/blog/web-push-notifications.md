@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2023-10-19T13:52:26.931Z"
-lastUpdated: "2023-10-19T13:52:26.931Z"
+lastUpdated: "2023-10-20T10:52:26.931Z"
 title: "How to add web push notifications"
 description: Service Workers and setup
 tags:
@@ -12,9 +12,9 @@ isPublished: true
 
 # Resources
 
-To debug service workers in Chrome, go to `chrome://inspect/#service-workers` and click `inspect` on the service worker you want to debug.
+To debug service workers in Chrome, go to [chrome://inspect/#service-workers](chrome://inspect/#service-workers) and click `inspect` on the service worker you want to debug.
 
-This is the MDN documentation for showNotification `https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification`
+This is the MDN documentation for showNotification [https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification)
 
 # service-worker.js
 
