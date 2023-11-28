@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2022-08-29T01:39:25.326Z"
-lastUpdated: "2022-08-29T02:17:46.212Z"
+lastUpdated: "2023-11-28T02:17:46.212Z"
 title: How to film walking videos for Youtube
 description: A guide to the equipment and planning of silent walking videos
 tags:
@@ -11,6 +11,9 @@ featuredImage:
   src: "Youtube-logo.png"
   alt: "Youtube Logo"
 ---
+
+*Updated Nov 28 2023*
+[![Walking video camera guide 🌎 How to get started on Youtube](https://img.youtube.com/vi/-A9EVrDCYNc/default.jpg)](https://youtu.be/-A9EVrDCYNc)
 
 During the Summer of 2020 I watched a video that obsessed me. [Nomadic Ambience's "Walking in the Rain in Manhattan"](https://www.youtube.com/watch?v=eZe4Q_58UTU&t=487s) shows the first person perspective of walking through Midtown Manhattan in a rain storm. The audio picks up the rain droplets and people running around. The video is 4K with colors that look like a videogame. Over the next 6 months I watched that video 20+ times and I began building instructions on how to create videos like this myself. Those notes became this post.
 
