@@ -13,6 +13,7 @@ featuredImage:
 ---
 
 *Updated Nov 28 2023*
+Walking video camera guide 🌎 How to get started on Youtube
 [![Walking video camera guide 🌎 How to get started on Youtube](https://img.youtube.com/vi/-A9EVrDCYNc/default.jpg)](https://youtu.be/-A9EVrDCYNc)
 
 During the Summer of 2020 I watched a video that obsessed me. [Nomadic Ambience's "Walking in the Rain in Manhattan"](https://www.youtube.com/watch?v=eZe4Q_58UTU&t=487s) shows the first person perspective of walking through Midtown Manhattan in a rain storm. The audio picks up the rain droplets and people running around. The video is 4K with colors that look like a videogame. Over the next 6 months I watched that video 20+ times and I began building instructions on how to create videos like this myself. Those notes became this post.
