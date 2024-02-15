@@ -23,4 +23,4 @@ This NFT on Devnet of Solana tests that theory: ["testing backlinks"](https://de
 
 ## Resources
 
-- [Why I created an AI blog for SEO](/blog/beautiful-roads-ai-blog-for-seo)
+- [Why I created an AI blog for SEO](/beautiful-roads-ai-blog-for-seo)
