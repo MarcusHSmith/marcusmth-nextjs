@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2024-02-06T01:39:25.326Z"
-lastUpdated: "2024-02-06T02:17:46.212Z"
+lastUpdated: "2024-02-15T02:17:46.212Z"
 title: Why I created an AI blog for SEO
 description: Beautifulroads.fyi is a blog that requires minimal work and provides outsized returns
 tags:
@@ -32,3 +32,7 @@ Each of these blog posts takes about 5 minutes to generate and publish using Cha
 We're still in the first week of this project, I'll update this post with the results in a few months. I'm hoping to see a significant increase in traffic to my YouTube channel and this blog.
 
 For now this post is the first backlinks between my different projects. Thanks for reading to this point... _you're helping my bounce rate_
+
+# Resources
+
+- [SEO Cheatsheet](/cheatsheet/seo-favorites)
