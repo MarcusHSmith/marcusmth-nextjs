@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^14.1.0",
     "@tailwindcss/typography": "^0.5.8",
     "embla-carousel-react": "^7.0.5",
     "esbuild": "^0.15.12",
