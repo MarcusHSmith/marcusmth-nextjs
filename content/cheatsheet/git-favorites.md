@@ -25,7 +25,7 @@ To squash commits `$ git rebase -i HEAD~10` (or however many commits are specifi
 
 `$ git for-each-ref --sort=-committerdate refs/heads/` sort branches by date
 
-`$ git branch | grep -v "main" | xargs git branch -D` delete all local branches except main
+`$ git branch | grep -v "dev" | xargs git branch -D` delete all local branches except dev
 
 `$ git branch -D [branchName]` delete branch
 
