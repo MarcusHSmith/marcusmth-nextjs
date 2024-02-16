@@ -1,23 +1,21 @@
-import { useRouter } from 'next/router';
-import WeWorkLocationPage from '../../../../../components/WeWorkLocationPage/WeWorkLocationPage';
-import { CITY } from '../../interfaces';
-import { data } from '../index.page';
+import { useRouter } from "next/router";
+import WeWorkLocationPage from "../../../../../components/WeWorkLocationPage/WeWorkLocationPage";
+import { CITY } from "./../../../../../lib/interfaces";
+import { data } from "../index.page";
 
 export default function PostPage() {
   const router = useRouter();
   const { slug } = router.query as {
     slug: string;
   };
-    const locationData = data.find((d) => {
+  const locationData = data.find((d) => {
     if (d.address === slug) {
-      return true
+      return true;
     }
-    return false
-  })
+    return false;
+  });
   if (!locationData) {
-    return (<span>loading</span>)
+    return <span>loading</span>;
   }
-  return (
-    <WeWorkLocationPage locationData={locationData} city={CITY.BERLIN}/>
-  );
+  return <WeWorkLocationPage locationData={locationData} city={CITY.BERLIN} />;
 }

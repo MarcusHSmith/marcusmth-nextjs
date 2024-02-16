@@ -5,7 +5,7 @@ import { HomeLayout } from "../components/HomeLayout/HomeLayout";
 import { PostList } from "../components/PostList/PostList";
 import Image from "next/image";
 import router from "next/router";
-import { CITY } from "./reports/wework/interfaces";
+import { CITY } from "./../lib/interfaces";
 
 export async function getStaticProps() {
   // Get all our posts
