@@ -16,7 +16,5 @@ export default async function sitemap(req, res) {
   res.setHeader("Cache-control", "stale-while-revalidate, s-maxage=3600");
   res.end(sitemap);
 
-  return {
-    props: {},
-  };
+  return undefined;
 }
