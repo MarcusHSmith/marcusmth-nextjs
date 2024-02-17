@@ -1,10 +1,7 @@
-import fs from "fs";
+import { loadCheatsheets } from "../../lib/load-cheatsheets";
 
 async function generateSiteMap() {
-  const files = fs.readdirSync("content/cheatsheet");
-  const posts = files.map((fileName) => {
-    return fileName.replace(".md", "");
-  });
+  const posts = await loadCheatsheets();
 
   return `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

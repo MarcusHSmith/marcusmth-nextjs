@@ -1,11 +1,7 @@
-import fs from "fs";
+import { loadPosts } from "../../lib/load-posts";
 
 async function generateSiteMap() {
-  const files = fs.readdirSync("content/blog");
-  const posts = files.map((fileName) => {
-    return fileName.replace(".md", "");
-  });
-
+  const posts = await loadPosts();
   return `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     ${posts.map((slug) => {
