@@ -14,7 +14,11 @@ async function generateSiteMap() {
         <lastmod>2024-02-16</lastmod>
       </sitemap>
       <sitemap>
-        <loc>https://www.marcusmth.com/reports_sitemap.xml</loc>
+        <loc>https://www.marcusmth.com/reports_wework_paris_sitemap.xml</loc>
+        <lastmod>2024-02-16</lastmod>
+      </sitemap>
+      <sitemap>
+        <loc>https://www.marcusmth.com/reports_wework_berlin_sitemap.xml</loc>
         <lastmod>2024-02-16</lastmod>
       </sitemap>
     </sitemapindex>

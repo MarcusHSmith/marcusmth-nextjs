@@ -26,10 +26,6 @@ module.exports = {
         destination: '/api/cheatsheets_sitemap',
       },
       {
-        source: '/reports_sitemap.xml',
-        destination: '/api/reports_sitemap',
-      },
-      {
         source: '/reports_wework_paris_sitemap.xml',
         destination: '/api/reports_wework_paris_sitemap',
       },
