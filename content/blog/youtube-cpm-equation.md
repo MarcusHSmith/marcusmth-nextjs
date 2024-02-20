@@ -8,7 +8,7 @@ tags:
   - Youtube
 isPublished: true
 featuredImage:
-  src: "equation_cpm.svg"
+  src: "equation_cpm.png"
   alt: "Youtube CPM Equation"
 ---
 
