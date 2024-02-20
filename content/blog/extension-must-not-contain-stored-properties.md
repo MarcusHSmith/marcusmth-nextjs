@@ -2,7 +2,7 @@
 path: blog
 date: "2020-11-17T23:43:45.078Z"
 lastUpdated: "2020-11-17T23:43:45.119Z"
-title: Extension Must Not Contain Stored Properties
+title: Solved - Extension Must Not Contain Stored Properties
 description: How to fix Swift error - Extension Must Not Contain Stored Properties
 tags:
   - swift
