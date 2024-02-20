@@ -2,7 +2,7 @@
 path: blog
 date: "2021-04-05T18:32:02.382Z"
 lastUpdated: "2021-04-05T18:32:02.425Z"
-title: Swift XCTest Cannot Find in Scope
+title: Solved - Swift XCTest Cannot Find in Scope
 description: Solve XCTest Cannot find in scope
 tags:
   - swift
