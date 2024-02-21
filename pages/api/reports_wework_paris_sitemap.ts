@@ -3,7 +3,7 @@ async function generateSiteMap() {
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
         <loc>https://www.marcusmth.com/reports/wework/paris</loc>
-        <lastmod>2024-02-16</lastmod>
+        <lastmod>2024-02-21</lastmod>
       </url>
     </urlset>
  `;

@@ -8,7 +8,7 @@ async function generateSiteMap() {
       return `
       <url>
         <loc>https://www.marcusmth.com/${slug}</loc>
-        <lastmod>2024-02-16</lastmod>
+        <lastmod>2024-02-21</lastmod>
       </url>
     `;
     })}

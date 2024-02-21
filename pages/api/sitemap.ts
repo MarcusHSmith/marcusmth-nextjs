@@ -3,23 +3,23 @@ async function generateSiteMap() {
     <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <sitemap>
         <loc>https://www.marcusmth.com/default_sitemap.xml</loc>
-        <lastmod>2024-02-16</lastmod>
+        <lastmod>2024-02-21</lastmod>
       </sitemap>
       <sitemap>
         <loc>https://www.marcusmth.com/posts_sitemap.xml</loc>
-        <lastmod>2024-02-16</lastmod>
+        <lastmod>2024-02-21</lastmod>
       </sitemap>
       <sitemap>
         <loc>https://www.marcusmth.com/cheatsheets_sitemap.xml</loc>
-        <lastmod>2024-02-16</lastmod>
+        <lastmod>2024-02-21</lastmod>
       </sitemap>
       <sitemap>
         <loc>https://www.marcusmth.com/reports_wework_paris_sitemap.xml</loc>
-        <lastmod>2024-02-16</lastmod>
+        <lastmod>2024-02-21</lastmod>
       </sitemap>
       <sitemap>
         <loc>https://www.marcusmth.com/reports_wework_berlin_sitemap.xml</loc>
-        <lastmod>2024-02-16</lastmod>
+        <lastmod>2024-02-21</lastmod>
       </sitemap>
     </sitemapindex>
    `;
