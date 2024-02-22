@@ -70,7 +70,8 @@ function ReportItem({ city }: { city: CITY }): ReactElement {
         src={imageSrc}
         alt="WeWork"
         object-fit="contain"
-        fill
+        width={176}
+        height={176}
       />
       <p className="absolute w-full bg-black bg-opacity-10 text-center bottom-0 font-bold text-white text-xl">
         WeWork Guide {city}
