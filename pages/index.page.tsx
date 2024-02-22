@@ -31,8 +31,8 @@ export default function Home({ posts }) {
   return (
     <HomeLayout>
       <>
+        <PostList posts={posts} category="blog" limit={7} />
         <Reports />
-        <PostList posts={posts} category="blog" limit={5} />
       </>
     </HomeLayout>
   );
