@@ -45,8 +45,8 @@ export function PostItem({
                 src={`/images/${featuredImage?.src}`}
                 alt={featuredImage?.alt}
                 className="w-full h-full relative"
-                width={240}
-                height={160}
+                layout="fill"
+                objectFit="contain"
                 priority
               />
             )}
