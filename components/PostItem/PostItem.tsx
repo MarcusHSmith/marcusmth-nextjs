@@ -48,6 +48,7 @@ export function PostItem({
                 layout="fill"
                 objectFit="contain"
                 priority
+                placeholder="empty"
               />
             )}
           </div>
