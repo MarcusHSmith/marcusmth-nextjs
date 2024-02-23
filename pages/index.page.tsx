@@ -63,7 +63,7 @@ function ReportItem({ city }: { city: CITY }): ReactElement {
   return (
     <button
       onClick={() => router.push(`/reports/wework/${city.toLocaleLowerCase()}`)}
-      className="aspect-square rounded-xl overflow-hidden h-full relative"
+      className="aspect-square rounded-xl overflow-hidden h-44 w-44 relative"
     >
       <Image
         className="hover:opacity-60"
