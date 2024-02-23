@@ -2,7 +2,8 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { initializeMap } from "./initializeMap";
 import styles from "./styles/Home.module.css";
-const mapboxgl = require("mapbox-gl/dist/mapbox-gl.js");
+
+let mapboxgl;
 
 export interface ILocation {
   lat: number;
@@ -12,6 +13,10 @@ export interface ILocation {
 export default function Map({ location }: { location: ILocation }) {
   const [pageIsMounted, setPageIsMounted] = useState(false);
   const [map, setMap] = useState(undefined);
+
+  if (window.location.pathname.startsWith("/reports/wework/")) {
+    mapboxgl = require("mapbox-gl/dist/mapbox-gl.js");
+  }
 
   mapboxgl.accessToken =
     "pk.eyJ1Ijoid2FubmFkYyIsImEiOiJjazBja2M1ZzYwM2lnM2dvM3o1bmF1dmV6In0.50nuNnApjrJYkMfR2AUpXA";
