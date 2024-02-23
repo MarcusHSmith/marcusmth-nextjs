@@ -47,6 +47,8 @@ export function PostItem({
                 className="w-full h-full relative"
                 width={240}
                 height={160}
+                placeholder="blur"
+                priority
               />
             )}
           </div>
