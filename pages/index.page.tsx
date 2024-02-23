@@ -32,7 +32,7 @@ export default function Home({ posts }) {
     <HomeLayout>
       <>
         <PostList posts={posts} category="blog" limit={7} />
-        <Reports />
+        {/* <Reports /> */}
       </>
     </HomeLayout>
   );
