@@ -15,7 +15,7 @@ featuredImage:
 
 # The YouTube CPM equation
 
-![CPM Equation](equation_cpm.png)
+![CPM Equation](images/equation_cpm.png)
 
 ## CPM
 
