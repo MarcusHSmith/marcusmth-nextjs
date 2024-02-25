@@ -17,7 +17,8 @@ function MyApp({ Component, pageProps }) {
     ? `https://marcusmth.com/images/${featuredImage.src}`
     : "https://marcusmth.com/images/profile-pic-marcus.jpg";
   const ogKeywordsWithFallback =
-    tags || "marcus smith software engineer blog youtube analytics";
+    tags.join(", ") ||
+    "marcus, smith, software, engineer, blog, youtube, analytics";
 
   return (
     <>
