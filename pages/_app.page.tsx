@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   const { frontmatter } = pageProps;
   const { title, description, featuredImage, tags } = frontmatter || {};
 
-  const titleWithFallback = title || "marcusmth";
+  const titleWithFallback = title ? `${title} | marcusmth` : "marcusmth";
   const descriptionWithFallback =
     description || "Marcus's thoughts and tools as a software engineer.";
   const ogImageWithFallback = featuredImage?.src

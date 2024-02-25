@@ -39,7 +39,7 @@ export function PostItem({
               {new Date(lastUpdated).toDateString()}
             </span>
           </div>
-          <div className="h-40 w-60 relative  flex-shrink-0">
+          <div className="h-40 w-60 relative flex-shrink-1">
             {featuredImage && (
               <Image
                 src={`/images/${featuredImage?.src}`}
