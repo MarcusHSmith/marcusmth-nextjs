@@ -30,9 +30,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content={descriptionWithFallback} />
         <meta property="og:description" content={descriptionWithFallback} />
         <meta name="keywords" content={ogKeywordsWithFallback} />
-        <meta property="og:title" content={titleWithFallback} />
-        <meta property="og:description" content={descriptionWithFallback} />
-        <meta property="og:image" content={ogImageWithFallback} />
+        <meta name="twitter:card" content="summary" />
       </Head>
       <Layout>
         <Component {...pageProps} />
