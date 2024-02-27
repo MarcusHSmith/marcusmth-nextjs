@@ -29,7 +29,10 @@ function MyApp({ Component, pageProps }) {
         <meta property="description" content={descriptionWithFallback} />
         <meta name="description" content={descriptionWithFallback} />
         <meta property="og:description" content={descriptionWithFallback} />
-        <meta name="keywords" content={ogKeywordsWithFallback}></meta>
+        <meta name="keywords" content={ogKeywordsWithFallback} />
+        <meta property="og:title" content={titleWithFallback} />
+        <meta property="og:description" content={descriptionWithFallback} />
+        <meta property="og:image" content={ogImageWithFallback} />
       </Head>
       <Layout>
         <Component {...pageProps} />
