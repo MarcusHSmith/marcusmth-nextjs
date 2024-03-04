@@ -30,6 +30,10 @@ const nextConfig = {
         destination: '/api/cheatsheets_sitemap',
       },
       {
+        source: '/tags_sitemap.xml',
+        destination: '/api/tags_sitemap',
+      },
+      {
         source: '/reports_wework_paris_sitemap.xml',
         destination: '/api/reports_wework_paris_sitemap',
       },
