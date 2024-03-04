@@ -11,7 +11,10 @@ export function TagList({ tags }: IProps): ReactElement {
     <div className="flex flex-row gap-2">
       {tags.map((t: string) => {
         return (
-          <button key={t} onClick={() => router.push(`/tag/${t}`)}>
+          <button
+            key={t}
+            onClick={() => router.push(`/tag/${t.toLowerCase()}`)}
+          >
             <Tag key={t} name={t} />
           </button>
         );
