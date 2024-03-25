@@ -41,6 +41,10 @@ const nextConfig = {
         source: '/reports_wework_berlin_sitemap.xml',
         destination: '/api/reports_wework_berlin_sitemap',
       },
+      {
+        source: '/feed.xml',
+        destination: '/api/feed',
+      },
     ]
   },
   i18n: {

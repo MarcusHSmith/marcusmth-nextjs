@@ -20,11 +20,13 @@
     "mdx-bundler": "^9.0.1",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "rss": "^1.2.2"
   },
   "devDependencies": {
     "@types/node": "18.11.5",
     "@types/react": "18.0.23",
+    "@types/rss": "^0.0.32",
     "autoprefixer": "^10.4.13",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.0",
