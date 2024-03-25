@@ -17,7 +17,7 @@ export async function loadFullPosts() {
   const posts = files.map((fileName) => {
     const file = fs.readFileSync(`content/blog/${fileName}`, "utf-8");
     const { data: frontmatter } = matter(file);
-    return frontmatter;
+    return { slug: fileName.replace(".md", ""), frontmatter };
   });
 
   return posts;

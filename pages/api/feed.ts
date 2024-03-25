@@ -1,8 +1,6 @@
 import RSS from "rss";
-import fs from "fs";
-import matter from "gray-matter";
 
-import { loadFullPosts, loadPosts } from "../../lib/load-posts";
+import { loadFullPosts } from "../../lib/load-posts";
 
 async function generateRSSFeed() {
   const feed = new RSS({
@@ -22,12 +20,12 @@ async function generateRSSFeed() {
 
   posts.map((post) => {
     feed.item({
-      title: post.title,
-      description: post.description,
+      title: post.frontmatter.title,
+      description: post.frontmatter.description,
       url: `https://www.marcusmth.codes/${post.slug}`,
-      categories: post.tags || [],
+      categories: post.frontmatter.tags || [],
       author: "Marcus Smith",
-      date: post.date,
+      date: post.frontmatter.date,
     });
   });
 
