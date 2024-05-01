@@ -2,7 +2,7 @@
 path: cheatsheet
 title: Terminal Cheatsheet
 date: "2019-12-10T22:12:03.286Z"
-lastUpdated: "2024-04-24T22:12:03.286Z"
+lastUpdated: "2024-04-25T22:12:03.286Z"
 description: "My favorite Terminal Commands"
 isPublished: true
 tags:
