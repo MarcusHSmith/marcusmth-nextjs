@@ -3,14 +3,14 @@
 @import 'tailwindcss/utilities';
 
 a {
-    @apply underline text-blue-600 hover:text-blue-800
- }
+  @apply underline text-blue-600 hover:text-blue-800
+}
 
- code {
-    @apply bg-blue-100 rounded-sm
- }
+code {
+  @apply bg-blue-100 rounded-sm
+}
 
- .embla {
+.embla {
   position: relative;
   background-color: #f7f7f7;
   margin-left: auto;
@@ -39,7 +39,7 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
- .embla__button {
+.embla__button {
   outline: 0;
   cursor: pointer;
   background-color: transparent;

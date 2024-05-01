@@ -16,7 +16,7 @@ export default function PostPage({ frontmatter, content }) {
       </div>
       <div
         className="pt-4"
-        dangerouslySetInnerHTML={{ __html: md().render(content) }}
+        dangerouslySetInnerHTML={{ __html: md().render(content.replace(/`/g, '')) }}
       />
     </div>
   );
