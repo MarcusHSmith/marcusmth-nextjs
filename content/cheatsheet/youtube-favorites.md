@@ -16,5 +16,5 @@ isPublished: true
 ### Companies
 
 - [Night Media](https://www.night.co/) Company that manages Mr. Beast and other Youtubers
-- [The Published Press](https://www.thepublishedpress.com/) Newsletter for Colin and Samir. Most of their talent is from the Morning Brew
+- [The Publish Press](https://www.thepublishpress.com/) Newsletter for Colin and Samir. Most of their talent is from the Morning Brew
 - [Smooth Media](https://www.smoothmedia.co/) Company involved with creating newsletters for Youtubers. Heavy overlap with The Published Press
