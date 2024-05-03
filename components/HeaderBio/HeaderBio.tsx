@@ -84,26 +84,10 @@ function ExternalLinks(): ReactElement {
         url={`https://www.youtube.com/channel/UCzLPnJlM_5IEe2djVMB2jLA`}
         text={`Youtube`}
       />
-      <CustomLink
-        url={`https://www.instagram.com/marcusmth`}
-        text={`Instagram`}
-      />
       <CustomLink url={`https://twitter.com/marcusmth`} text={`Twitter`} />
-      <CustomLink
-        url={`https://stackoverflow.com/users/2228688/marcus`}
-        text={`Stack Overflow`}
-      />
-      <CustomLink
-        url={`https://www.linkedin.com/in/marcushsmith/`}
-        text={`LinkedIn`}
-      />
       <CustomLink
         url={`https://www.strava.com/athletes/9512`}
         text={`Strava`}
-      />
-      <CustomLink
-        url={`https://goo.gl/maps/QSQCaP3AMVgakqHo7`}
-        text={`Local Guide`}
       />
     </div>
   );
