@@ -25,6 +25,8 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 [Superyacht Captain](https://www.amazon.com/gp/product/B09FGNYH1W/ref=ppx_yo_dt_b_d_asin_title_351_o03?ie=UTF8&psc=1) by Brendan O’Shannassy
 
+[Deep Work](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692) by Cal Newport
+
 ## 2023
 
 [Fast Fiction, VOL 2 Man vs. Machine](https://www.amazon.com/dp/B0C9WH6RQ2?ref_=cm_sw_r_cp_ud_dp_2A0W7HKYVA4C9M52H8GE) by Scotty Cornfield 
