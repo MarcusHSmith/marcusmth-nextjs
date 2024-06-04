@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2023-07-25T19:29:46.324Z"
+lastUpdated: "2024-06-02T19:29:46.324Z"
 title: Marcus's Reading List
 description: Book list from a Software Engineer
 tags:
@@ -19,13 +19,19 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 🔊 for audiobooks
 
+## 2024
+
+🏃‍♂️ [Running Against the Tide](https://www.amazon.com/gp/product/B07CMKSML3/ref=ppx_yo_dt_b_d_asin_title_351_o00?ie=UTF8&psc=1) by Captain Lee
+
+[Superyacht Captain](https://www.amazon.com/gp/product/B09FGNYH1W/ref=ppx_yo_dt_b_d_asin_title_351_o03?ie=UTF8&psc=1) by Brendan O’Shannassy
+
 ## 2023
 
-🏃‍♂️ [Fast Fiction, VOL 2 Man vs. Machine](https://www.amazon.com/dp/B0C9WH6RQ2?ref_=cm_sw_r_cp_ud_dp_2A0W7HKYVA4C9M52H8GE) by Scotty Cornfield 
+[Fast Fiction, VOL 2 Man vs. Machine](https://www.amazon.com/dp/B0C9WH6RQ2?ref_=cm_sw_r_cp_ud_dp_2A0W7HKYVA4C9M52H8GE) by Scotty Cornfield 
 
 [The Curious Incident of the Dog in the Night-Time](https://a.co/d/1qTkFsb) by Mark Haddon
 
-🏃‍♂️🔊 [The Snowball](https://a.co/d/hVk8RaN) by Alice Schroeder
+🔊 [The Snowball](https://a.co/d/hVk8RaN) by Alice Schroeder
 
 [Black Edge](https://a.co/d/dXbS1eX) by [@sheelahk](https://twitter.com/sheelahk?s=20)
 
