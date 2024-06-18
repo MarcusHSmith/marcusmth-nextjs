@@ -1,8 +1,25 @@
 import { HeaderBio } from "../HeaderBio/HeaderBio";
-import md from "markdown-it";
+import markdownit from "markdown-it";
 import { TagList } from "../TagList/TagList";
+import hljs from 'highlight.js' // https://highlightjs.org
+
 
 export default function PostPage({ frontmatter, content }) {
+
+  const md = markdownit({
+    highlight: function (str, lang) {
+      if (lang && hljs.getLanguage(lang)) {
+        try {
+          return '<pre><code class="hljs">' +
+                 hljs.highlight(str, { language: lang, ignoreIllegals: true }).value +
+                 '</code></pre>';
+        } catch (__) {}
+      }
+  
+      return '<pre><code class="hljs">' + md.utils.escapeHtml(str) + '</code></pre>';
+    }
+  });
+
   return (
     <div className="prose mx-auto">
       <HeaderBio presentation="min" />
