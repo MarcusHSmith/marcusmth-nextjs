@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2024-06-02T19:29:46.324Z"
+lastUpdated: "2024-07-14T19:29:46.324Z"
 title: Marcus's Reading List
 description: Book list from a Software Engineer
 tags:
@@ -24,6 +24,8 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 🏃‍♂️ Outside the Box by Marc Levinson
 
 Into the Raging Sea by Rachel Slade
+
+Megayacht True Stories of Adventure, Drama, and Tragedy at Sea by Doug Hoogs
 
 [Running Against the Tide](https://www.amazon.com/gp/product/B07CMKSML3/ref=ppx_yo_dt_b_d_asin_title_351_o00?ie=UTF8&psc=1) by Captain Lee
 
