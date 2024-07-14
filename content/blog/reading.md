@@ -21,7 +21,11 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2024
 
-🏃‍♂️ [Running Against the Tide](https://www.amazon.com/gp/product/B07CMKSML3/ref=ppx_yo_dt_b_d_asin_title_351_o00?ie=UTF8&psc=1) by Captain Lee
+🏃‍♂️ Outside the Box by Marc Levinson
+
+Into the Raging Sea by Rachel Slade
+
+[Running Against the Tide](https://www.amazon.com/gp/product/B07CMKSML3/ref=ppx_yo_dt_b_d_asin_title_351_o00?ie=UTF8&psc=1) by Captain Lee
 
 [Superyacht Captain](https://www.amazon.com/gp/product/B09FGNYH1W/ref=ppx_yo_dt_b_d_asin_title_351_o03?ie=UTF8&psc=1) by Brendan O’Shannassy
 
