@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2024-07-14T19:29:46.324Z"
+lastUpdated: "2024-10-04T19:29:46.324Z"
 title: Marcus's Reading List
 description: Book list from a Software Engineer
 tags:
@@ -21,6 +21,8 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2024
 
+🏃‍♂️ [The Castle on Sunset](https://www.amazon.com/Castle-Sunset-Scandal-Hollywoods-Chateau/dp/0385543166) by Shawn Levy
+
 🏃‍♂️ Outside the Box by Marc Levinson
 
 Into the Raging Sea by Rachel Slade
@@ -35,7 +37,7 @@ Megayacht True Stories of Adventure, Drama, and Tragedy at Sea by Doug Hoogs
 
 ## 2023
 
-[Fast Fiction, VOL 2 Man vs. Machine](https://www.amazon.com/dp/B0C9WH6RQ2?ref_=cm_sw_r_cp_ud_dp_2A0W7HKYVA4C9M52H8GE) by Scotty Cornfield 
+[Fast Fiction, VOL 2 Man vs. Machine](https://www.amazon.com/dp/B0C9WH6RQ2?ref_=cm_sw_r_cp_ud_dp_2A0W7HKYVA4C9M52H8GE) by Scotty Cornfield
 
 [The Curious Incident of the Dog in the Night-Time](https://a.co/d/1qTkFsb) by Mark Haddon
 
@@ -43,7 +45,7 @@ Megayacht True Stories of Adventure, Drama, and Tragedy at Sea by Doug Hoogs
 
 [Black Edge](https://a.co/d/dXbS1eX) by [@sheelahk](https://twitter.com/sheelahk?s=20)
 
-🔊 [How to Turn Down a Billion Dollars]([https://www.amazon.com/How-Get-Rich-Greatest-Entrepreneurs/dp/B088TTJPS3/ref=sr_1_1?crid=1YIY4R69G04Q0&keywords=how+to+get+rich&qid=1681161926&s=audible&sprefix=how+to+get+r%2Caudible%2C473&sr=1-1](https://www.amazon.es/Turn-Down-Billion-Dollars-International/dp/1250108616)) by [@GallagherBilly](https://twitter.com/GallagherBilly?s=20)
+🔊 [How to Turn Down a Billion Dollars](<[https://www.amazon.com/How-Get-Rich-Greatest-Entrepreneurs/dp/B088TTJPS3/ref=sr_1_1?crid=1YIY4R69G04Q0&keywords=how+to+get+rich&qid=1681161926&s=audible&sprefix=how+to+get+r%2Caudible%2C473&sr=1-1](https://www.amazon.es/Turn-Down-Billion-Dollars-International/dp/1250108616)>) by [@GallagherBilly](https://twitter.com/GallagherBilly?s=20)
 
 🔊 [How to Get Rich](https://www.amazon.com/How-Get-Rich-Greatest-Entrepreneurs/dp/B088TTJPS3/ref=sr_1_1?crid=1YIY4R69G04Q0&keywords=how+to+get+rich&qid=1681161926&s=audible&sprefix=how+to+get+r%2Caudible%2C473&sr=1-1) by Felix Dennis
 
