@@ -43,7 +43,7 @@ export function PostList({
     rootUrl = `/cheatsheet/`;
   }
   return (
-    <div>
+    <div className="space-y-6">
       {sortedPosts.map(({ slug, frontmatter }) => {
         return (
           <PostItem
