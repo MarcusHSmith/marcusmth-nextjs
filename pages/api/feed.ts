@@ -22,7 +22,7 @@ async function generateRSSFeed() {
     feed.item({
       title: post.frontmatter.title,
       description: post.frontmatter.description,
-      url: `https://www.marcusmth.codes/${post.slug}`,
+      url: `https://www.marcusmth.com/${post.slug}`,
       categories: post.frontmatter.tags || [],
       author: "Marcus Smith",
       date: post.frontmatter.date,

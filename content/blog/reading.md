@@ -4,6 +4,9 @@ date: "2020-02-01T22:08:05.284Z"
 lastUpdated: "2024-10-04T19:29:46.324Z"
 title: Marcus's Reading List
 description: Book list from a Software Engineer
+featuredImage:
+  src: "copenhagen.png"
+  alt: "Copenhagen"
 tags:
   - reading
 isPublished: true
