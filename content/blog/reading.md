@@ -26,9 +26,9 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 🏃‍♂️ [The Castle on Sunset](https://www.amazon.com/Castle-Sunset-Scandal-Hollywoods-Chateau/dp/0385543166) by Shawn Levy
 
-🏃‍♂️ Outside the Box by Marc Levinson
+🏃‍♂️ [Outside the Box](https://www.amazon.com/Outside-Box-Globalization-Changed-Spreading/dp/069119176X) by Marc Levinson
 
-Into the Raging Sea by Rachel Slade
+[Into the Raging Sea](https://www.amazon.com/Into-Raging-Sea-Thirty-Three-Megastorm-ebook/dp/B075WQK2LX/ref=sr_1_1?dib=eyJ2IjoiMSJ9.DyrgDhHMpM9Yvc9nScniz3J-MHrSfs5uC6BMPE-pYbJGfMZoY6Y648G7LyNUgnJA8tTnu0mu1OXlF98UzFNByxFf-SlzXHlXmPw5JOCf_GODG9_LkDhjGOn8ADP8f5-8EfHVKE6HGlax57qz7YJMsZljmfnY598Q1Kqfkn2rvRm-MHGOmBYG39OoVpUCgEyiypvJLNbTIQTA6PS_uC--JQ.qWOqyoH6dwuEOYyiNL9bMX-cTvhKkKlnciqXTboWxag&dib_tag=se&hvadid=580763948132&hvdev=c&hvlocphy=1013587&hvnetw=g&hvqmt=e&hvrand=13590560763513311872&hvtargid=kwd-451681256335&hydadcr=15304_13517984&keywords=into+the+raging+sea+book&qid=1728075244&sr=8-1) by Rachel Slade
 
 Megayacht True Stories of Adventure, Drama, and Tragedy at Sea by Doug Hoogs
 
