@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2024-10-04T19:29:46.324Z"
+lastUpdated: "2024-10-07T19:29:46.324Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -26,7 +26,7 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2024
 
-🏃‍♂️ [The Castle on Sunset](https://www.amazon.com/Castle-Sunset-Scandal-Hollywoods-Chateau/dp/0385543166) by Shawn Levy
+[The Castle on Sunset](https://www.amazon.com/Castle-Sunset-Scandal-Hollywoods-Chateau/dp/0385543166) by Shawn Levy
 
 🏃‍♂️ [Outside the Box](https://www.amazon.com/Outside-Box-Globalization-Changed-Spreading/dp/069119176X) by Marc Levinson
 
