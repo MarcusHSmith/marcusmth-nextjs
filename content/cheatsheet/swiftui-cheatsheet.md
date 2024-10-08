@@ -5,8 +5,8 @@ lastUpdated: "2021-02-17T19:23:09.103Z"
 title: SwiftUI Cheatsheet
 description: Everything I know about SwiftUI
 tags:
-  - Swift
-  - SwiftUI
+  - swift
+  - swiftUI
 isPublished: true
 ---
 

@@ -7,6 +7,9 @@ description: My favorite Youtube Creator Resources
 tags:
   - youtube
 isPublished: true
+featuredImage:
+  src: "Youtube-logo.png"
+  alt: "Youtube Logo"
 ---
 
 ### Websites

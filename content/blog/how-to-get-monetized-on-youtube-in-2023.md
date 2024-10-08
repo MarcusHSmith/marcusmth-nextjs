@@ -5,7 +5,7 @@ lastUpdated: "2023-02-05T19:29:46.324Z"
 title: How to get 1,000 Youtube Subscribers in 2023
 description: Tricks to get monetized on Youtube in 2023
 tags:
-  - Youtube
+  - youtube
 isPublished: true
 ---
 

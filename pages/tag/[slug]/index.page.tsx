@@ -1,7 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
-import PostContent from "../../../components/PostContent/PostContent";
-import router from "next/router";
+import { HeaderBio } from "../../../components/HeaderBio/HeaderBio";
+import { PostItem } from "../../../components/PostItem/PostItem";
 
 export async function getStaticPaths() {
   const allTags = new Set<string>();
@@ -49,6 +49,9 @@ export async function getStaticProps({ params: { slug } }) {
       cheatsheetLinks.push({
         title: frontmatter.title,
         slug: fileName.replace(".md", ""),
+        description: frontmatter.description,
+        lastUpdated: frontmatter.lastUpdated,
+        featuredImage: frontmatter.featuredImage ?? null,
       });
     }
   });
@@ -63,29 +66,40 @@ export async function getStaticProps({ params: { slug } }) {
       blogLinks.push({
         title: frontmatter.title,
         slug: fileName.replace(".md", ""),
+        description: frontmatter.description,
+        lastUpdated: frontmatter.lastUpdated,
+        featuredImage: frontmatter.featuredImage ?? null,
       });
     }
   });
   return {
     props: {
-      cheatsheetLinks: cheatsheetLinks,
-      blogLinks: blogLinks,
+      cheatsheetLinks,
+      blogLinks,
+      slug,
     },
   };
 }
 
-export default function TagPage({ cheatsheetLinks, blogLinks }) {
+export default function TagPage({ cheatsheetLinks, blogLinks, slug }) {
   return (
-    <div>
-      <span className="font-bold text-lg">ALL TAGS</span>
+    <div className="max-w-4xl mx-auto">
+      <HeaderBio presentation="min" />
+      <span className="font-bold text-lg">TAG: {slug}</span>
       <hr />
       <span className="font-bold text-lg">Blog Posts</span>
       <hr />
       {blogLinks.map((link) => {
         return (
-          <button key={link.slug} onClick={() => router.push(`/${link.slug}`)}>
-            {link.title}
-          </button>
+          <PostItem
+            key={link.slug}
+            slug={link.slug}
+            title={link.title}
+            description={link.description}
+            rootUrl={link.slug}
+            featuredImage={link.featuredImage}
+            lastUpdated={link.lastUpdated}
+          />
         );
       })}
       <hr />
@@ -93,12 +107,15 @@ export default function TagPage({ cheatsheetLinks, blogLinks }) {
       <hr />
       {cheatsheetLinks.map((link) => {
         return (
-          <button
+          <PostItem
             key={link.slug}
-            onClick={() => router.push(`/cheatsheet/${link.slug}`)}
-          >
-            {link.title}
-          </button>
+            slug={link.slug}
+            title={link.title}
+            description={link.description}
+            rootUrl={`/cheatsheet/`}
+            featuredImage={link.featuredImage}
+            lastUpdated={link.lastUpdated}
+          />
         );
       })}
     </div>

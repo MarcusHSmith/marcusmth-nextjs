@@ -5,7 +5,7 @@ lastUpdated: "2024-02-15T22:12:03.284Z"
 title: Vercel Cheatsheet
 description: Tips and Resources for Vercel
 tags:
-  - NextJS
+  - nextjs
 isPublished: true
 ---
 

@@ -5,7 +5,7 @@ lastUpdated: "2021-10-27T04:22:09.893Z"
 title: Setting up a new Mac
 description: How to setup a new machine for development
 tags:
-  - Mac
+  - mac
 isPublished: false
 ---
 

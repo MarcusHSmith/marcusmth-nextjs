@@ -5,7 +5,7 @@ lastUpdated: "2024-02-15T02:17:46.212Z"
 title: Why I created an AI blog for SEO
 description: Beautifulroads.fyi is a blog that requires minimal work and provides outsized returns
 tags:
-  - Youtube
+  - youtube
   - SEO
 isPublished: true
 featuredImage:

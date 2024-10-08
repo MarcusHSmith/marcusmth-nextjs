@@ -5,14 +5,14 @@ lastUpdated: "2023-11-28T02:17:46.212Z"
 title: How to film walking videos for Youtube
 description: A guide to the equipment and planning of silent walking videos
 tags:
-  - Youtube
+  - youtube
 isPublished: true
 featuredImage:
   src: "Youtube-logo.png"
   alt: "Youtube Logo"
 ---
 
-*Updated Nov 28 2023*
+_Updated Nov 28 2023_
 Walking video camera guide 🌎 How to get started on Youtube
 [![Walking video camera guide 🌎 How to get started on Youtube](https://img.youtube.com/vi/-A9EVrDCYNc/default.jpg)](https://youtu.be/-A9EVrDCYNc)
 

@@ -1,8 +1,6 @@
-import { ReactElement, useEffect, useMemo, useState } from "react";
+import { ReactElement } from "react";
 import Image from "next/image";
-import router from "next/router";
 import Link from "next/link";
-import { IPost } from "../PostList/PostList";
 
 interface IProps {
   title: string;

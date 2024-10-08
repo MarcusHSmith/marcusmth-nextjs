@@ -5,8 +5,8 @@ lastUpdated: "2024-02-19T01:39:25.326Z"
 title: The YouTube CPM equation explained
 description: Every variable Youtube uses to determine earnings paid to creators
 tags:
-  - Youtube
-  - Adsense
+  - youtube
+  - adsense
 isPublished: true
 featuredImage:
   src: "equation_cpm.png"
