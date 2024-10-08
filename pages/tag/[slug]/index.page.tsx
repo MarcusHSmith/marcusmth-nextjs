@@ -96,7 +96,7 @@ export default function TagPage({ cheatsheetLinks, blogLinks, slug }) {
             slug={link.slug}
             title={link.title}
             description={link.description}
-            rootUrl={link.slug}
+            rootUrl={"/"}
             featuredImage={link.featuredImage}
             lastUpdated={link.lastUpdated}
           />
