@@ -1,7 +1,7 @@
 ---
 path: blog
-date: "2024-010-08T01:39:25.326Z"
-lastUpdated: "2024-010-08T01:39:25.326Z"
+date: "2024-10-08T01:39:25.326Z"
+lastUpdated: "2024-10-08T01:39:25.326Z"
 title: Most Viewed Youtube Videos on People Watching
 description: Walking videos are the most popular on People Watching
 tags:
