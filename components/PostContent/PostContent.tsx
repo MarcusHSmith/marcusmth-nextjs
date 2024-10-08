@@ -2,17 +2,25 @@ import { HeaderBio } from "../HeaderBio/HeaderBio";
 import md from "markdown-it";
 import { TagList } from "../TagList/TagList";
 import dynamic from "next/dynamic";
+import { useState, useEffect } from "react";
 
 const YouTubeEmbed = dynamic(() => import("../YouTubeEmbed/YouTubeEmbed"));
 
 export default function PostPage({ frontmatter, content }) {
-  const renderContent = () => {
-    const htmlContent = md().render(content);
-    return htmlContent;
-  };
+  const [isClient, setIsClient] = useState(false);
 
-  const replaceYouTubeEmbeds = (content) => {
-    const parts = content.split(/(YOUTUBE_VIDEO_ID=\w+)/);
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  const renderContent = () => {
+    if (!isClient) {
+      return null;
+    }
+
+    const renderedContent = md().render(content);
+    const parts = renderedContent.split(/(YOUTUBE_VIDEO_ID=\w+)/);
+
     return parts.map((part, index) => {
       if (part.startsWith("YOUTUBE_VIDEO_ID=")) {
         const videoId = part.split("=")[1];
@@ -48,7 +56,7 @@ export default function PostPage({ frontmatter, content }) {
           <TagList tags={frontmatter.tags} />
         </div>
         <hr className="mb-8" />
-        {replaceYouTubeEmbeds(renderContent())}
+        {renderContent()}
       </div>
     </div>
   );
