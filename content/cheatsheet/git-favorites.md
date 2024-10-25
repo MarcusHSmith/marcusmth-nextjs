@@ -1,12 +1,15 @@
 ---
 path: cheatsheet
 date: "2019-10-27T22:12:03.284Z"
-lastUpdated: "2024-02-15T16:22:37.189Z"
+lastUpdated: "2024-10-25T10:00:00.000Z"
 title: Git Cheatsheet
 description: My favorite Git Commands
 tags:
   - github
 isPublished: true
+featuredImage:
+  src: "git-logo.png"
+  alt: "Git Logo"
 ---
 
 If I need to look up multiple times, I should just record it in my own cheatsheet.
@@ -25,7 +28,7 @@ To squash commits `$ git rebase -i HEAD~10` (or however many commits are specifi
 
 `$ git for-each-ref --sort=-committerdate refs/heads/` sort branches by date
 
-`$ git branch | grep -v "dev" | xargs git branch -D` delete all local branches except dev
+`$ git branch | grep -v "main" | xargs git branch -D` delete all local branches except dev
 
 `$ git branch -D [branchName]` delete branch
 
