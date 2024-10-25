@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2024-10-07T19:29:46.324Z"
+lastUpdated: "2024-10-25T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -25,6 +25,8 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 🔊 for audiobooks
 
 ## 2024
+
+🏃‍♂️ [L.A. Noir](https://www.amazon.com/L-Noir-Struggle-Americas-Seductive/dp/0307352080) by John Buntin
 
 [The Castle on Sunset](https://www.amazon.com/Castle-Sunset-Scandal-Hollywoods-Chateau/dp/0385543166) by Shawn Levy
 
