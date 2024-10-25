@@ -8,6 +8,9 @@ tags:
   - cursor
   - ai
 isPublished: true
+featuredImage:
+  src: "cursor-ai-logo.png"
+  alt: "Cursor AI Logo"
 ---
 
 If I need to look up multiple times, I should just record it in my own cheatsheet.
