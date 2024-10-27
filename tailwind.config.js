@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    'pages/*.page.tsx'
-],
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "pages/*.page.tsx",
+  ],
   theme: {
     extend: {
       typography: (theme) => ({
@@ -17,18 +17,16 @@ module.exports = {
               "margin-bottom": "0",
             },
             a: {
-              "color": null
+              color: null,
             },
             hr: {
               "margin-top": "0",
-              "margin-bottom": "0"
-            }
+              "margin-bottom": "0",
+            },
           },
         },
       }),
     },
   },
-  plugins: [
-    require('@tailwindcss/typography')
-  ],
-}
+  plugins: [require("@tailwindcss/typography")],
+};

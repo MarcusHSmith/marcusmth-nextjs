@@ -1,1 +1,1 @@
-export const FULL_NAME = "Marcus Smith"
+export const FULL_NAME = "Marcus Smith";
