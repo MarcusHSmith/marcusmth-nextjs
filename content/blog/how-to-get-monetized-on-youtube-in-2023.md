@@ -6,6 +6,9 @@ title: How to get 1,000 Youtube Subscribers in 2023
 description: Tricks to get monetized on Youtube in 2023
 tags:
   - youtube
+featuredImage:
+  src: "Youtube-logo.png"
+  alt: "Youtube Logo"
 isPublished: true
 ---
 
