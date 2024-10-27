@@ -7,8 +7,8 @@ async function generateSiteMap() {
     ${tags.map((slug) => {
       return `
       <url>
-        <loc>https://www.marcusmth.com/tag/${slug}</loc>
-        <lastmod>2024-02-21</lastmod>
+        <loc>https://marcusmth.com/tag/${slug}</loc>
+        <lastmod>2024-10-25</lastmod>
       </url>
     `;
     })}
