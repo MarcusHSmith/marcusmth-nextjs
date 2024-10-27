@@ -28,7 +28,7 @@ export function PostItem({
       href={`${rootUrl}${slug}`}
       className="block mb-6 transition-transform duration-300 hover:scale-102"
     >
-      <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 border border-gray-200">
+      <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-blue-200 transition-shadow duration-300 border border-gray-200">
         <div className="p-6 flex flex-col md:flex-row justify-between">
           <div className="flex flex-col justify-center mb-4 md:mb-0 md:mr-6">
             <h2 className="font-bold text-2xl text-blue-600 mb-2">{title}</h2>
