@@ -46,7 +46,7 @@ export function PostItem({
               <Image
                 src={`/images/${featuredImage?.src}`}
                 alt={featuredImage?.alt}
-                className="rounded-md object-cover"
+                className="rounded-md object-contain"
                 layout="fill"
                 priority
                 placeholder="empty"
