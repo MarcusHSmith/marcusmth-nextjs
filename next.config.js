@@ -4,6 +4,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  trailingSlash: false,
   reactStrictMode: true,
   swcMinify: true,
   pageExtensions: [
