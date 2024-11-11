@@ -35,6 +35,9 @@ export default function Home({ posts }) {
   return (
     <HomeLayout>
       <>
+        <h1 className="text-4xl font-bold mb-8">
+          Software Engineering and Interests from Across the Web
+        </h1>
         <PostList posts={posts} category="blog" limit={7} />
         {/* <Reports /> */}
       </>
