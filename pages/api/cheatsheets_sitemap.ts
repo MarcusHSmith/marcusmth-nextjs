@@ -8,7 +8,7 @@ async function generateSiteMap() {
     ${posts.map((slug) => {
       return `
       <url>
-        <loc>https://marcusmth.com/cheatsheet/${slug}</loc>
+        <loc>https://marcusmth.com/cheatsheet/${slug}/</loc>
         <lastmod>2024-10-25</lastmod>
       </url>
     `;
