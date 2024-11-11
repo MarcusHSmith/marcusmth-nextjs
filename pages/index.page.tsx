@@ -23,6 +23,10 @@ export async function getStaticProps() {
   return {
     props: {
       posts,
+      frontmatter: {
+        description:
+          "Software engineering insights, YouTube content, and startup journey from Marcus Smith - Engineering Manager, Founder of Series A Solana startup, and Software Engineer",
+      },
     },
   };
 }

@@ -19,6 +19,10 @@ export async function getStaticProps() {
   return {
     props: {
       posts,
+      frontmatter: {
+        description:
+          "Cheatsheet for software engineering, Solana, and web development. Includes keyboard shortcuts and productivity tips for VS Code, Terminal, and other developer tools. Also features YouTube tutorials and guides on blockchain development, web3, and modern web development practices.",
+      },
     },
   };
 }

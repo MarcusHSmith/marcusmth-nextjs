@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
 
   const titleWithFallback = title ? `${title} | marcusmth` : "marcusmth";
   const descriptionWithFallback =
-    description || "Marcus's thoughts and tools as a software engineer.";
+    description || "Marcus's thoughts and tools as a software engineer";
   const ogImageWithFallback = featuredImage?.src
     ? `https://marcusmth.com/images/${featuredImage.src}`
     : "https://marcusmth.com/images/profile-pic-marcus.jpg";
