@@ -3,6 +3,7 @@ import md from "markdown-it";
 import { TagList } from "../TagList/TagList";
 import dynamic from "next/dynamic";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const YouTubeEmbed = dynamic(() => import("../YouTubeEmbed/YouTubeEmbed"));
 
@@ -35,9 +36,11 @@ export default function PostPage({ frontmatter, content }) {
       <HeaderBio presentation="min" />
       {frontmatter.featuredImage && (
         <div className="mb-8 rounded-lg overflow-hidden shadow-lg">
-          <img
+          <Image
             src={`/images/${frontmatter.featuredImage.src}`}
             alt={frontmatter.title}
+            width={1024}
+            height={1024}
             className="w-full h-64 object-cover"
           />
         </div>
