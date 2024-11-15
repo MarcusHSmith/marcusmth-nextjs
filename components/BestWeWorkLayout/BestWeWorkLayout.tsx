@@ -163,10 +163,16 @@ function Location({
           <Image
             src={`/images/${locationDetails.primaryImage}`}
             alt={locationDetails.name}
-            fill
+            width={160}
+            height={160}
           />
         ) : (
-          <Image src={`/images/WeWork-logo.png`} alt="WeWork logo" fill />
+          <Image
+            src={`/images/WeWork-logo.png`}
+            alt="WeWork logo"
+            width={160}
+            height={160}
+          />
         )}
       </div>
       <div className="mx-2 grow flex flex-col">
