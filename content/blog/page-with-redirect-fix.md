@@ -6,6 +6,7 @@ title: How to Fix "Page with redirect" Error in Google Search Console
 description: Debug and fix redirect issues reported in Google Search Console using curl
 tags:
   - SEO
+  - vercel
 isPublished: true
 featuredImage:
   src: "google-search-console-logo.png"
