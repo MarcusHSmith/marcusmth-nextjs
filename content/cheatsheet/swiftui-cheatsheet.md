@@ -8,6 +8,9 @@ tags:
   - swift
   - swiftUI
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 ### Other Cheatsheets

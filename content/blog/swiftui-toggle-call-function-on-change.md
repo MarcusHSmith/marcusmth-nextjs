@@ -9,6 +9,9 @@ tags:
   - swiftui
   - ios13
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 ## Setup a SwiftUI Toggle in iOS 13

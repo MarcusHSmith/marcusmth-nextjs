@@ -7,6 +7,9 @@ description: Success and Failure Closures in Swift
 tags:
   - swift
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 Success and Failure blocks are all over Swift code bases. They are a useful tool to do asynchronous tasks and wait for network requests. A standard signature is:

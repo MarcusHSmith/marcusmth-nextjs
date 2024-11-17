@@ -7,6 +7,9 @@ description: Fix error with Integrity
 tags:
   - yarn
 isPublished: true
+featuredImage:
+  src: "yarn-logo.png"
+  alt: "Yarn logo"
 ---
 
 # The Issue

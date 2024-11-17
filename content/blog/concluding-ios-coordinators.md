@@ -7,6 +7,9 @@ description: "Stop, Pop, and Dismiss Coordinators and their ViewControllers"
 tags:
   - swift
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 Instantiating coordinators is one thing, but dismissing and handling the conclusion is another. For more information on the coordinator pattern read [this](https://www.hackingwithswift.com/articles/71/how-to-use-the-coordinator-pattern-in-ios-apps) by [@twostraws](https://twitter.com/twostraws?s=20).

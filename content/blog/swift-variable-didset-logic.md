@@ -7,6 +7,9 @@ description: When does Swift call `didSet()` on variables
 isPublished: true
 tags:
   - swift
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 There are a few gotchas in Swift's variable didSet logic. At a high level the `didSet()` function is called whenever a variable value is set.

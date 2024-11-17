@@ -7,6 +7,9 @@ description: Recursive Swift without using variables
 tags:
   - swift
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 In [The Passionate Programmer](https://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344/ref=asc_df_1934356344/?tag=hyprod-20&linkCode=df0&hvadid=312025907421&hvpos=&hvnetw=g&hvrand=2619027834083661622&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061089&hvtargid=pla-331493525691&psc=1) by [@chadfowler](https://twitter.com/chadfowler?s=20), Chad recommends solving a challenge in your language. His favorite is creating "99 Bottles of Beer on the Wall" lyrics without using variables. Here's my solution in Swift:

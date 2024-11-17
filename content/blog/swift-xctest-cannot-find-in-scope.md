@@ -7,6 +7,9 @@ description: Solve XCTest Cannot find in scope
 tags:
   - swift
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 When creating Swift tests in `XCTest`, the files being tested need to have `Target Membership` in the test target. If the test file throw an error `Cannot find _ in scope`, the solution is to add the file you intend to test to the test target.

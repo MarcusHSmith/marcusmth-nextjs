@@ -7,6 +7,9 @@ description: My Favorite iOS Development and XCode Commands and Reads
 tags:
   - swift
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 ## Keyboard Shortcuts

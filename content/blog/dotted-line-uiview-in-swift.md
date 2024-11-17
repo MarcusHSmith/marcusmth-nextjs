@@ -7,6 +7,9 @@ description: Create a horizontal dotted or dashed line in Swift with UIView and 
 tags:
   - swift
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 Creating a dashed or dotted line in Swift requires a `CAShapeLayer`. Here is an overview on `CALayer` from [RayWenderlich](https://www.raywenderlich.com/10317653-calayer-tutorial-for-ios-getting-started).

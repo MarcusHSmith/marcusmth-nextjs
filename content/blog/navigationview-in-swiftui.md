@@ -8,6 +8,9 @@ tags:
   - swift
   - swiftui
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 SwiftUI makes `NavigationView`(s) much simpler. [Apple Developer Docs](https://developer.apple.com/documentation/swiftui/navigationview)

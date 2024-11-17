@@ -9,6 +9,9 @@ tags:
   - ios
   - swiftui
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 SwiftUI is the new thing and as an iOS developer I'm excited about it. It promises to make mobile UI code reactive and simpler. This allows for less code and encourages us to lean into the native SDK to handle design decisions.

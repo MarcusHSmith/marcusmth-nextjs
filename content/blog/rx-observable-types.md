@@ -7,6 +7,9 @@ description: Difference between Observable Single Maybe in Rx and RxSwift
 tags:
   - swift
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 ## Types

@@ -7,6 +7,9 @@ description: How to fix Swift error - Extension Must Not Contain Stored Properti
 tags:
   - swift
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 The error `Extension Must Not Contain Stored Properties` is common in Swift. This occurs when a variable is instantiated inside a class extension.

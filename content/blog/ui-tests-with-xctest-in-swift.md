@@ -9,6 +9,9 @@ tags:
   - xctest
   - xcuitest
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 ## Overview

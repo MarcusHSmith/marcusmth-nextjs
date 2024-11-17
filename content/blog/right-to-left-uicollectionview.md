@@ -7,6 +7,9 @@ description: Setup a UICollectionView where the zero index is on the right
 tags:
   - swift
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 Recently I needed to build a chart where the right most index was the most recent data. As the user scrolled left, older data would be requested and shown.

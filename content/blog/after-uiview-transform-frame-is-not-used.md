@@ -8,6 +8,9 @@ tags:
   - swift
   - UIKit
 isPublished: true
+featuredImage:
+  src: "swift-logo.svg"
+  alt: "Swift logo"
 ---
 
 ### The Backstory
