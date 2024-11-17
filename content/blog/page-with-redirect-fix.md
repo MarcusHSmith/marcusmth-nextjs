@@ -7,6 +7,9 @@ description: Debug and fix redirect issues reported in Google Search Console usi
 tags:
   - seo
 isPublished: true
+featuredImage:
+  src: "google-search-console-logo.png"
+  alt: "Google Search Console logo"
 ---
 
 # How to Fix "Page with redirect" Error in Google Search Console
