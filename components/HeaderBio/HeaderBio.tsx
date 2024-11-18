@@ -32,9 +32,9 @@ export function HeaderBio({
         return (
           <div>
             <span>
-              {homeLink} lives and works in New York City. He is a software
-              engineer focused on iOS and React development. This is used as a
-              repository for information learned and utilized.
+              {homeLink} spends his time at WeWorks. He is a software engineer
+              focused on iOS and React development. This is used as a repository
+              for information learned and utilized.
             </span>
             <InternalLinks />
             <ExternalLinks />
