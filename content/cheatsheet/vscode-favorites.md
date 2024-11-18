@@ -1,7 +1,7 @@
 ---
 path: cheatsheet
 date: "2019-12-10T22:12:03.285Z"
-lastUpdated: "2022-01-04T17:15:15.823Z"
+lastUpdated: "2024-11-18T17:15:15.823Z"
 title: Visual Studio Code Cheatsheet
 description: My favorite VSCode Commands
 tags:
@@ -20,3 +20,7 @@ If I need to look up multiple times, I should just record it in my own cheatshee
 `CTR + SHIFT + -` go to next cursor position
 
 `CMD + K, CMD + 0` collapse all sections in file
+
+## Extensions
+
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - git blame inline
