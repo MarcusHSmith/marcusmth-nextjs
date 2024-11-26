@@ -10,7 +10,7 @@ export async function getStaticPaths() {
   blogFiles.forEach((fileName) => {
     const file = fs.readFileSync(`content/blog/${fileName}`, "utf-8");
     const { data: frontmatter } = matter(file);
-    const tags = frontmatter.tags;
+    const tags = frontmatter.tags ?? [];
     tags.forEach((tag) => {
       allTags.add(tag.toLowerCase());
     });
@@ -20,7 +20,7 @@ export async function getStaticPaths() {
   cheatsheetFiles.forEach((fileName) => {
     const file = fs.readFileSync(`content/cheatsheet/${fileName}`, "utf-8");
     const { data: frontmatter } = matter(file);
-    const tags = frontmatter.tags;
+    const tags = frontmatter.tags ?? [];
     tags.forEach((tag) => {
       allTags.add(tag.toLowerCase());
     });
