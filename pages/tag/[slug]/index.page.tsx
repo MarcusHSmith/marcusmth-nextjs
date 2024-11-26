@@ -44,7 +44,7 @@ export async function getStaticProps({ params: { slug } }) {
   cheatsheetFiles.forEach((fileName) => {
     const file = fs.readFileSync(`content/cheatsheet/${fileName}`, "utf-8");
     const { data: frontmatter } = matter(file);
-    const tags: string[] = frontmatter.tags;
+    const tags: string[] = frontmatter.tags ?? [];
     if (tags.indexOf(slug) > -1) {
       cheatsheetLinks.push({
         title: frontmatter.title,
@@ -61,7 +61,7 @@ export async function getStaticProps({ params: { slug } }) {
   blogFiles.forEach((fileName) => {
     const file = fs.readFileSync(`content/blog/${fileName}`, "utf-8");
     const { data: frontmatter } = matter(file);
-    const tags: string[] = frontmatter.tags;
+    const tags: string[] = frontmatter.tags ?? [];
     if (tags.indexOf(slug) > -1) {
       blogLinks.push({
         title: frontmatter.title,
