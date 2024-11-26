@@ -5,7 +5,7 @@ lastUpdated: "2024-02-15T22:12:03.284Z"
 title: SEO Cheatsheet
 description: My learnings and favorite SEO resources
 tags:
-  - SEO
+  - seo
 isPublished: true
 ---
 

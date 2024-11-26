@@ -6,7 +6,7 @@ title: Why I created an AI blog for SEO
 description: Beautifulroads.fyi is a blog that requires minimal work and provides outsized returns
 tags:
   - youtube
-  - SEO
+  - seo
 isPublished: true
 featuredImage:
   src: "beautiful-roads.webp"
