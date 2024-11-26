@@ -3,13 +3,13 @@ import { Tag } from "../Tag/Tag";
 import router from "next/router";
 
 interface IProps {
-  tags: string[];
+  tags: string[] | undefined;
 }
 
 export function TagList({ tags }: IProps): ReactElement {
   return (
     <div className="flex flex-row gap-2">
-      {tags.map((t: string) => {
+      {(tags || []).map((t: string) => {
         return (
           <button
             key={t}
