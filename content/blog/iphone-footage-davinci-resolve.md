@@ -9,7 +9,7 @@ featuredImage:
   alt: "DaVinci Resolve logo"
 tags:
   - youtube
-  - davinciResolve
+  - davinci_resolve
 isPublished: true
 ---
 
