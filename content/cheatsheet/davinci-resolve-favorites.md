@@ -5,7 +5,7 @@ lastUpdated: "2024-11-27T10:00:00.000Z"
 title: DaVinci Resolve Cheatsheet
 description: My favorite DaVinci Resolve shortcuts and tips
 tags:
-  - davinci-resolve
+  - davinci_resolve
 isPublished: true
 featuredImage:
   src: "davinci-resolve-logo.png"
