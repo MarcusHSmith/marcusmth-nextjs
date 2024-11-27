@@ -2,7 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import { HeaderBio } from "../../../components/HeaderBio/HeaderBio";
 import { PostItem } from "../../../components/PostItem/PostItem";
-import { Tag } from "../../../components/TagList/TagList";
+import { Tag } from "../../../components/Tag/Tag";
 
 export async function getStaticPaths() {
   const allTags = new Set<string>();
