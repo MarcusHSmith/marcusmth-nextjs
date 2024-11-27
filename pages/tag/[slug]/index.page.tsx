@@ -2,6 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import { HeaderBio } from "../../../components/HeaderBio/HeaderBio";
 import { PostItem } from "../../../components/PostItem/PostItem";
+import { Tag } from "../../../components/TagList/TagList";
 
 export async function getStaticPaths() {
   const allTags = new Set<string>();
@@ -85,7 +86,10 @@ export default function TagPage({ cheatsheetLinks, blogLinks, slug }) {
   return (
     <div className="max-w-4xl mx-auto">
       <HeaderBio presentation="min" />
-      <span className="font-bold text-lg">TAG: {slug}</span>
+      <div className="flex flex-row items-center gap-2">
+        <span className="font-bold text-lg">TAG:</span>
+        <Tag name={slug} />
+      </div>
       <hr />
       <span className="font-bold text-lg">Blog Posts</span>
       <hr />
