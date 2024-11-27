@@ -22,3 +22,5 @@ If I need to look up multiple times, I should just record it in my own cheatshee
 
 - [How to correct iPhone footage in DaVinci Resolve
   ](https://www.marcusmth.com/iphone-footage-davinci-resolve)
+- [How to export YouTube chapters with DaVinci Resolve
+  ](https://www.marcusmth.com/export-youtube-chapters-with-davinci-resolve)
