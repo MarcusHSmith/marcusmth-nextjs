@@ -16,7 +16,7 @@ If I need to look up multiple times, I should just record it in my own cheatshee
 
 ### Shortcuts
 
-`m' add chapter marking
+`M` add chapter marking
 
 ### Additional Resources
 
