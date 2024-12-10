@@ -3,7 +3,7 @@ path: blog
 date: "2024-02-06T01:39:25.326Z"
 lastUpdated: "2024-02-15T02:17:46.212Z"
 title: Why I created an AI blog for SEO
-description: Beautifulroads.fyi is a blog that requires minimal work and provides outsized returns
+description: MostBeautifulRoads.com is a blog that requires minimal work and provides outsized returns
 tags:
   - youtube
   - seo
@@ -15,7 +15,7 @@ featuredImage:
 
 # Why I created an AI blog for SEO
 
-This week I launched a new blog called [Beautiful Roads](https://beautifulroads.fyi) that uses AI to generate content. It was inspired after I discovered [Dangerous Roads](https://dangerousroads.org) and how much traffic these search based blogs are receiving. Dangerous Roads was sending traffic to [People Watching](https://www.youtube.com/@PeopleWatchingMarcus) and I want to build a similar blog to send traffic to my YouTube channel.
+This week I launched a new blog called [Beautiful Roads](https://mostbeautifulroads.com) that uses AI to generate content. It was inspired after I discovered [Dangerous Roads](https://dangerousroads.org) and how much traffic these search based blogs are receiving. Dangerous Roads was sending traffic to [People Watching](https://www.youtube.com/@PeopleWatchingMarcus) and I want to build a similar blog to send traffic to my YouTube channel.
 
 # Building an SEO Network
 
