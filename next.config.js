@@ -50,7 +50,7 @@ const nextConfig = {
         destination: "/api/reports_wework_berlin_sitemap",
       },
       {
-        source: "/feed.xml",
+        source: "/feed.xml/",
         destination: "/api/feed",
       },
     ];
@@ -70,7 +70,7 @@ const nextConfig = {
           },
         ],
         permanent: true,
-        destination: "https://marcusmth.com/:path*",
+        destination: "https://marcusmth.com/:path*/",
       },
     ];
   },

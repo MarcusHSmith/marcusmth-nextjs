@@ -6,7 +6,7 @@ async function generateRSSFeed() {
   const feed = new RSS({
     title: "Marcus Smith's Blog",
     generator: "RSS for Node and Next.js",
-    feed_url: "https://marcusmth.com/feed.xml",
+    feed_url: "https://marcusmth.com/feed.xml/",
     site_url: "https://marcusmth.com/",
     managingEditor: "mhs2121@gmail.com (Marcus Smith)",
     webMaster: "mhs2121@gmail.com (Marcus Smith)",
