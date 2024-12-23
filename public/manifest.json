@@ -1,0 +1,16 @@
+{
+  "name": "Marcus Smith's Blog",
+  "short_name": "marcusmth",
+  "description": "Software engineering insights, YouTube content, and startup journey from Marcus Smith",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/images/profile-pic-marcus.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ]
+}

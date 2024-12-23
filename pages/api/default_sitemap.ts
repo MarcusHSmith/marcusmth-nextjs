@@ -1,12 +1,27 @@
 async function generateSiteMap() {
+  const today = new Date().toISOString().split("T")[0];
+
   return `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
         <loc>https://marcusmth.com/</loc>
-        <lastmod>2024-10-25</lastmod>
+        <lastmod>${today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
       </url>
-    </urlset>
- `;
+      <url>
+        <loc>https://marcusmth.com/blog/</loc>
+        <lastmod>${today}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+      </url>
+      <url>
+        <loc>https://marcusmth.com/cheatsheet/</loc>
+        <lastmod>${today}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+      </url>
+    </urlset>`;
 }
 
 export default async function sitemap(req, res) {

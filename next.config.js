@@ -61,8 +61,9 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Redirect www to non-www
       {
-        source: "/:path*/",
+        source: "/:path*",
         has: [
           {
             type: "host",
@@ -70,7 +71,32 @@ const nextConfig = {
           },
         ],
         permanent: true,
-        destination: "https://marcusmth.com/:path*/",
+        destination: "https://marcusmth.com/:path*",
+      },
+      // Redirect HTTP to HTTPS
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "header",
+            key: "x-forwarded-proto",
+            value: "http",
+          },
+        ],
+        permanent: true,
+        destination: "https://marcusmth.com/:path*",
+      },
+      // Remove index.html from URLs
+      {
+        source: "/:path*/index.html",
+        permanent: true,
+        destination: "/:path*/",
+      },
+      // Remove .html extensions
+      {
+        source: "/:path*.html",
+        permanent: true,
+        destination: "/:path*",
       },
     ];
   },
