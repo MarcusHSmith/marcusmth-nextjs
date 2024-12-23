@@ -62,7 +62,7 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/:path*",
+        source: "/:path*/",
         has: [
           {
             type: "host",
