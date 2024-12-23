@@ -6,6 +6,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  trailingSlash: true,
   pageExtensions: [
     "page.tsx",
     "page.ts",
@@ -58,6 +59,21 @@ const nextConfig = {
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
+  },
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "www.marcusmth.com",
+          },
+        ],
+        permanent: true,
+        destination: "https://marcusmth.com/:path*",
+      },
+    ];
   },
 };
 

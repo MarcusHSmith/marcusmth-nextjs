@@ -7,7 +7,7 @@ async function generateSiteMap() {
     ${posts.map((slug) => {
       return `
       <url>
-        <loc>https://marcusmth.com/${slug}</loc>
+        <loc>https://marcusmth.com/${slug}/</loc>
         <lastmod>2024-10-25</lastmod>
       </url>
     `;
@@ -20,7 +20,8 @@ export default async function sitemap(req, res) {
   const sitemap = await generateSiteMap();
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/xml");
-  res.setHeader("Cache-control", "stale-while-revalidate, s-maxage=3600");
+  res.setHeader("Cache-control", "no-cache, no-store, must-revalidate");
+  res.setHeader("X-Sitemap-Version", Date.now().toString());
   res.end(sitemap);
 
   return undefined;
