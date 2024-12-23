@@ -6,8 +6,8 @@ async function generateRSSFeed() {
   const feed = new RSS({
     title: "Marcus Smith's Blog",
     generator: "RSS for Node and Next.js",
-    feed_url: "https://www.marcusmth.com/feed.xml",
-    site_url: "https://www.marcusmth.com/",
+    feed_url: "https://marcusmth.com/feed.xml/",
+    site_url: "https://marcusmth.com/",
     managingEditor: "mhs2121@gmail.com (Marcus Smith)",
     webMaster: "mhs2121@gmail.com (Marcus Smith)",
     copyright: `Copyright ${new Date().getFullYear().toString()}, Marcus Smith`,
@@ -22,7 +22,7 @@ async function generateRSSFeed() {
     feed.item({
       title: post.frontmatter.title,
       description: post.frontmatter.description,
-      url: `https://www.marcusmth.com/${post.slug}`,
+      url: `https://marcusmth.com/${post.slug}/`,
       categories: post.frontmatter.tags || [],
       author: "Marcus Smith",
       date: post.frontmatter.date,

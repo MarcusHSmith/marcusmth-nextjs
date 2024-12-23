@@ -2,4 +2,7 @@
 User-agent: *
 Allow: /
 
+# Specify canonical host
+Host: https://marcusmth.com/
+
 Sitemap: https://marcusmth.com/sitemap.xml

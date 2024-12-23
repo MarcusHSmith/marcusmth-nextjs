@@ -33,7 +33,8 @@ export default async function handler(req, res) {
   const sitemap = await generateSiteMap();
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/xml");
-  res.setHeader("Cache-control", "stale-while-revalidate, s-maxage=3600");
+  res.setHeader("Cache-control", "no-cache, no-store, must-revalidate");
+  res.setHeader("X-Sitemap-Version", new Date().toISOString());
   res.end(sitemap);
 
   return undefined;

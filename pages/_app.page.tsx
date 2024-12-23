@@ -19,18 +19,37 @@ function MyApp({ Component, pageProps }) {
   const ogKeywordsWithFallback =
     tags?.join(", ") ||
     "marcus, smith, software, engineer, blog, youtube, analytics";
+  const canonicalUrl = `https://marcusmth.com${pageProps.path || ""}`;
 
   return (
     <>
       <Head>
         <title>{titleWithFallback}</title>
-        <meta property="og:title" content={titleWithFallback} />
-        <meta property="og:image" content={ogImageWithFallback} />
-        <meta property="description" content={descriptionWithFallback} />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#3b82f6" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="canonical" href={canonicalUrl} />
+
+        {/* Primary Meta Tags */}
+        <meta name="title" content={titleWithFallback} />
         <meta name="description" content={descriptionWithFallback} />
-        <meta property="og:description" content={descriptionWithFallback} />
         <meta name="keywords" content={ogKeywordsWithFallback} />
-        <meta name="twitter:card" content="summary" />
+        <meta name="author" content="Marcus Smith" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:title" content={titleWithFallback} />
+        <meta property="og:description" content={descriptionWithFallback} />
+        <meta property="og:image" content={ogImageWithFallback} />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content={canonicalUrl} />
+        <meta name="twitter:title" content={titleWithFallback} />
+        <meta name="twitter:description" content={descriptionWithFallback} />
+        <meta name="twitter:image" content={ogImageWithFallback} />
       </Head>
       <Layout>
         <Component {...pageProps} />

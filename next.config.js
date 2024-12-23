@@ -5,7 +5,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
+  trailingSlash: true,
   pageExtensions: [
     "page.tsx",
     "page.ts",
@@ -50,7 +50,7 @@ const nextConfig = {
         destination: "/api/reports_wework_berlin_sitemap",
       },
       {
-        source: "/feed.xml",
+        source: "/feed.xml/",
         destination: "/api/feed",
       },
     ];
@@ -58,6 +58,47 @@ const nextConfig = {
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
+  },
+  async redirects() {
+    return [
+      // Redirect www to non-www
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "www.marcusmth.com",
+          },
+        ],
+        permanent: true,
+        destination: "https://marcusmth.com/:path*",
+      },
+      // Redirect HTTP to HTTPS
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "header",
+            key: "x-forwarded-proto",
+            value: "http",
+          },
+        ],
+        permanent: true,
+        destination: "https://marcusmth.com/:path*",
+      },
+      // Remove index.html from URLs
+      {
+        source: "/:path*/index.html",
+        permanent: true,
+        destination: "/:path*/",
+      },
+      // Remove .html extensions
+      {
+        source: "/:path*.html",
+        permanent: true,
+        destination: "/:path*",
+      },
+    ];
   },
 };
 
