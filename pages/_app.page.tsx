@@ -1,5 +1,6 @@
 import Layout from "../components/layout";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
 
 import "../styles/globals.css";
@@ -55,6 +56,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </Layout>
       <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />
+      <Analytics />
     </>
   );
 }
