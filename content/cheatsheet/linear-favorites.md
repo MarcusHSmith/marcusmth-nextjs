@@ -17,7 +17,9 @@ Linear is a modern issue tracking tool built for speed and efficiency. Here are 
 ## Keyboard Shortcuts
 
 `SHIFT + C` create a cycle
+
 `SHIFT + P` create a project
+
 `SHIFT + A` assign a user to an issue
 
 `CMD + A` select all
