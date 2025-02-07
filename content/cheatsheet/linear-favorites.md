@@ -6,7 +6,7 @@ title: Linear App Cheatsheet
 description: Essential keyboard shortcuts and features for Linear
 isPublished: true
 featuredImage:
-  src: "google-search-console-logo.png"
+  src: "linear/wordmark-dark.png"
   alt: "Linear logo"
 tags:
   - linear
