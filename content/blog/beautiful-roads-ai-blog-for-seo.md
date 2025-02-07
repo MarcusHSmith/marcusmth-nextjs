@@ -5,7 +5,6 @@ lastUpdated: "2024-02-15T02:17:46.212Z"
 title: Why I created an AI blog for SEO
 description: MostBeautifulRoads.com is a blog that requires minimal work and provides outsized returns
 tags:
-  - youtube
   - seo
 isPublished: true
 featuredImage:

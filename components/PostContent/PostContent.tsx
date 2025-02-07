@@ -21,11 +21,11 @@ export default function PostPage({ frontmatter, content }) {
     }
 
     const renderedContent = md().render(content);
-    const parts = renderedContent.split(/(YOUTUBE_VIDEO_ID=\w+)/);
+    const parts = renderedContent.split(/(YOUTUBE_VIDEO_ID=[-\w]+\n[^\n]+)/);
 
     return parts.map((part, index) => {
       if (part.startsWith("YOUTUBE_VIDEO_ID=")) {
-        const videoId = part.split("=")[1];
+        const videoId = part.split(/[\n=]/)[1];
         return <YouTubeEmbed key={index} videoId={videoId} />;
       }
       return <span key={index} dangerouslySetInnerHTML={{ __html: part }} />;

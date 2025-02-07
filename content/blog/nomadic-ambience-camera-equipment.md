@@ -12,6 +12,9 @@ featuredImage:
   alt: "Youtube Logo"
 ---
 
+YOUTUBE_VIDEO_ID=F8MN0o6RS9o
+Snowfall in Times Square, NYC | Walking in New York City in the Winter Snow, 4k
+
 # Nomadic Ambience Camera Equipment
 
 [Nomadic Ambience](https://www.youtube.com/@NomadicAmbience) is the leader for city soundscapes and ambience sounds on Youtube and Spotify. Their immersive videos inspired my [Youtube Channel](https://www.youtube.com/channel/UCzLPnJlM_5IEe2djVMB2jLA). Here is the most up to date information about their setup for recording video and audio.
