@@ -5,6 +5,9 @@ lastUpdated: "2024-03-26T10:00:00.000Z"
 title: Linear App Cheatsheet
 description: Essential keyboard shortcuts and features for Linear
 isPublished: true
+featuredImage:
+  src: "google-search-console-logo.png"
+  alt: "Linear logo"
 tags:
   - linear
 ---
