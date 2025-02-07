@@ -24,4 +24,4 @@ Linear is a modern issue tracking tool built for speed and efficiency. Here are 
 
 ## Blog Posts
 
-- [How to Update Your Linear Team Workspace Name and Issue URL](../blog/how-to-update-linear-workspace-settings)
+- [How to Update Your Linear Team Workspace Name and Issue URL](https://marcusmth.com/how-to-update-linear-workspace-settings)
