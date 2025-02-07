@@ -72,13 +72,13 @@ export default function PostPage({ frontmatter, content }) {
       </Head>
       <HeaderBio presentation="min" />
       {frontmatter.featuredImage && (
-        <div className="mb-8 rounded-lg overflow-hidden shadow-lg">
+        <div className="mb-8 rounded-lg overflow-hidden shadow-lg max-h-[400px] flex items-center justify-center">
           <Image
             src={`/images/${frontmatter.featuredImage.src}`}
             alt={frontmatter.title}
             width={1024}
             height={1024}
-            className="w-full h-64 object-cover"
+            className="w-auto h-auto max-h-[400px] object-contain"
           />
         </div>
       )}
