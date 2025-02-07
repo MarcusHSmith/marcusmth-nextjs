@@ -1,10 +1,13 @@
 ---
 path: blog
-date: "2024-02-08T10:00:00.000Z"
-lastUpdated: "2024-02-08T10:00:00.000Z"
+date: "2025-02-08T10:00:00.000Z"
+lastUpdated: "2025-02-08T10:00:00.000Z"
 title: How to Update Your Linear Team Workspace Name and Issue URL
 description: A step-by-step guide to customize your Linear workspace settings including team name and issue URL format
 isPublished: true
+featuredImage:
+  src: "linear/wordmark-dark.png"
+  alt: "Linear logo"
 tags:
   - linear
 ---
