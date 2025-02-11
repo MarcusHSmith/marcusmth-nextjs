@@ -1,7 +1,7 @@
 ---
 path: cheatsheet
 date: "2025-01-25T10:00:00.000Z"
-lastUpdated: "2025-01-25T10:00:00.000Z"
+lastUpdated: "2025-02-11T10:00:00.000Z"
 title: Linear App Cheatsheet
 description: Essential keyboard shortcuts and features for Linear
 isPublished: true
@@ -15,6 +15,12 @@ tags:
 Linear is a modern issue tracking tool built for speed and efficiency. Here are the most useful shortcuts and features.
 
 ## Keyboard Shortcuts
+
+`O + P` open project
+
+`O + I` open issue
+
+`O + D` open document
 
 `SHIFT + C` create a cycle
 
