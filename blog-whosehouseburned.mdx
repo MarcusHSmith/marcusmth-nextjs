@@ -1,25 +1,28 @@
 ---
 title: "Building WhoseHouseBurned.com: A Friday Night AI Agent Hackathon"
 tags: ["nextjs", "cursor", "ai", "vercel"]
+description: "The story of building a celebrity home tracker during the 2025 LA fires - from concept to deployment in a single night using Next.js, AI agents, and automated data collection"
+date: "2025-02-19T18:25:11.908Z"
+lastUpdated: "2025-02-19T18:25:11.951Z"
+path: "whosehouseburned-hackathon"
+isPublished: true
 ---
 
 # Building WhoseHouseBurned.com: A Friday Night Hackathon During LA Fires
 
-When the Palisades and Altadena fires shut down Los Angeles, I found myself with an unexpected Friday night project. The result? [WhoseHouseBurned.com](https://www.whosehouseburned.com) - a real-time tracker of celebrity homes affected by the January 2025 fires.
+When the Palisades and Altadena fires shut down Los Angeles, I was locked inside and inspired to build. With the help of Cursor's AI agents, I built [WhoseHouseBurned.com](https://www.whosehouseburned.com) - a tracker of celebrity homes affected by the January 2025 fires.
 
 ## The Build Process
 
-Armed with Cursor's AI agents and a clear mission, I set out to create a simple but effective platform. The site needed to be:
-
-- Fast to build
-- Easy to update
-- Reliable for concerned residents and curious onlookers
+Armed with Cursor's AI agents and a product spec, I set out to build each feature one by one. Creating a branch and Pull Request for each feature allowed me to isolate features and continue to build while Vercel was deploying the previous changes.
 
 Using Next.js and Vercel for deployment, I quickly had a working prototype. The development process was significantly accelerated by Cursor's AI agents, which helped me iterate through different designs and implementations rapidly.
 
+One challenge with Cursor Agents is that you're limited to a single agent at a time. While having multiple agents would be great, the bottleneck is around ideas. While the agent is working, I'm unable to provide additional context on this task or other tasks. Devin.ai solves this but is lacking in other areas.
+
 ## The Vercel Deploy Limit Saga
 
-Here's a funny tidbit: I actually hit Vercel's free deployment limits during development! The combination of rapid iterations with Cursor's AI agents and my "deploy early, deploy often" approach meant I was pushing updates faster than I expected. It's probably the first time I've ever maxed out Vercel's generous free tier - a badge of honor, perhaps?
+The flow of Cursor Agent to Vercel preview is OP, but can be intoxicating. About 2 hours into development, I hit Vercel's free deployment limits. I was able to work around this by using Cursor's AI agents to deploy to a local server, but the speed slowed for 24 hours.
 
 ## Keeping It Current
 
@@ -29,22 +32,11 @@ The site maintains its relevance through a multi-pronged data collection approac
 2. Automated daily ChatGPT queries that:
    - Check existing site data
    - Scan for new information across the internet
-   - Identify and update any differences
-
-This automated differential update system ensures the information stays fresh with minimal manual intervention.
+   - Identify any differences
 
 ## Technical Stack
 
 - Next.js for the frontend
 - Vercel for hosting
 - ChatGPT for automated data verification
-- Custom scripts for social media monitoring
 - Cursor AI agents for development assistance
-
-## Looking Forward
-
-What started as a Friday night hackathon has evolved into a useful resource for tracking the impact of the LA fires on residential areas. While the circumstances that prompted its creation are unfortunate, the project demonstrates how quickly we can deploy useful tools in response to emerging situations.
-
-The site continues to serve as a central information hub, and the automated update system ensures it remains relevant as the situation evolves.
-
-Feel free to contribute additional information by emailing report@whosehouseburned.com.
