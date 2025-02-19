@@ -10,17 +10,15 @@ isPublished: true
 
 # Building WhoseHouseBurned.com: A Friday Night Hackathon During LA Fires
 
-When the Palisades and Altadena fires shut down Los Angeles, I was locked inside and inspired to build. With the help of Cursor's AI agents, I built [WhoseHouseBurned.com](https://www.whosehouseburned.com) - a tracker of celebrity homes affected by the January 2025 fires.
+When the Palisades and Altadena fires shut down Los Angeles, I was stuck inside and inspired to build. With the help of Cursor's AI agents, I built [WhoseHouseBurned.com](https://www.whosehouseburned.com) - a tracker of celebrity homes affected by the January 2025 fires.
 
 ## The Build Process
 
-Armed with Cursor's AI agents and a product spec, I set out to build each feature one by one. Creating a branch and Pull Request for each feature allowed me to isolate features and continue to build while Vercel was deploying the previous changes.
+Armed with [Cursor's AI agents](https://www.cursor.com) and a product spec, I set out to build each feature one by one. Creating a branch and Pull Request for each feature allowed me to isolate features and continue to build while [Vercel](https://vercel.com) was deploying the previous changes.
 
-Using Next.js and Vercel for deployment, I quickly had a working prototype. The development process was significantly accelerated by Cursor's AI agents, which helped me iterate through different designs and implementations rapidly.
+One challenge with Cursor Agents is that you're limited to a single agent at a time. While having multiple agents would be great, the bottleneck is around ideas. While the agent is working, I'm unable to provide additional context on this task or other tasks. [Devin.ai](https://devin.ai/) solves this but is lacking in other areas.
 
-One challenge with Cursor Agents is that you're limited to a single agent at a time. While having multiple agents would be great, the bottleneck is around ideas. While the agent is working, I'm unable to provide additional context on this task or other tasks. Devin.ai solves this but is lacking in other areas.
-
-## The Vercel Deploy Limit Saga
+## The Vercel Deploy Limits
 
 The flow of Cursor Agent to Vercel preview is OP, but can be intoxicating. About 2 hours into development, I hit Vercel's free deployment limits. I was able to work around this by using Cursor's AI agents to deploy to a local server, but the speed slowed for 24 hours.
 
