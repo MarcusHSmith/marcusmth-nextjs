@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2025-01-11T10:00:00.000Z"
+lastUpdated: "2025-03-07T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -26,7 +26,7 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2025
 
-🏃‍♂️ [Engineering Management for the Rest of Us](https://www.amazon.com/gp/product/B0BGYVDX35/ref=ppx_yo_dt_b_d_asin_title_351_o00?ie=UTF8&psc=1) by [Sarah Drasner](https://sarah.dev/)
+[Engineering Management for the Rest of Us](https://www.amazon.com/gp/product/B0BGYVDX35/ref=ppx_yo_dt_b_d_asin_title_351_o00?ie=UTF8&psc=1) by [Sarah Drasner](https://sarah.dev/)
 
 ## 2024
 
