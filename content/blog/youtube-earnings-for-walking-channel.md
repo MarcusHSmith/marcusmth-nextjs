@@ -2,7 +2,7 @@
 title: "How Much Money Can You Make with a Walking Video Channel on YouTube?"
 description: "A detailed breakdown of earnings from a walking video channel, including AdSense revenue, MSN Partner Hub income, and content sales"
 date: "2025-03-04T18:25:11.908Z"
-lastUpdated: "2025-03-04T18:25:11.908Z"
+lastUpdated: "2025-03-27T18:25:11.908Z"
 tags: ["youtube", "adsense", "msn"]
 path: "youtube-earnings-for-walking-channel"
 isPublished: true
@@ -38,9 +38,15 @@ My channel focuses on walking videos, capturing the essence of different locatio
 
   ![2024 YouTube earnings](../images/youtube-earnings/2024-earnings.jpg)
 
+### 2025 (ongoing)
+
+- Total Revenue: **$1,354.84**
+- Total AdSense Revenue: $1,282.40 ($3.08 RPM)
+- Total MSN Revenue: $72.44 (3 months)
+
 ## Notable Videos
 
-### Highest Total Revenue:
+### Highest Total Revenue ($985.75):
 
 YOUTUBE_VIDEO_ID=7yspRZi9Tu8
 Tossa De Mar 🇪🇸 Beach Spain 2023
