@@ -40,13 +40,13 @@ My channel focuses on walking videos, capturing the essence of different locatio
 
 ### 2025 (ongoing)
 
-- Total Revenue: **$1,354.84**
-- Total AdSense Revenue: $1,282.40 ($3.08 RPM)
-- Total MSN Revenue: $72.44 (3 months)
+- Total Revenue: **$1,583.09**
+- Total AdSense Revenue: $1,479.99 ($3.13 RPM)
+- Total MSN Revenue: $103.10 (3 months)
 
 ## Notable Videos
 
-### Highest Total Revenue ($985.75):
+### Highest Total Revenue ($1,111.93):
 
 YOUTUBE_VIDEO_ID=7yspRZi9Tu8
 Tossa De Mar 🇪🇸 Beach Spain 2023
