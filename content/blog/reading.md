@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2025-03-28T10:00:00.000Z"
+lastUpdated: "2025-05-20T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -26,7 +26,9 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2025
 
-🏃‍♂️ [Fear and Loathing in Las Vegas](https://www.amazon.com/Fear-Loathing-Las-Vegas-American/dp/0679785892/ref=sr_1_1?crid=13V8VEZIHGS4W&dib=eyJ2IjoiMSJ9.KGws7Pa7tuWK9mraRZlih0PQe-WD_T26BY8bl6IB37csir88WR4y_JWiwlkygLGCK4OgFoTmnRWDtkAbuU-fuYNbVlsLOsipiZv2Ko3zbfOUGw7wHs3uwiwhncWB_egVnYuQgDmJod_XwPeZ6iKrmh5blKCLzJidptAe34h5bpRmyUP-0f7YtJnfvdzWLz-jImHTXEbDunEvZhU7DDEUUVvcT2VoCS-k1_KfYgAMmSI.lacd2I6ls9oLU7hX2WiULo4_BUpfrH1gLMDGHzkJh7s&dib_tag=se&keywords=fear+and+loathing+in+las+vegas&qid=1743187906&sprefix=fear+and+lo%2Caps%2C202&sr=8-1) by Hunter S. Thompson
+[Five Decembers](https://www.amazon.com/Five-Decembers-James-Kestrel/dp/178909867X/ref=sr_1_1?dib=eyJ2IjoiMSJ9.s7cSNy4T58guz-kVj29nkOgUl2GEsBXQp9jphrJ3cfNpYy3D8IBfCJ3-vN7ICHRcVZfQIweH5zn7FZ9YaXlvmB4xGxlGhxjoezBKxcKSTSgvtWDHQWGZus_e6fsov_1kY_McEVLj-qXioug7ZClpSxmHOLNSeqPIqLzihuFoWO1YJvCpN3WLP3xduo9u6t_dAUObNMZ01-hW_qh2ePgNbtUAf7cZ0aBSUaVI5yOWGFY.c1WvlZkyl77HDSmD3Oh8E5LBmdmv3ErgMk8MLi4hK7s&dib_tag=se&keywords=five+decembers&qid=1747777599&sr=8-1) by [James Kestrel](https://x.com/jameskestrel)
+
+[Fear and Loathing in Las Vegas](https://www.amazon.com/Fear-Loathing-Las-Vegas-American/dp/0679785892/ref=sr_1_1?crid=13V8VEZIHGS4W&dib=eyJ2IjoiMSJ9.KGws7Pa7tuWK9mraRZlih0PQe-WD_T26BY8bl6IB37csir88WR4y_JWiwlkygLGCK4OgFoTmnRWDtkAbuU-fuYNbVlsLOsipiZv2Ko3zbfOUGw7wHs3uwiwhncWB_egVnYuQgDmJod_XwPeZ6iKrmh5blKCLzJidptAe34h5bpRmyUP-0f7YtJnfvdzWLz-jImHTXEbDunEvZhU7DDEUUVvcT2VoCS-k1_KfYgAMmSI.lacd2I6ls9oLU7hX2WiULo4_BUpfrH1gLMDGHzkJh7s&dib_tag=se&keywords=fear+and+loathing+in+las+vegas&qid=1743187906&sprefix=fear+and+lo%2Caps%2C202&sr=8-1) by Hunter S. Thompson
 
 [Engineering Management for the Rest of Us](https://www.amazon.com/gp/product/B0BGYVDX35/ref=ppx_yo_dt_b_d_asin_title_351_o00?ie=UTF8&psc=1) by [Sarah Drasner](https://sarah.dev/)
 
