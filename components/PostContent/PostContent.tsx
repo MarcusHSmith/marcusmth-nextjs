@@ -102,24 +102,6 @@ export default function PostPage({ frontmatter, content }) {
         </div>
         <hr className="mb-8" />
         {renderContent()}
-        <div className="mt-12 pt-4 border-t border-gray-200 text-sm text-gray-600">
-          <div className="flex items-center gap-2">
-            <p>
-              © {new Date().getFullYear()} by Marcus Smith. This work is
-              licensed under a{" "}
-              <a
-                href="https://creativecommons.org/licenses/by/4.0/"
-                target="_blank"
-                rel="license noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800"
-              >
-                Creative Commons Attribution 4.0 International License (CC-BY)
-              </a>
-              . You are free to share and adapt this content as long as you
-              provide attribution.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
