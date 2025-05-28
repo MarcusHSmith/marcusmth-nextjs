@@ -104,13 +104,6 @@ export default function PostPage({ frontmatter, content }) {
         {renderContent()}
         <div className="mt-12 pt-4 border-t border-gray-200 text-sm text-gray-600">
           <div className="flex items-center gap-2">
-            <Image
-              src="/images/cc-by.png"
-              alt="Creative Commons Attribution License"
-              width={88}
-              height={31}
-              className="inline-block"
-            />
             <p>
               © {new Date().getFullYear()} by Marcus Smith. This work is
               licensed under a{" "}

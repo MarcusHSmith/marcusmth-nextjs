@@ -8,13 +8,6 @@ export default function Layout({ children }): ReactElement {
       <footer className="mt-12 py-8 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center gap-2 text-sm text-gray-600">
-            <Image
-              src="/images/cc-by.png"
-              alt="Creative Commons Attribution License"
-              width={88}
-              height={31}
-              className="inline-block"
-            />
             <p>
               © {new Date().getFullYear()} by Marcus Smith. Except where
               otherwise noted, content on this site is licensed under a{" "}
