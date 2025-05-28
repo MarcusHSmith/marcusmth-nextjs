@@ -8,7 +8,7 @@ interface IProps {
 export function HomeLayout({ children }: IProps): ReactElement {
   return (
     <div className="p-4">
-      <HeaderBio presentation="full" />
+      <HeaderBio presentation="min" />
       {children}
     </div>
   );
