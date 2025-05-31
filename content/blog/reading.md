@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2025-05-20T10:00:00.000Z"
+lastUpdated: "2025-05-30T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -25,6 +25,8 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 🔊 for audiobooks
 
 ## 2025
+
+🏃‍♂️ [Blind Man's Bluff](https://www.amazon.com.br/Blind-Mans-Bluff-Submarine-Espionage/dp/1610393589) by Sherry Sontag, Christopher Drew, and Annette Lawrence Drew
 
 [Five Decembers](https://www.amazon.com/Five-Decembers-James-Kestrel/dp/178909867X/ref=sr_1_1?dib=eyJ2IjoiMSJ9.s7cSNy4T58guz-kVj29nkOgUl2GEsBXQp9jphrJ3cfNpYy3D8IBfCJ3-vN7ICHRcVZfQIweH5zn7FZ9YaXlvmB4xGxlGhxjoezBKxcKSTSgvtWDHQWGZus_e6fsov_1kY_McEVLj-qXioug7ZClpSxmHOLNSeqPIqLzihuFoWO1YJvCpN3WLP3xduo9u6t_dAUObNMZ01-hW_qh2ePgNbtUAf7cZ0aBSUaVI5yOWGFY.c1WvlZkyl77HDSmD3Oh8E5LBmdmv3ErgMk8MLi4hK7s&dib_tag=se&keywords=five+decembers&qid=1747777599&sr=8-1) by [James Kestrel](https://x.com/jameskestrel)
 
