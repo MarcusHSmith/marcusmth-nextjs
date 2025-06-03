@@ -31,30 +31,20 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home({ posts }) {
+export default function Home({ posts }): ReactElement {
   return (
     <HomeLayout>
       <>
-        <h1 className="text-4xl font-bold mb-8">
-          Software Engineering and Interests from Across the Web
-        </h1>
-        <PostList posts={posts} category="blog" limit={7} />
-        {/* <Reports /> */}
+        <PostList posts={posts} category="blog" limit={10} />
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold mb-6">Travel Guides</h2>
+          <div className="flex gap-4 justify-center">
+            <ReportItem city={CITY.PARIS} />
+            <ReportItem city={CITY.BERLIN} />
+          </div>
+        </div>
       </>
     </HomeLayout>
-  );
-}
-
-function Reports(): ReactElement {
-  return (
-    <div>
-      <div className="w-full h-44">
-        <div className="w-full h-full space-x-4 flex">
-          <ReportItem city={CITY.PARIS} />
-          <ReportItem city={CITY.BERLIN} />
-        </div>
-      </div>
-    </div>
   );
 }
 
@@ -67,20 +57,23 @@ function ReportItem({ city }: { city: CITY }): ReactElement {
         return "/images/IMG_7360.png";
     }
   }, [city]);
+
   return (
     <button
-      onClick={() => router.push(`/reports/wework/${city.toLocaleLowerCase()}`)}
-      className="aspect-square rounded-xl overflow-hidden h-44 w-44 relative"
+      onClick={() => router.push(`/reports/wework/${city.toLowerCase()}`)}
+      className="aspect-square rounded-xl overflow-hidden h-44 w-44 relative group hover:scale-105 transition-transform duration-300"
     >
       <Image
-        className="hover:opacity-60"
+        className="object-cover group-hover:opacity-60 transition-opacity duration-300"
         src={imageSrc}
-        alt="WeWork"
-        object-fit="contain"
-        width={176}
-        height={176}
+        alt={`WeWork Guide ${city}`}
+        fill
+        sizes="176px"
+        priority={false}
+        placeholder="blur"
+        blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkrHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyeCMMp4Hbv5/lMa7/aP//Z"
       />
-      <p className="absolute w-full bg-black bg-opacity-10 text-center bottom-0 font-bold text-white text-xl">
+      <p className="absolute w-full bg-black bg-opacity-50 text-center bottom-0 font-bold text-white text-xl p-2 transition-all duration-300 group-hover:bg-opacity-75">
         WeWork Guide {city}
       </p>
     </button>
