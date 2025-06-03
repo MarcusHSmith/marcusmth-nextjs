@@ -2,7 +2,6 @@ import Layout from "../components/layout";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
-import Script from "next/script";
 
 import "../styles/globals.css";
 
@@ -33,12 +32,6 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="/manifest.json" />
         <link rel="canonical" href={canonicalUrl} />
 
-        {/* Resource hints for performance */}
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://vitals.vercel-analytics.com" />
-        <link rel="dns-prefetch" href="https://img.youtube.com" />
-        <link rel="dns-prefetch" href="https://api.mapbox.com" />
-
         {/* Primary Meta Tags */}
         <meta name="title" content={titleWithFallback} />
         <meta name="description" content={descriptionWithFallback} />
@@ -56,16 +49,13 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content={canonicalUrl} />
         <meta name="twitter:title" content={titleWithFallback} />
-        <meta
-          property="twitter:description"
-          content={descriptionWithFallback}
-        />
-        <meta property="twitter:image" content={ogImageWithFallback} />
+        <meta name="twitter:description" content={descriptionWithFallback} />
+        <meta name="twitter:image" content={ogImageWithFallback} />
       </Head>
       <Layout>
         <Component {...pageProps} />
       </Layout>
-      {GA_MEASUREMENT_ID && <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />}
+      <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />
       <Analytics />
     </>
   );
