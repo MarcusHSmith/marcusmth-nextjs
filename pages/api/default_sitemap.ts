@@ -29,8 +29,7 @@ export default async function sitemap(req, res) {
   const version = new Date().getTime();
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/xml");
-  res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate");
-  res.setHeader("Pragma", "no-cache");
+  res.setHeader("Cache-Control", "public, max-age=3600, s-maxage=3600");
   res.setHeader("X-Version", version.toString());
   res.end(sitemap);
 
