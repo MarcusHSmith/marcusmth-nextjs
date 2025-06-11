@@ -31,6 +31,15 @@ function MyApp({ Component, pageProps }) {
         <meta name="theme-color" content="#3b82f6" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="canonical" href={canonicalUrl} />
+        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="robots"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta
+          name="googlebot"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
 
         {/* Primary Meta Tags */}
         <meta name="title" content={titleWithFallback} />
