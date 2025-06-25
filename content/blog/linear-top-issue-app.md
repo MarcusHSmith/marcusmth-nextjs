@@ -11,7 +11,7 @@ featuredImage:
   alt: "Linear Top Issue"
 ---
 
-I recently built [Linear Top Issue](https://linear-top-issue.app) - a web app that helps teams find their most important Linear issue. The project was completed in just 3 days using Next.js and deployed on Vercel. Here's what I learned while building it.
+I recently built [Linear Top Issue](https://www.linear-top-issue.app) - a web app that helps teams find their most important Linear issue. The project was completed in just 3 days using Next.js and deployed on Vercel. Here's what I learned while building it.
 
 ## What is Linear Top Issue?
 
@@ -98,9 +98,9 @@ The app's success depends on its simplicity. Users should be able to understand 
 
 ## Try It Out
 
-You can try Linear Top Issue at [linear-top-issue.app](https://linear-top-issue.app). The app is completely free and only requires access to your Linear workspace.
+You can try Linear Top Issue at [linear-top-issue.app](https://www.linear-top-issue.app). The app is completely free and only requires access to your Linear workspace.
 
-Visit the [about page](https://linear-top-issue.app/about) to learn more about how the algorithm works and who built it.
+Visit the [about page](https://www.linear-top-issue.app/about) to learn more about how the algorithm works and who built it.
 
 ## Conclusion
 
