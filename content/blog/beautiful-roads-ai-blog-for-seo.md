@@ -18,7 +18,7 @@ This week I launched a new blog called [Beautiful Roads](https://mostbeautifulro
 
 # Building an SEO Network
 
-Google's page rank algorithm is based on the links pointing to a page and specifically the value of those links. I have this blog [marcusmth.com](https://marcusmth.com), my YouTube channel [People Watching](https://www.youtube.com/@PeopleWatchingMarcus), and now Beautiful Roads. By linking these sites together, I can increase the value of each site and grow them together. _well at least that's the theory_
+Google's page rank algorithm is based on the links pointing to a page and specifically the value of those links. I have this blog [marcusmth.com](https://www.marcusmth.com), my YouTube channel [People Watching](https://www.youtube.com/@PeopleWatchingMarcus), and now Beautiful Roads. By linking these sites together, I can increase the value of each site and grow them together. _well at least that's the theory_
 
 # AI Blogging
 

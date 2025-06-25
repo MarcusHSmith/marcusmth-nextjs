@@ -15,7 +15,7 @@ featuredImage:
 
 ### The Backstory
 
-This story starts with an `UICollectionView` that goes from Right to Left. I wrote another post about how to make that happen called [Right to Left UICollectionView](https://marcusmth.com/right-to-left-uicollectionview/). When new cells were added to the chart, they grew into size. I was able to determine this by recording the screen and looking frame by frame at the UI.
+This story starts with an `UICollectionView` that goes from Right to Left. I wrote another post about how to make that happen called [Right to Left UICollectionView](https://www.marcusmth.com/right-to-left-uicollectionview/). When new cells were added to the chart, they grew into size. I was able to determine this by recording the screen and looking frame by frame at the UI.
 
 ### The Cause
 

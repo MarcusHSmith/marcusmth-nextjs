@@ -30,7 +30,7 @@ setup() {
 
 ### Cell [UPDATED 4/16/2021]
 
-The subviews of this cell must have a frame of `.zero`. This is documented in another post [After UIView transform frame is not used](https://marcusmth.com/after-uiview-transform-frame-is-not-used/).
+The subviews of this cell must have a frame of `.zero`. This is documented in another post [After UIView transform frame is not used](https://www.marcusmth.com/after-uiview-transform-frame-is-not-used/).
 
 ```
 class MyCollectionViewCell: UICollectionViewCell {
@@ -41,6 +41,7 @@ class MyCollectionViewCell: UICollectionViewCell {
         ...
         contentView.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
     }
+}
 ```
 
 ### FlowLayout

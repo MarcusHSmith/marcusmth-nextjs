@@ -28,15 +28,15 @@ export function StructuredData(props: StructuredDataProps): ReactElement {
       "@type": "WebSite",
       name: "marcusmth",
       description: "Marcus's thoughts and tools as a software engineer",
-      url: "https://marcusmth.com",
+      url: "https://www.marcusmth.com",
       author: {
         "@type": "Person",
         name: "Marcus Smith",
-        url: "https://marcusmth.com",
+        url: "https://www.marcusmth.com",
       },
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://marcusmth.com/search?q={search_term_string}",
+        target: "https://www.marcusmth.com/search?q={search_term_string}",
         "query-input": "required name=search_term_string",
       },
     };
@@ -67,12 +67,12 @@ export function StructuredData(props: StructuredDataProps): ReactElement {
     author: {
       "@type": "Person",
       name: "Marcus Smith",
-      url: "https://marcusmth.com",
+      url: "https://www.marcusmth.com",
     },
     publisher: {
       "@type": "Person",
       name: "Marcus Smith",
-      url: "https://marcusmth.com",
+      url: "https://www.marcusmth.com",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -82,7 +82,7 @@ export function StructuredData(props: StructuredDataProps): ReactElement {
     ...(blogProps.featuredImage && {
       image: {
         "@type": "ImageObject",
-        url: `https://marcusmth.com/images/${blogProps.featuredImage.src}`,
+        url: `https://www.marcusmth.com/images/${blogProps.featuredImage.src}`,
         caption: blogProps.featuredImage.alt,
       },
     }),

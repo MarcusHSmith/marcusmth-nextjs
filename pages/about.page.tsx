@@ -8,10 +8,10 @@ export default function AboutPage() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Marcus Smith",
-    url: "https://marcusmth.com",
+    url: "https://www.marcusmth.com",
     sameAs: ["https://github.com/marcusmth", "https://twitter.com/marcusmth"],
     jobTitle: "Software Engineer",
-    image: "https://marcusmth.com/images/profile-pic-marcus.jpg",
+    image: "https://www.marcusmth.com/images/profile-pic-marcus.jpg",
   };
 
   function ExternalLinks(): ReactElement {
@@ -47,7 +47,7 @@ export default function AboutPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <Head>
-        <title>About Marcus Smith | marcusmth.com</title>
+        <title>About Marcus Smith | www.marcusmth.com</title>
         <meta
           name="description"
           content="Learn more about Marcus Smith, a software engineer and content creator focused on technology and development."
@@ -74,7 +74,7 @@ export default function AboutPage() {
               others learn and grow in their tech journey.
             </p>
             <p className="mb-4">
-              Through marcusmth.com, I share my experiences, insights, and
+              Through www.marcusmth.com, I share my experiences, insights, and
               learnings about software development, tech entrepreneurship, and
               the ever-evolving world of technology.
             </p>

@@ -15,12 +15,12 @@ featuredImage:
 
 ### Other Cheatsheets
 
-[iOS Development](https://marcusmth.com/ios-development-favorites/)
+[iOS Development](https://www.marcusmth.com/ios-development-favorites/)
 
-[SwiftUI Views](https://marcusmth.com/swiftui-views/)
+[SwiftUI Views](https://www.marcusmth.com/swiftui-views/)
 
 ### Write Ups
 
-[What’s the difference between @ObservedObject, @State, and @EnvironmentObject?](https://www.hackingwithswift.com/quick-start/swiftui/whats-the-difference-between-observedobject-state-and-environmentobject) by [@TwoStraws](https://twitter.com/twostraws?s=20)
+[What's the difference between @ObservedObject, @State, and @EnvironmentObject?](https://www.hackingwithswift.com/quick-start/swiftui/whats-the-difference-between-observedobject-state-and-environmentobject) by [@TwoStraws](https://twitter.com/twostraws?s=20)
 
-[Toggle calls function on change](https://marcusmth.com/swiftui-toggle-call-function-on-change/) by **MYSELF**
+[Toggle calls function on change](https://www.marcusmth.com/swiftui-toggle-call-function-on-change/) by **MYSELF**

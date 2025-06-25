@@ -12,7 +12,7 @@ isPublished: true
 
 Reviewing code is the last line of defense before it enters production. I've had my code reviewed and been reviewing code for years now and while both have improved I've never formally documented my steps. This will serve both as a guide of what to review as well as things that have been reviewed in my code. The most embarrassing mistake is to be reviewed on the same thing in multiple pull requests.
 
-I've written a guide for [Code Review Interviews](https://marcusmth.com/how-to-ace-your-code-review-interview/) which details the terminology and steps of a code review. This document provides the concepts to review on.
+I've written a guide for [Code Review Interviews](https://www.marcusmth.com/how-to-ace-your-code-review-interview/) which details the terminology and steps of a code review. This document provides the concepts to review on.
 
 ## General Concepts
 

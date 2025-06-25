@@ -6,8 +6,8 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const status = {
     timestamp: now.toISOString(),
     status: "ok",
-    sitemap: "https://marcusmth.com/sitemap.xml",
-    robots: "https://marcusmth.com/robots.txt",
+    sitemap: "https://www.marcusmth.com/sitemap.xml",
+    robots: "https://www.marcusmth.com/robots.txt",
     server: "vercel",
     indexable: true,
     lastDeployment: process.env.VERCEL_GIT_COMMIT_SHA || "unknown",

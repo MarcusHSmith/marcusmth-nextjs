@@ -27,7 +27,7 @@ Update to `no redirects` and redeploy.
 
 ### Page with redirect
 
-`curl -I https://marcusmth.com/swift-xctest-cannot-find-in-scope`
+`curl -I https://www.marcusmth.com/swift-xctest-cannot-find-in-scope`
 
 ```
 HTTP/2 308
@@ -43,7 +43,7 @@ x-vercel-id: sfo1::qlmtm-1731876819237-86cecdc033f6
 
 ### Page without redirect
 
-`curl -I https://marcusmth.com/how-to-film-walking-videos-for-youtube`
+`curl -I https://www.marcusmth.com/how-to-film-walking-videos-for-youtube`
 
 ```
 HTTP/2 200

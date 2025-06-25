@@ -38,27 +38,27 @@ export default function PostPage({ frontmatter, content }) {
     headline: frontmatter.title,
     description: frontmatter.description,
     image: frontmatter.featuredImage
-      ? `https://marcusmth.com/images/${frontmatter.featuredImage.src}`
-      : "https://marcusmth.com/images/profile-pic-marcus.jpg",
+      ? `https://www.marcusmth.com/images/${frontmatter.featuredImage.src}`
+      : "https://www.marcusmth.com/images/profile-pic-marcus.jpg",
     datePublished: frontmatter.date,
     dateModified: frontmatter.lastUpdated,
     author: {
       "@type": "Person",
       name: "Marcus Smith",
-      url: "https://marcusmth.com",
+      url: "https://www.marcusmth.com",
     },
     publisher: {
       "@type": "Organization",
       name: "marcusmth",
       logo: {
         "@type": "ImageObject",
-        url: "https://marcusmth.com/images/profile-pic-marcus.jpg",
+        url: "https://www.marcusmth.com/images/profile-pic-marcus.jpg",
       },
     },
     keywords: frontmatter.tags?.join(", "),
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://marcusmth.com/${frontmatter.path || ""}`,
+      "@id": `https://www.marcusmth.com/${frontmatter.path || ""}`,
     },
     license: "https://creativecommons.org/licenses/by/4.0/",
   };
