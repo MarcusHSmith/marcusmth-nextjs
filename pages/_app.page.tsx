@@ -16,12 +16,12 @@ function MyApp({ Component, pageProps }) {
   const descriptionWithFallback =
     description || "Marcus's thoughts and tools as a software engineer";
   const ogImageWithFallback = featuredImage?.src
-    ? `https://marcusmth.com/images/${featuredImage.src}`
-    : "https://marcusmth.com/images/profile-pic-marcus.jpg";
+    ? `https://www.marcusmth.com/images/${featuredImage.src}`
+    : "https://www.marcusmth.com/images/profile-pic-marcus.jpg";
   const ogKeywordsWithFallback =
     tags?.join(", ") ||
     "marcus, smith, software, engineer, blog, youtube, analytics";
-  const canonicalUrl = `https://marcusmth.com${pageProps.path || ""}`;
+  const canonicalUrl = `https://www.marcusmth.com${pageProps.path || ""}`;
 
   return (
     <>

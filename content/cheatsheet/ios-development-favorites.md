@@ -54,7 +54,7 @@ If I found a read useful, I should maintain a link to it.
 
 [StackOverflow: Get safe area inset top and bottom heights](https://stackoverflow.com/a/46831519/2228688)
 
-[Autolayout Parent UIView is Maximum of Child Views](https://marcusmth.com/autolayout-parent-uiview-is-maximum-of-child-views/) by **MYSELF**
+[Autolayout Parent UIView is Maximum of Child Views](https://www.marcusmth.com/autolayout-parent-uiview-is-maximum-of-child-views/) by **MYSELF**
 
 [Using The Responder Chain](https://useyourloaf.com/blog/using-the-responder-chain/) by Keith Harrison
 
@@ -64,25 +64,25 @@ If I found a read useful, I should maintain a link to it.
 
 [StackOverflow: Time Swift method](https://stackoverflow.com/a/2129884/2228688) by [Matthew McGoogan](https://stackoverflow.com/users/257639/matthew-mcgoogan)
 
-[Delete breakpoints in XCode 5](https://marcusmth.com/delete-breakpoints-in-xcode-5/) by **MYSELF**
+[Delete breakpoints in XCode 5](https://www.marcusmth.com/delete-breakpoints-in-xcode-5/) by **MYSELF**
 
-[App Store Connect Build Versions](https://marcusmth.com/app-store-connect-build-versions/) by **MYSELF**
+[App Store Connect Build Versions](https://www.marcusmth.com/app-store-connect-build-versions/) by **MYSELF**
 
-[How to remove UIGraphicsImageRenderer UIImageView border](https://marcusmth.com/how-to-remove-uigraphicsimagerenderer-uiimageview-border/) by **MYSELF**
+[How to remove UIGraphicsImageRenderer UIImageView border](https://www.marcusmth.com/how-to-remove-uigraphicsimagerenderer-uiimageview-border/) by **MYSELF**
 
-[Swift Variable DidSet Logic](https://marcusmth.com/swift-variable-didset-logic/) by **MYSELF**
+[Swift Variable DidSet Logic](https://www.marcusmth.com/swift-variable-didset-logic/) by **MYSELF**
 
-[iOS Provisioning Profile Guide](https://marcusmth.com/ios-provisioning-profile-guide/) by **MYSELF**
+[iOS Provisioning Profile Guide](https://www.marcusmth.com/ios-provisioning-profile-guide/) by **MYSELF**
 
 [Better print debugging](https://sarunw.com/posts/better-print-debugging-with-xcode-breakpoints/) by [@sarunw](https://twitter.com/sarunw?s=20)
 
 [Dealing with Complex Table Views in iOS and Keeping Your Sanity](https://medium.cobeisfresh.com/dealing-with-complex-table-views-in-ios-and-keeping-your-sanity-ff5fee1fbb83) by [@marinbenc](https://twitter.com/marinbenc?s=20)
 
-[Concluding iOS Coordinators](https://marcusmth.com/concluding-ios-coordinators/) by **MYSELF**
+[Concluding iOS Coordinators](https://www.marcusmth.com/concluding-ios-coordinators/) by **MYSELF**
 
-[@Escaping Closures in Swift](https://marcusmth.com/escaping-closures-in-swift/) by **MYSELF**
+[@Escaping Closures in Swift](https://www.marcusmth.com/escaping-closures-in-swift/) by **MYSELF**
 
-[Extension Must Not Contain Stored Properties](https://marcusmth.com/extension-must-not-contain-stored-properties/) by **MYSELF**
+[Extension Must Not Contain Stored Properties](https://www.marcusmth.com/extension-must-not-contain-stored-properties/) by **MYSELF**
 
 [How to Add Testers to Test the iOS App in TestFlight](https://help.muvi.com/help/how-to-add-testers-to-test-the-ios-app-in-testflight.html)
 
@@ -96,6 +96,6 @@ If I found this resource collection useful or was recommended it, I should maint
 
 [KHANLOU](http://khanlou.com/) by Soroush Khanlou
 
-[SwiftUI Cheatsheet](https://marcusmth.com/swiftui-cheatsheet/) by **MYSELF**
+[SwiftUI Cheatsheet](https://www.marcusmth.com/swiftui-cheatsheet/) by **MYSELF**
 
 [Protocol composition in Swift and Objective-C](https://www.jessesquires.com/blog/2017/06/05/protocol-composition-in-swift-and-objc/) by [@jesse_squires](https://twitter.com/jesse_squires?s=20)

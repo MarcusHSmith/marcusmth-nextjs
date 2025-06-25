@@ -34,5 +34,5 @@ Linear is a modern issue tracking tool built for speed and efficiency. Here are 
 
 ## Blog Posts
 
-- [How to Update Your Linear Team Workspace Name and Issue URL](https://marcusmth.com/how-to-update-linear-workspace-settings)
-- [Linear Project Organization Guide](https://marcusmth.com/linear-project-organization-guide/)
+- [How to Update Your Linear Team Workspace Name and Issue URL](https://www.marcusmth.com/how-to-update-linear-workspace-settings)
+- [Linear Project Organization Guide](https://www.marcusmth.com/linear-project-organization-guide/)

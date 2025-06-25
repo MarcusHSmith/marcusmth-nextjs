@@ -11,7 +11,7 @@ tags:
 
 These are posts I wrote.
 
-[Creating and retrieving using Typescript Partials](https://marcusmth.com/typescript-partials-2019-12-28/)
+[Creating and retrieving using Typescript Partials](https://www.marcusmth.com/typescript-partials-2019-12-28/)
 
 If I found a read useful, I should maintain a link to it.
 

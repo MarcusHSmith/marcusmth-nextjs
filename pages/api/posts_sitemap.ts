@@ -21,7 +21,7 @@ async function generateSiteMap() {
 ${postsWithDates
   .map(({ slug, lastmod }) => {
     return `  <url>
-    <loc>https://marcusmth.com/${slug}/</loc>
+    <loc>https://www.marcusmth.com/${slug}/</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

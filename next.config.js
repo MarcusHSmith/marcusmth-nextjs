@@ -61,17 +61,17 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      // Redirect www to non-www
+      // Redirect non-www to www
       {
         source: "/:path*",
         has: [
           {
             type: "host",
-            value: "www.marcusmth.com",
+            value: "marcusmth.com",
           },
         ],
         permanent: true,
-        destination: "https://marcusmth.com/:path*",
+        destination: "https://www.marcusmth.com/:path*",
       },
       // Redirect HTTP to HTTPS
       {
@@ -84,7 +84,7 @@ const nextConfig = {
           },
         ],
         permanent: true,
-        destination: "https://marcusmth.com/:path*",
+        destination: "https://www.marcusmth.com/:path*",
       },
       // Remove index.html from URLs
       {

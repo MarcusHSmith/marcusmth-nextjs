@@ -4,27 +4,27 @@ async function generateSiteMap() {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://marcusmth.com/default_sitemap.xml</loc>
+    <loc>https://www.marcusmth.com/default_sitemap.xml</loc>
     <lastmod>${today}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://marcusmth.com/posts_sitemap.xml</loc>
+    <loc>https://www.marcusmth.com/posts_sitemap.xml</loc>
     <lastmod>${today}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://marcusmth.com/cheatsheets_sitemap.xml</loc>
+    <loc>https://www.marcusmth.com/cheatsheets_sitemap.xml</loc>
     <lastmod>${today}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://marcusmth.com/tags_sitemap.xml</loc>
+    <loc>https://www.marcusmth.com/tags_sitemap.xml</loc>
     <lastmod>${today}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://marcusmth.com/reports_wework_paris_sitemap.xml</loc>
+    <loc>https://www.marcusmth.com/reports_wework_paris_sitemap.xml</loc>
     <lastmod>2024-02-21</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://marcusmth.com/reports_wework_berlin_sitemap.xml</loc>
+    <loc>https://www.marcusmth.com/reports_wework_berlin_sitemap.xml</loc>
     <lastmod>2024-02-21</lastmod>
   </sitemap>
 </sitemapindex>`;

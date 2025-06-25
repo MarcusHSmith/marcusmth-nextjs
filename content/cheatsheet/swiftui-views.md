@@ -20,4 +20,4 @@ featuredImage:
 - `NavigationLink(destination: ...)` Wrap a view with this to make it clickable
 - `ScrollView(...)` wrap a `VStack` in this to make it scrollable
 - `Spacer()` fills up available space to move views
-- `NavigationView { }` Wrapper arounds views that will have a navigation header [Write Up](https://marcusmth.com/navigationview-in-swiftui)
+- `NavigationView { }` Wrapper arounds views that will have a navigation header [Write Up](https://www.marcusmth.com/navigationview-in-swiftui)

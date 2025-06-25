@@ -42,4 +42,4 @@ To squash commits `$ git rebase -i HEAD~10` (or however many commits are specifi
 
 [How to write a good commit message](https://juffalow.com/other/write-good-git-commit-message) by Matej Jellus
 
-[﻿Fix Yarn Incorrect integrity when fetching from the cache](https://marcusmth.com/solve-yarn-incorrect-integrity-when-fetching-from-the-cache/)
+[﻿Fix Yarn Incorrect integrity when fetching from the cache](https://www.marcusmth.com/solve-yarn-incorrect-integrity-when-fetching-from-the-cache/)

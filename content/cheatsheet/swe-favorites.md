@@ -13,7 +13,7 @@ If I found a read useful, I should maintain a link to it.
 
 [De Morgan's Laws](https://erikmhsiao.github.io/de-morgans-laws/) by Erik M Hsiao
 
-[How to Ace your Code Review Interview](https://marcusmth.com/how-to-ace-your-code-review-interview/) by **MYSELF**
+[How to Ace your Code Review Interview](https://www.marcusmth.com/how-to-ace-your-code-review-interview/) by **MYSELF**
 
 High level ideas that I should follow
 
