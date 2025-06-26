@@ -3,12 +3,14 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
 import { StructuredData } from "../components/StructuredData/StructuredData";
+import { useRouter } from "next/router";
 
 import "../styles/globals.css";
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
   const { frontmatter } = pageProps;
   const { title, description, featuredImage, tags } = frontmatter || {};
 
@@ -21,7 +23,8 @@ function MyApp({ Component, pageProps }) {
   const ogKeywordsWithFallback =
     tags?.join(", ") ||
     "marcus, smith, software, engineer, blog, youtube, analytics";
-  const canonicalUrl = `https://www.marcusmth.com${pageProps.path || ""}`;
+  const canonicalPath = (pageProps.path || router.asPath || "").split("?")[0];
+  const canonicalUrl = `https://www.marcusmth.com${canonicalPath}`;
 
   return (
     <>
