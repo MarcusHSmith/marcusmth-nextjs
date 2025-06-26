@@ -1,6 +1,6 @@
 ---
 title: "Building Linear Top Issue utilizing the Linear API"
-description: "Learnings while building an app on top of Linear's OAuth 2.0 and GraphQL api"
+description: "Learnings while building an app on top of Linear's OAuth 2.0 and GraphQL API"
 date: "2025-06-20T18:25:11.908Z"
 lastUpdated: "2025-06-20T18:25:11.908Z"
 tags: ["linear", "nextjs", "vercel"]
