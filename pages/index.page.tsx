@@ -76,7 +76,7 @@ function ReportItem({ city }: { city: CITY }): ReactElement {
         className="hover:opacity-60"
         src={imageSrc}
         alt="WeWork"
-        object-fit="contain"
+        style={{ objectFit: "contain" }}
         width={176}
         height={176}
       />
