@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2025-02-08T10:00:00.000Z"
-lastUpdated: "2025-02-08T10:00:00.000Z"
+lastUpdated: "2025-06-26T00:00:00.000Z"
 title: "Linear Project Organization Guide"
 description: "A comprehensive guide to Linear's organizational hierarchy - from high-level Initiatives to granular Issues and Sub-issues"
 isPublished: true
@@ -22,6 +22,16 @@ Initiatives in Linear are high-level strategic objectives - these often map to c
 - "Mobile App Launch"
 
 Initiatives allow everyone to visualize progress towards company goals.
+
+### How to turn on Initiatives in Linear
+
+1. Click on your workspace name in the top-left corner of Linear.
+2. Select **Settings** from the dropdown.
+3. Under **Workspace**, choose **Projects**.
+4. Toggle **Enable Initiatives**.
+5. Initiatives will now appear in the sidebar so you can start creating them.
+
+Watch the short demo [How to turn on Initiatives](https://youtube.com/shorts/luQ-4vBRheE).
 
 ## Projects and Milestones
 
