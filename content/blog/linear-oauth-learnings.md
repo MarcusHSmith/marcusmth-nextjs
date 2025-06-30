@@ -28,16 +28,13 @@ Here's what happened in the first two weeks:
 **80% bounce rate**
 **3 workspaces authenticated with OAuth**
 
-![Web Analytics Overview](/images/linear-top-issue-analytics-1.jpg)
+![Web Analytics Overview](/images/linear-top-issue-metrics-1.jpg)
 _Web analytics for the first two weeks: 147 visitors, 252 page views, 80% bounce rate._
 
 ### Where did visitors come from?
 
 Top referrers: Twitter, Reddit, Slack, my personal site
 Most visitors landed on the homepage, with a handful checking out the about page. Some came from direct links with online friends
-
-![Visitor Details](/images/linear-top-issue-analytics-2.jpg)
-_Visitor breakdown by page, referrer, country, device, and OS._
 
 But here's the key stat: **only 3 workspaces authenticated with OAuth**. That's a conversion rate of just over 2% from visitor to OAuth user.
 
