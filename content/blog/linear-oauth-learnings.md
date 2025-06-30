@@ -7,8 +7,8 @@ tags: ["linear", "nextjs"]
 path: "linear-oauth-learnings"
 isPublished: true
 featuredImage:
-  src: "linear-icon.png"
-  alt: "Linear Logo"
+  src: "linear/wordmark-dark.png"
+  alt: "Linear logo"
 ---
 
 What would it take for users to trust OAuth apps with their Linear workspace? After launching [Linear Top Issue](https://www.linear-top-issue.app), I learned the hard way and here's how Linear can solve it.
