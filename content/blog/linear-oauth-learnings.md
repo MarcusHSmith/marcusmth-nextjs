@@ -28,7 +28,7 @@ Here's what happened in the first two weeks:
 **80% bounce rate**
 **3 workspaces authenticated with OAuth**
 
-![Web Analytics Overview](/images/linear-top-issue-metrics-1.jpg)
+![Web Analytics Overview](/images/linear-top-issues-metrics-1.jpg)
 _Web analytics for the first two weeks: 147 visitors, 252 page views, 80% bounce rate._
 
 ### Where did visitors come from?
