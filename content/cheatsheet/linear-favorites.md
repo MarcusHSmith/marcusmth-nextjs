@@ -1,7 +1,7 @@
 ---
 path: cheatsheet
 date: "2025-01-25T10:00:00.000Z"
-lastUpdated: "2025-06-26T10:00:00.000Z"
+lastUpdated: "2025-06-30T00:00:00.000Z"
 title: Linear App Cheatsheet
 description: Essential keyboard shortcuts and features for Linear
 isPublished: true
@@ -37,3 +37,4 @@ Linear is a modern issue tracking tool built for speed and efficiency. Here are 
 - [How to Update Your Linear Team Workspace Name and Issue URL](https://www.marcusmth.com/how-to-update-linear-workspace-settings)
 - [Linear Project Organization Guide](https://www.marcusmth.com/linear-project-organization-guide/)
 - [Linear Top Issue App](https://www.marcusmth.com/linear-top-issue-app/)
+- [How Linear Can Build a Safer OAuth App Ecosystem (Lessons from Launching Linear Top Issue)](https://www.marcusmth.com/linear-oauth-learnings/)
