@@ -1,7 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
 import PostContent from "../../components/PostContent/PostContent";
-import md from "markdown-it";
+import { markdownToHtml } from "../../lib/markdown";
 
 export async function getStaticPaths() {
   const files = fs.readdirSync("content/blog");
@@ -19,7 +19,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params: { slug } }) {
   const fileName = fs.readFileSync(`content/blog/${slug}.md`, "utf-8");
   const { data: frontmatter, content } = matter(fileName);
-  const htmlContent = md().render(content);
+  const htmlContent = markdownToHtml(content);
   return {
     props: {
       frontmatter,
