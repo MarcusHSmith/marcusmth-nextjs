@@ -8,21 +8,44 @@ import Head from "next/head";
 
 const YouTubeEmbed = dynamic(() => import("../YouTubeEmbed/YouTubeEmbed"));
 
-export default function PostPage({ frontmatter, content }) {
+// Add htmlContent as an optional prop
+type PostContentProps = {
+  frontmatter: any;
+  content: string;
+  htmlContent?: string;
+};
+
+export default function PostContent({
+  frontmatter,
+  content,
+  htmlContent,
+}: PostContentProps) {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
     setIsClient(true);
   }, []);
 
+  // Helper to handle YouTube embeds in server-rendered HTML
+  const renderServerHtml = () => {
+    if (!htmlContent) return null;
+    // Split on custom YOUTUBE_VIDEO_ID blocks if needed (optional, only if you use this feature)
+    const parts = htmlContent.split(/(YOUTUBE_VIDEO_ID=[-\w]+\n[^\n]*)/);
+    return parts.map((part, index) => {
+      if (part.startsWith("YOUTUBE_VIDEO_ID=")) {
+        const videoId = part.split(/=|\n/)[1];
+        return <YouTubeEmbed key={index} videoId={videoId} />;
+      }
+      return <span key={index} dangerouslySetInnerHTML={{ __html: part }} />;
+    });
+  };
+
   const renderContent = () => {
     if (!isClient) {
       return null;
     }
-
     const renderedContent = md().render(content);
     const parts = renderedContent.split(/(YOUTUBE_VIDEO_ID=[-\w]+\n[^\n]+)/);
-
     return parts.map((part, index) => {
       if (part.startsWith("YOUTUBE_VIDEO_ID=")) {
         const videoId = part.split(/[\n=]/)[1];
@@ -101,7 +124,7 @@ export default function PostPage({ frontmatter, content }) {
           <TagList tags={frontmatter.tags} />
         </div>
         <hr className="mb-8" />
-        {renderContent()}
+        {htmlContent ? renderServerHtml() : renderContent()}
       </div>
     </div>
   );
