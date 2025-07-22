@@ -36,7 +36,7 @@ export default function PostContent({
         const videoId = part.split(/=|\n/)[1];
         return <YouTubeEmbed key={index} videoId={videoId} />;
       }
-      return <span key={index} dangerouslySetInnerHTML={{ __html: part }} />;
+      return <div key={index} dangerouslySetInnerHTML={{ __html: part }} />;
     });
   };
 
@@ -51,7 +51,7 @@ export default function PostContent({
         const videoId = part.split(/[\n=]/)[1];
         return <YouTubeEmbed key={index} videoId={videoId} />;
       }
-      return <span key={index} dangerouslySetInnerHTML={{ __html: part }} />;
+      return <div key={index} dangerouslySetInnerHTML={{ __html: part }} />;
     });
   };
 
