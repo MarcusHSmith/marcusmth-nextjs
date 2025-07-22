@@ -24,7 +24,7 @@ export async function getStaticProps({ params: { slug } }) {
     props: {
       frontmatter,
       content,
-      htmlContent, // new prop
+      htmlContent,
     },
   };
 }
