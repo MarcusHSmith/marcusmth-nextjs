@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2025-07-20T10:00:00.000Z"
+lastUpdated: "2025-08-01T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -25,6 +25,8 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 🔊 for audiobooks
 
 ## 2025
+
+🏃‍♂️A Waiter in Paris by Edward Chisholm
 
 [The Mom Test](https://www.amazon.com/Mom-Test-customers-business-everyone/dp/1492180742) by [@robfitz](https://x.com/robfitz)
 
