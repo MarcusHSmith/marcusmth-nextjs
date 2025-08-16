@@ -38,7 +38,7 @@ export default function Home({ posts }) {
         <h1 className="text-4xl font-bold mb-8">
           Software Engineering and Interests from Across the Web
         </h1>
-        <PostList posts={posts} category="blog" limit={7} />
+        <PostList posts={posts} category="blog" />
         {/* <Reports /> */}
       </>
     </HomeLayout>
