@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2025-08-01T10:00:00.000Z"
+lastUpdated: "2025-08-20T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -26,7 +26,8 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2025
 
-🏃‍♂️A Waiter in Paris by Edward Chisholm
+[A Waiter in Paris](https://www.amazon.com/Waiter-Paris-Adventures-Dark-Heart/dp/1800960204/ref=sr_1_1?crid=ZWK478YLPWFO&dib=eyJ2IjoiMSJ9._mZCdJfv7Z6QTDx4Vj6ZSlcfSVjTdrCKtpQElzz5yM9S2oE3vsiwEXr3t7CAruHWC2JpUs6jKn_YtsWBk8qS0THBaqAWW5mrRdN9k0UGye1YWWT9fS_kcxBultndiAOPI1sGlPiQkIKuSxLCddv75wFKwFeaSdBUmjmSEhogJWOjKCzB-qdQOmKJy4imq3-c.Y-YVUGyI7u3Qh_LA1DXZxp7VWcWnIYarKBjZqIzmS5Q&dib_tag=se&keywords=waiter+in+paris&qid=1755706664&sprefix=waiter+in+pari%2Caps%2C273&sr=8-1) by [@ChisholmEdward
+](https://x.com/ChisholmEdward)
 
 [The Mom Test](https://www.amazon.com/Mom-Test-customers-business-everyone/dp/1492180742) by [@robfitz](https://x.com/robfitz)
 
