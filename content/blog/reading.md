@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2025-08-20T10:00:00.000Z"
+lastUpdated: "2025-08-24T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -25,6 +25,8 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 🔊 for audiobooks
 
 ## 2025
+
+[Dove](https://www.amazon.com/Dove-Robin-L-Graham/dp/0060920475/ref=sr_1_1?crid=2PBFDMG7W0IIM&dib=eyJ2IjoiMSJ9.bas1oft7hxhFU03J2xtPOTfFgqa86tqikdw18lq7mU-PKaaAAGCrbQ8G-x_MwMviIMBvrnJ1R36zWMDd8TyA_mTZ7rji2YDAj8nGEVrk73JJSiJvbofGacGIHMN-HP5vtuJmd3vpnkb4jeuqpwEK1aMxH-ibUs5sUqz9lu8QRAgmmasjkVNNxlSJCpoxtR0jFR5wbD0JcaQVlNJAf2az1SKs0QTfWTpJdPyyEVD_y8s.0--9GQBNRdYpjNE4oJ9b_8N1Y8A-GKVlZ2b-biyLkQ4&dib_tag=se&keywords=dove+book&qid=1756070810&sprefix=dove+book%2Caps%2C209&sr=8-1) by Robin Lee Graham
 
 [A Waiter in Paris](https://www.amazon.com/Waiter-Paris-Adventures-Dark-Heart/dp/1800960204/ref=sr_1_1?crid=ZWK478YLPWFO&dib=eyJ2IjoiMSJ9._mZCdJfv7Z6QTDx4Vj6ZSlcfSVjTdrCKtpQElzz5yM9S2oE3vsiwEXr3t7CAruHWC2JpUs6jKn_YtsWBk8qS0THBaqAWW5mrRdN9k0UGye1YWWT9fS_kcxBultndiAOPI1sGlPiQkIKuSxLCddv75wFKwFeaSdBUmjmSEhogJWOjKCzB-qdQOmKJy4imq3-c.Y-YVUGyI7u3Qh_LA1DXZxp7VWcWnIYarKBjZqIzmS5Q&dib_tag=se&keywords=waiter+in+paris&qid=1755706664&sprefix=waiter+in+pari%2Caps%2C273&sr=8-1) by [@ChisholmEdward
 ](https://x.com/ChisholmEdward)
