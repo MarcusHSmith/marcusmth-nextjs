@@ -21,6 +21,18 @@ async function generateSiteMap() {
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
       </url>
+      <url>
+        <loc>https://www.marcusmth.com/about/</loc>
+        <lastmod>${today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+      </url>
+      <url>
+        <loc>https://www.marcusmth.com/about/resume/engineering-manager</loc>
+        <lastmod>${today}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+      </url>
     </urlset>`;
 }
 
