@@ -69,7 +69,7 @@ export default function ResumePage() {
             I bring a strong technical foundation in ExpressJs and NextJs
             combined with a proven track record of leading teams through
             ambiguity, mentoring engineers, and shipping products quickly. I
-            thrive when I'm aligning engineering with product strategy and
+            thrive when I&apos;m aligning engineering with product strategy and
             creating a culture of ownership, feedback, and high output.
           </p>
         </section>
