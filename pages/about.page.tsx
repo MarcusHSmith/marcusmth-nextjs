@@ -38,8 +38,11 @@ export default function AboutPage() {
     text: string;
   }): ReactElement {
     return (
-      <Link className="h-8 min-w-12 flex-item" href={url}>
-        <p>{text}</p>
+      <Link
+        className="h-8 min-w-12 flex-item hover:text-blue-600 transition-colors"
+        href={url}
+      >
+        {text}
       </Link>
     );
   }
