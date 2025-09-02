@@ -20,9 +20,16 @@ export async function getStaticProps() {
       frontmatter,
     };
   });
+
+  // Count published posts
+  const publishedPostsCount = posts.filter(
+    (post) => post.frontmatter.isPublished
+  ).length;
+
   return {
     props: {
       posts,
+      publishedPostsCount,
       frontmatter: {
         description:
           "Software engineering insights, YouTube content, and startup journey from Marcus Smith - Engineering Manager, Founder of Series A Solana startup, and Software Engineer",
@@ -31,12 +38,16 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home({ posts }) {
+export default function Home({ posts, publishedPostsCount }) {
   return (
     <HomeLayout>
       <>
         <h1 className="text-4xl font-bold mb-8">
-          Software Engineering and Interests from Across the Web
+          Software Engineering and Interests from Across the Web{" "}
+          <span className="text-lg text-gray-600 font-normal">
+            ({publishedPostsCount}{" "}
+            {publishedPostsCount === 1 ? "post" : "posts"})
+          </span>
         </h1>
         <PostList posts={posts} category="blog" />
         {/* <Reports /> */}
