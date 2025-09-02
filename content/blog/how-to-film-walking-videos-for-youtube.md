@@ -12,6 +12,8 @@ featuredImage:
   alt: "Youtube Logo"
 ---
 
+_2025 version [How to film walking videos for Youtube 2025](https://www.marcusmth.com/how-to-film-walking-videos-for-youtube-2025)_
+
 _Updated Nov 28 2023_
 Walking video camera guide 🌎 How to get started on Youtube
 
