@@ -26,5 +26,9 @@ export async function loadFullPosts() {
     };
   });
 
-  return posts;
+  return posts.sort((a, b) => {
+    const dateA = new Date(a.frontmatter.lastUpdated).getTime();
+    const dateB = new Date(b.frontmatter.lastUpdated).getTime();
+    return dateB - dateA; // Most recent (larger timestamp) first
+  });
 }
