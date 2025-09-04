@@ -1,5 +1,6 @@
 import { loadPosts } from "../../lib/load-posts";
 import fs from "fs";
+import matter from "gray-matter";
 import path from "path";
 
 async function generateSiteMap() {
@@ -7,9 +8,9 @@ async function generateSiteMap() {
   const postsWithDates = posts.map((slug) => {
     try {
       const filePath = path.resolve(process.cwd(), `content/blog/${slug}.md`);
-      const stats = fs.statSync(filePath);
-      const lastmod = stats.mtime.toISOString().split("T")[0];
-      return { slug, lastmod };
+      const file = fs.readFileSync(filePath, "utf-8");
+      const { data: frontmatter } = matter(file);
+      return { slug, lastmod: frontmatter.lastUpdated.split("T")[0] };
     } catch (error) {
       const today = new Date().toISOString().split("T")[0];
       return { slug, lastmod: today };
