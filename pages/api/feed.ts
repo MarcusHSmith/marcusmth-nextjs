@@ -14,6 +14,10 @@ async function generateRSSFeed() {
     language: "en-US",
     pubDate: new Date().toUTCString(),
     ttl: 60,
+    custom_namespaces: {
+      media: "http://search.yahoo.com/mrss/",
+      content: "http://purl.org/rss/1.0/modules/content/",
+    },
   });
 
   const posts = await loadFullPosts();
