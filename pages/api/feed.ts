@@ -25,7 +25,14 @@ async function generateRSSFeed() {
       url: `https://www.marcusmth.com/${post.slug}/`,
       categories: post.frontmatter.tags || [],
       author: "Marcus Smith",
-      date: post.frontmatter.date,
+      date: post.frontmatter.lastUpdated,
+      custom_elements: [
+        {
+          "content:encoded": {
+            _cdata: post.content,
+          },
+        },
+      ],
     });
   });
 
