@@ -6,7 +6,7 @@ async function generateRSSFeed() {
   const feed = new RSS({
     title: "Marcus Smith's Blog",
     generator: "RSS for Node and Next.js",
-    feed_url: "https://www.marcusmth.com/feed.xml/",
+    feed_url: "https://www.marcusmth.com/api/feed",
     site_url: "https://www.marcusmth.com/",
     managingEditor: "mhs2121@gmail.com (Marcus Smith)",
     webMaster: "mhs2121@gmail.com (Marcus Smith)",
@@ -19,21 +19,50 @@ async function generateRSSFeed() {
   const posts = await loadFullPosts();
 
   posts.map((post) => {
-    feed.item({
+    const customElements: any[] = [
+      {
+        "content:encoded": {
+          _cdata: post.content,
+        },
+      },
+    ];
+
+    // Add cover image if available
+    if (post.frontmatter.featuredImage?.src) {
+      const imageUrl = `https://www.marcusmth.com/images/${post.frontmatter.featuredImage.src}`;
+
+      // Add media:content for better compatibility
+      customElements.push({
+        "media:content": {
+          _attr: {
+            url: imageUrl,
+            type: "image/jpeg",
+            medium: "image",
+          },
+        },
+      });
+
+      // Add media:thumbnail for additional compatibility
+      customElements.push({
+        "media:thumbnail": {
+          _attr: {
+            url: imageUrl,
+          },
+        },
+      });
+    }
+
+    const itemData: any = {
       title: post.frontmatter.title,
       description: post.frontmatter.description,
       url: `https://www.marcusmth.com/${post.slug}/`,
       categories: post.frontmatter.tags || [],
       author: "Marcus Smith",
       date: post.frontmatter.lastUpdated,
-      custom_elements: [
-        {
-          "content:encoded": {
-            _cdata: post.content,
-          },
-        },
-      ],
-    });
+      custom_elements: customElements,
+    };
+
+    feed.item(itemData);
   });
 
   return feed;
