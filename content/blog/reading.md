@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2025-10-21T10:00:00.000Z"
+lastUpdated: "2025-10-25T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -26,7 +26,11 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2025
 
-California Soul by Keith Corbin
+🏃‍♂️ [Superyacht Success: The insider's guide to the yachting industry](https://www.amazon.com/gp/product/B0F74HFCRB) by Brendan O’Shannassy
+
+🥱 [The Haves and Have-Yachts: Dispatches on the Ultrarich](https://www.amazon.com/Haves-Have-Yachts-Dispatches-Ultrarich-ebook/dp/B0DV6LC1FN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.V-Pu5Aci8KNAsOWUYnG54KwqYkOJKMqS-Wii7Xf6WavOCKpRLiuLfuP2sSHEEeAfpypES-hl4UkvucS4UcooZoEOcT1ameBWHeqX2vdvxDARrMK7bXwU2iifHKzQca2MmW6d6_UXAVxx0cgGrX8oG_UKNw9AlFuqnp-35JsljwvPkeoSn2pPF8dBRzd7SQrjq38OEJ7gcPj2tylt0npiKsxezvhGWaf67U4edTVTd8Y.7rixcoOEnwAdDd8cQdWM5KOb7v455QOIDelJBuu6Rjk&dib_tag=se&hvadid=589949667562&hvdev=c&hvexpln=0&hvlocphy=1014390&hvnetw=g&hvocijid=13573989933122830475--&hvqmt=e&hvrand=13573989933122830475&hvtargid=kwd-1944780161908&hydadcr=17288_13438668&keywords=have+and+have+yachts&mcid=0a007b2609833cc4ad9b5e636888f79d&qid=1761414875&sr=8-1) by Evan Osnos
+
+[California Soul](https://www.amazon.com/California-Soul-American-Cooking-Survival-ebook/dp/B09PQR822Q/ref=sr_1_2?crid=3RLK1KPNOQUB1&dib=eyJ2IjoiMSJ9.LkkWSRPFDdvkGKz_Ue_YING_9Ahjd7-W_DTxFs2nQ9IMMdpnK774sk_6rQuR78Ype1Ic8A4y8Gltpi0YNUJ0fp-whjkacICOcnaXwEQVmstLsxQ8dDMe9h_KWucbEIqCwMW1WFNZ3DHOLKTK3fZZj3ws1yjKQhxJ131u47dIa4K9sFqTqmAlMos-MpLUz9FCzfuGJBw44u99oUo5B3_2yb9cpdVVJoB2610ZaNvTpjM.bgFlW1UhsbIOrHK5SFJ-SmBQEPaNKAFzZZWFIZXH3jc&dib_tag=se&keywords=california+soul&qid=1761414922&sprefix=califorinia+soul%2Caps%2C176&sr=8-2) by [Keith Corbin](https://www.chefkeithcorbin.com/)
 
 [Your Table is Ready](https://www.amazon.com/Your-Table-Ready-Tales-Ma%C3%AEtre/dp/1250281989) by [Michael Cecchi-Azzolina](https://www.linkedin.com/in/michael-cecchi-azzolina-711254200/)
 
