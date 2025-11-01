@@ -10,45 +10,54 @@ import {
 async function generateSiteMap() {
   const today = new Date().toISOString().split("T")[0];
   const posts = await loadPosts();
-  const postsWithDates = posts.map((slug) => {
+
+  // Also load reading series files from subfolder
+  const readingDir = path.resolve(process.cwd(), "content/blog/reading");
+  let readingPosts: string[] = [];
+  try {
+    const readingFiles = fs.readdirSync(readingDir);
+    readingPosts = readingFiles
+      .filter((fileName) => fileName.endsWith(".md"))
+      .map((fileName) => fileName.replace(".md", ""));
+  } catch (error) {
+    // Reading directory doesn't exist, skip
+  }
+
+  const allPosts = [...posts, ...readingPosts];
+
+  const postsWithDates = allPosts.map((slug) => {
     try {
-      const filePath = path.resolve(process.cwd(), `content/blog/${slug}.md`);
+      // Check if this is a reading series file (in subfolder)
+      const readingFilePath = path.resolve(
+        process.cwd(),
+        `content/blog/reading/${slug}.md`
+      );
+      const isReadingSeries = fs.existsSync(readingFilePath);
+
+      const filePath = isReadingSeries
+        ? readingFilePath
+        : path.resolve(process.cwd(), `content/blog/${slug}.md`);
       const file = fs.readFileSync(filePath, "utf-8");
       const { data: frontmatter } = matter(file);
 
-      // Transform reading series slugs from reading-{series} to reading/{series}
+      // Transform reading series slugs to reading/{series}
       let urlSlug = slug;
       let lastmod;
 
-      if (
-        slug.startsWith(READING_SERIES_PREFIX) &&
-        slug !== READING_BASE_SLUG
-      ) {
-        urlSlug = `${READING_BASE_SLUG}/${slug.replace(
-          READING_SERIES_PREFIX,
-          ""
-        )}`;
-        // Use today's date for reading series pages
-        lastmod = today;
+      if (isReadingSeries) {
+        urlSlug = `${READING_BASE_SLUG}/${slug}`;
+        lastmod = frontmatter.lastUpdated
+          ? frontmatter.lastUpdated.split("T")[0]
+          : today;
       } else {
+        urlSlug = slug;
         lastmod = frontmatter.lastUpdated.split("T")[0];
       }
 
       return { slug: urlSlug, lastmod };
     } catch (error) {
-      // Apply the same transformation for error cases
-      let urlSlug = slug;
-      if (
-        slug.startsWith(READING_SERIES_PREFIX) &&
-        slug !== READING_BASE_SLUG
-      ) {
-        urlSlug = `${READING_BASE_SLUG}/${slug.replace(
-          READING_SERIES_PREFIX,
-          ""
-        )}`;
-      }
-
-      return { slug: urlSlug, lastmod: today };
+      // Fallback: assume it's a regular post
+      return { slug, lastmod: today };
     }
   });
 

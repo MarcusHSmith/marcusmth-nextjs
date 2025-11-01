@@ -2,20 +2,11 @@ import fs from "fs";
 import matter from "gray-matter";
 import PostContent from "../../components/PostContent/PostContent";
 import { markdownToHtml } from "../../lib/markdown";
-import {
-  READING_SERIES_PREFIX,
-  READING_BASE_SLUG,
-} from "../../utils/constants";
 
 export async function getStaticPaths() {
   const files = fs.readdirSync("content/blog");
-  // Filter out reading series files (handled by /reading/[slug] route)
-  // but keep reading.md itself
-  const filteredFiles = files.filter(
-    (fileName) =>
-      !fileName.startsWith(READING_SERIES_PREFIX) ||
-      fileName === `${READING_BASE_SLUG}.md`
-  );
+  // Only markdown files in root (reading series files are in subfolder)
+  const filteredFiles = files.filter((fileName) => fileName.endsWith(".md"));
   const paths = filteredFiles.map((fileName) => ({
     params: {
       slug: fileName.replace(".md", ""),

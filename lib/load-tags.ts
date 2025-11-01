@@ -7,14 +7,16 @@ export async function loadTags() {
 
   const blogDir = path.resolve(process.cwd(), "content/blog");
   const blogFiles = fs.readdirSync(blogDir);
-  blogFiles.forEach((fileName) => {
-    const file = fs.readFileSync(`content/blog/${fileName}`, "utf-8");
-    const { data: frontmatter } = matter(file);
-    const tags = frontmatter.tags ?? [];
-    tags.forEach((tag) => {
-      allTags.add(tag.toLowerCase());
+  blogFiles
+    .filter((fileName) => fileName.endsWith(".md")) // Only markdown files, exclude subfolders
+    .forEach((fileName) => {
+      const file = fs.readFileSync(`content/blog/${fileName}`, "utf-8");
+      const { data: frontmatter } = matter(file);
+      const tags = frontmatter.tags ?? [];
+      tags.forEach((tag) => {
+        allTags.add(tag.toLowerCase());
+      });
     });
-  });
 
   const cheatsheetDir = path.resolve(process.cwd(), "content/cheatsheet");
   const cheatsheetFiles = fs.readdirSync(cheatsheetDir);

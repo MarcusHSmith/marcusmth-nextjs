@@ -8,18 +8,20 @@ import router from "next/router";
 import { CITY } from "./../lib/interfaces";
 
 export async function getStaticProps() {
-  // Get all our posts
+  // Get all our posts, excluding reading series files (in subfolder)
   const files = fs.readdirSync("content/blog");
-  const posts = files.map((fileName) => {
-    const slug = fileName.replace(".md", "");
-    const readFile = fs.readFileSync(`content/blog/${fileName}`, "utf-8");
-    const { data: frontmatter } = matter(readFile);
+  const posts = files
+    .filter((fileName) => fileName.endsWith(".md")) // Only markdown files in root
+    .map((fileName) => {
+      const slug = fileName.replace(".md", "");
+      const readFile = fs.readFileSync(`content/blog/${fileName}`, "utf-8");
+      const { data: frontmatter } = matter(readFile);
 
-    return {
-      slug,
-      frontmatter,
-    };
-  });
+      return {
+        slug,
+        frontmatter,
+      };
+    });
 
   // Count published posts
   const publishedPostsCount = posts.filter(
