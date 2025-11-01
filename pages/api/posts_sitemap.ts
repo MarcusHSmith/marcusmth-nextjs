@@ -1,5 +1,6 @@
 import { loadPosts } from "../../lib/load-posts";
 import fs from "fs";
+import escape from "escape-html";
 import matter from "gray-matter";
 import path from "path";
 import { READING_BASE_SLUG } from "../../utils/constants";
@@ -63,8 +64,8 @@ async function generateSiteMap() {
 ${postsWithDates
   .map(({ slug, lastmod }) => {
     return `  <url>
-    <loc>https://www.marcusmth.com/${slug}</loc>
-    <lastmod>${lastmod}</lastmod>
+    <loc>${escape(`https://www.marcusmth.com/${slug}`)}</loc>
+    <lastmod>${escape(lastmod)}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>`;
