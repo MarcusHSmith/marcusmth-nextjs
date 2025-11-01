@@ -16,6 +16,13 @@ isPublished: true
 
 This page is a history of books I've read and maybe some I'd recommend. Too often I consume books and forget both that I read them and what I learned.
 
+## Reading Series
+
+I've organized some of my reading into themed series:
+
+- [Superyachts Reading Series](/reading/superyachts) - Books about yachts and the yachting industry
+- [Restaurants Reading Series](/reading/restaurants) - Books about restaurants, food, and hospitality
+
 ## Guide
 
 🏃‍♂️ for the book I am currently reading
