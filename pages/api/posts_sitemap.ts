@@ -2,6 +2,10 @@ import { loadPosts } from "../../lib/load-posts";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
+import {
+  READING_SERIES_PREFIX,
+  READING_BASE_SLUG,
+} from "../../utils/constants";
 
 async function generateSiteMap() {
   const today = new Date().toISOString().split("T")[0];
@@ -16,8 +20,14 @@ async function generateSiteMap() {
       let urlSlug = slug;
       let lastmod;
 
-      if (slug.startsWith("reading-") && slug !== "reading") {
-        urlSlug = `reading/${slug.replace("reading-", "")}`;
+      if (
+        slug.startsWith(READING_SERIES_PREFIX) &&
+        slug !== READING_BASE_SLUG
+      ) {
+        urlSlug = `${READING_BASE_SLUG}/${slug.replace(
+          READING_SERIES_PREFIX,
+          ""
+        )}`;
         // Use today's date for reading series pages
         lastmod = today;
       } else {
@@ -28,8 +38,14 @@ async function generateSiteMap() {
     } catch (error) {
       // Apply the same transformation for error cases
       let urlSlug = slug;
-      if (slug.startsWith("reading-") && slug !== "reading") {
-        urlSlug = `reading/${slug.replace("reading-", "")}`;
+      if (
+        slug.startsWith(READING_SERIES_PREFIX) &&
+        slug !== READING_BASE_SLUG
+      ) {
+        urlSlug = `${READING_BASE_SLUG}/${slug.replace(
+          READING_SERIES_PREFIX,
+          ""
+        )}`;
       }
 
       return { slug: urlSlug, lastmod: today };
