@@ -5,7 +5,8 @@ import { markdownToHtml } from "../../../lib/markdown";
 
 export async function getStaticPaths() {
   const files = fs.readdirSync("content/blog/reading");
-  const paths = files.map((fileName) => ({
+  const filteredFiles = files.filter((fileName) => fileName.endsWith(".md"));
+  const paths = filteredFiles.map((fileName) => ({
     params: {
       slug: fileName.replace(".md", ""),
     },
