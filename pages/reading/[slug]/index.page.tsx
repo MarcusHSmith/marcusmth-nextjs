@@ -5,8 +5,8 @@ import { markdownToHtml } from "../../../lib/markdown";
 
 export async function getStaticPaths() {
   const files = fs.readdirSync("content/blog");
-  const readingFiles = files.filter((fileName) =>
-    fileName.startsWith("reading-") && fileName !== "reading.md"
+  const readingFiles = files.filter(
+    (fileName) => fileName.startsWith("reading-") && fileName !== "reading.md"
   );
   const paths = readingFiles.map((fileName) => ({
     params: {
@@ -41,4 +41,3 @@ export default function PostPage({ frontmatter, content, htmlContent }) {
     />
   );
 }
-

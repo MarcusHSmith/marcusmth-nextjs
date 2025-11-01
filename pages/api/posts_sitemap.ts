@@ -11,11 +11,11 @@ async function generateSiteMap() {
       const filePath = path.resolve(process.cwd(), `content/blog/${slug}.md`);
       const file = fs.readFileSync(filePath, "utf-8");
       const { data: frontmatter } = matter(file);
-      
+
       // Transform reading series slugs from reading-{series} to reading/{series}
       let urlSlug = slug;
       let lastmod;
-      
+
       if (slug.startsWith("reading-") && slug !== "reading") {
         urlSlug = `reading/${slug.replace("reading-", "")}`;
         // Use today's date for reading series pages
@@ -23,7 +23,7 @@ async function generateSiteMap() {
       } else {
         lastmod = frontmatter.lastUpdated.split("T")[0];
       }
-      
+
       return { slug: urlSlug, lastmod };
     } catch (error) {
       // Apply the same transformation for error cases
@@ -31,7 +31,7 @@ async function generateSiteMap() {
       if (slug.startsWith("reading-") && slug !== "reading") {
         urlSlug = `reading/${slug.replace("reading-", "")}`;
       }
-      
+
       return { slug: urlSlug, lastmod: today };
     }
   });
