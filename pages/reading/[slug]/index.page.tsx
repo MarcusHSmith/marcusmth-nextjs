@@ -1,11 +1,10 @@
 import fs from "fs";
 import matter from "gray-matter";
-import PostContent from "../../components/PostContent/PostContent";
-import { markdownToHtml } from "../../lib/markdown";
+import PostContent from "../../../components/PostContent/PostContent";
+import { markdownToHtml } from "../../../lib/markdown";
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync("content/blog");
-  // Only markdown files in root (reading series files are in subfolder)
+  const files = fs.readdirSync("content/blog/reading");
   const filteredFiles = files.filter((fileName) => fileName.endsWith(".md"));
   const paths = filteredFiles.map((fileName) => ({
     params: {
@@ -19,7 +18,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  const fileName = fs.readFileSync(`content/blog/${slug}.md`, "utf-8");
+  const fileName = fs.readFileSync(`content/blog/reading/${slug}.md`, "utf-8");
   const { data: frontmatter, content } = matter(fileName);
   const htmlContent = markdownToHtml(content);
   return {

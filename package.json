@@ -24,7 +24,8 @@
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "rss": "^1.2.2"
+    "rss": "^1.2.2",
+    "escape-html": "^1.0.3"
   },
   "devDependencies": {
     "@types/node": "18.11.5",
