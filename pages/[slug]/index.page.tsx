@@ -5,7 +5,12 @@ import { markdownToHtml } from "../../lib/markdown";
 
 export async function getStaticPaths() {
   const files = fs.readdirSync("content/blog");
-  const paths = files.map((fileName) => ({
+  // Filter out reading series files (handled by /reading/[slug] route)
+  // but keep reading.md itself
+  const filteredFiles = files.filter(
+    (fileName) => !fileName.startsWith("reading-") || fileName === "reading.md"
+  );
+  const paths = filteredFiles.map((fileName) => ({
     params: {
       slug: fileName.replace(".md", ""),
     },
