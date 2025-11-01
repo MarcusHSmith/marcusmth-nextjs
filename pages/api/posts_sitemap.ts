@@ -4,16 +4,35 @@ import matter from "gray-matter";
 import path from "path";
 
 async function generateSiteMap() {
+  const today = new Date().toISOString().split("T")[0];
   const posts = await loadPosts();
   const postsWithDates = posts.map((slug) => {
     try {
       const filePath = path.resolve(process.cwd(), `content/blog/${slug}.md`);
       const file = fs.readFileSync(filePath, "utf-8");
       const { data: frontmatter } = matter(file);
-      return { slug, lastmod: frontmatter.lastUpdated.split("T")[0] };
+      
+      // Transform reading series slugs from reading-{series} to reading/{series}
+      let urlSlug = slug;
+      let lastmod;
+      
+      if (slug.startsWith("reading-") && slug !== "reading") {
+        urlSlug = `reading/${slug.replace("reading-", "")}`;
+        // Use today's date for reading series pages
+        lastmod = today;
+      } else {
+        lastmod = frontmatter.lastUpdated.split("T")[0];
+      }
+      
+      return { slug: urlSlug, lastmod };
     } catch (error) {
-      const today = new Date().toISOString().split("T")[0];
-      return { slug, lastmod: today };
+      // Apply the same transformation for error cases
+      let urlSlug = slug;
+      if (slug.startsWith("reading-") && slug !== "reading") {
+        urlSlug = `reading/${slug.replace("reading-", "")}`;
+      }
+      
+      return { slug: urlSlug, lastmod: today };
     }
   });
 
