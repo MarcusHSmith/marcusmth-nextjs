@@ -2,10 +2,7 @@ import { loadPosts } from "../../lib/load-posts";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
-import {
-  READING_SERIES_PREFIX,
-  READING_BASE_SLUG,
-} from "../../utils/constants";
+import { READING_BASE_SLUG } from "../../utils/constants";
 
 async function generateSiteMap() {
   const today = new Date().toISOString().split("T")[0];
@@ -13,29 +10,29 @@ async function generateSiteMap() {
 
   // Also load reading series files from subfolder
   const readingDir = path.resolve(process.cwd(), "content/blog/reading");
-  let readingPosts: string[] = [];
+  let readingPosts: Array<{ slug: string; isReading: boolean }> = [];
   try {
     const readingFiles = fs.readdirSync(readingDir);
     readingPosts = readingFiles
       .filter((fileName) => fileName.endsWith(".md"))
-      .map((fileName) => fileName.replace(".md", ""));
+      .map((fileName) => ({
+        slug: fileName.replace(".md", ""),
+        isReading: true,
+      }));
   } catch (error) {
     // Reading directory doesn't exist, skip
   }
 
-  const allPosts = [...posts, ...readingPosts];
+  // Tag regular posts with isReading: false
+  const allPosts: Array<{ slug: string; isReading: boolean }> = [
+    ...posts.map((slug) => ({ slug, isReading: false })),
+    ...readingPosts,
+  ];
 
-  const postsWithDates = allPosts.map((slug) => {
+  const postsWithDates = allPosts.map(({ slug, isReading }) => {
     try {
-      // Check if this is a reading series file (in subfolder)
-      const readingFilePath = path.resolve(
-        process.cwd(),
-        `content/blog/reading/${slug}.md`
-      );
-      const isReadingSeries = fs.existsSync(readingFilePath);
-
-      const filePath = isReadingSeries
-        ? readingFilePath
+      const filePath = isReading
+        ? path.resolve(process.cwd(), `content/blog/reading/${slug}.md`)
         : path.resolve(process.cwd(), `content/blog/${slug}.md`);
       const file = fs.readFileSync(filePath, "utf-8");
       const { data: frontmatter } = matter(file);
@@ -44,7 +41,7 @@ async function generateSiteMap() {
       let urlSlug = slug;
       let lastmod;
 
-      if (isReadingSeries) {
+      if (isReading) {
         urlSlug = `${READING_BASE_SLUG}/${slug}`;
         lastmod = frontmatter.lastUpdated
           ? frontmatter.lastUpdated.split("T")[0]
