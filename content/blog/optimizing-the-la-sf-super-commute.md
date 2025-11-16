@@ -17,7 +17,7 @@ featuredImage:
 
 ## TL;DR;
 
-After two months of super commuting from Beverly Hills to Menlo Park, I recorded every segment of the journey through LAX, BUR, SFO, and SJC. I wanted to see whether one combination of airports was meaningfully better, faster, or cheaper. The data showed that BUR is the most consistent airport, LAX recorded the single fastest ride ever, and SFO and SJC were essentially identical for Bay Area arrivals. Monday mornings are surprisingly similar across airports, and a handful of small tricks make the entire routine smoother. There’s no perfect route, but there is a clear way to optimize depending on your priorities.
+After two months of super‑commuting from Beverly Hills in LA to Menlo Park, I recorded every segment of the journey through LAX, BUR, SFO, and SJC. I wanted to see whether one combination of airports was meaningfully better, faster, or cheaper. The data showed that BUR is the most consistent airport, LAX recorded the single fastest ride ever, and SFO and SJC were essentially identical for Silicon Valley arrivals. Monday mornings are surprisingly similar across airports, and a handful of small tricks make the entire routine smoother. There’s no perfect route, but there is a clear way to optimize depending on your priorities.
 
 ## Why I Did This
 
@@ -25,26 +25,26 @@ I live in Beverly Hills and work in Menlo Park. The distance from my home to bot
 
 ## Methodology
 
-For outbound flights from LA, I recorded the time from closing the car door to arriving at the gate. I use TSA PreCheck and rely on Touchless TSA at LAX, which skips the usual line. I carry only a backpack, so I intentionally arrive after boarding begins. For a 7am flight, I leave Beverly Hills at 6:10am, arriving at the gate around 6:44am. My closest call has been eight minutes before boarding closed.
+For outbound flights from LA, I recorded the time from closing the car door to arriving at the gate. I use TSA PreCheck and rely on Touchless TSA at LAX, which skips the usual line. I carry only a backpack, so I intentionally arrive after boarding begins. For a 7am flight, I leave Beverly Hills in LA at 6:10am, arriving at the gate around 6:44am. My closest call has been eight minutes before boarding closed.
 
-For Bay Area arrivals, I measured from plane-door-open to arrival at my office or shuttle stop, including Uber/Lyft costs. For Thursday returns to LA, I tracked from plane-door-open to arriving home. I eventually began taking the work shuttle to San Mateo for Wi‑Fi and lower cost.
+For Silicon Valley arrivals, I measured from plane‑door‑open to arrival at my office or shuttle stop in Menlo Park, including Uber/Lyft costs. For Thursday returns to LA, I tracked from plane‑door‑open to arriving home. I eventually began taking the work shuttle to San Mateo for Wi‑Fi and lower cost.
 
 ## The Data
 
 ### Super-Commute Airport Performance Summary
 
-| Commute Segment                   | Airport | Samples | Avg Time | Median Time | Fastest Time | Avg Cost |
-| --------------------------------- | ------- | ------- | -------- | ----------- | ------------ | -------- |
-| LA → Airport (Outbound Departure) | LAX     | 5       | 34.6 min | 36 min      | 29 min       | $54.89   |
-|                                   | BUR     | 3       | 37.3 min | 38 min      | 33 min       | $56.14   |
-| Bay Arrival (Outbound Arrival)    | SFO     | 5       | 41.4 min | 39 min      | 37 min       | $45.35   |
-|                                   | SJC     | 3       | 46.3 min | 43 min      | 38 min       | $41.92   |
-| Bay → LA Home (Return Arrival)    | BUR     | 4       | 41.8 min | 42 min      | 39 min       | $55.89   |
-|                                   | LAX     | 3       | 54.3 min | 54 min      | 46 min       | $44.71   |
+| Commute Segment                                           | Airport | Samples | Avg Time | Median Time | Fastest Time | Avg Cost |
+| --------------------------------------------------------- | ------- | ------- | -------- | ----------- | ------------ | -------- |
+| Beverly Hills (LA) → Airport (Outbound Departure)         | LAX     | 5       | 34.6 min | 36 min      | 29 min       | $54.89   |
+|                                                           | BUR     | 3       | 37.3 min | 38 min      | 33 min       | $56.14   |
+| Silicon Valley Arrival (Outbound Arrival)                 | SFO     | 5       | 41.4 min | 39 min      | 37 min       | $45.35   |
+|                                                           | SJC     | 3       | 46.3 min | 43 min      | 38 min       | $41.92   |
+| Silicon Valley → Beverly Hills (LA) Home (Return Arrival) | BUR     | 4       | 41.8 min | 42 min      | 39 min       | $55.89   |
+|                                                           | LAX     | 3       | 54.3 min | 54 min      | 46 min       | $44.71   |
 
 ## What the Data Shows
 
-LAX delivered the single fastest time, but BUR was the most consistent. Costs were nearly identical for morning departures. SFO and SJC performed similarly for Bay Area arrivals. BUR consistently got me home faster on return trips, while LAX was cheaper but more unpredictable.
+LAX delivered the single fastest time, but BUR was the most consistent. Costs were nearly identical for morning departures. SFO and SJC performed similarly for Silicon Valley arrivals. BUR consistently got me home faster on return trips, while LAX was cheaper but more unpredictable.
 
 ## Recommendations
 
