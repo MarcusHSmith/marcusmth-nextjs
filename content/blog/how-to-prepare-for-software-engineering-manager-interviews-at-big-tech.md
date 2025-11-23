@@ -36,7 +36,7 @@ To study, I found the 7 most common behavioral interview questions and prepared 
 
 **One tip: Finish STAR questions by saying "If I see this again, I would do [X] approach."** It shows that you're improving and thinking through situations.
 
-ChatGPT was vital for practicing behavioral questions. I started by creating a project with all the study material I'd found and interview notes I'd taken. Then I had it map out the 10 most common questions. I went through them one at a time. For each, I typed out my response and had it ask follow-up questions. At the end, I had it critique my answers so I could improve going forward. I stored these tuned responses in a doc so I could use the context for future interview prep.
+ChatGPT was vital for practicing behavioral questions. I started by creating a project with all the study material I'd found and interview notes I'd taken. Then I had it map out the 7 most common questions. I went through them one at a time. For each, I typed out my response and had it ask follow-up questions. At the end, I had it critique my answers so I could improve going forward. I stored these tuned responses in a doc so I could use the context for future interview prep.
 
 These interviews are scored on a rubric, so make sure to keep the conversation moving and hit everything you need to hit.
 
