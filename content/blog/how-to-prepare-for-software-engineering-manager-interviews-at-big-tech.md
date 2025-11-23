@@ -3,7 +3,7 @@ title: "How to Prepare for Software Engineering Manager Interviews at Big Tech"
 description: "After transitioning from CTO to Engineering Manager at Meta, I'm sharing the technical and behavioral preparation strategies that worked—from system design practice to using AI for behavioral interview prep with the STAR method."
 date: "2025-11-22T09:00:00.000Z"
 lastUpdated: "2025-11-22T09:00:00.000Z"
-tags: ["software Engineering Manager", "interviewing"]
+tags: ["software engineering manager", "interviewing"]
 path: blog
 isPublished: true
 featuredImage:
