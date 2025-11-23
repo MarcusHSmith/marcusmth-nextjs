@@ -6,7 +6,7 @@ interface IProps {
 
 export function Tag({ name }: IProps): ReactElement {
   return (
-    <div className="bg-blue-500 w-min rounded-md">
+    <div className="bg-blue-500 w-min rounded-md whitespace-nowrap">
       <span className="text-white text-xs px-2">{name}</span>
     </div>
   );
