@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import { ReactElement } from "react";
 
 export default function ResumePage() {
   const jsonLd = {
@@ -80,6 +79,14 @@ export default function ResumePage() {
           </h3>
 
           <div className="space-y-6">
+            <div>
+              <div className="flex justify-between items-start mb-2">
+                <h4 className="text-lg font-semibold text-gray-800">
+                  Software Engineering Manager, Meta
+                </h4>
+                <span className="text-gray-600">September 2025 - Present</span>
+              </div>
+            </div>
             <div>
               <div className="flex justify-between items-start mb-2">
                 <h4 className="text-lg font-semibold text-gray-800">
