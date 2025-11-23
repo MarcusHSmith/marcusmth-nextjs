@@ -3,7 +3,7 @@ title: "How to Prepare for Software Engineering Manager Interviews at Big Tech"
 description: "After transitioning from CTO to Engineering Manager at Meta, I'm sharing the technical and behavioral preparation strategies that worked—from system design practice to using AI for behavioral interview prep with the STAR method."
 date: "2025-11-22T09:00:00.000Z"
 lastUpdated: "2025-11-22T09:00:00.000Z"
-tags: ["software engineering", "interviewing"]
+tags: ["software Engineering Manager", "interviewing"]
 path: blog
 isPublished: true
 featuredImage:
@@ -25,7 +25,12 @@ These interviews are similar to a Senior Software Engineer interview. They inclu
 
 The bulk of the interviews is behavioral. Even the team matching tends to fall into behavioral interviews. Luckily after being a CTO I had ample stories and experience for every question even if the actions I took at the time weren't always perfect.
 
-Every answer should be formatted in the STAR structure (1. Situation, 2. Task, 3. Action, 4. Result).
+Every answer should be formatted in the **STAR** structure:
+
+1. **S**ituation - Set the context and background
+2. **T**ask - Describe what needed to be accomplished
+3. **A**ction - Explain the specific steps you took
+4. **R**esult - Share the outcome and what you learned
 
 To study, I found the 7 most common behavioral interview questions and prepared two stories for each one. I wrote those in STAR format and made sure I knew all the details of the history in case I was asked follow-up questions. I framed my answers by starting with "I can tell you what worked, or I can tell you about my series of approaches to find what worked"; the interviewer almost always wanted to hear the story from first attempts. This gave me space to walk through the Situation(s) that fit the question and then the different tactics I've used. This shows a willingness to learn and allowed me to demonstrate I'd seen problems multiple times.
 
