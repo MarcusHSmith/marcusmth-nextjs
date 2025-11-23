@@ -3,38 +3,24 @@ const path = require("path");
 const matter = require("gray-matter");
 
 const blogDir = path.resolve(process.cwd(), "content/blog");
+const blogFiles = fs.readdirSync(blogDir);
 
-// Recursively find all .md files in blogDir and subdirectories
-function findMarkdownFiles(dir) {
-  const files = [];
-  const entries = fs.readdirSync(dir, { withFileTypes: true });
-
-  for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      // Recursively search subdirectories
-      files.push(...findMarkdownFiles(fullPath));
-    } else if (entry.isFile() && entry.name.endsWith(".md")) {
-      files.push(fullPath);
-    }
-  }
-
-  return files;
-}
-
-const markdownFiles = findMarkdownFiles(blogDir);
 const tagCounts = new Map();
 
-markdownFiles.forEach((filePath) => {
-  const file = fs.readFileSync(filePath, "utf-8");
-  const { data: frontmatter } = matter(file);
-  const tags = frontmatter.tags ?? [];
-  
-  tags.forEach((tag) => {
-    const normalizedTag = tag.toLowerCase();
-    tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
+// Only process root-level markdown files, exclude subfolders (matching load-tags.ts behavior)
+blogFiles
+  .filter((fileName) => fileName.endsWith(".md")) // Only markdown files in root, exclude subfolders
+  .forEach((fileName) => {
+    const filePath = path.join(blogDir, fileName);
+    const file = fs.readFileSync(filePath, "utf-8");
+    const { data: frontmatter } = matter(file);
+    const tags = frontmatter.tags ?? [];
+    
+    tags.forEach((tag) => {
+      const normalizedTag = tag.toLowerCase();
+      tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
+    });
   });
-});
 
 // Convert to array and sort by count (descending), then by name
 const sortedTags = Array.from(tagCounts.entries())
@@ -56,5 +42,5 @@ sortedTags.forEach(([tag, count]) => {
 });
 
 console.log(`\nTotal unique tags: ${sortedTags.length}`);
-console.log(`Total blog posts analyzed: ${markdownFiles.length}`);
+console.log(`Total blog posts analyzed: ${blogFiles.filter(f => f.endsWith(".md")).length}`);
 
