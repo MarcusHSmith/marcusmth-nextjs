@@ -55,7 +55,9 @@ async function generateSiteMap() {
             : today;
         } else {
           urlSlug = slug;
-          lastmod = frontmatter.lastUpdated.split("T")[0];
+          lastmod = frontmatter.lastUpdated
+            ? frontmatter.lastUpdated.split("T")[0]
+            : today;
         }
 
         return { slug: urlSlug, lastmod };
