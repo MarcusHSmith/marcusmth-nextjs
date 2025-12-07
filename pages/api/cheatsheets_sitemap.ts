@@ -1,12 +1,30 @@
 import { loadCheatsheets } from "../../lib/load-cheatsheets";
+import fs from "fs";
+import matter from "gray-matter";
+import path from "path";
 
 async function generateSiteMap() {
   const posts = await loadCheatsheets();
   const today = new Date().toISOString().split("T")[0];
 
+  // Filter to only include published cheatsheets
+  const publishedPosts = posts.filter((slug) => {
+    try {
+      const filePath = path.resolve(
+        process.cwd(),
+        `content/cheatsheet/${slug}.md`
+      );
+      const file = fs.readFileSync(filePath, "utf-8");
+      const { data: frontmatter } = matter(file);
+      return frontmatter.isPublished !== false;
+    } catch (error) {
+      return false;
+    }
+  });
+
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${posts
+${publishedPosts
   .map((slug) => {
     return `  <url>
     <loc>https://www.marcusmth.com/cheatsheet/${slug}</loc>

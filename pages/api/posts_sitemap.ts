@@ -30,34 +30,43 @@ async function generateSiteMap() {
     ...readingPosts,
   ];
 
-  const postsWithDates = allPosts.map(({ slug, isReading }) => {
-    try {
-      const filePath = isReading
-        ? path.resolve(process.cwd(), `content/blog/reading/${slug}.md`)
-        : path.resolve(process.cwd(), `content/blog/${slug}.md`);
-      const file = fs.readFileSync(filePath, "utf-8");
-      const { data: frontmatter } = matter(file);
+  const postsWithDates = allPosts
+    .map(({ slug, isReading }) => {
+      try {
+        const filePath = isReading
+          ? path.resolve(process.cwd(), `content/blog/reading/${slug}.md`)
+          : path.resolve(process.cwd(), `content/blog/${slug}.md`);
+        const file = fs.readFileSync(filePath, "utf-8");
+        const { data: frontmatter } = matter(file);
 
-      // Transform reading series slugs to reading/{series}
-      let urlSlug = slug;
-      let lastmod;
+        // Only include published posts
+        if (frontmatter.isPublished === false) {
+          return null;
+        }
 
-      if (isReading) {
-        urlSlug = `${READING_BASE_SLUG}/${slug}`;
-        lastmod = frontmatter.lastUpdated
-          ? frontmatter.lastUpdated.split("T")[0]
-          : today;
-      } else {
-        urlSlug = slug;
-        lastmod = frontmatter.lastUpdated.split("T")[0];
+        // Transform reading series slugs to reading/{series}
+        let urlSlug = slug;
+        let lastmod;
+
+        if (isReading) {
+          urlSlug = `${READING_BASE_SLUG}/${slug}`;
+          lastmod = frontmatter.lastUpdated
+            ? frontmatter.lastUpdated.split("T")[0]
+            : today;
+        } else {
+          urlSlug = slug;
+          lastmod = frontmatter.lastUpdated
+            ? frontmatter.lastUpdated.split("T")[0]
+            : today;
+        }
+
+        return { slug: urlSlug, lastmod };
+      } catch (error) {
+        // Fallback: assume it's a regular post
+        return null;
       }
-
-      return { slug: urlSlug, lastmod };
-    } catch (error) {
-      // Fallback: assume it's a regular post
-      return { slug, lastmod: today };
-    }
-  });
+    })
+    .filter((post) => post !== null);
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

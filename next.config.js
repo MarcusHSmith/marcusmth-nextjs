@@ -58,6 +58,7 @@ const nextConfig = {
   i18n: {
     locales: ["en"],
     defaultLocale: "en",
+    localeDetection: false,
   },
   async redirects() {
     return [
@@ -86,11 +87,16 @@ const nextConfig = {
         permanent: true,
         destination: "https://www.marcusmth.com/:path*",
       },
-      // Remove index.html from URLs
+      // Remove index.html from URLs (without trailing slash to avoid redirect chain)
       {
-        source: "/:path*/index.html",
+        source: "/index.html",
         permanent: true,
-        destination: "/:path*/",
+        destination: "/",
+      },
+      {
+        source: "/:path+/index.html",
+        permanent: true,
+        destination: "/:path+",
       },
       // Remove .html extensions
       {
