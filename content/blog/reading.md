@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2025-10-25T10:00:00.000Z"
+lastUpdated: "2025-12-06T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -26,7 +26,7 @@ This page is a history of books I've read and maybe some I'd recommend. Too ofte
 
 ## 2025
 
-🏃‍♂️ [Superyacht Success: The insider's guide to the yachting industry](https://www.amazon.com/gp/product/B0F74HFCRB) by Brendan O'Shannassy [⛵](/reading/superyachts)
+[Superyacht Success: The insider's guide to the yachting industry](https://www.amazon.com/gp/product/B0F74HFCRB) by Brendan O'Shannassy [⛵](/reading/superyachts)
 
 🥱 [The Haves and Have-Yachts: Dispatches on the Ultrarich](https://www.amazon.com/Haves-Have-Yachts-Dispatches-Ultrarich-ebook/dp/B0DV6LC1FN/ref=sr_1_1?dib=eyJ2IjoiMSJ9.V-Pu5Aci8KNAsOWUYnG54KwqYkOJKMqS-Wii7Xf6WavOCKpRLiuLfuP2sSHEEeAfpypES-hl4UkvucS4UcooZoEOcT1ameBWHeqX2vdvxDARrMK7bXwU2iifHKzQca2MmW6d6_UXAVxx0cgGrX8oG_UKNw9AlFuqnp-35JsljwvPkeoSn2pPF8dBRzd7SQrjq38OEJ7gcPj2tylt0npiKsxezvhGWaf67U4edTVTd8Y.7rixcoOEnwAdDd8cQdWM5KOb7v455QOIDelJBuu6Rjk&dib_tag=se&hvadid=589949667562&hvdev=c&hvexpln=0&hvlocphy=1014390&hvnetw=g&hvocijid=13573989933122830475--&hvqmt=e&hvrand=13573989933122830475&hvtargid=kwd-1944780161908&hydadcr=17288_13438668&keywords=have+and+have+yachts&mcid=0a007b2609833cc4ad9b5e636888f79d&qid=1761414875&sr=8-1) by Evan Osnos
 
