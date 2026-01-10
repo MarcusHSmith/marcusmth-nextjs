@@ -3,29 +3,32 @@ path: blog
 date: "2026-01-10T10:00:00.000Z"
 lastUpdated: "2026-01-10T10:00:00.000Z"
 title: How I Decide What Books to Read
-description: A quiet reflection on a personal system for capturing, reading, and closing the loop on book recommendations
+description: Discover how to decide what books to read with a personal system that captures recommendations, respects timing, and transforms reading into meaningful conversations
+featuredImage:
+  src: "barts_books.png"
+  alt: "Outdoor bookstall with couple reading"
 tags:
   - reading
 isPublished: true
 ---
 
-I keep a single Amazon Reading List. When someone mentions a book I might want to read, I add it immediately. The source doesn't matter—a friend over coffee, a podcast guest, someone I follow online, a casual reference in an article. If it sounds interesting, it goes on the list.
+My goal is simple: turn reading from a source of pressure into a system that respects timing, preserves connections, and transforms books from items on a backlog into threads in ongoing conversations. It's not about reading everything. It's about reading the right things at the right time, and maintaining the relationships that led me to them.
 
-This isn't a commitment. It's just capture. Adding a book removes any pressure to read it right now, or even soon. It sits there until it doesn't.
+I keep a single [Amazon Reading List](https://www.amazon.com/hz/wishlist/ls/39VIPIWI8S6H9?ref_=wl_share). When someone mentions a book I might want to read, I add it immediately. The source doesn't matter—a friend over coffee, a podcast guest, someone I follow online, a casual reference in an article. If it sounds interesting, it goes on the list. This isn't a commitment. It's just capture. Adding a book removes any pressure to read it right now, or even soon. It sits there until it doesn't. The books that make it through this process, the ones I actually read, I document on [my reading page](/reading).
 
-## Step 1: Capturing the Source
+## Remembering the Source
 
 For every book I add, I record who recommended it and where it came from. Not because I'm building some database, but because recommendations carry context. A book my friend Patrick recommends carries different weight than something I hear on a podcast, and over time I've learned whose taste aligns with mine and whose doesn't.
 
 When I add *Chaos* by Tom O'Neill, I note that Patrick recommended it. I don't remember the exact conversation, but I remember him mentioning it years ago. The book sits on my list for a long time.
 
-## Step 2: Waiting for the Right Moment
+## Waiting for the Right Moment
 
 I let books sit. Months, sometimes years. I only read them when the timing feels right. Right now I'm reading *Chaos*. Patrick recommended it years ago, but something about this moment made it the right time to pick it up. I'm not sure what changed, but it did.
 
 This intentional delay serves a purpose. Books that still interest me after sitting for a while are usually the ones worth reading. The ones that lose their appeal probably weren't the right fit anyway.
 
-## Step 3: Closing the Loop
+## Closing the Loop
 
 When I finish a book, I do two things. First, I message the person who recommended it. I tell them I read it, thank them for the recommendation, and maybe share a brief thought about it. People love knowing their recommendation mattered. It's a small gesture that strengthens connections.
 
