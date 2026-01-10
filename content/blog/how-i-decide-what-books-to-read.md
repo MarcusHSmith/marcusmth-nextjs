@@ -1,7 +1,7 @@
 ---
 path: blog
-date: "2025-01-27T10:00:00.000Z"
-lastUpdated: "2025-01-27T10:00:00.000Z"
+date: "2026-01-10T10:00:00.000Z"
+lastUpdated: "2026-01-10T10:00:00.000Z"
 title: How I Decide What Books to Read
 description: A quiet reflection on a personal system for capturing, reading, and closing the loop on book recommendations
 tags:
