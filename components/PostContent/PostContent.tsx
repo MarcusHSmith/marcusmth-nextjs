@@ -103,7 +103,7 @@ export default function PostContent({
         <div className="mb-8 rounded-lg overflow-hidden shadow-lg max-h-[400px] flex items-center justify-center">
           <Image
             src={`/images/${frontmatter.featuredImage.src}`}
-            alt={frontmatter.title}
+            alt={frontmatter.featuredImage.alt || frontmatter.title}
             width={1024}
             height={1024}
             className="w-auto h-auto max-h-[400px] object-contain"

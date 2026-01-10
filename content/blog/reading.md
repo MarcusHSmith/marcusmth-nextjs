@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2025-12-21T10:00:00.000Z"
+lastUpdated: "2026-01-10T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -15,6 +15,8 @@ isPublished: true
 # Marcus's Reading List
 
 This page is a history of books I've read and maybe some I'd recommend. Too often I consume books and forget both that I read them and what I learned.
+
+If you're curious about how I decide what books to read, I wrote about [my process here](/how-i-decide-what-books-to-read).
 
 ## Guide
 
