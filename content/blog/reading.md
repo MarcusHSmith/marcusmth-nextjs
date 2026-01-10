@@ -16,6 +16,8 @@ isPublished: true
 
 This page is a history of books I've read and maybe some I'd recommend. Too often I consume books and forget both that I read them and what I learned.
 
+If you're curious about how I decide what books to read, I wrote about [my process here](/blog/how-i-decide-what-books-to-read).
+
 ## Guide
 
 🏃‍♂️ for the book I am currently reading
