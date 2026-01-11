@@ -2,7 +2,6 @@
 
 import { useChat } from "ai/react";
 import { useState } from "react";
-import Head from "next/head";
 
 interface Source {
   slug: string;
@@ -57,13 +56,6 @@ export default function WritePage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Head>
-        <title>AI Blog Writer | marcusmth.com</title>
-        <meta
-          name="description"
-          content="Request a blog post in Marcus's style using AI"
-        />
-      </Head>
 
       <div className="max-w-4xl mx-auto px-4 py-8">
         <div className="bg-white rounded-lg shadow-md p-6 mb-6">
