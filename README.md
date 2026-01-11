@@ -176,6 +176,80 @@ Blog posts are stored in `content/blog/*.md` with the following structure:
 3. Include image references and descriptions
 4. Content will be available in the drone section
 
+## AI Blog Writer
+
+The site includes an AI-powered blog writer feature that generates blog posts in Marcus's style using existing blog posts as reference.
+
+### Setup
+
+#### Environment Variables
+
+Add the following environment variables to your `.env.local` file (or set them in Vercel):
+
+```bash
+# Vercel KV (Redis) Configuration
+# Get these from your Vercel project settings -> Storage -> KV
+KV_REST_API_URL=your_kv_rest_api_url
+KV_REST_API_TOKEN=your_kv_rest_api_token
+
+# OpenAI API Key (for embeddings and generation)
+# Get this from https://platform.openai.com/api-keys
+OPENAI_API_KEY=your_openai_api_key
+```
+
+#### Running Ingestion Locally
+
+Before using the AI writer, you need to ingest and index your blog posts:
+
+1. **Full reindex** (processes all posts):
+   ```bash
+   yarn ingest
+   ```
+
+2. **Changed files only** (processes only modified posts):
+   ```bash
+   yarn ingest --changed-only
+   ```
+
+The ingestion script will:
+- Parse all markdown files in `content/blog/`
+- Convert markdown to plain text
+- Chunk content into 1200-1800 character segments with 200 character overlap
+- Create embeddings using OpenAI's `text-embedding-3-small` model
+- Store chunks, embeddings, and inverted index in Vercel KV
+- Track file hashes to enable incremental updates
+
+### Testing the AI Writer
+
+1. Start the development server:
+   ```bash
+   yarn dev
+   ```
+
+2. Navigate to `/write` in your browser
+
+3. Enter a topic and optional parameters (tone, audience, length)
+
+4. Click "Generate Blog Post" to see the AI-generated content
+
+The AI writer uses a two-stage retrieval system:
+- **Stage 1**: Keyword prefilter using an inverted index stored in KV
+- **Stage 2**: Cosine similarity reranking on top candidates (max 200)
+
+### Rate Limiting
+
+The AI writer includes rate limiting:
+- **10 requests per hour per IP address**
+- Requests are tracked in Vercel KV with automatic expiration
+
+### Cost Controls
+
+- Topic length is limited to 500 characters
+- Output tokens are limited based on requested length:
+  - Short: 1000 tokens (~500 words)
+  - Medium: 2000 tokens (~1000 words)
+  - Long: 3000 tokens (~2000 words)
+
 ## Deployment
 
 The site is deployed on **Vercel** with the following features:
