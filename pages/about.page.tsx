@@ -112,6 +112,14 @@ export default function AboutPage() {
                   My Reading List →
                 </Link>
               </div>
+              <div>
+                <Link
+                  href="/write"
+                  className="inline-flex items-center px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
+                >
+                  AI Blog Writer →
+                </Link>
+              </div>
             </div>
           </section>
 
