@@ -144,6 +144,24 @@ npm run dev
 3. Write content in Markdown format
 4. The post will automatically appear in the blog listing
 
+#### Blog Content Structure
+
+Blog posts are stored in `content/blog/*.md` with the following structure:
+
+- **File Format**: Markdown (`.md`) files
+- **Slug Generation**: Filename without `.md` extension (e.g., `how-i-decide-what-books-to-read.md` → slug: `how-i-decide-what-books-to-read`)
+- **Frontmatter Fields**:
+  - `path`: Content path (typically "blog")
+  - `date`: Publication date (ISO 8601 format)
+  - `lastUpdated`: Last update date (ISO 8601 format)
+  - `title`: Post title
+  - `description`: SEO description
+  - `featuredImage`: Optional image object with `src` and `alt`
+  - `tags`: Array of tag strings
+  - `isPublished`: Boolean flag for publication status
+- **Content**: Markdown body content after frontmatter
+- **URL Format**: `https://www.marcusmth.com/{slug}`
+
 ### Adding Cheatsheets
 
 1. Create a new `.md` file in `content/cheatsheet/`
