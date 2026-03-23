@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2026-01-10T10:00:00.000Z"
+lastUpdated: "2026-03-22T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -26,9 +26,13 @@ If you're curious about how I decide what books to read, I wrote about [my proce
 
 🔊 for audiobooks
 
+## 2026
+
+[Play Nice But Win: A CEO's Journey from Founder to Leader](https://a.co/d/061XgiMD) by [Michael Dell](https://x.com/MichaelDell?s=20)
+
 ## 2025
 
-🏃‍♂️ [Chaos: Charles Manson, the CIA, and the Secret History of the Sixties](https://a.co/d/hUT0l07) by Tom O'Neill
+🥱 [Chaos: Charles Manson, the CIA, and the Secret History of the Sixties](https://a.co/d/hUT0l07) by Tom O'Neill
 
 [Superyacht Success: The insider's guide to the yachting industry](https://www.amazon.com/gp/product/B0F74HFCRB) by Brendan O'Shannassy [⛵](/reading/superyachts)
 
