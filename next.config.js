@@ -54,6 +54,10 @@ const nextConfig = {
         source: "/feed.xml/",
         destination: "/api/feed",
       },
+      {
+        source: "/llms.txt",
+        destination: "/api/llms",
+      },
     ];
   },
   i18n: {

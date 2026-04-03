@@ -12,14 +12,13 @@ export interface ILocation {
 
 export default function Map({ location }: { location: ILocation }) {
   const [pageIsMounted, setPageIsMounted] = useState(false);
-  const [map, setMap] = useState(undefined);
+  const [map, setMap] = useState<any>(undefined);
 
   if (window.location.pathname.startsWith("/reports/wework/")) {
     mapboxgl = require("mapbox-gl/dist/mapbox-gl.js");
   }
 
-  mapboxgl.accessToken =
-    "pk.eyJ1Ijoid2FubmFkYyIsImEiOiJjazBja2M1ZzYwM2lnM2dvM3o1bmF1dmV6In0.50nuNnApjrJYkMfR2AUpXA";
+  mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
 
   useEffect(() => {
     setPageIsMounted(true);
@@ -36,7 +35,7 @@ export default function Map({ location }: { location: ILocation }) {
   }, [location]);
 
   useEffect(() => {
-    if (pageIsMounted) {
+    if (pageIsMounted && map) {
       map.on("load", function () {
         new mapboxgl.Marker({})
           .setLngLat([location.lng, location.lat])

@@ -1,7 +1,4 @@
-import { ReactElement, useEffect, useMemo, useState } from "react";
-import Image from "next/image";
-import router from "next/router";
-import Link from "next/link";
+import { ReactElement, useMemo } from "react";
 import { PostItem } from "../PostItem/PostItem";
 
 export interface IPost {
@@ -22,20 +19,15 @@ export function PostList({
   category,
   limit = undefined,
 }: IProps): ReactElement {
-  const [sortedPosts, setSortedPosts] = useState<IPost[]>([]);
-  useEffect(() => {
-    const sortedList = posts
+  const sortedPosts = useMemo(() => {
+    const sorted = posts
       .filter((p) => p.frontmatter.isPublished)
       .sort((a, b) => {
         const dateA = new Date(a.frontmatter.lastUpdated);
         const dateB = new Date(b.frontmatter.lastUpdated);
         return dateB.getTime() - dateA.getTime();
       });
-    if (limit) {
-      setSortedPosts(sortedList.slice(0, limit));
-      return;
-    }
-    setSortedPosts(sortedList);
+    return limit ? sorted.slice(0, limit) : sorted;
   }, [limit, posts]);
 
   let rootUrl = "/";
