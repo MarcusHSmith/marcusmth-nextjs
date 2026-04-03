@@ -11,8 +11,6 @@ featuredImage:
   alt: "Youtube Logo"
 ---
 
-# Why My YouTube Shopping Links Haven't Made a Single Sale
-
 _I've tagged cameras, microphones, and gear in my walking videos for more than six months. In that same period, I've earned thousands of dollars from YouTube ads. From Shopping? Not a single dollar. This post is a breakdown of why YouTube Shopping links don't convert — at least not on a channel like mine._
 
 ## Background: Ads vs. Shopping
