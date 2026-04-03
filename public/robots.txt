@@ -1,10 +1,11 @@
 # Allow all crawlers
 User-agent: *
 Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
 
 # Block crawling of API routes and admin paths
 Disallow: /api/
-Disallow: /_next/
 Disallow: /admin/
 
 # Specify canonical host

@@ -19,7 +19,9 @@ const nextConfig = {
     config.resolve.fallback = { fs: false };
     return config;
   },
-  turbopack: {},
+  turbopack: {
+    root: __dirname,
+  },
   async rewrites() {
     return [
       {
