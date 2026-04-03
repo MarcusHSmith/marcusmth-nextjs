@@ -121,7 +121,7 @@ function BestAccolade({
   accolade: ACCOLADE;
   locationData: ILocationData[];
   city: CITY;
-}): ReactElement | null {
+}): ReactElement {
   const locationDetails = locationData.find((d: ILocationData) => {
     const position = d.accolades.findIndex((a) => a === accolade);
     return position !== -1;
