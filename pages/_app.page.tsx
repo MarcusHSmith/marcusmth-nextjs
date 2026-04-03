@@ -88,7 +88,7 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-      {GA_MEASUREMENT_ID && <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />}
+      <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />
       <Analytics />
     </>
   );
