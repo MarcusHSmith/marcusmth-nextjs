@@ -1,7 +1,7 @@
-import { HeaderBio } from "../components/HeaderBio/HeaderBio";
 import Head from "next/head";
 import Link from "next/link";
 import { ReactElement } from "react";
+import { PageShell } from "../components/PageShell/PageShell";
 
 export default function AboutPage() {
   const jsonLd = {
@@ -48,7 +48,7 @@ export default function AboutPage() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <PageShell>
       <Head>
         <title>About Marcus Smith | www.marcusmth.com</title>
         <meta
@@ -60,8 +60,6 @@ export default function AboutPage() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </Head>
-
-      <HeaderBio presentation="min" />
 
       <div className="prose max-w-none">
         <h1 className="text-4xl font-bold">Hi, I&apos;m Marcus 👋</h1>
@@ -136,6 +134,6 @@ export default function AboutPage() {
           </section>
         </div>
       </div>
-    </div>
+    </PageShell>
   );
 }

@@ -1,15 +1,10 @@
 import { ReactElement } from "react";
-import { HeaderBio } from "../HeaderBio/HeaderBio";
+import { PageShell } from "../PageShell/PageShell";
 
 interface IProps {
   children: ReactElement;
 }
 
 export function HomeLayout({ children }: IProps): ReactElement {
-  return (
-    <div className="p-4">
-      <HeaderBio presentation="min" />
-      {children}
-    </div>
-  );
+  return <PageShell>{children}</PageShell>;
 }
