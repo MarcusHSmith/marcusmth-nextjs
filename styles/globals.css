@@ -2,8 +2,19 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-a {
-  @apply underline text-blue-600 hover:text-blue-800;
+@layer base {
+  a {
+    @apply underline text-blue-600 hover:text-blue-800;
+  }
+
+  a.post-item-link,
+  a.post-item-link *,
+  a.post-item-link:hover,
+  a.post-item-link:hover *,
+  a.post-item-link:focus,
+  a.post-item-link:focus * {
+    text-decoration: none !important;
+  }
 }
 
 code {
