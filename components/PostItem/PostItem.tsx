@@ -26,43 +26,46 @@ export function PostItem({
   featuredImage,
 }: IProps): ReactElement {
   const visibleTags = tags?.slice(0, 3);
+  const postHref = `${rootUrl}${slug}`;
 
   return (
-    <div className="mb-6 rounded-lg border border-gray-200 bg-white shadow-md transition-transform duration-300 hover:scale-102 hover:shadow-blue-200">
+    <div className="relative mb-6 rounded-lg border border-gray-200 bg-white shadow-md transition-transform duration-300 hover:scale-102 hover:shadow-blue-200">
       <Link
         key={slug}
-        href={`${rootUrl}${slug}`}
-        className="block overflow-hidden"
-      >
-        <div className="p-6 flex flex-col md:flex-row justify-between">
-          <div className="flex flex-col justify-center mb-4 md:mb-0 md:mr-6">
-            <h2 className="font-bold text-2xl text-blue-600 mb-2">{title}</h2>
-            <p className="text-gray-700 mb-2">{description}</p>
-            <span className="font-light text-sm text-gray-500">
-              {new Date(lastUpdated).toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
-            </span>
-          </div>
-          <div className="w-full md:w-60 h-40 relative flex-shrink-0">
-            {featuredImage && (
-              <Image
-                src={`/images/${featuredImage?.src}`}
-                alt={featuredImage?.alt}
-                className="rounded-md object-contain"
-                layout="fill"
-                priority
-                placeholder="empty"
-              />
-            )}
-          </div>
+        href={postHref}
+        aria-label={`Open post: ${title}`}
+        className="absolute inset-0 rounded-lg"
+      />
+      <div className="pointer-events-none p-6 flex flex-col justify-between md:flex-row">
+        <div className="mb-4 flex flex-col justify-center md:mb-0 md:mr-6">
+          <h2 className="mb-2 text-2xl font-bold text-blue-600">{title}</h2>
+          <p className="mb-2 text-gray-700">{description}</p>
+          <span className="text-sm font-light text-gray-500">
+            {new Date(lastUpdated).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })}
+          </span>
         </div>
-      </Link>
+        <div className="relative h-40 w-full flex-shrink-0 md:w-60">
+          {featuredImage && (
+            <Image
+              src={`/images/${featuredImage?.src}`}
+              alt={featuredImage?.alt}
+              className="rounded-md object-contain"
+              layout="fill"
+              priority
+              placeholder="empty"
+            />
+          )}
+        </div>
+      </div>
       {!!visibleTags?.length && (
-        <div className="px-6 pb-6">
-          <TagList tags={visibleTags} />
+        <div className="pointer-events-none px-6 pb-6">
+          <div className="pointer-events-auto">
+            <TagList tags={visibleTags} />
+          </div>
         </div>
       )}
     </div>
