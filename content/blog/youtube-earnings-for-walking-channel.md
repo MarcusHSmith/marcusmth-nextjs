@@ -3,7 +3,7 @@ title: "How Much Money Can You Make with a Walking Video Channel on YouTube?"
 description: "A detailed breakdown of earnings from a walking video channel, including AdSense revenue, MSN Partner Hub income, and content sales"
 date: "2025-03-04T18:25:11.908Z"
 lastUpdated: "2025-03-27T18:25:11.908Z"
-tags: ["youtube", "creator-economy", "monetization", "msn"]
+tags: ["youtube", "adsense", "creator-economy", "monetization", "msn"]
 path: "youtube-earnings-for-walking-channel"
 isPublished: true
 featuredImage:
