@@ -1,6 +1,6 @@
 ---
 title: "Building WhoseHouseBurned.com: A Friday Night AI Agent Hackathon"
-tags: ["ai", "nextjs", "vercel", "web-development"]
+tags: ["nextjs", "cursor", "ai", "vercel"]
 description: "The story of building a celebrity home tracker during the 2025 LA fires - from concept to deployment in a single night using Next.js, AI agents, and automated data collection"
 date: "2025-02-19T18:25:11.908Z"
 lastUpdated: "2025-02-19T18:25:11.951Z"
