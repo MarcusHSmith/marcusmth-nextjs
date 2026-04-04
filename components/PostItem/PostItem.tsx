@@ -32,7 +32,8 @@ export function PostItem({
       <Link
         key={slug}
         href={`${rootUrl}${slug}`}
-        className="block overflow-hidden"
+        className="post-item-link block overflow-hidden no-underline hover:no-underline focus:no-underline"
+        style={{ textDecoration: "none" }}
       >
         <div className="p-6 flex flex-col md:flex-row justify-between">
           <div className="flex flex-col justify-center mb-4 md:mb-0 md:mr-6">
