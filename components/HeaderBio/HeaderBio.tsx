@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 import { ReactElement, useMemo } from "react";
 import { FULL_NAME } from "../../utils/constants";
 import { useRouter } from "next/router";
@@ -11,27 +11,14 @@ interface IProps {
 export function HeaderBio({
   presentation: presentation = "full",
 }: IProps): ReactElement {
-  const router = useRouter();
-  const homeLink = useMemo(() => {
-    const homeText = <strong>{FULL_NAME}</strong>;
-    if (router.pathname === "/") {
-      return homeText;
-    }
-    return (
-      <Link
-        href={`/`}
-        className="no-underline hover:no-underline focus:no-underline"
-      >
-        {homeText}
-      </Link>
-    );
-  }, [router]);
   const rightContent = useMemo(() => {
     switch (presentation) {
       case "min":
         return (
           <div>
-            <span>{homeLink}</span>
+            <span>
+              <strong>{FULL_NAME}</strong>
+            </span>
             <InternalLinks />
           </div>
         );
@@ -39,18 +26,18 @@ export function HeaderBio({
         return (
           <div>
             <span>
-              {homeLink} spends his time at WeWorks. He is a software engineer
-              focused on iOS and React development. This is used as a repository
-              for information learned and utilized.
+              <strong>{FULL_NAME}</strong> spends his time at WeWorks. He is a
+              software engineer focused on iOS and React development. This is
+              used as a repository for information learned and utilized.
             </span>
             <InternalLinks />
           </div>
         );
     }
-  }, [presentation, homeLink]);
+  }, [presentation]);
 
   return (
-    <div className="flex gap-2 min-w-[50px] m-4">
+    <div className="mb-8 flex min-w-[50px] gap-3">
       <div className="h-[50px] -[50px] flex-none">
         <Image
           src={"/images/profile-pic-marcus.jpg"}

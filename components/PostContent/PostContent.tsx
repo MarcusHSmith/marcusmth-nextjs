@@ -1,4 +1,4 @@
-import { HeaderBio } from "../HeaderBio/HeaderBio";
+import { PageShell } from "../PageShell/PageShell";
 import { TagList } from "../TagList/TagList";
 import dynamic from "next/dynamic";
 import { useState, useEffect } from "react";
@@ -56,14 +56,13 @@ export default function PostContent({
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-0">
+    <PageShell>
       <Head>
         <link
           rel="license"
           href="https://creativecommons.org/licenses/by/4.0/"
         />
       </Head>
-      <HeaderBio presentation="min" />
       {frontmatter.featuredImage && (
         <div className="mb-8 rounded-lg overflow-hidden shadow-lg max-h-[400px] flex items-center justify-center">
           <Image
@@ -91,6 +90,6 @@ export default function PostContent({
         <hr className="mb-8" />
         {htmlContent ? renderServerHtml() : renderContent()}
       </div>
-    </div>
+    </PageShell>
   );
 }
