@@ -4,9 +4,7 @@ date: "2021-06-03T14:38:50.104Z"
 lastUpdated: "2021-06-03T14:53:53.611Z"
 title: Graphql Union Resolver
 description: Simple example of a Graphql Union with a Resolver
-tags:
-  - graphql
-  - typescript
+tags: ["graphql", "typescript", "web-development"]
 isPublished: true
 ---
 

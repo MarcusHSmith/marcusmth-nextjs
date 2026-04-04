@@ -4,8 +4,7 @@ date: "2020-12-18T19:31:46.051Z"
 lastUpdated: "2020-12-18T19:31:47.161Z"
 title: AppStoreConnect - Newer Build Available
 description: Solve rejecting a build and upgrading the version
-tags:
-  - ios
+tags: ["ios", "xcode", "app-store-connect"]
 isPublished: true
 ---
 

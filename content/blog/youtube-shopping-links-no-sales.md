@@ -3,7 +3,7 @@ title: "Why My YouTube Shopping Links Haven't Made a Single Sale"
 description: "Six months of tagging cameras, microphones, and gear brought in thousands from ads — and nothing from Shopping. Here's why YouTube's affiliate program doesn't convert, and what I've learned from the experiment."
 date: "2025-08-28T18:25:11.908Z"
 lastUpdated: "2025-08-28T18:25:11.908Z"
-tags: ["youtube"]
+tags: ["youtube", "creator-economy", "monetization"]
 path: "youtube-shopping-links-no-sales"
 isPublished: true
 featuredImage:

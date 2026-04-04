@@ -5,8 +5,7 @@ lastUpdated: "2019-12-28T22:13:05.284Z"
 title: Creating and retrieving using Typescript Partials
 description: How to use Tyescript Partials which is useful in React projects
 isPublished: true
-tags:
-  - react
+tags: ["typescript", "react", "web-development"]
 ---
 
 Last week I had an interesting problem in typescript. A database column needed to store json blobs that fit multiple interfaces. These interfaces were often overlapping.

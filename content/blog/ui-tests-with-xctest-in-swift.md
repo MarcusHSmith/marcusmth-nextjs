@@ -4,10 +4,7 @@ date: "2021-07-20T21:24:28.676Z"
 lastUpdated: "2021-07-20T21:24:28.718Z"
 title: UI Tests with XCTest in Swift
 description: Everything you need to know to write UITests
-tags:
-  - swift
-  - xctest
-  - xcuitest
+tags: ["swift", "testing", "xcode"]
 isPublished: true
 featuredImage:
   src: "swift-logo.svg"

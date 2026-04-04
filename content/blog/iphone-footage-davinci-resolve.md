@@ -7,9 +7,7 @@ description: Learn how to properly color correct iPhone footage in DaVinci Resol
 featuredImage:
   src: "davinci-resolve-logo.png"
   alt: "DaVinci Resolve logo"
-tags:
-  - youtube
-  - davinci_resolve
+tags: ["youtube", "davinci-resolve", "video-production"]
 isPublished: true
 ---
 

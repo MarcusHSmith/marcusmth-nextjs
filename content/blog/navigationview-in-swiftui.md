@@ -4,9 +4,7 @@ date: "2021-02-18T18:25:11.908Z"
 lastUpdated: "2021-02-18T18:25:11.951Z"
 title: NavigationView in SwiftUI
 description: How to set navigation bar titles
-tags:
-  - swift
-  - swiftui
+tags: ["swift", "ios", "swiftui"]
 isPublished: true
 featuredImage:
   src: "swift-logo.svg"

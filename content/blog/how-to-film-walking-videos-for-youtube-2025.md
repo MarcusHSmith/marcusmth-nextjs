@@ -4,8 +4,7 @@ date: "2025-09-02T01:39:25.326Z"
 lastUpdated: "2025-09-02T01:39:25.326Z"
 title: How to film walking videos for Youtube
 description: A guide to the equipment and planning of silent walking videos
-tags:
-  - youtube
+tags: ["youtube", "content-creation", "video-production"]
 isPublished: true
 featuredImage:
   src: "people-watching-channel.jpg"

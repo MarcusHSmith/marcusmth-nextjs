@@ -4,10 +4,7 @@ date: "2020-07-27T17:22:47.299Z"
 lastUpdated: "2021-04-26T16:30:44.726Z"
 title: iOS Provisioning Profile Guide
 description: Everything I know about setting up Certificates for XCode and iOS devices
-tags:
-  - ios
-  - xcode
-  - appStoreConnect
+tags: ["ios", "xcode", "app-store-connect"]
 isPublished: true
 ---
 

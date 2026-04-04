@@ -7,8 +7,7 @@ description: >-
   Code review job interviews can present a challenge, this will help you pass
   their questions
 isPublished: true
-tags:
-  - software engineer
+tags: ["software-engineering", "interviewing", "career"]
 ---
 
 Last week a friend asked for advice on an upcoming Code Review interview. I wrote up this document for him and thought it could be valuable to other engineers who are new to the process. Here are my thoughts now and this will continue to update as my perspective changes. I'm happy to hear your feedback.

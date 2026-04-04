@@ -4,6 +4,7 @@ date: "2024-11-26T10:00:00.000Z"
 lastUpdated: "2024-11-26T10:00:00.000Z"
 title: Marcus's Favorite Websites | A Curated Collection of Interesting Internet Destinations
 description: Explore Marcus's curated list of fascinating websites, ranging from unique tools to oddly specific archives. Discover hidden gems of the internet that are worth bookmarking.
+tags: ["productivity", "web-development", "software-engineering"]
 isPublished: true
 ---
 
