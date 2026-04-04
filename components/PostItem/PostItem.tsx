@@ -28,21 +28,16 @@ export function PostItem({
   const visibleTags = tags?.slice(0, 3);
 
   return (
-    <Link
-      key={slug}
-      href={`${rootUrl}${slug}`}
-      className="block mb-6 transition-transform duration-300 hover:scale-102"
-    >
-      <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-blue-200 transition-shadow duration-300 border border-gray-200">
+    <div className="mb-6 rounded-lg border border-gray-200 bg-white shadow-md transition-transform duration-300 hover:scale-102 hover:shadow-blue-200">
+      <Link
+        key={slug}
+        href={`${rootUrl}${slug}`}
+        className="block overflow-hidden"
+      >
         <div className="p-6 flex flex-col md:flex-row justify-between">
           <div className="flex flex-col justify-center mb-4 md:mb-0 md:mr-6">
             <h2 className="font-bold text-2xl text-blue-600 mb-2">{title}</h2>
             <p className="text-gray-700 mb-2">{description}</p>
-            {!!visibleTags?.length && (
-              <div className="mb-3">
-                <TagList tags={visibleTags} interactive={false} />
-              </div>
-            )}
             <span className="font-light text-sm text-gray-500">
               {new Date(lastUpdated).toLocaleDateString("en-US", {
                 year: "numeric",
@@ -64,7 +59,12 @@ export function PostItem({
             )}
           </div>
         </div>
-      </div>
-    </Link>
+      </Link>
+      {!!visibleTags?.length && (
+        <div className="px-6 pb-6">
+          <TagList tags={visibleTags} />
+        </div>
+      )}
+    </div>
   );
 }
