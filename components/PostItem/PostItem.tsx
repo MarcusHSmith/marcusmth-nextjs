@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { TagList } from "../TagList/TagList";
 
 interface IProps {
   title: string;
@@ -8,6 +9,7 @@ interface IProps {
   slug: string;
   rootUrl: string;
   lastUpdated: string;
+  tags?: string[];
   featuredImage: {
     src: string;
     alt: string;
@@ -20,8 +22,11 @@ export function PostItem({
   slug,
   rootUrl,
   lastUpdated,
+  tags,
   featuredImage,
 }: IProps): ReactElement {
+  const visibleTags = tags?.slice(0, 3);
+
   return (
     <Link
       key={slug}
@@ -33,6 +38,11 @@ export function PostItem({
           <div className="flex flex-col justify-center mb-4 md:mb-0 md:mr-6">
             <h2 className="font-bold text-2xl text-blue-600 mb-2">{title}</h2>
             <p className="text-gray-700 mb-2">{description}</p>
+            {!!visibleTags?.length && (
+              <div className="mb-3">
+                <TagList tags={visibleTags} interactive={false} />
+              </div>
+            )}
             <span className="font-light text-sm text-gray-500">
               {new Date(lastUpdated).toLocaleDateString("en-US", {
                 year: "numeric",

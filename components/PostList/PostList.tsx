@@ -46,6 +46,7 @@ export function PostList({
             description={frontmatter.description}
             lastUpdated={frontmatter.lastUpdated}
             featuredImage={frontmatter.featuredImage}
+            tags={frontmatter.tags}
           />
         );
       })}
