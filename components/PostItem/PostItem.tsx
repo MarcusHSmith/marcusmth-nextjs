@@ -25,6 +25,8 @@ export function PostItem({
   tags,
   featuredImage,
 }: IProps): ReactElement {
+  const visibleTags = tags?.slice(0, 3);
+
   return (
     <Link
       key={slug}
@@ -36,9 +38,9 @@ export function PostItem({
           <div className="flex flex-col justify-center mb-4 md:mb-0 md:mr-6">
             <h2 className="font-bold text-2xl text-blue-600 mb-2">{title}</h2>
             <p className="text-gray-700 mb-2">{description}</p>
-            {!!tags?.length && (
+            {!!visibleTags?.length && (
               <div className="mb-3">
-                <TagList tags={tags} interactive={false} />
+                <TagList tags={visibleTags} interactive={false} />
               </div>
             )}
             <span className="font-light text-sm text-gray-500">
