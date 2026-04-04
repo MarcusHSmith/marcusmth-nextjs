@@ -4,7 +4,7 @@ date: "2021-03-17T17:34:24.087Z"
 lastUpdated: "2021-03-17T17:34:22.907Z"
 title: Captain's Log Journaling
 description: Journaling for engineers to stay focused on delivering value
-tags: ["productivity", "software-engineering", "career"]
+tags: ["software-engineering", "career"]
 isPublished: true
 ---
 

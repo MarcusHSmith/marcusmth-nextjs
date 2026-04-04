@@ -4,7 +4,7 @@ date: "2022-08-14T00:11:22.843Z"
 lastUpdated: "2022-08-14T00:11:22.849Z"
 title: Best WeWork Office in Berlin
 description: Where you should reserve a desk to work while in Berlin, Germany
-tags: ["travel", "remote-work", "productivity"]
+tags: ["travel", "remote-work"]
 isPublished: false
 featuredImage:
   src: "WeWork-logo.png"

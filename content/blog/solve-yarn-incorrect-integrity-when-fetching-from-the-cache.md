@@ -4,7 +4,7 @@ date: "2022-09-27T13:52:26.931Z"
 lastUpdated: "2022-09-27T14:08:40.709Z"
 title: "Solve Yarn Incorrect integrity when fetching from the cache"
 description: Fix error with Integrity
-tags: ["web-development", "productivity", "software-engineering"]
+tags: ["web-development", "software-engineering"]
 isPublished: true
 featuredImage:
   src: "yarn-logo.png"

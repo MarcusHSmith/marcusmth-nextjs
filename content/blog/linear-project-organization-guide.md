@@ -8,7 +8,7 @@ isPublished: true
 featuredImage:
   src: "linear/wordmark-dark.png"
   alt: "Linear logo"
-tags: ["linear", "productivity", "software-engineering"]
+tags: ["linear", "software-engineering"]
 ---
 
 Linear is a powerful project management tool that helps teams organize work through a clear hierarchical structure. Let's dive into how Linear organizes work from high-level planning down to individual tasks.

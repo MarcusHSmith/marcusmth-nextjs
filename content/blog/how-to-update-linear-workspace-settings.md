@@ -8,7 +8,7 @@ isPublished: true
 featuredImage:
   src: "linear/wordmark-dark.png"
   alt: "Linear logo"
-tags: ["linear", "productivity", "software-engineering"]
+tags: ["linear", "software-engineering"]
 ---
 
 ## Updating Your Team's Workspace Name

@@ -7,7 +7,7 @@ description: Explore Marcus's curated reading list featuring book recommendation
 featuredImage:
   src: "copenhagen.png"
   alt: "Copenhagen"
-tags: ["reading", "books", "productivity"]
+tags: ["reading", "books"]
 isPublished: true
 ---
 
