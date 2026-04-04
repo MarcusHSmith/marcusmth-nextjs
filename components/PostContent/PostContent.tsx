@@ -87,7 +87,7 @@ export default function PostContent({
   };
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-0">
       <Head>
         <script
           type="application/ld+json"
