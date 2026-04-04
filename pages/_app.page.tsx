@@ -13,6 +13,9 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const { frontmatter } = pageProps;
   const { title, description, featuredImage, tags } = frontmatter || {};
+  const robotsContent = pageProps.noIndex
+    ? "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1";
 
   const titleWithFallback = title ? `${title} | marcusmth` : "marcusmth";
   const descriptionWithFallback =
@@ -36,14 +39,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="manifest" href="/manifest.json" />
         <link rel="canonical" href={canonicalUrl} />
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="robots"
-          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-        />
-        <meta
-          name="googlebot"
-          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-        />
+        <meta name="robots" content={robotsContent} />
+        <meta name="googlebot" content={robotsContent} />
 
         {/* Primary Meta Tags */}
         <meta name="title" content={titleWithFallback} />
