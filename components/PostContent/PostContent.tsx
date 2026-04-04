@@ -56,41 +56,49 @@ export default function PostContent({
   };
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <article className="mx-auto w-full max-w-5xl py-4 sm:py-6">
       <Head>
         <link
           rel="license"
           href="https://creativecommons.org/licenses/by/4.0/"
         />
       </Head>
-      <HeaderBio presentation="min" />
+      <div className="mb-6">
+        <HeaderBio presentation="min" />
+      </div>
       {frontmatter.featuredImage && (
-        <div className="mb-8 rounded-lg overflow-hidden shadow-lg max-h-[400px] flex items-center justify-center">
+        <div className="mb-6 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm sm:mb-8">
           <Image
             src={`/images/${frontmatter.featuredImage.src}`}
             alt={frontmatter.featuredImage.alt || frontmatter.title}
             width={1024}
             height={1024}
-            className="w-auto h-auto max-h-[400px] object-contain"
+            className="h-auto max-h-[420px] w-full object-cover object-center"
           />
         </div>
       )}
 
-      <div className="prose">
-        <h1 className="text-4xl font-bold mb-2">{frontmatter.title}</h1>
-        <div className="flex items-center text-gray-600 mb-4">
-          <span className="mr-4">
-            {new Date(frontmatter.lastUpdated).toLocaleDateString("en-US", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-          </span>
-          <TagList tags={frontmatter.tags} />
+      <div className="mx-auto max-w-3xl rounded-3xl border border-slate-200 bg-white px-5 py-6 shadow-sm sm:px-8 sm:py-8">
+        <div className="mb-6 border-b border-slate-200 pb-6">
+          <h1 className="mb-4 text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl">
+            {frontmatter.title}
+          </h1>
+          <div className="flex flex-col gap-3 text-base text-slate-600 sm:flex-row sm:flex-wrap sm:items-center">
+            <span className="shrink-0">
+              {new Date(frontmatter.lastUpdated).toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </span>
+            <TagList tags={frontmatter.tags} />
+          </div>
         </div>
-        <hr className="mb-8" />
-        {htmlContent ? renderServerHtml() : renderContent()}
+
+        <div className="prose prose-lg max-w-none text-slate-800 prose-headings:text-slate-900 prose-p:leading-8 prose-a:text-blue-700 prose-a:decoration-blue-300 prose-a:underline-offset-4">
+          {htmlContent ? renderServerHtml() : renderContent()}
+        </div>
       </div>
-    </div>
+    </article>
   );
 }

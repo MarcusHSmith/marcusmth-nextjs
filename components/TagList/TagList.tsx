@@ -19,7 +19,11 @@ export function TagList({
         }
 
         return (
-          <Link key={t} href={`/tag/${t.toLowerCase()}`}>
+          <Link
+            key={t}
+            href={`/tag/${t.toLowerCase()}`}
+            className="no-underline hover:no-underline"
+          >
             <Tag name={t} />
           </Link>
         );
