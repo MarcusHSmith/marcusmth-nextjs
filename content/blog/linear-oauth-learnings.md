@@ -3,7 +3,7 @@ title: "How Linear Can Build a Safer OAuth App Ecosystem (Lessons from Launching
 description: "Launching a Linear OAuth app revealed a trust gap—here's what the data shows, and how Linear can solve it with a safer, more extensible app ecosystem."
 date: "2025-06-30T00:00:00.000Z"
 lastUpdated: "2025-06-30T00:00:00.000Z"
-tags: ["linear", "oauth", "software-engineering"]
+tags: ["linear", "nextjs", "oauth", "software-engineering"]
 path: "linear-oauth-learnings"
 isPublished: true
 featuredImage:
