@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Tag } from "../Tag/Tag";
+import { TagList } from "../TagList/TagList";
 
 interface IProps {
   title: string;
@@ -37,11 +37,12 @@ export function PostItem({
             <h2 className="font-bold text-2xl text-blue-600 mb-2">{title}</h2>
             <p className="text-gray-700 mb-2">{description}</p>
             {!!tags?.length && (
-              <div className="flex flex-wrap gap-2 mb-3">
-                {tags.slice(0, 3).map((tag) => (
-                  <Tag key={tag} name={tag} />
-                ))}
-              </div>
+              <TagList
+                tags={tags}
+                interactive={false}
+                limit={3}
+                className="flex flex-wrap gap-2 mb-3"
+              />
             )}
             <span className="font-light text-sm text-gray-500">
               {new Date(lastUpdated).toLocaleDateString("en-US", {
