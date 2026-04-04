@@ -4,8 +4,7 @@ date: "2020-11-09T23:43:45.078Z"
 lastUpdated: "2020-11-09T23:43:45.119Z"
 title: Concluding iOS Coordinators
 description: "Stop, Pop, and Dismiss Coordinators and their ViewControllers"
-tags:
-  - swift
+tags: ["ios", "swift", "software-engineering"]
 isPublished: true
 featuredImage:
   src: "swift-logo.svg"

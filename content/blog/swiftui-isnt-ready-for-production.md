@@ -4,10 +4,7 @@ date: "2021-05-27T16:06:23.755Z"
 lastUpdated: "2021-06-04T16:25:45.872Z"
 title: SwiftUI isn't ready for production
 description: Why we didn't and you shouldn't switch to SwiftUI yet
-tags:
-  - swift
-  - ios
-  - swiftui
+tags: ["swiftui", "ios", "software-engineering"]
 isPublished: true
 featuredImage:
   src: "swift-logo.svg"

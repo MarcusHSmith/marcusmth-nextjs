@@ -4,8 +4,7 @@ date: "2020-11-13T23:43:45.078Z"
 lastUpdated: "2020-11-16T19:43:00.000Z"
 title: "@Escaping Closures in Swift"
 description: Success and Failure Closures in Swift
-tags:
-  - swift
+tags: ["swift", "ios", "software-engineering"]
 isPublished: true
 featuredImage:
   src: "swift-logo.svg"

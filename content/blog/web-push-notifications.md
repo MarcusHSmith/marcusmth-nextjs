@@ -4,9 +4,7 @@ date: "2023-10-19T13:52:26.931Z"
 lastUpdated: "2023-10-20T10:52:26.931Z"
 title: "How to add web push notifications"
 description: Service Workers and setup
-tags:
-  - nextjs
-  - react
+tags: ["nextjs", "react", "web-development"]
 isPublished: true
 ---
 

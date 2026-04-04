@@ -4,8 +4,7 @@ date: "2019-04-19T22:12:03.284Z"
 lastUpdated: "2019-04-19T22:12:03.284Z"
 title: Hey Siri, Send Nudes
 description: iOS Shortcuts to keep them on their toes
-tags:
-  - shortcuts
+tags: ["ios", "software-engineering"]
 isPublished: true
 ---
 

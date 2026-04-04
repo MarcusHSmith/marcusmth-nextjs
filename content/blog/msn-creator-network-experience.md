@@ -3,7 +3,7 @@ title: "MSN Partner Hub: My Experience with Video Publishing"
 description: "An inside look at publishing videos on MSN Partner Hub, including ad rates, view patterns, and unique opportunities"
 date: "2025-02-14T18:25:11.908Z"
 lastUpdated: "2025-02-14T18:25:11.951Z"
-tags: ["msn", "youtube"]
+tags: ["youtube", "msn", "creator-economy"]
 path: "msn-creator-network-experience"
 isPublished: true
 featuredImage:

@@ -4,8 +4,7 @@ date: "2020-10-01T22:43:45.078Z"
 lastUpdated: "2020-10-01T22:43:45.119Z"
 title: Rx Observable Types
 description: Difference between Observable Single Maybe in Rx and RxSwift
-tags:
-  - swift
+tags: ["swift", "ios", "software-engineering"]
 isPublished: true
 featuredImage:
   src: "swift-logo.svg"

@@ -5,13 +5,7 @@ lastUpdated: "2020-01-07T22:28:05.284Z"
 title: Formik with Semantic-UI Components
 description: How to use Formik with Semantic-UI-React components
 isPublished: true
-tags:
-  - formik
-  - semantic
-  - ui
-  - javascript
-  - typescript
-  - react
+tags: ["react", "typescript", "web-development"]
 ---
 
 How to use [Formik](https://jaredpalmer.com/formik/docs/overview) with [Semantic-UI-React](https://react.semantic-ui.com/) components

@@ -3,7 +3,7 @@ title: "Optimizing the LA–SF Super Commute"
 description: "A data-driven comparison of LAX vs BUR and SFO vs SJC with timing and cost results, plus practical tips to streamline the weekly Beverly Hills → Menlo Park commute for a tech job."
 date: "2025-11-15T09:00:00.000Z"
 lastUpdated: "2025-11-15T09:00:00.000Z"
-tags: ["travel"]
+tags: ["travel", "remote-work"]
 path: blog
 isPublished: true
 featuredImage:

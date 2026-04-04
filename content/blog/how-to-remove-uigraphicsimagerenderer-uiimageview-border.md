@@ -5,8 +5,7 @@ lastUpdated: "2020-06-23T20:49:30.582Z"
 title: How to remove UIGraphicsImageRenderer UIImageView border
 description: "UIGraphicsImageRenderer adds a border, here is how to remove it"
 isPublished: true
-tags:
-  - ios
+tags: ["ios", "swift", "uikit"]
 ---
 
 This iOS issue sent me for a spin, hopefully you aren't facing this too.

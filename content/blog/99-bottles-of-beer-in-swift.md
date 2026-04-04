@@ -4,8 +4,7 @@ date: "2021-08-21T18:59:48.876Z"
 lastUpdated: "2021-08-21T18:59:48.918Z"
 title: 99 Bottles of Beer in Swift
 description: Recursive Swift without using variables
-tags:
-  - swift
+tags: ["swift", "ios", "software-engineering"]
 isPublished: true
 featuredImage:
   src: "swift-logo.svg"

@@ -4,9 +4,7 @@ date: "2021-04-16T17:16:33.357Z"
 lastUpdated: "2021-04-16T17:16:33.398Z"
 title: After UIView transform frame is not used
 description: The story of chasing a UICollectionView issue caused by a transform
-tags:
-  - swift
-  - UIKit
+tags: ["ios", "swift", "uikit"]
 isPublished: true
 featuredImage:
   src: "swift-logo.svg"

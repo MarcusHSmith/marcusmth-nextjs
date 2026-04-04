@@ -4,8 +4,7 @@ date: "2023-02-08T01:39:25.326Z"
 lastUpdated: "2023-02-08T01:39:25.326Z"
 title: Nomadic Ambience Camera Equipment
 description: A guide to the camera and microphone used to create the best youtube walking content
-tags:
-  - youtube
+tags: ["youtube", "content-creation", "video-production"]
 isPublished: true
 featuredImage:
   src: "Youtube-logo.png"

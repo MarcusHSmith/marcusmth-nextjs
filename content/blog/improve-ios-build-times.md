@@ -5,9 +5,7 @@ lastUpdated: "2020-09-09T21:28:19.632Z"
 title: Improve iOS Build Times
 description: How our iOS incremental build times were decreased
 isPublished: true
-tags:
-  - ios
-  - appStore
+tags: ["ios", "xcode", "appStore", "software-engineering"]
 ---
 
 As is true with all engineering, everything is an abstraction of some other work. In this case [Michael Eisel](https://github.com/michaeleisel) walked me through how to improve our iOS build times. By applying the concepts and understanding them (this blog post) these concepts also become mine.

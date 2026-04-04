@@ -4,8 +4,7 @@ date: "2021-03-17T14:57:33.331Z"
 lastUpdated: "2021-04-16T17:30:15.089Z"
 title: Right to Left UICollectionView
 description: Setup a UICollectionView where the zero index is on the right
-tags:
-  - swift
+tags: ["swift", "ios", "uikit"]
 isPublished: true
 featuredImage:
   src: "swift-logo.svg"

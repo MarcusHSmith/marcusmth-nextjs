@@ -4,10 +4,7 @@ date: "2021-02-17T22:34:16.789Z"
 lastUpdated: "2021-02-17T22:34:16.833Z"
 title: SwiftUI Toggle calls function on change
 description: How to set Toggle value and send requests after changes
-tags:
-  - swift
-  - swiftui
-  - ios13
+tags: ["swift", "ios", "swiftui"]
 isPublished: true
 featuredImage:
   src: "swift-logo.svg"

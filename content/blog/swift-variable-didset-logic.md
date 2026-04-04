@@ -5,8 +5,7 @@ lastUpdated: "2020-07-27T17:22:47.341Z"
 title: Swift Variable DidSet Logic
 description: When does Swift call `didSet()` on variables
 isPublished: true
-tags:
-  - swift
+tags: ["swift", "ios", "software-engineering"]
 featuredImage:
   src: "swift-logo.svg"
   alt: "Swift logo"
