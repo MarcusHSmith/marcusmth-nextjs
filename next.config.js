@@ -99,6 +99,11 @@ const nextConfig = {
         permanent: true,
         destination: "/:path+",
       },
+      {
+        source: "/blog",
+        permanent: true,
+        destination: "/",
+      },
       // Remove .html extensions
       {
         source: "/:path*.html",

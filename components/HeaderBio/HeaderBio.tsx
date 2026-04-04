@@ -62,8 +62,8 @@ function InternalLinks(): ReactElement {
   const router = useRouter();
   return (
     <div className="flex gap-2 mb-2">
-      {router.pathname !== "/blog" && (
-        <Link href={`/blog`}>
+      {router.pathname !== "/" && (
+        <Link href={`/`}>
           <span>Posts</span>
         </Link>
       )}

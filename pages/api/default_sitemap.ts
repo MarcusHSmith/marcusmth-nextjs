@@ -10,12 +10,6 @@ async function generateSiteMap() {
         <priority>1.0</priority>
       </url>
       <url>
-        <loc>https://www.marcusmth.com/blog</loc>
-        <lastmod>${today}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-      </url>
-      <url>
         <loc>https://www.marcusmth.com/cheatsheet</loc>
         <lastmod>${today}</lastmod>
         <changefreq>weekly</changefreq>
