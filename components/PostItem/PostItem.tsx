@@ -26,13 +26,17 @@ export function PostItem({
   featuredImage,
 }: IProps): ReactElement {
   const visibleTags = tags?.slice(0, 3);
+  const postHref = `${rootUrl}${slug}`;
 
   return (
-    <div className="mb-6 rounded-lg border border-gray-200 bg-white shadow-md transition-transform duration-300 hover:scale-[1.01] hover:shadow-blue-200">
+    <div className="relative mb-6 rounded-lg border border-gray-200 bg-white shadow-md transition-transform duration-300 hover:scale-[1.01] hover:shadow-blue-200">
       <Link
-        key={slug}
-        href={`${rootUrl}${slug}`}
-        className="post-item-link block overflow-hidden no-underline hover:no-underline focus:no-underline"
+        href={postHref}
+        aria-label={`Read ${title}`}
+        className="absolute inset-0 rounded-lg"
+      />
+      <div
+        className="pointer-events-none relative z-10"
         style={{ textDecoration: "none" }}
       >
         <div className="flex flex-col gap-5 p-6 md:flex-row md:items-center md:justify-between">
@@ -62,9 +66,9 @@ export function PostItem({
             </div>
           )}
         </div>
-      </Link>
+      </div>
       {!!visibleTags?.length && (
-        <div className="px-6 pb-6">
+        <div className="relative z-20 px-6 pb-6">
           <TagList tags={visibleTags} />
         </div>
       )}
