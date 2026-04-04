@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
+import Link from "next/link";
 import { Tag } from "../Tag/Tag";
-import router from "next/router";
 
 interface IProps {
   tags: string[] | undefined;
@@ -19,9 +19,9 @@ export function TagList({
         }
 
         return (
-          <button key={t} onClick={() => router.push(`/tag/${t.toLowerCase()}`)}>
+          <Link key={t} href={`/tag/${t.toLowerCase()}`}>
             <Tag name={t} />
-          </button>
+          </Link>
         );
       })}
     </div>
