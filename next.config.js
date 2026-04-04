@@ -51,7 +51,7 @@ const nextConfig = {
         destination: "/api/reports_wework_berlin_sitemap",
       },
       {
-        source: "/feed.xml/",
+        source: "/feed.xml",
         destination: "/api/feed",
       },
     ];

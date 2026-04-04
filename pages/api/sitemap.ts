@@ -16,10 +16,6 @@ async function generateSiteMap() {
     <lastmod>${today}</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.marcusmth.com/tags_sitemap.xml</loc>
-    <lastmod>${today}</lastmod>
-  </sitemap>
-  <sitemap>
     <loc>https://www.marcusmth.com/reports_wework_paris_sitemap.xml</loc>
     <lastmod>2024-02-21</lastmod>
   </sitemap>

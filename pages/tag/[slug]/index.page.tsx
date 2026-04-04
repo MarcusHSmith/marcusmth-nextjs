@@ -82,6 +82,7 @@ export async function getStaticProps({ params: { slug } }) {
       cheatsheetLinks,
       blogLinks,
       slug,
+      noIndex: true,
     },
   };
 }
