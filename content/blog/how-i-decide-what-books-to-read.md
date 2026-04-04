@@ -7,7 +7,7 @@ description: Discover how to decide what books to read with a personal system th
 featuredImage:
   src: "barts_books.png"
   alt: "Outdoor bookstall with couple reading"
-tags: ["reading", "books"]
+tags: ["reading"]
 isPublished: true
 ---
 

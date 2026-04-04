@@ -5,7 +5,7 @@ lastUpdated: "2022-07-22T14:25:31.961Z"
 title: How to Code Review
 description: Code reviews present a challenge for Software Engineers this is how
   to do it in production companies like Snapchat and Goldman Sachs
-tags: ["software-engineering", "career"]
+tags: ["software-engineering"]
 isPublished: true
 ---
 
