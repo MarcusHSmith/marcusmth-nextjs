@@ -17,7 +17,14 @@ export function HeaderBio({
     if (router.pathname === "/") {
       return homeText;
     }
-    return <Link href={`/`}>{homeText}</Link>;
+    return (
+      <Link
+        href={`/`}
+        className="no-underline hover:no-underline focus:no-underline"
+      >
+        {homeText}
+      </Link>
+    );
   }, [router]);
   const rightContent = useMemo(() => {
     switch (presentation) {
@@ -63,17 +70,26 @@ function InternalLinks(): ReactElement {
   return (
     <div className="flex gap-2 mb-2">
       {router.pathname !== "/" && (
-        <Link href={`/`}>
+        <Link
+          href={`/`}
+          className="no-underline hover:no-underline focus:no-underline"
+        >
           <span>Posts</span>
         </Link>
       )}
       {router.pathname !== "/cheatsheet" && (
-        <Link href={`/cheatsheet`}>
+        <Link
+          href={`/cheatsheet`}
+          className="no-underline hover:no-underline focus:no-underline"
+        >
           <span>Cheatsheets</span>
         </Link>
       )}
       {router.pathname !== "/about" && (
-        <Link href={`/about`}>
+        <Link
+          href={`/about`}
+          className="no-underline hover:no-underline focus:no-underline"
+        >
           <span>About Marcus</span>
         </Link>
       )}

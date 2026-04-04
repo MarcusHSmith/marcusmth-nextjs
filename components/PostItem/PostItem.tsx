@@ -28,17 +28,19 @@ export function PostItem({
   const visibleTags = tags?.slice(0, 3);
 
   return (
-    <div className="mb-6 rounded-lg border border-gray-200 bg-white shadow-md transition-transform duration-300 hover:scale-102 hover:shadow-blue-200">
+    <div className="mb-6 rounded-lg border border-gray-200 bg-white shadow-md transition-transform duration-300 hover:scale-[1.01] hover:shadow-blue-200">
       <Link
         key={slug}
         href={`${rootUrl}${slug}`}
         className="post-item-link block overflow-hidden no-underline hover:no-underline focus:no-underline"
         style={{ textDecoration: "none" }}
       >
-        <div className="p-6 flex flex-col md:flex-row justify-between">
-          <div className="flex flex-col justify-center mb-4 md:mb-0 md:mr-6">
-            <h2 className="font-bold text-2xl text-blue-600 mb-2">{title}</h2>
-            <p className="text-gray-700 mb-2">{description}</p>
+        <div className="flex flex-col gap-5 p-6 md:flex-row md:items-center md:justify-between">
+          <div className="min-w-0 flex-1">
+            <h2 className="mb-2 text-2xl font-bold text-blue-600 no-underline">
+              {title}
+            </h2>
+            <p className="mb-3 text-gray-700 no-underline">{description}</p>
             <span className="font-light text-sm text-gray-500">
               {new Date(lastUpdated).toLocaleDateString("en-US", {
                 year: "numeric",
@@ -47,18 +49,18 @@ export function PostItem({
               })}
             </span>
           </div>
-          <div className="w-full md:w-60 h-40 relative flex-shrink-0">
-            {featuredImage && (
+          {featuredImage && (
+            <div className="relative h-44 w-full flex-shrink-0 overflow-hidden rounded-md md:h-36 md:w-52">
               <Image
                 src={`/images/${featuredImage?.src}`}
                 alt={featuredImage?.alt}
-                className="rounded-md object-contain"
+                className="object-cover"
                 layout="fill"
                 priority
                 placeholder="empty"
               />
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </Link>
       {!!visibleTags?.length && (

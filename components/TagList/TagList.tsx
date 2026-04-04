@@ -7,10 +7,7 @@ interface IProps {
   interactive?: boolean;
 }
 
-export function TagList({
-  tags,
-  interactive = true,
-}: IProps): ReactElement {
+export function TagList({ tags, interactive = true }: IProps): ReactElement {
   return (
     <div className="flex flex-wrap gap-2">
       {(tags || []).map((t: string) => {
@@ -19,7 +16,11 @@ export function TagList({
         }
 
         return (
-          <Link key={t} href={`/tag/${t.toLowerCase()}`}>
+          <Link
+            key={t}
+            href={`/tag/${t.toLowerCase()}`}
+            className="no-underline hover:no-underline focus:no-underline"
+          >
             <Tag name={t} />
           </Link>
         );
