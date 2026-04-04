@@ -68,7 +68,7 @@ export function PostItem({
         </div>
       </div>
       {!!visibleTags?.length && (
-        <div className="relative z-20 px-6 pb-6">
+        <div className="pointer-events-none relative z-20 px-6 pb-6">
           <TagList tags={visibleTags} />
         </div>
       )}

@@ -9,7 +9,7 @@ interface IProps {
 
 export function TagList({ tags, interactive = true }: IProps): ReactElement {
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="pointer-events-auto flex flex-wrap gap-2">
       {(tags || []).map((t: string) => {
         if (!interactive) {
           return <Tag key={t} name={t} />;
