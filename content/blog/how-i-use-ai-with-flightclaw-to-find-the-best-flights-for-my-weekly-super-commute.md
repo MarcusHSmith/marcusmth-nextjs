@@ -35,7 +35,7 @@ That is exactly the sort of task AI is good at when it has a clear set of rules.
 
 The first skill is `flightclaw`, which handles the search mechanics. In my local skill, the rule is explicit: always pass `--exclude-basic` so I get true Main Cabin pricing rather than accidentally comparing against Basic Economy.
 
-The second skill is my `supercommute` skill, which defines how I want the search results interpreted.
+The second skill is my private `supercommute` skill, which defines how I want the search results interpreted.
 
 That skill encodes a few real preferences:
 
@@ -43,18 +43,6 @@ That skill encodes a few real preferences:
 - Use non-stop flights only.
 - Search outbound flights in the **6am to 9am** window on Monday and Tuesday.
 - Search return flights in the **6pm to 9pm** window on Thursday and Friday.
-- Prefer Delta enough that I treat it as worth paying about **15% more**.
-- Penalize flights that leave before 7am.
-- Penalize return flights that leave after 6:30pm.
-- Discount BUR arrivals by **$20** because BUR gets me home faster and cheaper than LAX.
-
-That internal ranking formula in my skill looks like this:
-
-```text
-effective = (sticker × delta_factor) + early_out_penalty + late_return_penalty - bur_discount
-```
-
-This is the part I care about most. AI becomes useful when it stops acting like a search engine and starts acting like an opinionated assistant with my rules.
 
 ## What the Search Actually Looks Like
 
@@ -79,21 +67,6 @@ That gives me four pairing sets to compare:
 - Tue-Fri
 
 Without AI, I would still be able to do this. I just would not do it consistently.
-
-## What Makes This Better Than Just Sorting by Price
-
-The cheapest flight is often not the best flight for a weekly commute.
-
-If Delta is slightly more expensive, I may still prefer it because I value reliability, miles, and the upgrade chance that comes with status. If a flight lands at BUR instead of LAX, that matters because getting home from BUR is meaningfully easier for me. If a return leaves too late, I feel it at the end of the week.
-
-My `supercommute` skill captures those tradeoffs directly. For example:
-
-- Delta gets a `0.85` multiplier in my internal scoring.
-- A 6:00am outbound gets a penalty relative to a 7:00am departure.
-- A 7:30pm return gets a penalty relative to a 6:30pm return.
-- BUR gets a `$20` effective discount.
-
-The output I want still shows the sticker price only. The scoring stays internal. That keeps the recommendation easy to scan while still reflecting how I actually make the decision.
 
 ## Where Claude Code Fits In
 
