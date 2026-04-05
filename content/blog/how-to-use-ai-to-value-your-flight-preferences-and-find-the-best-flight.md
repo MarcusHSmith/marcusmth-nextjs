@@ -8,8 +8,6 @@ path: blog
 isPublished: true
 ---
 
-# How to Use AI to Value Your Flight Preferences and Find the Best Flight
-
 Most flight searches are still optimized for the cheapest ticket, not the best ticket for how you actually travel.
 
 That works if all you care about is sticker price. It breaks down if you have real preferences like airline status, airport convenience, refundability, or departure times that make a trip meaningfully better or worse.
