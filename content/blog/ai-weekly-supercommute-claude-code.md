@@ -1,30 +1,33 @@
 ---
-title: "Using Claude Code to Book My Weekly Supercommute"
+title: "Using Ai to Book My Weekly Super commute"
 description: "How I use Claude Code and FlightClaw to search LAX, BUR, SFO, and SJC, apply my personal scoring model, and book the right flight in under a minute — with real examples."
 date: "2026-04-05T09:00:00.000Z"
 lastUpdated: "2026-04-05T09:00:00.000Z"
-tags: ["ai", "travel", "remote-work"]
+tags: ["ai", "travel"]
 path: blog
 isPublished: true
+featuredImage:
+  src: "claude_code_logo.png"
+  alt: "Claude Code Logo"
 ---
 
-I supercommute between LA and the Bay Area every week. Four airport combinations. Two outbound days. Two return days. Multiply that by however many weeks out I'm looking, and the combinatorics get tedious fast.
+I super commute between LA and the Bay Area every week. Four airport combinations. Two outbound days. Two return days. Multiply that by however many weeks out I'm looking, and the combinatorics get tedious fast.
 
-I used to do this manually. Now I type one line into Claude Code.
+I used to do this manually on [Google Flights](https://www.google.com/flights). Now I type one line into Claude Code.
 
 ## The Setup
 
 Two skills do the work:
 
-[FlightClaw](https://flightclaw.com/) handles the search. It queries Google Flights across multiple airports and date ranges, filters by stops and fare class, and returns structured results. The key flag is `--exclude-basic`, which strips out Basic Economy so I'm comparing real fares.
+[FlightClaw](https://flightclaw.com/) handles the search. It queries Google Flights across multiple airports and date ranges, filters by stops and fare class, and returns structured results. The key flag is `--exclude-basic`, which strips out Basic Economy so I'm comparing real fares I would book. **I need the option to cancel or change them last minute**
 
-My `supercommute` skill handles the interpretation. It tells Claude Code exactly what to search (LAX + BUR × SFO + SJC, 6–9am outbound, 6–9pm return) and how to score the results using my preferences.
+My `super commute` skill handles the interpretation. It tells Claude Code exactly what to search (LAX + BUR × SFO + SJC, 6–9am outbound, 6–9pm return) and how to score the results using my preferences. Scoring flights let's Claude know how I shop for flights and ensures I'm recommended my personal choice.
 
 That scoring model does real work:
 
-- Delta flights get a 15% effective discount because I'm Delta Silver
+- Delta flights get a 15% effective discount because I'm a Delta status member
 - Departures before 7am carry a time penalty — $25/hr
-- Returns after 6:30pm carry a time penalty — $30/hr  
+- Returns after 6:30pm carry a time penalty — $30/hr
 - BUR arrivals get a $20 discount because getting home from BUR is faster and easier
 
 The result is an "effective cost" that reflects how I actually experience the trip. A cheap 6am flight and a reasonably priced 7am flight are not the same thing.
@@ -56,7 +59,7 @@ python skills/flightclaw/scripts/search-flights.py SFO,SJC LAX,BUR 2026-04-17 \
 Then it applies scoring and returns this:
 
 ```
-SUPERCOMMUTE — Week of April 14, 2026
+SUPER COMMUTE — Week of April 14, 2026
 ──────────────────────────────────────
 
 ✦ RECOMMENDED: Mon–Thu
@@ -83,7 +86,7 @@ That's all I need. I can book in 30 seconds.
 
 The scoring surfaces tradeoffs that sticker price hides.
 
-The Tue–Thu combo is $40 cheaper — $248 vs $288. But the Southwest 6:30am outbound from BUR has a $12.50 early-departure penalty, and Southwest fares are fully refundable which is a wash since I only book refundable anyway. The effective cost gap narrows to about $25 after the early departure penalty and the Delta preference adjustment. 
+The Tue–Thu combo is $40 cheaper — $248 vs $288. But the Southwest 6:30am outbound from BUR has a $12.50 early-departure penalty, and Southwest fares are fully refundable which is a wash since I only book refundable anyway. The effective cost gap narrows to about $25 after the early departure penalty and the Delta preference adjustment.
 
 Some weeks that gap is worth it. Some weeks it isn't. But at least I'm comparing them honestly instead of just grabbing the low sticker price.
 
@@ -93,13 +96,12 @@ Return timing is where the penalty really adds up. An 8:30pm return scores $60 w
 
 ## What I Don't Do Anymore
 
-I don't open Google Flights tabs for each airport combination. I don't manually remember that BUR is worth a small premium on returns. I don't eyeball whether a 6:15am departure is "worth it" based on vibes.
+I don't open [Google Flights](https://www.google.com/flights) tabs for each airport combination. I don't manually remember that BUR is worth a small premium on returns. I don't eyeball whether a 6:15am departure is "worth it" based on vibes.
 
 All of that is encoded. The weekly workflow is one prompt.
 
 That's the actual value of AI here — not that it's smarter than me about flights, but that it applies my own judgment consistently. I built the rules once. Now they run every week.
 
-## Related
+---
 
-- [Optimizing the LA–SF Super Commute](/optimizing-the-la-sf-super-commute) — the airport timing and cost data behind the scoring model
-- [Building WhoseHouseBurned.com: A Friday Night AI Agent Hackathon](/whosehouseburned-hackathon) — another narrow AI workflow, same pattern
+The scoring model is grounded in real commute data — if you want the airport timing and cost breakdown behind it, I wrote that up in [Optimizing the LA–SF Super Commute](/optimizing-the-la-sf-super-commute).
