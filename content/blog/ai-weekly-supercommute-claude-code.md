@@ -43,13 +43,13 @@ I type `/supercommute` into Claude Code with the week I need. Claude searches al
 Claude runs the searches:
 
 ```bash
-python skills/flightclaw/scripts/search-flights.py LAX,BUR SFO,SJC 2026-04-14 \
+python skills/flightclaw/scripts/search-flights.py LAX,BUR SFO,SJC 2026-04-13 \
   --stops NON_STOP --exclude-basic --depart-after 06:00 --depart-before 09:00
 
 python skills/flightclaw/scripts/search-flights.py SFO,SJC LAX,BUR 2026-04-16 \
   --stops NON_STOP --exclude-basic --depart-after 18:00 --depart-before 21:00
 
-python skills/flightclaw/scripts/search-flights.py LAX,BUR SFO,SJC 2026-04-15 \
+python skills/flightclaw/scripts/search-flights.py LAX,BUR SFO,SJC 2026-04-14 \
   --stops NON_STOP --exclude-basic --depart-after 06:00 --depart-before 09:00
 
 python skills/flightclaw/scripts/search-flights.py SFO,SJC LAX,BUR 2026-04-17 \
@@ -63,13 +63,13 @@ SUPER COMMUTE — Week of April 14, 2026
 ──────────────────────────────────────
 
 ✦ RECOMMENDED: Mon–Thu
-  Out  Mon Apr 14  DL 1234  LAX→SFO  7:00am–8:22am  $149
-  Ret  Thu Apr 17  DL 5678  SFO→BUR  7:15pm–8:38pm  $139
+  Out  Mon Apr 13  DL 1234  LAX→SFO  7:00am–8:22am  $149
+  Ret  Thu Apr 16  DL 5678  SFO→BUR  7:15pm–8:38pm  $139
   Total: $288
 
   Cheapest: Tue–Thu
-  Out  Tue Apr 15  WN 412   BUR→SFO  6:30am–7:55am  $109
-  Ret  Thu Apr 17  DL 5678  SFO→BUR  7:15pm–8:38pm  $139
+  Out  Tue Apr 14  WN 412   BUR→SFO  6:30am–7:55am  $109
+  Ret  Thu Apr 16  DL 5678  SFO→BUR  7:15pm–8:38pm  $139
   Total: $248
 
 ──────────────────────────────────────
