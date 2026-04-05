@@ -19,7 +19,7 @@ I used to do this manually on [Google Flights](https://www.google.com/flights). 
 
 Two skills do the work:
 
-[FlightClaw](https://flightclaw.com/) handles the search. It queries Google Flights across multiple airports and date ranges, filters by stops and fare class, and returns structured results. The key flag is `--exclude-basic`, which strips out Basic Economy so I'm comparing real fares I would book. **I need the option to cancel or change them last minute**
+[FlightClaw](https://flightclaw.com/) handles the search. It queries Google Flights across multiple airports and date ranges, filters by stops and fare class, and returns structured results. The key flag is `--exclude-basic`, which strips out Basic Economy so I'm comparing real fares I would book. _I need the option to cancel or change them last minute_
 
 My `super commute` skill handles the interpretation. It tells Claude Code exactly what to search (LAX + BUR × SFO + SJC, 6–9am outbound, 6–9pm return) and how to score the results using my preferences. Scoring flights let's Claude know how I shop for flights and ensures I'm recommended my personal choice.
 
@@ -79,8 +79,6 @@ All combos:
   Tue–Thu  $248  (Southwest out, Delta back)
   Tue–Fri  $272
 ```
-
-That's all I need. I can book in 30 seconds.
 
 ## Where the Tradeoffs Get Interesting
 
