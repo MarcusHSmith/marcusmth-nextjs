@@ -4,7 +4,7 @@ date: "2021-06-23T16:59:18.655Z"
 lastUpdated: "2021-06-23T16:59:18.689Z"
 title: Cheapest Short Term Car Rentals
 description: Where to find the lowest priced cars for one to multiple months
-tags: ["travel", "remote-work"]
+tags: ["travel"]
 isPublished: true
 ---
 
