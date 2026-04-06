@@ -54,11 +54,11 @@ export function PostItem({
             </span>
           </div>
           {featuredImage && (
-            <div className="relative h-44 w-full flex-shrink-0 overflow-hidden rounded-md md:h-36 md:w-52">
+            <div className="relative h-44 w-full flex-shrink-0 overflow-hidden rounded-md bg-gray-50 md:h-36 md:w-52">
               <Image
                 src={`/images/${featuredImage?.src}`}
                 alt={featuredImage?.alt}
-                className="object-cover"
+                className="object-contain"
                 layout="fill"
                 priority
                 placeholder="empty"
