@@ -45,21 +45,25 @@ export function PostItem({
               {title}
             </h2>
             <p className="mb-3 text-gray-700 no-underline">{description}</p>
-            <span className="font-light text-sm text-gray-500">
-              {new Date(lastUpdated).toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
-            </span>
+            <div className="flex flex-wrap items-center gap-4">
+              <span className="font-light text-sm text-gray-500">
+                {new Date(lastUpdated).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </span>
+              {!!visibleTags?.length && <TagList tags={visibleTags} />}
+            </div>
           </div>
           {featuredImage && (
-            <div className="relative h-44 w-full flex-shrink-0 overflow-hidden rounded-md bg-gray-50 md:h-36 md:w-52">
+            <div className="relative h-44 w-full flex-shrink-0 overflow-hidden rounded-md md:h-36 md:w-52">
+              {/* Keep post list images fully visible: preserve aspect ratio, shrink to fit, and center instead of cropping. */}
               <Image
                 src={`/images/${featuredImage?.src}`}
                 alt={featuredImage?.alt}
-                className="object-contain object-center"
                 layout="fill"
+                style={{ objectFit: "contain", objectPosition: "center" }}
                 priority
                 placeholder="empty"
               />
@@ -67,11 +71,6 @@ export function PostItem({
           )}
         </div>
       </div>
-      {!!visibleTags?.length && (
-        <div className="pointer-events-none relative z-20 px-6 pb-6">
-          <TagList tags={visibleTags} />
-        </div>
-      )}
     </div>
   );
 }

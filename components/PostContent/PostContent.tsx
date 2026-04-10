@@ -77,8 +77,8 @@ export default function PostContent({
 
       <div className="prose max-w-none">
         <h1 className="text-4xl font-bold mb-2">{frontmatter.title}</h1>
-        <div className="flex items-center text-gray-600 mb-4">
-          <span className="mr-4">
+        <div className="mb-4 text-gray-600">
+          <span className="block mb-2">
             {new Date(frontmatter.lastUpdated).toLocaleDateString("en-US", {
               year: "numeric",
               month: "long",
