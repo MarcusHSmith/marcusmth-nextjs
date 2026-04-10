@@ -59,8 +59,8 @@ export function PostItem({
               <Image
                 src={`/images/${featuredImage?.src}`}
                 alt={featuredImage?.alt}
-                className="object-contain object-center"
                 layout="fill"
+                style={{ objectFit: "contain", objectPosition: "center" }}
                 priority
                 placeholder="empty"
               />
