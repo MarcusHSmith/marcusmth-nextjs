@@ -75,7 +75,7 @@ export default function PostContent({
         </div>
       )}
 
-      <div className="prose">
+      <div className="prose max-w-none">
         <h1 className="text-4xl font-bold mb-2">{frontmatter.title}</h1>
         <div className="mb-4 text-gray-600">
           <span className="block mb-2">
