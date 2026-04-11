@@ -58,9 +58,9 @@ Most of the walk is normal sidewalk walking. But there are a few sections where 
 
 That does not make the route difficult, but it does make it feel less polished than just going to LAX-it. If you are tired, carrying a lot of luggage, or arriving late and don't want any weird transitions, that is worth keeping in mind.
 
-<div style="display: flex; gap: 12px; flex-wrap: wrap;">
-  <img src="/images/waymo-lax/IMG_2127.gif" alt="Walking from LAX toward In-N-Out" style="width: 48%; min-width: 280px;" />
-  <img src="/images/waymo-lax/IMG_2128.gif" alt="The outdoor stairwell on the route" style="width: 48%; min-width: 280px;" />
+<div class="post-media-row">
+  <img src="/images/waymo-lax/IMG_2127.gif" alt="Walking from LAX toward In-N-Out" />
+  <img src="/images/waymo-lax/IMG_2128.gif" alt="The outdoor stairwell on the route" />
 </div>
 
 Once you get close to In-N-Out, open the Waymo app and request the ride. In my experience, this is the closest easy landmark to use for the pickup.
@@ -75,7 +75,9 @@ On a Wednesday at 8pm, going from LAX back to Beverly Hills, the fares were:
 
 That price gap is the whole point. The walk is longer, but you skip the airport fees, get the better car experience, have more control over pickup timing, and don't really give up speed on the drive home. In my [super commute airport data](/optimizing-the-la-sf-super-commute), LAX was already the cheaper but more chaotic return option. This is the version of that return that I actually enjoy.
 
-![Waymo pickup timing and trip details near LAX](/images/waymo-lax/IMG_2125.webp)
+<div class="post-image-narrow">
+  <img src="/images/waymo-lax/IMG_2125.webp" alt="Waymo pickup timing and trip details near LAX" />
+</div>
 
 ## Waymo and the Freeway
 

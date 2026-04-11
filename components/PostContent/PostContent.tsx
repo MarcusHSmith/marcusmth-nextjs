@@ -90,6 +90,33 @@ export default function PostContent({
         <hr className="mb-8" />
         {htmlContent ? renderServerHtml() : renderContent()}
       </div>
+      <style jsx global>{`
+        .post-media-row {
+          display: flex;
+          gap: 12px;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin: 1.5rem 0;
+        }
+
+        .post-media-row > img {
+          width: 48%;
+          min-width: 280px;
+          margin: 0;
+        }
+
+        .post-image-narrow {
+          text-align: center;
+          margin: 1.5rem 0;
+        }
+
+        .post-image-narrow > img {
+          width: 72%;
+          max-width: 720px;
+          min-width: 280px;
+          margin: 0 auto;
+        }
+      `}</style>
     </PageShell>
   );
 }
