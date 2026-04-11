@@ -17,7 +17,7 @@ This is part of my larger LA airport routine. I've written before about [optimiz
 
 When I land at Delta Terminal 3, I walk to the In-N-Out near LAX and order the Waymo from there. On my last trip the walk took exactly 21 minutes. It's longer than going to LAX-it for Uber or Lyft, but the ride is better and usually cheaper because you avoid the airport fees. Now that Waymo uses the freeways, it's also just as fast for getting home on the 405.
 
-## History and Why It's Good
+## Why It's Good
 
 Waymo operates in Los Angeles and down to Inglewood, but not inside LAX itself. LAX also has its own pickup rules and fees for airport rides. Because of that, the move is to leave the airport zone on foot and request the car once you're outside the airport pickup system.
 
