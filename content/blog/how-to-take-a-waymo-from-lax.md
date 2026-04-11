@@ -4,7 +4,7 @@ date: "2026-04-11T03:52:39.000Z"
 lastUpdated: "2026-04-11T03:52:39.000Z"
 title: How to Take a Waymo from LAX
 description: A step by step guide to walking from Delta Terminal 3 to In-N-Out to order a Waymo from LAX
-tags: ["travel", "LAX"]
+tags: ["travel", "lax"]
 isPublished: true
 featuredImage:
   src: "waymo-lax/IMG_2127.gif"
