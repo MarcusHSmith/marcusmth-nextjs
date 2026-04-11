@@ -91,6 +91,14 @@ export default function PostContent({
         {htmlContent ? renderServerHtml() : renderContent()}
       </div>
       <style jsx global>{`
+        .prose img {
+          display: block;
+          width: 72%;
+          max-width: 720px;
+          min-width: 280px;
+          margin: 1.5rem auto;
+        }
+
         .post-media-row {
           display: flex;
           gap: 12px;
