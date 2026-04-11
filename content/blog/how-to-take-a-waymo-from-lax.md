@@ -41,11 +41,18 @@ The route starts at Delta Terminal 3. If you land somewhere else in LAX, your wa
 
 ![Leaving Delta Terminal 3 at LAX](/images/waymo-lax/IMG_2126.webp)
 
-Do not follow the signs for Uber or Lyft pickup at LAX-it. That's the standard move, but not the one for this guide.
+The route is:
+
+1. Walk toward LAX-it. This is always faster than taking the shuttle.
+2. Cross the street to LAX-it, then go left on the sidewalk.
+3. Go down the stairs to Sepulveda.
+4. Walk to In-N-Out.
 
 The important comparison is this: walking to In-N-Out took me exactly 21 minutes from Delta Terminal 3.
 
-From Delta Terminal 3, start walking out of the airport toward the In-N-Out near Sepulveda. You are not trying to find a special airport transportation connection. You are just walking to the nearest place outside the airport flow where ordering a Waymo makes sense.
+You are not actually using LAX-it for pickup. It is just the fastest way to start the route on foot.
+
+From there, head left on the sidewalk, go down the stairs to Sepulveda, and keep walking to In-N-Out. That stretch is the fun part because the airplanes fly right over you.
 
 Most of the walk is normal sidewalk walking. But there are a few sections where you are more isolated and one part where you need to go down an outdoor stairwell.
 
