@@ -3,12 +3,12 @@ path: blog
 date: "2026-04-11T03:52:39.000Z"
 lastUpdated: "2026-04-11T03:52:39.000Z"
 title: How to Take a Waymo from LAX
-description: A step by step guide to walking from Delta Terminal 3 to In-N-Out to order a Waymo from LAX
+description: A step by step guide to walking from your LAX terminal to a Waymo
 tags: ["travel", "lax"]
 isPublished: true
 featuredImage:
-  src: "waymo-lax/IMG_2127.gif"
-  alt: "Walking from LAX toward the Waymo pickup point"
+  src: "waymo-lax/IMG_2133.webp"
+  alt: "waymo"
 ---
 
 As of April 10, 2026, Waymo still does not offer direct pickup or dropoff at LAX. That does not mean you can't use it for your airport trip. You just need to walk out of the airport pickup system first.
@@ -19,7 +19,7 @@ When I land at Delta Terminal 3, I walk to the In-N-Out near LAX and order the W
 
 ## Why It's Good
 
-Waymo operates in Los Angeles and down to Inglewood, but not inside LAX itself. LAX also has its own pickup rules and fees for airport rides. Because of that, the move is to leave the airport zone on foot and request the car once you're outside the airport pickup system.
+Waymo doesn't operate inside LAX itself. LAX also has its own pickup rules and fees for airport rides. Because of that, the move is to leave the airport zone on foot and request the car once you're outside the airport pickup system.
 
 LAX-it works, but I don't enjoy it. There is always some amount of waiting, traffic, and driver confusion. Waymo is calmer. The tradeoff is that you earn that better ride by walking farther.
 
@@ -40,8 +40,8 @@ The positives of this move are:
 The route starts at Delta Terminal 3. If you land somewhere else in LAX, your walking time will be different, but the concept is the same: leave the terminal area and head toward the In-N-Out just east of the airport.
 
 <div class="post-media-row">
-  <img src="/images/waymo-lax/IMG_2126.webp" alt="Leaving Delta Terminal 3 at LAX" />
-  <img src="/images/waymo-lax/IMG_2133.webp" alt="Stairwell and route transition toward Sepulveda" />
+  <img src="/images/waymo-lax/IMG_2126.webp" alt="Skyline LAX" />
+  <img src="/images/waymo-lax/IMG_2125.webp" alt="Stairwell and route transition toward Sepulveda" />
 </div>
 
 The route is:
@@ -77,10 +77,6 @@ On a Wednesday at 8pm, going from LAX back to Beverly Hills, the fares were:
 - Uber: $45.96
 
 That price gap is the whole point. The walk is longer, but you skip the airport fees, get the better car experience, have more control over pickup timing, and don't really give up speed on the drive home. In my [super commute airport data](/optimizing-the-la-sf-super-commute), LAX was already the cheaper but more chaotic return option. This is the version of that return that I actually enjoy.
-
-<div class="post-image-small">
-  <img src="/images/waymo-lax/IMG_2125.webp" alt="Waymo pickup timing and trip details near LAX" />
-</div>
 
 ## Waymo and the Freeway
 
