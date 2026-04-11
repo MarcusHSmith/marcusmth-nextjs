@@ -39,7 +39,10 @@ The positives of this move are:
 
 The route starts at Delta Terminal 3. If you land somewhere else in LAX, your walking time will be different, but the concept is the same: leave the terminal area and head toward the In-N-Out just east of the airport.
 
-![Leaving Delta Terminal 3 at LAX](/images/waymo-lax/IMG_2126.webp)
+<div class="post-media-row">
+  <img src="/images/waymo-lax/IMG_2126.webp" alt="Leaving Delta Terminal 3 at LAX" />
+  <img src="/images/waymo-lax/IMG_2133.webp" alt="Stairwell and route transition toward Sepulveda" />
+</div>
 
 The route is:
 
