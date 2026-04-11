@@ -3,7 +3,7 @@ title: "Optimizing the LA–SF Super Commute"
 description: "A data-driven comparison of LAX vs BUR and SFO vs SJC with timing and cost results, plus practical tips to streamline the weekly Beverly Hills → Menlo Park commute for a tech job."
 date: "2025-11-15T09:00:00.000Z"
 lastUpdated: "2025-11-15T09:00:00.000Z"
-tags: ["travel"]
+tags: ["travel", "lax"]
 path: blog
 isPublished: true
 featuredImage:
@@ -27,7 +27,7 @@ I live in Beverly Hills and work in Menlo Park. The distance from my home to bot
 
 For outbound flights from LA, I recorded the time from closing the car door to arriving at the gate. I use TSA PreCheck and rely on Touchless TSA at LAX, which skips the usual line. I carry only a backpack, so I intentionally arrive after boarding begins. For a 7am flight, I leave Beverly Hills in LA at 6:10am, arriving at the gate around 6:44am. My closest call has been eight minutes before boarding closed.
 
-For Silicon Valley arrivals, I measured from plane‑door‑open to arrival at my office or shuttle stop in Menlo Park, including Uber/Lyft costs. For Thursday returns to LA, I tracked from plane‑door‑open to arriving home. I eventually began taking the work shuttle to San Mateo for Wi‑Fi and lower cost.
+For Silicon Valley arrivals, I measured from plane‑door‑open to arrival at my office or shuttle stop in Menlo Park, including Uber/Lyft costs. For Thursday returns to LA, I tracked from plane‑door‑open to arriving home. I eventually began taking the work shuttle to San Mateo for Wi‑Fi and lower cost. More recently, for some LAX returns, I've also been walking out to order a Waymo instead of using the standard airport rideshare flow. I wrote that process up in [How to Take a Waymo from LAX](/how-to-take-a-waymo-from-lax).
 
 ## The Data
 

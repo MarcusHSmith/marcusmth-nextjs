@@ -3,7 +3,7 @@ title: "Using Ai to Book My Weekly Super commute"
 description: "How I use Claude Code and FlightClaw to search LAX, BUR, SFO, and SJC, apply my personal scoring model, and book the right flight in under a minute — with real examples."
 date: "2026-04-05T09:00:00.000Z"
 lastUpdated: "2026-04-05T09:00:00.000Z"
-tags: ["ai", "travel"]
+tags: ["ai", "travel", "lax"]
 path: blog
 isPublished: true
 featuredImage:
@@ -11,7 +11,7 @@ featuredImage:
   alt: "Claude Code Logo"
 ---
 
-I super commute between LA and the Bay Area every week. Four airport combinations. Two outbound days. Two return days. Multiply that by however many weeks out I'm looking, and the combinatorics get tedious fast.
+I super commute between LA and the Bay Area every week. Four airport combinations. Two outbound days. Two return days. Multiply that by however many weeks out I'm looking, and the combinatorics get tedious fast. The flight is only part of the system though. I’ve also written separately about [the airport timing and cost data behind the commute](/optimizing-the-la-sf-super-commute) and [how I leave LAX with Waymo on the way home](/how-to-take-a-waymo-from-lax).
 
 I used to do this manually on [Google Flights](https://www.google.com/flights). Now I type one line into Claude Code.
 
@@ -102,4 +102,4 @@ That's the actual value of AI here — not that it's smarter than me about fligh
 
 ---
 
-The scoring model is grounded in real commute data — if you want the airport timing and cost breakdown behind it, I wrote that up in [Optimizing the LA–SF Super Commute](/optimizing-the-la-sf-super-commute).
+The scoring model is grounded in real commute data — if you want the airport timing and cost breakdown behind it, I wrote that up in [Optimizing the LA–SF Super Commute](/optimizing-the-la-sf-super-commute). And if you're curious how that LAX return actually works on the ground, I wrote up my current [Waymo from LAX routine](/how-to-take-a-waymo-from-lax).

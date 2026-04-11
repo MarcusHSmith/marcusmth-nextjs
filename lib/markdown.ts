@@ -8,5 +8,5 @@ function normalizeMarcusInternalLinks(html: string): string {
 }
 
 export function markdownToHtml(markdown: string): string {
-  return normalizeMarcusInternalLinks(md().render(markdown));
+  return normalizeMarcusInternalLinks(md({ html: true }).render(markdown));
 }
