@@ -124,6 +124,18 @@ export default function PostContent({
           min-width: 280px;
           margin: 0 auto;
         }
+
+        .post-image-small {
+          text-align: center;
+          margin: 1.5rem 0;
+        }
+
+        .post-image-small > img {
+          width: 56%;
+          max-width: 560px;
+          min-width: 240px;
+          margin: 0 auto;
+        }
       `}</style>
     </PageShell>
   );

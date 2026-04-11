@@ -75,7 +75,7 @@ On a Wednesday at 8pm, going from LAX back to Beverly Hills, the fares were:
 
 That price gap is the whole point. The walk is longer, but you skip the airport fees, get the better car experience, have more control over pickup timing, and don't really give up speed on the drive home. In my [super commute airport data](/optimizing-the-la-sf-super-commute), LAX was already the cheaper but more chaotic return option. This is the version of that return that I actually enjoy.
 
-<div class="post-image-narrow">
+<div class="post-image-small">
   <img src="/images/waymo-lax/IMG_2125.webp" alt="Waymo pickup timing and trip details near LAX" />
 </div>
 
