@@ -3,7 +3,7 @@ title: "Using Ai to Book My Weekly Super commute"
 description: "How I use Claude Code and FlightClaw to search LAX, BUR, SFO, and SJC, apply my personal scoring model, and book the right flight in under a minute — with real examples."
 date: "2026-04-05T09:00:00.000Z"
 lastUpdated: "2026-04-05T09:00:00.000Z"
-tags: ["ai", "travel"]
+tags: ["ai", "travel", "LAX"]
 path: blog
 isPublished: true
 featuredImage:
