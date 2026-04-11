@@ -7,8 +7,8 @@ description: A step by step guide to walking from Delta Terminal 3 to In-N-Out t
 tags: ["travel", "LAX"]
 isPublished: true
 featuredImage:
-  src: "waymo-lax/IMG_2120.webp"
-  alt: "Waymo pricing near LAX"
+  src: "waymo-lax/IMG_2127.gif"
+  alt: "Walking from LAX toward the Waymo pickup point"
 ---
 
 As of April 10, 2026, Waymo still does not offer direct pickup or dropoff at LAX. That does not mean you can't use it for your airport trip. You just need to walk out of the airport pickup system first.
@@ -76,6 +76,8 @@ When the Waymo arrives, load your bags, get in, and start the ride in the app. F
 The main advantage is that once you are out of the airport system, the trip becomes dramatically more pleasant. No awkward rideshare queue, no driver confusion, no tipping, and usually less chaos.
 
 The timing is better too. Instead of waiting around hoping a driver shows up quickly, I can plan the walk and call the Waymo for the time I actually want. And now that Waymo can take the 405, it is just as fast getting back home.
+
+![Waymo arriving for pickup near LAX](/images/waymo-lax/IMG_2133.webp)
 
 ![Waymo ride home from LAX on the freeway](/images/waymo-lax/IMG_2137.webp)
 
