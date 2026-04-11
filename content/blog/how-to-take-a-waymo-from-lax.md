@@ -87,9 +87,10 @@ The main advantage is that once you are out of the airport system, the trip beco
 
 The timing is better too. Instead of waiting around hoping a driver shows up quickly, I can plan the walk and call the Waymo for the time I actually want. And now that Waymo can take the 405, it is just as fast getting back home.
 
-![Waymo arriving for pickup near LAX](/images/waymo-lax/IMG_2133.webp)
-
-![Waymo ride home from LAX on the freeway](/images/waymo-lax/IMG_2137.webp)
+<div class="post-media-row">
+  <img src="/images/waymo-lax/IMG_2133.webp" alt="Waymo arriving for pickup near LAX" />
+  <img src="/images/waymo-lax/IMG_2137.webp" alt="Waymo ride home from LAX on the freeway" />
+</div>
 
 ## Final Thoughts
 
