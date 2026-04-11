@@ -58,9 +58,10 @@ Most of the walk is normal sidewalk walking. But there are a few sections where 
 
 That does not make the route difficult, but it does make it feel less polished than just going to LAX-it. If you are tired, carrying a lot of luggage, or arriving late and don't want any weird transitions, that is worth keeping in mind.
 
-![Walking from LAX toward In-N-Out](/images/waymo-lax/IMG_2127.gif)
-
-![The outdoor stairwell on the route](/images/waymo-lax/IMG_2128.gif)
+<div style="display: flex; gap: 12px; flex-wrap: wrap;">
+  <img src="/images/waymo-lax/IMG_2127.gif" alt="Walking from LAX toward In-N-Out" style="width: 48%; min-width: 280px;" />
+  <img src="/images/waymo-lax/IMG_2128.gif" alt="The outdoor stairwell on the route" style="width: 48%; min-width: 280px;" />
+</div>
 
 Once you get close to In-N-Out, open the Waymo app and request the ride. In my experience, this is the closest easy landmark to use for the pickup.
 
