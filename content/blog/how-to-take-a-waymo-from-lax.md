@@ -6,6 +6,9 @@ title: How to Take a Waymo from LAX
 description: A step by step guide to walking from Delta Terminal 3 to In-N-Out to order a Waymo from LAX
 tags: ["travel", "LAX"]
 isPublished: true
+featuredImage:
+  src: "waymo-lax/IMG_2120.webp"
+  alt: "Waymo pricing near LAX"
 ---
 
 As of April 10, 2026, Waymo still does not offer direct pickup or dropoff at LAX. That does not mean you can't use it for your airport trip. You just need to walk out of the airport pickup system first.
@@ -22,6 +25,8 @@ LAX-it works, but I don't enjoy it. There is always some amount of waiting, traf
 
 Another advantage is pickup timing. With Waymo, I can usually choose the exact pickup time I want. With Uber and Lyft, I usually wait 5 to 10 minutes and sometimes 15 to 20 minutes.
 
+![Waymo vs Uber and Lyft pricing from LAX](/images/waymo-lax/IMG_2120.webp)
+
 The positives of this move are:
 
 - lower price because you avoid airport fees
@@ -34,6 +39,8 @@ The positives of this move are:
 
 The route starts at Delta Terminal 3. If you land somewhere else in LAX, your walking time will be different, but the concept is the same: leave the terminal area and head toward the In-N-Out just east of the airport.
 
+![Leaving Delta Terminal 3 at LAX](/images/waymo-lax/IMG_2126.webp)
+
 Do not follow the signs for Uber or Lyft pickup at LAX-it. That's the standard move, but not the one for this guide.
 
 The important comparison is this: walking to In-N-Out took me exactly 21 minutes from Delta Terminal 3.
@@ -43,6 +50,10 @@ From Delta Terminal 3, start walking out of the airport toward the In-N-Out near
 Most of the walk is normal sidewalk walking. But there are a few sections where you are more isolated and one part where you need to go down an outdoor stairwell.
 
 That does not make the route difficult, but it does make it feel less polished than just going to LAX-it. If you are tired, carrying a lot of luggage, or arriving late and don't want any weird transitions, that is worth keeping in mind.
+
+![Walking from LAX toward In-N-Out](/images/waymo-lax/IMG_2127.gif)
+
+![The outdoor stairwell on the route](/images/waymo-lax/IMG_2128.gif)
 
 Once you get close to In-N-Out, open the Waymo app and request the ride. In my experience, this is the closest easy landmark to use for the pickup.
 
@@ -56,6 +67,8 @@ On a Wednesday at 8pm, going from LAX back to Beverly Hills, the fares were:
 
 That price gap is the whole point. The walk is longer, but you skip the airport fees, get the better car experience, have more control over pickup timing, and don't really give up speed on the drive home. In my [super commute airport data](/optimizing-the-la-sf-super-commute), LAX was already the cheaper but more chaotic return option. This is the version of that return that I actually enjoy.
 
+![Waymo pickup timing and trip details near LAX](/images/waymo-lax/IMG_2125.webp)
+
 ## Waymo and the Freeway
 
 When the Waymo arrives, load your bags, get in, and start the ride in the app. From there it becomes the normal Waymo experience.
@@ -63,6 +76,8 @@ When the Waymo arrives, load your bags, get in, and start the ride in the app. F
 The main advantage is that once you are out of the airport system, the trip becomes dramatically more pleasant. No awkward rideshare queue, no driver confusion, no tipping, and usually less chaos.
 
 The timing is better too. Instead of waiting around hoping a driver shows up quickly, I can plan the walk and call the Waymo for the time I actually want. And now that Waymo can take the 405, it is just as fast getting back home.
+
+![Waymo ride home from LAX on the freeway](/images/waymo-lax/IMG_2137.webp)
 
 ## Final Thoughts
 
