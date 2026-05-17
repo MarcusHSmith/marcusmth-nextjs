@@ -3,7 +3,6 @@ import { TagList } from "../TagList/TagList";
 import dynamic from "next/dynamic";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Head from "next/head";
 import { markdownToHtml } from "../../lib/markdown";
 
 const YouTubeEmbed = dynamic(() => import("../YouTubeEmbed/YouTubeEmbed"));
@@ -57,12 +56,6 @@ export default function PostContent({
 
   return (
     <PageShell>
-      <Head>
-        <link
-          rel="license"
-          href="https://creativecommons.org/licenses/by/4.0/"
-        />
-      </Head>
       {frontmatter.featuredImage && (
         <div className="mb-8 rounded-lg overflow-hidden shadow-lg max-h-[400px] flex items-center justify-center">
           <Image
