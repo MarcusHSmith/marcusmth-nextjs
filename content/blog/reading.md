@@ -29,7 +29,7 @@ If you're curious about how I decide what books to read, I wrote about [my proce
 
 [Open](https://a.co/d/0h9NETx9) by Andre Agassi
 
-The Mythical Man-Month by Frederick P. Brooks Jr. [💻](/reading/software-engineering-management)
+The Mythical Man-Month by Frederick P. Brooks Jr. [🤝](/reading/software-engineering-management)
 
 [Play Nice But Win: A CEO's Journey from Founder to Leader](https://a.co/d/061XgiMD) by [Michael Dell](https://x.com/MichaelDell?s=20)
 
@@ -58,7 +58,7 @@ The Mythical Man-Month by Frederick P. Brooks Jr. [💻](/reading/software-engin
 
 [Fear and Loathing in Las Vegas](https://www.amazon.com/Fear-Loathing-Las-Vegas-American/dp/0679785892/ref=sr_1_1?crid=13V8VEZIHGS4W&dib=eyJ2IjoiMSJ9.KGws7Pa7tuWK9mraRZlih0PQe-WD_T26BY8bl6IB37csir88WR4y_JWiwlkygLGCK4OgFoTmnRWDtkAbuU-fuYNbVlsLOsipiZv2Ko3zbfOUGw7wHs3uwiwhncWB_egVnYuQgDmJod_XwPeZ6iKrmh5blKCLzJidptAe34h5bpRmyUP-0f7YtJnfvdzWLz-jImHTXEbDunEvZhU7DDEUUVvcT2VoCS-k1_KfYgAMmSI.lacd2I6ls9oLU7hX2WiULo4_BUpfrH1gLMDGHzkJh7s&dib_tag=se&keywords=fear+and+loathing+in+las+vegas&qid=1743187906&sprefix=fear+and+lo%2Caps%2C202&sr=8-1) by Hunter S. Thompson
 
-[Engineering Management for the Rest of Us](https://www.amazon.com/gp/product/B0BGYVDX35/ref=ppx_yo_dt_b_d_asin_title_351_o00?ie=UTF8&psc=1) by [Sarah Drasner](https://sarah.dev/) [💻](/reading/software-engineering-management)
+[Engineering Management for the Rest of Us](https://www.amazon.com/gp/product/B0BGYVDX35/ref=ppx_yo_dt_b_d_asin_title_351_o00?ie=UTF8&psc=1) by [Sarah Drasner](https://sarah.dev/) [🤝](/reading/software-engineering-management)
 
 ## 2024
 
@@ -116,7 +116,7 @@ Megayacht True Stories of Adventure, Drama, and Tragedy at Sea by Doug Hoogs [�
 
 🔊 [Who: The A Method for Hiring](https://www.amazon.com/Who-Geoff-Smart-Randy-Street-audiobook/dp/B001H97LVO/ref=sr_1_1?crid=2NWWZ3AYQ06FG&keywords=who+hiring&qid=1663192671&sprefix=who+hiring%2Caps%2C68&sr=8-1) by Geoff Smart
 
-🔊 [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897) by [@skamille](https://twitter.com/skamille) [💻](/reading/software-engineering-management)
+🔊 [The Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897) by [@skamille](https://twitter.com/skamille) [🤝](/reading/software-engineering-management)
 
 🔊 [Setting the Table](https://www.amazon.com/Setting-Table-Danny-Meyer-audiobook/dp/B000JCE38O/ref=sr_1_1?keywords=setting+the+table&qid=1661260802&sr=8-1) by [@dhmeyer](https://twitter.com/dhmeyer?s=20&t=0OVCLtVzQXgE5T3xQZO1eg) [🍽️](/reading/restaurants)
 
@@ -138,7 +138,7 @@ Megayacht True Stories of Adventure, Drama, and Tragedy at Sea by Doug Hoogs [�
 
 ## 2021
 
-🥱 [The Making of a Manager](https://www.amazon.com/gp/product/B079WNPRL2/ref=ppx_yo_dt_b_d_asin_title_o07?ie=UTF8&psc=1) by [@joulee](https://twitter.com/joulee) [💻](/reading/software-engineering-management)
+🥱 [The Making of a Manager](https://www.amazon.com/gp/product/B079WNPRL2/ref=ppx_yo_dt_b_d_asin_title_o07?ie=UTF8&psc=1) by [@joulee](https://twitter.com/joulee) [🤝](/reading/software-engineering-management)
 
 [The Passionate Programmer](https://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344/ref=asc_df_1934356344/?tag=hyprod-20&linkCode=df0&hvadid=312025907421&hvpos=&hvnetw=g&hvrand=2619027834083661622&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061089&hvtargid=pla-331493525691&psc=1) by [@chadfowler](https://twitter.com/chadfowler?s=20)
 
@@ -220,7 +220,7 @@ Annelies Hartmann Hampel Memoirs by Annelies Hartmann Hampel
 
 ## 2019
 
-[It Doesn't Have to Be Crazy at Work](https://amzn.to/2uH90ni) by [@JasonFried](https://twitter.com/jasonfried?s=20) [💻](/reading/software-engineering-management)
+[It Doesn't Have to Be Crazy at Work](https://amzn.to/2uH90ni) by [@JasonFried](https://twitter.com/jasonfried?s=20) [🤝](/reading/software-engineering-management)
 
 [Total Recall: My Unbelievably True Life Story](https://amzn.to/2wnCp6m) by [@Schwarzenegger](https://twitter.com/Schwarzenegger?s=20)
 
