@@ -28,7 +28,6 @@ This is the personal website of Marcus Smith, a software engineer and content cr
 - **Markdown** - Content authoring with frontmatter
 - **gray-matter** - Frontmatter parsing
 - **markdown-it** - Markdown processing
-- **mdx-bundler** - MDX support
 
 ### Additional Features
 
