@@ -27,7 +27,7 @@ If you're curious about how I decide what books to read, I wrote about [my proce
 
 🏃‍♂️ [Genuine Authentic](https://a.co/d/0dBocrou) by Michael Gross
 
-🏃‍♂️ [Open](https://a.co/d/0h9NETx9) by Andre Agassi
+[Open](https://a.co/d/0h9NETx9) by Andre Agassi
 
 The Mythical Man-Month by Frederick P. Brooks Jr.
 
