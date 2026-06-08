@@ -1,7 +1,7 @@
 ---
 path: blog
 date: "2020-02-01T22:08:05.284Z"
-lastUpdated: "2026-05-16T10:00:00.000Z"
+lastUpdated: "2026-06-07T10:00:00.000Z"
 title: Marcus's Reading List | Software Engineer's Book Recommendations
 description: Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover insightful reads on programming, business, and personal development
 featuredImage:
@@ -25,7 +25,9 @@ If you're curious about how I decide what books to read, I wrote about [my proce
 
 ## 2026
 
-🏃‍♂️ [Open](https://a.co/d/0h9NETx9) by Andre Agassi
+🏃‍♂️ [Genuine Authentic](https://a.co/d/0dBocrou) by Michael Gross
+
+[Open](https://a.co/d/0h9NETx9) by Andre Agassi
 
 The Mythical Man-Month by Frederick P. Brooks Jr.
 
