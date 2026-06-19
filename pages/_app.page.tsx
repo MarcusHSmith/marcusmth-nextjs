@@ -28,6 +28,7 @@ function MyApp({ Component, pageProps }) {
     "marcus, smith, software, engineer, blog, youtube, analytics";
   const canonicalPath = (pageProps.path || router.asPath || "").split("?")[0];
   const canonicalUrl = `https://www.marcusmth.com${canonicalPath}`;
+  const ogType = title && tags ? "article" : "website";
 
   return (
     <>
@@ -49,7 +50,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="author" content="Marcus Smith" />
 
         {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content={ogType} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:title" content={titleWithFallback} />
         <meta property="og:description" content={descriptionWithFallback} />
