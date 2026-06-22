@@ -16,14 +16,14 @@
     "@tailwindcss/typography": "^0.5.19",
     "@vercel/analytics": "^1.6.1",
     "embla-carousel-react": "^7.0.5",
+    "escape-html": "^1.0.3",
     "gray-matter": "^4.0.3",
     "mapbox-gl": "^2.10.0",
     "markdown-it": "^14.2.0",
     "next": "^16.2.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "rss": "^1.2.2",
-    "escape-html": "^1.0.3"
+    "rss": "^1.2.2"
   },
   "devDependencies": {
     "@types/node": "18.11.5",
