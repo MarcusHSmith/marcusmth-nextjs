@@ -7,7 +7,7 @@ tags: ["travel", "lax"]
 path: blog
 isPublished: true
 featuredImage:
-  src: "LAX_Morning.png"
+  src: "LAX_Morning.jpg"
   alt: "LAX departures curb at sunrise"
 ---
 
