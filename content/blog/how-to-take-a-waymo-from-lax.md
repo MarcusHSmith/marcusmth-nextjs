@@ -11,7 +11,7 @@ featuredImage:
   alt: "waymo"
 ---
 
-> 🚗 **Use my referral code for Waymo:** [MARCUSD56C](https://waymo.smart.link/4pcoqniy5?code=MARCUSD56C)
+> 🚗 **Support me by using my referral link:** [MARCUSD56C](https://waymo.smart.link/4pcoqniy5?code=MARCUSD56C)
 
 As of April 10, 2026, Waymo still does not offer direct pickup or dropoff at LAX. That does not mean you can't use it for your airport trip. You just need to walk out of the airport pickup system first.
 
