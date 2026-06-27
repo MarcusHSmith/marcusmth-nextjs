@@ -5,7 +5,7 @@ lastUpdated: "2026-01-10T10:00:00.000Z"
 title: How I Decide What Books to Read
 description: Discover how to decide what books to read with a personal system that captures recommendations, respects timing, and transforms reading into meaningful conversations
 featuredImage:
-  src: "barts_books.png"
+  src: "barts_books.jpg"
   alt: "Outdoor bookstall with couple reading"
 tags: ["reading"]
 isPublished: true
