@@ -42,8 +42,8 @@ Hand the agent everything up front — confirmation numbers, flight numbers, dat
 
 > Hi — can you price match these two flights to the current lower fares and issue the difference as an eCredit? Same flights I'm already booked on, just cheaper now. I price match pretty regularly, so I appreciate you helping me out with these.
 >
-> 1. Conf HT8MXE — DL 1421, LAX→SFO, Tue Jul 21. Paid ~$104, now $94.
-> 2. Conf G3RNBZ — DL 1629, SFO→LAX, Wed Jul 29. Paid ~$108.40, now $94.
+> 1. Conf ABC123 — DL 1421, LAX→SFO, Tue Jul 21. Paid ~$104, now $94.
+> 2. Conf XYZ789 — DL 1629, SFO→LAX, Wed Jul 29. Paid ~$108.40, now $94.
 >
 > Same flight numbers, times, and cabin — just the lower fare. Thanks!
 
