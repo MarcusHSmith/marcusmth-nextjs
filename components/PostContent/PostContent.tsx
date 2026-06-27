@@ -100,7 +100,8 @@ export default function PostContent({
           margin: 1.5rem 0;
         }
 
-        .post-media-row > img {
+        .post-media-row > img,
+        .post-media-row > video {
           width: 48%;
           min-width: 280px;
           margin: 0;
