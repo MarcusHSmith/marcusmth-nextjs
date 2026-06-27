@@ -107,6 +107,11 @@ export default function PostContent({
           margin: 0;
         }
 
+        .post-media-row > video {
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+        }
+
         .post-image-narrow {
           text-align: center;
           margin: 1.5rem 0;
