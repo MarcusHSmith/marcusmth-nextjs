@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
     ? "noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
     : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1";
 
-  const titleWithFallback = title ? `${title} | marcusmth` : "marcusmth";
+  const titleWithFallback = title || "marcusmth";
   const descriptionWithFallback =
     description || "Marcus's thoughts and tools as a software engineer";
   const ogImageWithFallback = featuredImage?.src
