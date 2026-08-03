@@ -84,6 +84,8 @@ The distinction I keep coming back to: I'm not directly responsible for the engi
 
 I'm also agile about what matters. Week to week I can decide the most important thing to work on and go do it, and I can make connections and fixes across teams and processes as I see them. As an engineering manager, my week was largely determined by the calendar before it started.
 
+The role itself is also more open. A manager job arrives pre-defined: you have reports, you own their performance, the scope comes attached to the title. A tech lead has far more room to decide what the job is, and far more ways to create value — you can go find the problem nobody assigned anyone, fix the process nobody owns, build the thing nobody asked for yet. That range is the best part of the role and the hardest part of it, because none of it is handed to you. If you wait to be told what your leadership should look like, you'll wait a long time. You define the role, then you go make it real.
+
 The nights don't go away. I still work at night — but I'm building, not reporting. The work that follows me home is the work I'd have chosen anyway, and being tired from that is a completely different kind of tired than being tired from other people's problems.
 
 It's the player-coach role. Some of the time you're coaching. Some of the time you're on the field. Each one makes the other better.
