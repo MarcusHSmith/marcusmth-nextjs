@@ -8,7 +8,7 @@ tags: ["engineering-management", "software-engineering"]
 isPublished: true
 ---
 
-I've done [both jobs at Meta](/about/resume/engineering-manager). I joined in September 2025 as a Software Engineering Manager on WhatsApp, and I'm now an individual contributor tech lead on an AI team.
+I've done [both jobs at Meta](/about/resume/engineering-manager). I joined as a Software Engineering Manager on WhatsApp, and I'm now an individual contributor tech lead on an AI team.
 
 These are parallel tracks, not a ladder. Most companies map the first level of management to a senior individual contributor level — same scope, same pay band, different job. Almost nothing else about the two is the same.
 
