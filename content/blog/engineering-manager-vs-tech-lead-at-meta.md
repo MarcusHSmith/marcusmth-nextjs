@@ -3,14 +3,14 @@ path: blog
 date: "2026-08-02T09:00:00.000Z"
 lastUpdated: "2026-08-02T09:00:00.000Z"
 title: Engineering Manager vs Tech Lead at Meta
-description: I've done both jobs at Meta — Engineering Manager on WhatsApp, now an individual contributor tech lead in an AI org. Same ladder, two very different jobs. Here are the real differences and tradeoffs between them.
+description: I've done both jobs — Engineering Manager and individual contributor Tech Lead. Same level, two very different jobs. Here are the real differences and tradeoffs between leading a team and leading from inside one.
 tags: ["engineering-management", "software-engineering"]
 isPublished: true
 ---
 
-I've done [both jobs at Meta](/about/resume/engineering-manager). I joined in September 2025 as a Software Engineering Manager on WhatsApp, and I'm now an individual contributor tech lead in one of Meta's AI orgs.
+I've done [both jobs at Meta](/about/resume/engineering-manager). I joined in September 2025 as a Software Engineering Manager on WhatsApp, and I'm now an individual contributor tech lead on an AI team.
 
-These are parallel tracks, not a ladder — Meta maps the front-line manager level (M1) to Staff engineer (E6). Almost nothing else about the two jobs is the same.
+These are parallel tracks, not a ladder. Most companies map the first level of management to a senior individual contributor level — same scope, same pay band, different job. Almost nothing else about the two is the same.
 
 Here are the differences and the tradeoffs.
 
@@ -28,7 +28,7 @@ So the work starts when the meetings stop, and it runs long.
 
 You take what you absorbed during the day and turn it into something your leadership can act on. Status, risk, what slipped and why. Then the technical work you couldn't get to: the diffs you skimmed, the architecture call that's blocking someone, the design doc feedback you owe by tomorrow morning. Then you plan tomorrow.
 
-And twice a year, performance reviews land on top of it. Meta runs a 360-degree cycle — self reviews, peer feedback requests, calibration across other managers, and a written packet for every one of your reports. When performance reviews are on, they are a second full-time job layered on the first one.
+And then there's review season. Self reviews, peer feedback requests, calibration with other managers, and a written case for every one of your reports. However often your company runs it, when reviews are on they are a second full-time job layered on the first one.
 
 I was running about 70 hours a week. Not to be exceptional. To keep up.
 
@@ -38,9 +38,9 @@ I was running about 70 hours a week. Not to be exceptional. To keep up.
 
 Now the other side, because the hours are the least interesting thing about the job.
 
-**Your ceiling is the team's output, not yours.** Whatever you could have built yourself in a half, a team of ten builds more. Once you accept that your job is to raise that number, the leverage is enormous and it is nothing like what any individual contributor role offers.
+**Your ceiling is the team's output, not yours.** Whatever you could have built yourself in a year, a team of ten builds more. Once you accept that your job is to raise that number, the leverage is enormous and it is nothing like what any individual contributor role offers.
 
-**You change people's careers.** Someone gets promoted because you built the case over two halves. Someone grows into scope they didn't think they could hold because you handed it to them slightly before they were ready. Someone gets out of a bad situation because you moved them. That's durable in a way shipping a feature isn't, and it's the part of the job I still miss.
+**You change people's careers.** Someone gets promoted because you built the case over two review cycles. Someone grows into scope they didn't think they could hold because you handed it to them slightly before they were ready. Someone gets out of a bad situation because you moved them. That's durable in a way shipping a feature isn't, and it's the part of the job I still miss.
 
 **You see the whole board.** You're in the rooms where roadmaps get set, headcount gets argued over, and other teams explain what they're actually doing. Individual contributors get the conclusions. Managers get the reasoning, which is far more useful and changes how you read every decision after that.
 
@@ -66,13 +66,13 @@ The compounding one is that you can't stay in the code, and that trades away two
 
 You can manage around both. You can't eliminate them, because the input they need is time in the code, and time in the code is the thing the calendar takes first.
 
-## Why M1 Is the Hardest Job in Software Engineering
+## Why First-Line Management Is the Hardest Job in Software Engineering
 
 This is my opinion, but I hold it strongly.
 
-At M1 you own the people _and_ you're still expected to be the technical center of gravity — for the projects you lead directly and for the advice you give your team. Those are two full jobs with two different failure modes, and the day is built for neither.
+At the first level of management you own the people _and_ you're still expected to be the technical center of gravity — for the projects you lead directly and for the advice you give your team. Those are two full jobs with two different failure modes, and the day is built for neither.
 
-M2 is easier. Not easy, easier. Once you're managing managers, the responsibility model is consistent: everyone reporting to you has roughly the job you just had, and the expectation that you're also the deepest technical voice in the room quietly goes away. The pretense drops. At M1 the pretense is the job.
+The next level up is easier. Not easy, easier. Once you're managing managers, the responsibility model is consistent: everyone reporting to you has roughly the job you just had, and the expectation that you're also the deepest technical voice in the room quietly goes away. The pretense drops. One level down, the pretense is the job.
 
 ## The Tech Lead Day
 
@@ -96,13 +96,13 @@ It has its own tradeoffs, and they're not small.
 
 **You don't grow people the same way.** You mentor, and it matters. But you're not accountable for anyone's career, you're not building the promotion case, and you don't get the thing that comes back when it lands.
 
-**The heads-down trap is real.** The failure mode of this job is doing the work yourself because it's faster than teaching someone else to. You ship a lot and lead nothing, and it can take a whole half to notice.
+**The heads-down trap is real.** The failure mode of this job is doing the work yourself because it's faster than teaching someone else to. You ship a lot and lead nothing, and it can take months to notice.
 
 **Nobody is looking out for you the way you looked out for your reports.** As an engineering manager I spent enormous energy on my team's growth. As a tech lead, that's mine to drive.
 
 ## The Comparison
 
-|                     | Engineering Manager (M1)               | Tech Lead (IC)                     |
+|                     | Engineering Manager                    | Tech Lead                          |
 | ------------------- | -------------------------------------- | ---------------------------------- |
 | Where you lead from | above the team                         | inside it                          |
 | Day                 | meetings                               | code + design                      |
