@@ -3,18 +3,18 @@ path: blog
 date: "2026-08-02T09:00:00.000Z"
 lastUpdated: "2026-08-02T09:00:00.000Z"
 title: Engineering Manager vs Tech Lead at Meta
-description: I've done both jobs at Meta — Engineering Manager on WhatsApp, now an IC tech lead in an AI org. Same ladder, two very different jobs. Here are the real differences and tradeoffs between them.
+description: I've done both jobs at Meta — Engineering Manager on WhatsApp, now an individual contributor tech lead in an AI org. Same ladder, two very different jobs. Here are the real differences and tradeoffs between them.
 tags: ["engineering-management", "software-engineering"]
 isPublished: true
 ---
 
-I've done both jobs at Meta. I joined in September 2025 as a Software Engineering Manager on WhatsApp, and I'm now an individual contributor tech lead in one of Meta's AI orgs. For context on the path here, you can read my [resume](/about/resume/engineering-manager) or [how I prepared for the interviews](/how-to-prepare-for-software-engineering-manager-interviews-at-big-tech).
+I've done [both jobs at Meta](/about/resume/engineering-manager). I joined in September 2025 as a Software Engineering Manager on WhatsApp, and I'm now an individual contributor tech lead in one of Meta's AI orgs.
 
-These are parallel tracks, not a ladder. Meta maps the front-line manager level (M1) to Staff engineer (E6), and the next manager level (M2) to Senior Staff (E7). The tracks run alongside each other. Almost nothing else about the two jobs is the same.
+These are parallel tracks, not a ladder — Meta maps the front-line manager level (M1) to Staff engineer (E6). Almost nothing else about the two jobs is the same.
 
-Both are good jobs. Both are hard. Here are the differences and the tradeoffs, from having done each of them.
+Here are the differences and the tradeoffs.
 
-## The EM Day
+## The Engineering Manager Day
 
 The daytime is entirely other people.
 
@@ -22,7 +22,7 @@ The daytime is entirely other people.
 
 The output of all of that is real, but it's invisible. Those meetings are the mechanism by which a dozen people stay pointed in the same direction, and skipping them is how projects quietly rot. Still, at 6pm nothing exists that didn't exist at 9am except decisions and context, and most of that context is sitting in your head rather than anywhere someone else can use it.
 
-## The EM Night
+## The Engineering Manager Night
 
 So the writing happens after everyone else logs off.
 
@@ -34,17 +34,17 @@ I was running about 70 hours a week. Not to be exceptional. To keep up.
 
 [Captain's Log journaling](/captains-log-journaling) was the only reason I could see where the time actually went, and seeing it didn't make it smaller.
 
-## What's Great About Being an EM
+## What's Great About Being an Engineering Manager
 
 Now the other side, because the hours are the least interesting thing about the job.
 
-**Your ceiling is the team's output, not yours.** Whatever you could have built yourself in a half, a team of ten builds more. Once you accept that your job is to raise that number, the leverage is enormous and it is nothing like what any IC role offers.
+**Your ceiling is the team's output, not yours.** Whatever you could have built yourself in a half, a team of ten builds more. Once you accept that your job is to raise that number, the leverage is enormous and it is nothing like what any individual contributor role offers.
 
 **You change people's careers.** Someone gets promoted because you built the case over two halves. Someone grows into scope they didn't think they could hold because you handed it to them slightly before they were ready. Someone gets out of a bad situation because you moved them. That's durable in a way shipping a feature isn't, and it's the part of the job I still miss.
 
-**You see the whole board.** You're in the rooms where roadmaps get set, headcount gets argued over, and other teams explain what they're actually doing. ICs get the conclusions. Managers get the reasoning, which is far more useful and changes how you read every decision after that.
+**You see the whole board.** You're in the rooms where roadmaps get set, headcount gets argued over, and other teams explain what they're actually doing. Individual contributors get the conclusions. Managers get the reasoning, which is far more useful and changes how you read every decision after that.
 
-**You can fix structural things.** Who's on what. What gets staffed and what gets killed. What noise your team never has to hear about. An IC can route around a broken process; a manager can delete it.
+**You can fix structural things.** Who's on what. What gets staffed and what gets killed. What noise your team never has to hear about. An individual contributor can route around a broken process; a manager can delete it.
 
 ## The Weight You Carry
 
@@ -54,15 +54,15 @@ People bring you the real stuff. Career fear. Burnout. Conflict with a teammate 
 
 It also draws down real reserves. You spend emotional and mental capital on your team all day, and then you're expected to have the same reserves left for hard technical judgment on your own projects and on everyone else's. Those come from the same account.
 
-That's the part people miss when they describe the EM job as "meetings." The tradeoff isn't the hours. It's that the specific energy deep technical work requires is the same energy you just spent being fully present for someone having a hard week. Both are worth spending it on. You just can't spend it twice.
+That's the part people miss when they describe the engineering manager job as "meetings." The tradeoff isn't the hours. It's that the specific energy deep technical work requires is the same energy you just spent being fully present for someone having a hard week. Both are worth spending it on. You just can't spend it twice.
 
-## The EM Tradeoff: Leading From Outside the Code
+## The Engineering Manager Tradeoff: Leading From Outside the Code
 
 The compounding one is that you can't stay in the code, and that trades away two things.
 
 **Shared experience.** It's harder to lead engineers when you don't live their day. You're making calls about a codebase you last touched months ago, and you don't feel what they feel — the build that takes too long, the test suite nobody trusts, the abstraction that fights you every time. They can tell. Not because they're judging you, but because you're missing information they have.
 
-**Original technical ideas.** Good ones come from contact with the problem. As an EM your contact is secondhand: a summary in standup, a diff you skimmed at 11pm, a design doc that's already been through three rounds. You get very good at evaluating other people's ideas and you generate fewer of your own.
+**Original technical ideas.** Good ones come from contact with the problem. As an engineering manager your contact is secondhand: a summary in standup, a diff you skimmed at 11pm, a design doc that's already been through three rounds. You get very good at evaluating other people's ideas and you generate fewer of your own.
 
 You can manage around both. You can't eliminate them, because the input they need is time in the code, and time in the code is the thing the calendar takes first.
 
@@ -74,7 +74,7 @@ At M1 you own the people _and_ you're still expected to be the technical center 
 
 M2 is easier. Not easy, easier. Once you're managing managers, the responsibility model is consistent: everyone reporting to you has roughly the job you just had, and the expectation that you're also the deepest technical voice in the room quietly goes away. The pretense drops. At M1 the pretense is the job.
 
-## The TL Day
+## The Tech Lead Day
 
 Tech leading is difficult too, in a way I find more sustainable.
 
@@ -82,11 +82,11 @@ You lead from inside the team. You have time to actually invest in the work, whi
 
 The distinction I keep coming back to: I'm not directly responsible for the engineers, so I lead _with_ them rather than _to_ them. That's a bigger difference than it sounds. Nobody is performing for me. Nobody is managing up. When I say a piece of work matters, it's an argument that has to stand on its own, and if it's right the team moves because they agree, not because I'm writing their review.
 
-I'm also agile about what matters. Week to week I can decide the most important thing to work on and go do it, and I can make connections and fixes across teams and processes as I see them. As an EM, my week was largely determined by the calendar before it started.
+I'm also agile about what matters. Week to week I can decide the most important thing to work on and go do it, and I can make connections and fixes across teams and processes as I see them. As an engineering manager, my week was largely determined by the calendar before it started.
 
 It's the player-coach role. Some of the time you're coaching. Some of the time you're on the field. Each one makes the other better.
 
-## What You Give Up as a TL
+## What You Give Up as a Tech Lead
 
 It has its own tradeoffs, and they're not small.
 
@@ -98,11 +98,11 @@ It has its own tradeoffs, and they're not small.
 
 **The heads-down trap is real.** The failure mode of this job is doing the work yourself because it's faster than teaching someone else to. You ship a lot and lead nothing, and it can take a whole half to notice.
 
-**Nobody is looking out for you the way you looked out for your reports.** As an EM I spent enormous energy on my team's growth. As a TL, that's mine to drive.
+**Nobody is looking out for you the way you looked out for your reports.** As an engineering manager I spent enormous energy on my team's growth. As a tech lead, that's mine to drive.
 
 ## The Comparison
 
-|                     | EM (M1)                   | IC TL                              |
+|                     | Engineering Manager (M1)  | Tech Lead (IC)                     |
 | ------------------- | ------------------------- | ---------------------------------- |
 | Where you lead from | above the team            | inside it                          |
 | Day                 | meetings                  | code + design                      |
@@ -118,10 +118,10 @@ It has its own tradeoffs, and they're not small.
 
 I don't think one of these is the senior version of the other. They're two different instruments, and I've been glad to play both.
 
-The EM job gives you the widest leverage available in engineering and the chance to change how someone's career goes. It asks for your calendar and your emotional reserves in exchange. I'd take it again — and I'd plan differently, protecting one real block of technical time a week the way I protect a [war room](/swe-war-room) standup, because losing that is what starts the slide.
+The engineering manager job gives you the widest leverage available in engineering and the chance to change how someone's career goes. It asks for your calendar and your emotional reserves in exchange. I'd take it again — and I'd plan differently, protecting one real block of technical time a week the way I protect a [war room](/swe-war-room) standup, because losing that is what starts the slide.
 
-The TL job gives you time in the problem, the credibility that comes from shipping, and the freedom to chase the most important thing each week. It asks you to lead without authority and to stay out of rooms you used to sit in.
+The tech lead job gives you time in the problem, the credibility that comes from shipping, and the freedom to chase the most important thing each week. It asks you to lead without authority and to stay out of rooms you used to sit in.
 
 If you're deciding between them, don't ask which is more senior. Ask which set of tradeoffs fits the season you're in — and remember you can switch. That's the whole point of two tracks.
 
-If you found this useful, you may also like [How to Run a Software Engineering Project War Room](/swe-war-room), [How to Code Review](/how-to-code-review), or the [engineering management books](/reading/software-engineering-management) that shaped how I think about this.
+If you found this useful, you may also like [How to Prepare for Software Engineering Manager Interviews at Big Tech](/how-to-prepare-for-software-engineering-manager-interviews-at-big-tech), [How to Run a Software Engineering Project War Room](/swe-war-room), or the [engineering management books](/reading/software-engineering-management) that shaped how I think about this.
