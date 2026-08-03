@@ -94,6 +94,8 @@ It has its own tradeoffs, and they're not small.
 
 **You have influence, not authority.** Every time you want the team to go a direction, you have to earn it. That's healthy right up until someone simply won't move, and then you have no lever at all. A manager has one. You have persuasion and a track record, and some days that isn't enough.
 
+**You start from zero with every new person.** The manager title arrives with credibility already attached. New hires, partner teams, people in other orgs — they assume your thoughts carry weight because of where you sit, before you've said anything. A tech lead gets none of that on day one. Every new person who joins, every team you haven't worked with yet, is someone you have to prove yourself to from scratch. The influence is just as real once you have it. You just re-earn it every time the room changes.
+
 **You're not in the rooms.** Headcount, roadmap, org-level prioritization — those arrive as conclusions. You can influence what gets built; you have much less say in whether it gets funded.
 
 **You don't grow people the same way.** You mentor, and it matters. But you're not accountable for anyone's career, you're not building the promotion case, and you don't get the thing that comes back when it lands.
@@ -111,7 +113,7 @@ It has its own tradeoffs, and they're not small.
 | Night               | performance reviews, reports, planning | code, still building               |
 | Hours/wk            | ~70, to keep up                        | long, but on work you chose        |
 | Accountable for     | the people                             | the outcome                        |
-| Authority           | formal                                 | earned, every time                 |
+| Authority           | comes with the title                   | re-earned with every new person    |
 | Respect earned by   | judgment                               | shipping                           |
 | Best part           | changing someone's career              | building the thing yourself        |
 | Fails when          | you run out of energy                  | you go heads-down and stop leading |
