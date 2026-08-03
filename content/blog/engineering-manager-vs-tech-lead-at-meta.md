@@ -28,7 +28,7 @@ So the work starts when the meetings stop, and it runs long.
 
 You take what you absorbed during the day and turn it into something your leadership can act on. Status, risk, what slipped and why. Then the technical work you couldn't get to: the diffs you skimmed, the architecture call that's blocking someone, the design doc feedback you owe by tomorrow morning. Then you plan tomorrow.
 
-And twice a year, PSC lands on top of it. Meta runs a 360-degree performance cycle — self reviews, peer feedback requests, calibration across other managers, and a written packet for every one of your reports. When PSC is on, it is a second full-time job layered on the first one.
+And twice a year, performance reviews land on top of it. Meta runs a 360-degree cycle — self reviews, peer feedback requests, calibration across other managers, and a written packet for every one of your reports. When performance reviews are on, they are a second full-time job layered on the first one.
 
 I was running about 70 hours a week. Not to be exceptional. To keep up.
 
@@ -102,17 +102,17 @@ It has its own tradeoffs, and they're not small.
 
 ## The Comparison
 
-|                     | Engineering Manager (M1)  | Tech Lead (IC)                     |
-| ------------------- | ------------------------- | ---------------------------------- |
-| Where you lead from | above the team            | inside it                          |
-| Day                 | meetings                  | code + design                      |
-| Night               | PSC, reports, planning    | —                                  |
-| Hours/wk            | ~70                       | ~normal                            |
-| Accountable for     | the people                | the outcome                        |
-| Authority           | formal                    | earned, every time                 |
-| Respect earned by   | judgment                  | shipping                           |
-| Best part           | changing someone's career | building the thing yourself        |
-| Fails when          | you run out of energy     | you go heads-down and stop leading |
+|                     | Engineering Manager (M1)               | Tech Lead (IC)                     |
+| ------------------- | -------------------------------------- | ---------------------------------- |
+| Where you lead from | above the team                         | inside it                          |
+| Day                 | meetings                               | code + design                      |
+| Night               | performance reviews, reports, planning | —                                  |
+| Hours/wk            | ~70                                    | ~normal                            |
+| Accountable for     | the people                             | the outcome                        |
+| Authority           | formal                                 | earned, every time                 |
+| Respect earned by   | judgment                               | shipping                           |
+| Best part           | changing someone's career              | building the thing yourself        |
+| Fails when          | you run out of energy                  | you go heads-down and stop leading |
 
 ## Both Are Leadership
 
