@@ -87,7 +87,7 @@ export default function ResumePage() {
               <div className="ml-4 space-y-1">
                 <div className="flex justify-between items-start">
                   <h5 className="text-base font-medium text-gray-700">
-                    Tech Lead (Individual Contributor)
+                    Staff Software Engineer, AAI
                   </h5>
                   <span className="text-gray-600 text-sm">
                     June 2026 - Present
