@@ -18,7 +18,7 @@ Here are the differences and the tradeoffs.
 
 The daytime is entirely other people.
 
-1:1s with your reports. Syncs with engineers who aren't your reports but are on your projects. Project reviews. Peer managers who need something from your team or owe something to it. Skip-levels. Cross-functional time with product and design.
+1:1s with your reports. Syncs with other teams — the ones you depend on, the ones depending on you, and the ones who just discovered your roadmap collides with theirs. Syncs with engineers on your projects who don't report to you. Project reviews. Peer managers who need something from your team or owe something to it. Skip-levels. Cross-functional time with product and design.
 
 The output of all of that is real, but it's invisible. Those meetings are the mechanism by which a dozen people stay pointed in the same direction, and skipping them is how projects quietly rot. Still, at 6pm nothing exists that didn't exist at 9am except decisions and context, and most of that context is sitting in your head rather than anywhere someone else can use it.
 
