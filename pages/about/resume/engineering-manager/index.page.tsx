@@ -81,21 +81,26 @@ export default function ResumePage() {
           <div className="space-y-6">
             <div>
               <div className="flex justify-between items-start mb-2">
-                <h4 className="text-lg font-semibold text-gray-800">
-                  Tech Lead (Individual Contributor), Meta
-                </h4>
-                <span className="text-gray-600">June 2026 - Present</span>
+                <h4 className="text-lg font-semibold text-gray-800">Meta</h4>
+                <span className="text-gray-600">September 2025 - Present</span>
               </div>
-            </div>
-
-            <div>
-              <div className="flex justify-between items-start mb-2">
-                <h4 className="text-lg font-semibold text-gray-800">
-                  Software Engineering Manager, Meta (WhatsApp)
-                </h4>
-                <span className="text-gray-600">
-                  September 2025 - June 2026
-                </span>
+              <div className="ml-4 space-y-1">
+                <div className="flex justify-between items-start">
+                  <h5 className="text-base font-medium text-gray-700">
+                    Tech Lead (Individual Contributor)
+                  </h5>
+                  <span className="text-gray-600 text-sm">
+                    June 2026 - Present
+                  </span>
+                </div>
+                <div className="flex justify-between items-start">
+                  <h5 className="text-base font-medium text-gray-700">
+                    Software Engineering Manager, WhatsApp
+                  </h5>
+                  <span className="text-gray-600 text-sm">
+                    September 2025 - June 2026
+                  </span>
+                </div>
               </div>
             </div>
             <div>
