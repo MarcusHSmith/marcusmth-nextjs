@@ -20,11 +20,11 @@ The daytime is entirely other people.
 
 1:1s with your reports. Syncs with other teams — the ones you depend on, the ones depending on you, and the ones who just discovered your roadmap collides with theirs. Syncs with engineers on your projects who don't report to you. Project reviews. Peer managers who need something from your team or owe something to it. Skip-levels. Cross-functional time with product and design.
 
-The output of all of that is real, but it's invisible. Those meetings are the mechanism by which a dozen people stay pointed in the same direction, and skipping them is how projects quietly rot. Still, at 6pm nothing exists that didn't exist at 9am except decisions and context, and most of that context is sitting in your head rather than anywhere someone else can use it.
+The output of all of that is real, but it's invisible. Those meetings are the mechanism by which a dozen people stay pointed in the same direction, and skipping them is how projects quietly rot. Still, when the calendar finally clears around 3:30, nothing exists that didn't exist at 9am except decisions and context, and most of that context is sitting in your head rather than anywhere someone else can use it.
 
 ## The Engineering Manager Night
 
-So the writing happens after everyone else logs off.
+So the work starts when the meetings stop, and it runs long.
 
 You take what you absorbed during the day and turn it into something your leadership can act on. Status, risk, what slipped and why. Then the technical work you couldn't get to: the diffs you skimmed, the architecture call that's blocking someone, the design doc feedback you owe by tomorrow morning. Then you plan tomorrow.
 
