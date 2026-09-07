@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Head from "next/head";
 import { StructuredData } from "../components/StructuredData/StructuredData";
 import { useRouter } from "next/router";
@@ -88,6 +89,7 @@ function MyApp({ Component, pageProps }) {
       </Layout>
       <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />
       <Analytics />
+      <SpeedInsights />
     </>
   );
 }
