@@ -15,6 +15,7 @@
     "@next/third-parties": "^16.2.7",
     "@tailwindcss/typography": "^0.5.19",
     "@vercel/analytics": "^1.6.1",
+    "@vercel/speed-insights": "^2.0.0",
     "embla-carousel-react": "^7.0.5",
     "escape-html": "^1.0.3",
     "gray-matter": "^4.0.3",
