@@ -1,9 +1,9 @@
 ---
 path: blog
 date: "2025-09-02T01:39:25.326Z"
-lastUpdated: "2025-09-02T01:39:25.326Z"
+lastUpdated: "2026-09-16T09:00:00.000Z"
 title: How to film walking videos for Youtube
-description: A guide to the equipment and planning of silent walking videos
+description: A guide to the equipment and planning of silent walking videos — updated for the 2026 relaunch with voice-over city guides.
 tags: ["youtube", "content-creation", "video-production"]
 isPublished: true
 featuredImage:
@@ -11,7 +11,7 @@ featuredImage:
   alt: "People Watching Channel"
 ---
 
-_Originally posted [How to film walking videos for Youtube](https://www.marcusmth.com/how-to-film-walking-videos-for-youtube) in 2023_
+_Originally posted [How to film walking videos for Youtube](https://www.marcusmth.com/how-to-film-walking-videos-for-youtube) in 2022. Updated September 2026 for the channel relaunch._
 
 I've been creating walking videos on Youtube since February 2022. My equipment has been updated and revised many times since then. This post will walk you through the equipment I use in 2025. This setup has been inspired by the great walking channels before me and I couldn't do it without their mentorship.
 
@@ -50,6 +50,17 @@ It's vital to be quiet and avoid making noise. Viewers tend to enjoy footsteps, 
 ## Route
 
 During the recording, I modify the route based on what I'm seeing and what looks exciting. This is partly to capture better content, but also for my own enjoyment.
+
+# 2026 update: the relaunch setup
+
+The channel is relaunching around shorter, higher-effort voice-over city guides instead of pure silent walks — the Copenhagen video is the model. What changed in the kit and workflow:
+
+- **Camera:** moving to the DJI Osmo Pocket 4 as the primary. The iPhone + Osmo Mobile combo still works, but a dedicated pocket camera means I'm actually carrying it everywhere, which matters more than sensor specs.
+- **Audio:** voice-over is recorded separately in DaVinci Resolve's Fairlight page, not on the walk. Silent walking footage plus a written, opinionated script beats live narration — you get the immersion of the walk and the pacing of an essay.
+- **Retention:** the biggest lever wasn't gear, it was the hook. A one-line taste-test CTA early in the video took comments from 0.2% to 1.1% and retention from 31% to 38%. Details in [the retention post](/youtube-retention-taste-test-cta).
+- **Chapters:** every guide gets YouTube chapters exported from DaVinci Resolve markers — searchable, skimmable, and they feed the algorithm clean topic signals. ([How I export them](/export-youtube-chapters-with-davinci-resolve))
+
+The silent-walk equipment advice below still holds for that format. If you're starting a walking channel in 2026, start here, then layer voice-over on top once the filming habit is automatic.
 
 # Post Production
 

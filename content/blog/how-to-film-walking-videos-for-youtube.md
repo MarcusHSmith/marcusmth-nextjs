@@ -1,9 +1,9 @@
 ---
 path: blog
 date: "2022-08-29T01:39:25.326Z"
-lastUpdated: "2023-11-28T02:17:46.212Z"
-title: How to film walking videos for Youtube
-description: A guide to the equipment and planning of silent walking videos
+lastUpdated: "2026-09-16T09:00:00.000Z"
+title: How to film walking videos for Youtube (2022 edition)
+description: The original 2022 guide to filming walking videos — superseded by the updated 2025/2026 edition.
 tags: ["youtube", "content-creation", "video-production"]
 isPublished: true
 featuredImage:
@@ -11,7 +11,7 @@ featuredImage:
   alt: "Youtube Logo"
 ---
 
-_2025 version [How to film walking videos for Youtube 2025](https://www.marcusmth.com/how-to-film-walking-videos-for-youtube-2025)_
+> **This is the archived 2022 edition.** The current guide is [How to film walking videos for Youtube](https://www.marcusmth.com/how-to-film-walking-videos-for-youtube-2025), updated for 2026 with the relaunch setup.
 
 _Updated Nov 28 2023_
 Walking video camera guide 🌎 How to get started on Youtube
