@@ -56,6 +56,9 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content={titleWithFallback} />
         <meta property="og:description" content={descriptionWithFallback} />
         <meta property="og:image" content={ogImageWithFallback} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={titleWithFallback} />
         <meta property="og:site_name" content="marcusmth" />
         <meta property="og:locale" content="en_US" />
 
