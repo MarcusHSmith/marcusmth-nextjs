@@ -1,9 +1,9 @@
 ---
 path: blog
 date: "2023-02-05T22:08:05.284Z"
-lastUpdated: "2023-02-05T19:29:46.324Z"
-title: How to get 1,000 Youtube Subscribers in 2023
-description: Tricks to get monetized on Youtube in 2023
+lastUpdated: "2026-09-16T09:00:00.000Z"
+title: How to Get 1,000 YouTube Subscribers in 2026
+description: What it takes to hit 1,000 subscribers and YouTube Partner Program monetization in 2026 — updated thresholds, plus the promotion experiment data from my own climb.
 tags: ["youtube", "creator-economy", "monetization"]
 featuredImage:
   src: "Youtube-logo.png"
@@ -11,7 +11,19 @@ featuredImage:
 isPublished: true
 ---
 
-# How to get 1,000 Youtube Subscribers
+> **Updated September 2026.** The original 2023 post is below, with current numbers up top.
+
+## The 2026 monetization bar
+
+YouTube Partner Program eligibility in 2026 is still: **1,000 subscribers** plus either **4,000 valid public watch hours in the last 12 months** or **10 million valid public Shorts views in the last 90 days**. The subscriber number gets the headlines, but watch time is the actual gate — a thousand subscribers with no watch hours monetizes nothing.
+
+What changed since 2023: Shorts are now a legitimate primary path to the 1,000. If your format works vertical, the 10M Shorts-views route is dramatically faster than grinding 4,000 long-form hours. My walking channel is long-form by nature, so I took the slow road. Pick the road that matches your format.
+
+The promotion experiment below still holds up directionally — paid discovery can kickstart a channel, but the subscribers only stick if the catalog gives them a reason to stay.
+
+---
+
+# How to get 1,000 Youtube Subscribers (2023 original)
 
 On January 1st 2023 my channel [Walk with Marcusmth](https://www.youtube.com/channel/UCzLPnJlM_5IEe2djVMB2jLA) passed 1,000 subscribers and was approved for monetization. This is the second channel I’ve passed this mark with but the other was from 2012. Here’s my current guide for finding subscribers on Youtube.
 
