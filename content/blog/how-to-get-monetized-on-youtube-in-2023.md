@@ -15,9 +15,9 @@ isPublished: true
 
 ## The 2026 monetization bar
 
-YouTube Partner Program eligibility in 2026 is still: **1,000 subscribers** plus either **4,000 valid public watch hours in the last 12 months** or **10 million valid public Shorts views in the last 90 days**. The subscriber number gets the headlines, but watch time is the actual gate — a thousand subscribers with no watch hours monetizes nothing.
+YouTube Partner Program eligibility in 2026 is still: **1,000 subscribers** plus either **4,000 valid public watch hours in the last 12 months** or **10 million valid public Shorts views in the last 90 days** ([YouTube's current requirements](https://support.google.com/youtube/answer/94522?hl=en)). The subscriber number gets the headlines, but watch time is the actual gate — a thousand subscribers with no watch hours monetizes nothing.
 
-What changed since 2023: Shorts are now a legitimate primary path to the 1,000. If your format works vertical, the 10M Shorts-views route is dramatically faster than grinding 4,000 long-form hours. My walking channel is long-form by nature, so I took the slow road. Pick the road that matches your format.
+What changed since 2023: Shorts are now a legitimate primary path to the 1,000 — pick the road that matches your format. My walking channel is long-form by nature, so I took the watch-hours road. (There's also a lower tier at 500 subscribers plus 3,000 watch hours or 3M Shorts views that unlocks fan funding like memberships and Super Chat — just not ad revenue yet.)
 
 The promotion experiment below still holds up directionally — paid discovery can kickstart a channel, but the subscribers only stick if the catalog gives them a reason to stay.
 
