@@ -3,12 +3,12 @@ path: blog
 date: "2026-09-16T09:00:00.000Z"
 lastUpdated: "2026-09-16T09:00:00.000Z"
 title: Setting up a New Mac for Development
-description: My checklist for turning a fresh Mac into a working development machine — password manager, Homebrew, Node, GitHub SSH, and the few settings I always change first.
+description: My checklist for turning a fresh Mac into a working development machine — password manager, Homebrew, Node, GitHub SSH, and the settings worth changing first.
 tags: ["macos", "software-engineering", "developer-tools"]
 isPublished: true
 ---
 
-Every new Mac gets the same treatment. This is the checklist I run through to go from sealed box to a working development machine in under an hour.
+Every new Mac gets the same treatment. This is the checklist for going from sealed box to a working development machine.
 
 ## First: the basics
 
@@ -16,10 +16,10 @@ Every new Mac gets the same treatment. This is the checklist I run through to go
 
 **1Password.** Install before anything that needs a login. The browser extension goes in next — every subsequent sign-in pulls from the vault instead of my memory.
 
-**System settings I always change:**
-- Trackpad: tap to click on, tracking speed up two notches
-- Keyboard: key repeat to fastest, delay until repeat to shortest
-- Finder: show path bar, show status bar, new windows open at home folder
+**System settings worth changing first** (tune to taste — starting points, not gospel):
+- Trackpad: turn on tap-to-click, bump tracking speed up
+- Keyboard: faster key repeat, shorter delay until repeat
+- Finder: show the path bar and status bar; new windows open at the home folder
 - Dock: auto-hide on, magnification off
 
 ## Development
@@ -52,7 +52,7 @@ ssh -T git@github.com
 
 If the SSH handshake greets you by username, the machine is done. Everything after this is project-specific.
 
-## What I deliberately skip
+## What to skip
 
-- Migrating apps from the old Mac wholesale — fresh installs only. Migration Assistant carries over years of cruft.
-- Customizing the shell for an hour before writing code. Prompt theme can wait until the machine has shipped something.
+- Wholesale Migration Assistant migration. Fresh installs beat it here — Migration Assistant carries over years of cruft. (If you'd rather trade cleanliness for speed, migrate and skip the rest of this list.)
+- Customizing the shell before writing code. Get the machine shipping something first — prompt theme can wait.
