@@ -1,0 +1,115 @@
+# marcusmth.com
+
+> Personal website of Marcus Smith — software engineer (Meta AI, Tech Lead),
+> YouTube creator (People Watching walking videos), Delta LAX<->SFO super-commuter.
+> Blog posts are practical, data-driven guides: software engineering, YouTube
+> content creation, travel/commuting, and personal finance.
+
+## Main sections
+
+- [Home](https://www.marcusmth.com/) - latest blog posts
+- [About](https://www.marcusmth.com/about) - about Marcus Smith
+- [Reading list](https://www.marcusmth.com/reading) - book recommendations for software engineers
+- [Cheatsheets](https://www.marcusmth.com/cheatsheet) - developer quick references
+- [RSS feed](https://www.marcusmth.com/api/feed) - all posts as RSS
+- [Sitemap](https://www.marcusmth.com/sitemap.xml) - full URL list
+
+## Reading series
+
+- [Restaurants](https://www.marcusmth.com/reading/restaurants)
+- [Software Engineering Management](https://www.marcusmth.com/reading/software-engineering-management)
+- [Superyachts](https://www.marcusmth.com/reading/superyachts)
+
+## Cheatsheets
+
+- [AWS Cheatsheet](https://www.marcusmth.com/cheatsheet/aws-cheatsheet)
+- [Cursor AI Cheatsheet](https://www.marcusmth.com/cheatsheet/cursor-ai-favorites)
+- [DaVinci Resolve Cheatsheet](https://www.marcusmth.com/cheatsheet/davinci-resolve-favorites)
+- [Docker Cheatsheet](https://www.marcusmth.com/cheatsheet/docker-cheatsheet)
+- [Emacs Cheatsheet](https://www.marcusmth.com/cheatsheet/emacs-favorites)
+- [Gatsby CLI Cheatsheet](https://www.marcusmth.com/cheatsheet/gatsby-favorites)
+- [Git Cheatsheet](https://www.marcusmth.com/cheatsheet/git-favorites)
+- [iOS Development and XCode Cheatsheet](https://www.marcusmth.com/cheatsheet/ios-development-favorites)
+- [Javascript Cheatsheet](https://www.marcusmth.com/cheatsheet/javascript-favorites)
+- [Linear App Cheatsheet](https://www.marcusmth.com/cheatsheet/linear-favorites)
+- [Node Cheatsheet](https://www.marcusmth.com/cheatsheet/node-cheatsheet)
+- [NPM CLI Cheatsheet](https://www.marcusmth.com/cheatsheet/npm-favorites)
+- [SEO Cheatsheet](https://www.marcusmth.com/cheatsheet/seo-favorites)
+- [Sketch Cheatsheet](https://www.marcusmth.com/cheatsheet/sketch-cheatsheet)
+- [Solana Cheatsheet](https://www.marcusmth.com/cheatsheet/solana-cheatsheet)
+- [SQL Cheatsheet](https://www.marcusmth.com/cheatsheet/sql-cheatsheet)
+- [SWE Cheatsheet](https://www.marcusmth.com/cheatsheet/swe-favorites)
+- [SwiftUI Cheatsheet](https://www.marcusmth.com/cheatsheet/swiftui-cheatsheet)
+- [SwiftUI Views](https://www.marcusmth.com/cheatsheet/swiftui-views)
+- [Terminal Cheatsheet](https://www.marcusmth.com/cheatsheet/terminal-favorites)
+- [TypeORM Cheatsheet](https://www.marcusmth.com/cheatsheet/typeorm-cheatsheet)
+- [Typescript Cheatsheet](https://www.marcusmth.com/cheatsheet/typescript-favorites)
+- [Unix Cheatsheet](https://www.marcusmth.com/cheatsheet/unix-cheatsheet)
+- [Vercel Cheatsheet](https://www.marcusmth.com/cheatsheet/vercel-favorites)
+- [Visual Studio Code Cheatsheet](https://www.marcusmth.com/cheatsheet/vscode-favorites)
+- [Youtube Resources](https://www.marcusmth.com/cheatsheet/youtube-favorites)
+
+## Blog posts
+
+- [99 Bottles of Beer in Swift](https://www.marcusmth.com/99-bottles-of-beer-in-swift): Recursive Swift without using variables
+- [After UIView transform frame is not used](https://www.marcusmth.com/after-uiview-transform-frame-is-not-used): The story of chasing a UICollectionView issue caused by a transform
+- [Using Ai to Book My Weekly Super commute](https://www.marcusmth.com/ai-weekly-supercommute-claude-code): How I use Claude Code and FlightClaw to search LAX, BUR, SFO, and SJC, apply my personal scoring model, and book the right flight in under a
+- [App Store Connect build versions](https://www.marcusmth.com/app-store-connect-build-versions): iOS Testflight version difference between major, minor, patch, and build
+- [AppStoreConnect - Newer Build Available](https://www.marcusmth.com/appstoreconnect-newer-build-available): Solve rejecting a build and upgrading the version
+- [Why I created an AI blog for SEO](https://www.marcusmth.com/beautiful-roads-ai-blog-for-seo): MostBeautifulRoads.com is a blog that requires minimal work and provides outsized returns
+- [Building WhoseHouseBurned.com: A Friday Night AI Agent Hackathon](https://www.marcusmth.com/blog-whosehouseburned): The story of building a celebrity home tracker during the 2025 LA fires - from concept to deployment in a single night using Next.js, AI age
+- [Captain's Log Journaling](https://www.marcusmth.com/captains-log-journaling): Journaling for engineers to stay focused on delivering value
+- [Cheapest Short Term Car Rentals](https://www.marcusmth.com/cheapest-short-term-car-rentals): Where to find the lowest priced cars for one to multiple months
+- [Concluding iOS Coordinators](https://www.marcusmth.com/concluding-ios-coordinators): Stop, Pop, and Dismiss Coordinators and their ViewControllers
+- [Create a MailChimp form for Gatsby using Formik](https://www.marcusmth.com/create-a-mailchimp-form-for-gatsby-using-formik): How to build a MailChimp submission form for a Gatsby site using Formik in React
+- [Delete breakpoints in XCode 5](https://www.marcusmth.com/delete-breakpoints-in-xcode-5): How to delete all or some breakpoints in XCode 5
+- [Dotted Line UIView in Swift](https://www.marcusmth.com/dotted-line-uiview-in-swift): Create a horizontal dotted or dashed line in Swift with UIView and CALayer
+- [@Escaping Closures in Swift](https://www.marcusmth.com/escaping-closures-in-swift): Success and Failure Closures in Swift
+- [How to export YouTube chapters with DaVinci Resolve](https://www.marcusmth.com/export-youtube-chapters-with-davinci-resolve): Learn how to add chapter markers and export them for YouTube videos using DaVinci Resolve
+- [Solved - Extension Must Not Contain Stored Properties](https://www.marcusmth.com/extension-must-not-contain-stored-properties): How to fix Swift error - Extension Must Not Contain Stored Properties
+- [Marcus's Favorite Websites | A Curated Collection of Interesting Internet Destinations](https://www.marcusmth.com/favorite-websites): Explore Marcus's curated list of fascinating websites, ranging from unique tools to oddly specific archives. Discover hidden gems of the int
+- [Formik with Semantic-UI Components](https://www.marcusmth.com/formik-semantic-ui-2020-01-07): How to use Formik with Semantic-UI-React components
+- [Getting Paid by Delta for Price Matching](https://www.marcusmth.com/getting-paid-by-delta-price-matching): How I get Delta to refund the difference as eCredits whenever a flight I already booked drops in price — and the exact chat message I send t
+- [GraphQL Dependencies ](https://www.marcusmth.com/graphql-dependencies): GraphQL dependency tree for Entity Resolver Service Mutator Finder
+- [Graphql Union Resolver](https://www.marcusmth.com/graphql-union-resolver): Simple example of a Graphql Union with a Resolver
+- [Hey Siri, Send Nudes](https://www.marcusmth.com/hey-siri-send-nudes): iOS Shortcuts to keep them on their toes
+- [How I Decide What Books to Read](https://www.marcusmth.com/how-i-decide-what-books-to-read): Discover how to decide what books to read with a personal system that captures recommendations, respects timing, and transforms reading into
+- [How to Ace your Code Review Interview](https://www.marcusmth.com/how-to-ace-your-code-review-interview): Code review job interviews can present a challenge, this will help you pass their questions
+- [How to Code Review](https://www.marcusmth.com/how-to-code-review): Code reviews present a challenge for Software Engineers this is how to do it in production companies like Snapchat and Goldman Sachs
+- [How to film walking videos for Youtube](https://www.marcusmth.com/how-to-film-walking-videos-for-youtube-2025): A guide to the equipment and planning of silent walking videos
+- [How to film walking videos for Youtube](https://www.marcusmth.com/how-to-film-walking-videos-for-youtube): A guide to the equipment and planning of silent walking videos
+- [How to get 1,000 Youtube Subscribers in 2023](https://www.marcusmth.com/how-to-get-monetized-on-youtube-in-2023): Tricks to get monetized on Youtube in 2023
+- [How to Prepare for Software Engineering Manager Interviews at Big Tech](https://www.marcusmth.com/how-to-prepare-for-software-engineering-manager-interviews-at-big-tech): After transitioning from CTO to Engineering Manager at Meta, I'm sharing the technical and behavioral preparation strategies that worked—fro
+- [How to remove UIGraphicsImageRenderer UIImageView border](https://www.marcusmth.com/how-to-remove-uigraphicsimagerenderer-uiimageview-border): UIGraphicsImageRenderer adds a border, here is how to remove it
+- [How to subview a ViewController with a ViewController](https://www.marcusmth.com/how-to-subview-a-viewcontroller-with-a-viewcontroller): Adding a ViewController to another ViewController shouldn't be difficult
+- [How to Take a Waymo from LAX](https://www.marcusmth.com/how-to-take-a-waymo-from-lax): A step by step guide to walking from your LAX terminal to a Waymo
+- [How to Update Your Linear Team Workspace Name and Issue URL](https://www.marcusmth.com/how-to-update-linear-workspace-settings): A step-by-step guide to customize your Linear workspace settings including team name and issue URL format
+- [Improve iOS Build Times](https://www.marcusmth.com/improve-ios-build-times): How our iOS incremental build times were decreased
+- [iOS Provisioning Profile Guide](https://www.marcusmth.com/ios-provisioning-profile-guide): Everything I know about setting up Certificates for XCode and iOS devices
+- [How to correct iPhone footage in DaVinci Resolve](https://www.marcusmth.com/iphone-footage-davinci-resolve): Learn how to properly color correct iPhone footage in DaVinci Resolve using color space transform nodes
+- [Is UITableView at the top?](https://www.marcusmth.com/is-uitableview-at-the-top): How to determine if a UITableView is at the top of its datasource
+- [How Linear Can Build a Safer OAuth App Ecosystem (Lessons from Launching Linear Top Issue)](https://www.marcusmth.com/linear-oauth-learnings): Launching a Linear OAuth app revealed a trust gap—here's what the data shows, and how Linear can solve it with a safer, more extensible app 
+- [Linear Project Organization Guide](https://www.marcusmth.com/linear-project-organization-guide): A comprehensive guide to Linear's organizational hierarchy - from high-level Initiatives to granular Issues and Sub-issues
+- [Building Linear Top Issue utilizing the Linear API](https://www.marcusmth.com/linear-top-issue-app): Learnings while building an app on top of Linear's OAuth 2.0 and GraphQL API
+- [Most Viewed Youtube Videos on People Watching](https://www.marcusmth.com/most-viewed-youtube-videos): Walking videos are the most popular on People Watching
+- [MSN Partner Hub: My Experience with Video Publishing](https://www.marcusmth.com/msn-creator-network-experience): An inside look at publishing videos on MSN Partner Hub, including ad rates, view patterns, and unique opportunities
+- [NavigationView in SwiftUI](https://www.marcusmth.com/navigationview-in-swiftui): How to set navigation bar titles
+- [Nomadic Ambience Camera Equipment](https://www.marcusmth.com/nomadic-ambience-camera-equipment): A guide to the camera and microphone used to create the best youtube walking content
+- [Optimizing the LA–SF Super Commute](https://www.marcusmth.com/optimizing-the-la-sf-super-commute): A data-driven comparison of LAX vs BUR and SFO vs SJC with timing and cost results, plus practical tips to streamline the weekly Beverly Hil
+- [How to Fix "Page with redirect" Error in Google Search Console](https://www.marcusmth.com/page-with-redirect-fix): Debug and fix redirect issues reported in Google Search Console using curl
+- [Marcus's Reading List | Software Engineer's Book Recommendations](https://www.marcusmth.com/reading): Explore Marcus's curated reading list featuring book recommendations for software engineers, entrepreneurs, and tech enthusiasts. Discover i
+- [Right to Left UICollectionView](https://www.marcusmth.com/right-to-left-uicollectionview): Setup a UICollectionView where the zero index is on the right
+- [Rx Observable Types](https://www.marcusmth.com/rx-observable-types): Difference between Observable Single Maybe in Rx and RxSwift
+- [Solve Yarn Incorrect integrity when fetching from the cache](https://www.marcusmth.com/solve-yarn-incorrect-integrity-when-fetching-from-the-cache): Fix error with Integrity
+- [How to Run a Software Engineering Project War Room](https://www.marcusmth.com/swe-war-room): A guide to facilitating project war rooms at startups and Big Tech, keeping momentum, accountability, and decisions moving fast toward a cod
+- [Swift Class Style Guide](https://www.marcusmth.com/swift-class-style-guide): How to organize your class files in a predictable way
+- [Swift Variable DidSet Logic](https://www.marcusmth.com/swift-variable-didset-logic): When does Swift call `didSet()` on variables
+- [Solved - Swift XCTest Cannot Find in Scope](https://www.marcusmth.com/swift-xctest-cannot-find-in-scope): Solve XCTest Cannot find in scope
+- [SwiftUI isn't ready for production](https://www.marcusmth.com/swiftui-isnt-ready-for-production): Why we didn't and you shouldn't switch to SwiftUI yet
+- [SwiftUI Toggle calls function on change](https://www.marcusmth.com/swiftui-toggle-call-function-on-change): How to set Toggle value and send requests after changes
+- [Creating and retrieving using Typescript Partials](https://www.marcusmth.com/typescript-partials-2019-12-28): How to use Tyescript Partials which is useful in React projects
+- [UI Tests with XCTest in Swift](https://www.marcusmth.com/ui-tests-with-xctest-in-swift): Everything you need to know to write UITests
+- [How to add web push notifications](https://www.marcusmth.com/web-push-notifications): Service Workers and setup
+- [The YouTube CPM equation explained](https://www.marcusmth.com/youtube-cpm-equation): Every variable Youtube uses to determine earnings paid to creators
+- [How Much Money Can You Make with a Walking Video Channel on YouTube?](https://www.marcusmth.com/youtube-earnings-for-walking-channel): A detailed breakdown of earnings from a walking video channel, including AdSense revenue, MSN Partner Hub income, and content sales
+- [Why My YouTube Shopping Links Haven't Made a Single Sale](https://www.marcusmth.com/youtube-shopping-links-no-sales): Six months of tagging cameras, microphones, and gear brought in thousands from ads — and nothing from Shopping. Here's why YouTube's affilia
