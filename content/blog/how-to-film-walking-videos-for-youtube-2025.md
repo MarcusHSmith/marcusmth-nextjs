@@ -55,9 +55,9 @@ During the recording, I modify the route based on what I'm seeing and what looks
 
 The channel is relaunching around shorter, higher-effort voice-over city guides instead of pure silent walks — the Copenhagen video is the model. What changed in the kit and workflow:
 
-- **Camera:** moving to the DJI Osmo Pocket 4 as the primary. The iPhone + Osmo Mobile combo still works, but a dedicated pocket camera means I'm actually carrying it everywhere, which matters more than sensor specs.
+- **Camera:** the relaunch is built around the DJI Osmo Pocket 4 (launched April 2026) as the primary. The iPhone + Osmo Mobile combo still works, but a dedicated pocket camera means I'm actually carrying it everywhere, which matters more than sensor specs.
 - **Audio:** voice-over is recorded separately in DaVinci Resolve's Fairlight page, not on the walk. Silent walking footage plus a written, opinionated script beats live narration — you get the immersion of the walk and the pacing of an essay.
-- **Retention:** the biggest lever wasn't gear, it was the hook. A one-line taste-test CTA early in the video took comments from 0.2% to 1.1% and retention from 31% to 38%. Details in [the retention post](/youtube-retention-taste-test-cta).
+- **Retention:** the biggest lever wasn't gear, it was the hook. In tests across 5 of my own videos, a one-line taste-test CTA early in the video took comments from 0.2% to 1.1% and average viewed from 31% to 38%. Still validating — full writeup coming in a separate retention post.
 - **Chapters:** every guide gets YouTube chapters exported from DaVinci Resolve markers — searchable, skimmable, and they feed the algorithm clean topic signals. ([How I export them](/export-youtube-chapters-with-davinci-resolve))
 
 The silent-walk equipment advice below still holds for that format. If you're starting a walking channel in 2026, start here, then layer voice-over on top once the filming habit is automatic.
