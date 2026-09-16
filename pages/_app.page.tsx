@@ -56,8 +56,10 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content={titleWithFallback} />
         <meta property="og:description" content={descriptionWithFallback} />
         <meta property="og:image" content={ogImageWithFallback} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+        {/* NOTE: og:image:width/height intentionally omitted. og:image is the
+            per-post featuredImage (or a 200x200 profile fallback) and varies
+            in size (e.g. 1468x432, 600x600) — hard-coding 1200x630 would be
+            wrong for every page and worse than no dimensions at all. */}
         <meta property="og:image:alt" content={titleWithFallback} />
         <meta property="og:site_name" content="marcusmth" />
         <meta property="og:locale" content="en_US" />
