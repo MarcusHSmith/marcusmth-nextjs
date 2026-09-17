@@ -60,7 +60,10 @@ function MyApp({ Component, pageProps }) {
             per-post featuredImage (or a 200x200 profile fallback) and varies
             in size (e.g. 1468x432, 600x600) — hard-coding 1200x630 would be
             wrong for every page and worse than no dimensions at all. */}
-        <meta property="og:image:alt" content={titleWithFallback} />
+        <meta
+          property="og:image:alt"
+          content={featuredImage?.alt || titleWithFallback}
+        />
         <meta property="og:site_name" content="marcusmth" />
         <meta property="og:locale" content="en_US" />
 
