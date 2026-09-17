@@ -1,9 +1,9 @@
 ---
 path: blog
 date: "2026-04-11T03:52:39.000Z"
-lastUpdated: "2026-04-11T03:52:39.000Z"
-title: How to Take a Waymo from LAX
-description: A step by step guide to walking from your LAX terminal to a Waymo
+lastUpdated: "2026-09-16T23:00:00.000Z"
+title: "Taking a Waymo from LAX in 2026: Where to Get Picked Up, Prices & Steps"
+description: "Walk 21 min from Terminal 3 to In-N-Out on Sepulveda, outside the airport zone, and hail a Waymo for less than Uber: $31 vs $46 to Beverly Hills."
 tags: ["travel", "lax"]
 isPublished: true
 featuredImage:
@@ -11,9 +11,11 @@ featuredImage:
   alt: "waymo"
 ---
 
+> **Can you take a Waymo from LAX?** Yes. As of September 2026, Waymo doesn't pick up at LAX terminals — but the workaround is easy: walk about 21 minutes from Terminal 3 to the In-N-Out on Sepulveda Blvd, just outside the airport pickup zone, and request your ride there. It's usually cheaper than Uber: $31 vs $46 to Beverly Hills on my last trip.
+
 > 🚗 **Support me by using my referral link:** [MARCUSD56C](https://waymo.smart.link/4pcoqniy5?code=MARCUSD56C)
 
-As of April 10, 2026, Waymo still does not offer direct pickup or dropoff at LAX. That does not mean you can't use it for your airport trip. You just need to walk out of the airport pickup system first.
+As of September 2026, Waymo still does not offer direct pickup or dropoff at LAX. That does not mean you can't use it for your airport trip. You just need to walk out of the airport pickup system first.
 
 This is part of my larger LA airport routine. I've written before about [optimizing the LA–SF super commute](/optimizing-the-la-sf-super-commute) and [using AI to book my weekly super commute](/ai-weekly-supercommute-claude-code), but one part of that system deserved its own post: how I actually get home from LAX.
 
