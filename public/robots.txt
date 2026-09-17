@@ -13,8 +13,6 @@ Host: https://www.marcusmth.com
 # Sitemaps
 Sitemap: https://www.marcusmth.com/sitemap.xml
 
-# llms.txt for AI agent discovery
-# https://www.marcusmth.com/llms.txt
 
 # Crawl-delay for better server performance
 Crawl-delay: 1
