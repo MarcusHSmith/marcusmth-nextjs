@@ -30,6 +30,13 @@ export function PostList({
     return limit ? sorted.slice(0, limit) : sorted;
   }, [limit, posts]);
 
+  // The LCP candidate is the first card that actually renders an image, which
+  // is not always the first card -- plenty of posts have no featuredImage.
+  const lcpSlug = useMemo(
+    () => sortedPosts.find((p) => p.frontmatter.featuredImage)?.slug,
+    [sortedPosts]
+  );
+
   let rootUrl = "/";
   if (category === "cheatsheet") {
     rootUrl = `/cheatsheet/`;
@@ -47,6 +54,8 @@ export function PostList({
             lastUpdated={frontmatter.lastUpdated}
             featuredImage={frontmatter.featuredImage}
             tags={frontmatter.tags}
+            // Only the LCP image is eager; every other card lazy-loads.
+            priority={slug === lcpSlug}
           />
         );
       })}

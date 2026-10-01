@@ -14,6 +14,8 @@ interface IProps {
     src: string;
     alt: string;
   };
+  /** Eagerly load (and preload) this image. Set it on the LCP card only. */
+  priority?: boolean;
 }
 
 export function PostItem({
@@ -24,6 +26,7 @@ export function PostItem({
   lastUpdated,
   tags,
   featuredImage,
+  priority = false,
 }: IProps): ReactElement {
   const visibleTags = tags?.slice(0, 3);
   const postHref = `${rootUrl}${slug}`;
@@ -59,12 +62,17 @@ export function PostItem({
           {featuredImage && (
             <div className="relative h-44 w-full flex-shrink-0 overflow-hidden rounded-md md:h-36 md:w-52">
               {/* Keep post list images fully visible: preserve aspect ratio, shrink to fit, and center instead of cropping. */}
+              {/* `sizes` must mirror the box above (w-full md:w-52 inside a
+                  max-w-4xl px-4 shell with p-6 card padding), otherwise Next
+                  falls back to 100vw and serves a ~1920px-wide file into a
+                  208px slot. */}
               <Image
                 src={`/images/${featuredImage?.src}`}
                 alt={featuredImage?.alt}
-                layout="fill"
+                fill
+                sizes="(min-width: 768px) 208px, calc(100vw - 80px)"
                 style={{ objectFit: "contain", objectPosition: "center" }}
-                priority
+                priority={priority}
                 placeholder="empty"
               />
             </div>
