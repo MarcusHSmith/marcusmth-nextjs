@@ -1,7 +1,10 @@
 import fs from "fs";
 import matter from "gray-matter";
 import { HeaderBio } from "../../../components/HeaderBio/HeaderBio";
-import { PostItem } from "../../../components/PostItem/PostItem";
+import {
+  PostItem,
+  SIZES_UNPADDED_CONTAINER,
+} from "../../../components/PostItem/PostItem";
 import { Tag } from "../../../components/Tag/Tag";
 
 export async function getStaticPaths() {
@@ -108,6 +111,8 @@ export default function TagPage({ cheatsheetLinks, blogLinks, slug }) {
             rootUrl={"/"}
             featuredImage={link.featuredImage}
             lastUpdated={link.lastUpdated}
+            // This page's container has no horizontal padding of its own.
+            sizes={SIZES_UNPADDED_CONTAINER}
           />
         );
       })}
@@ -124,6 +129,8 @@ export default function TagPage({ cheatsheetLinks, blogLinks, slug }) {
             rootUrl={`/cheatsheet/`}
             featuredImage={link.featuredImage}
             lastUpdated={link.lastUpdated}
+            // This page's container has no horizontal padding of its own.
+            sizes={SIZES_UNPADDED_CONTAINER}
           />
         );
       })}

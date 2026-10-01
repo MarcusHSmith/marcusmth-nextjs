@@ -6,6 +6,11 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: false,
+  images: {
+    // Offer AVIF ahead of WebP; the optimizer picks the smallest format the
+    // requesting browser actually advertises in Accept.
+    formats: ["image/avif", "image/webp"],
+  },
   pageExtensions: [
     "page.tsx",
     "page.ts",
