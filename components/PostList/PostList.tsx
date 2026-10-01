@@ -36,7 +36,7 @@ export function PostList({
   }
   return (
     <div className="space-y-6">
-      {sortedPosts.map(({ slug, frontmatter }) => {
+      {sortedPosts.map(({ slug, frontmatter }, index) => {
         return (
           <PostItem
             key={slug}
@@ -47,6 +47,7 @@ export function PostList({
             lastUpdated={frontmatter.lastUpdated}
             featuredImage={frontmatter.featuredImage}
             tags={frontmatter.tags}
+            index={index}
           />
         );
       })}

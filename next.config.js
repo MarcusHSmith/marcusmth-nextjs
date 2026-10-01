@@ -6,6 +6,11 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: false,
+  images: {
+    // Serve AVIF/WebP variants so the optimizer picks the smallest format
+    // the browser supports (big win for the multi-MB source PNGs).
+    formats: ["image/avif", "image/webp"],
+  },
   pageExtensions: [
     "page.tsx",
     "page.ts",

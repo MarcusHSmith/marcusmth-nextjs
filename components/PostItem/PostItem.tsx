@@ -14,6 +14,8 @@ interface IProps {
     src: string;
     alt: string;
   };
+  /** Position in the post list. Only the first cards preload their image. */
+  index?: number;
 }
 
 export function PostItem({
@@ -24,6 +26,7 @@ export function PostItem({
   lastUpdated,
   tags,
   featuredImage,
+  index,
 }: IProps): ReactElement {
   const visibleTags = tags?.slice(0, 3);
   const postHref = `${rootUrl}${slug}`;
@@ -64,7 +67,11 @@ export function PostItem({
                 alt={featuredImage?.alt}
                 layout="fill"
                 style={{ objectFit: "contain", objectPosition: "center" }}
-                priority
+                // Thumbnail is w-full on mobile, md:w-52 (208px) on desktop.
+                // Without sizes the browser fetches a far larger variant.
+                sizes="(max-width: 768px) 100vw, 208px"
+                // Only the first cards are above the fold; the rest lazy-load.
+                priority={index !== undefined && index < 2}
                 placeholder="empty"
               />
             </div>
