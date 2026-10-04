@@ -1,17 +1,26 @@
 ---
 path: blog
 date: "2026-04-11T03:52:39.000Z"
-lastUpdated: "2026-09-16T23:00:00.000Z"
-title: "Taking a Waymo from LAX in 2026: Where to Get Picked Up, Prices & Steps"
-description: "Walk 21 min from Terminal 3 to In-N-Out on Sepulveda, outside the airport zone, and hail a Waymo for less than Uber: $31 vs $46 to Beverly Hills."
+lastUpdated: "2026-10-03T19:00:00.000Z"
+title: "Does Waymo Go to LAX? 2 Hacks, Prices & Pickup (2026)"
+description: "Yes, with a workaround. Walk 21 min to In-N-Out on Sepulveda, or Waymo to LAX/Metro Transit Center + free shuttle. I paid $31 vs $46 Uber."
 tags: ["travel", "lax"]
 isPublished: true
 featuredImage:
-  src: "waymo-lax/IMG_2133.webp"
-  alt: "waymo"
+  src: "waymo-lax/waymo-lax-pickup-in-n-out-sepulveda.webp"
+  alt: "White Waymo Jaguar waiting at night at the In-N-Out pickup spot on Sepulveda Blvd near LAX"
+faq:
+  - question: "Does Waymo pick up at LAX?"
+    answer: "No. As of September 2026, Waymo doesn't pick up or drop off at the LAX terminals. You have to get outside the airport pickup zone first, for example by walking about 21 minutes from Terminal 3 to the In-N-Out on Sepulveda Blvd and requesting the ride there."
+  - question: "How do I get a Waymo from LAX?"
+    answer: "Walk out of the airport pickup system and request it from just outside. My route: from Delta Terminal 3, walk toward LAX-it, cross to the LAX-it side, go left on the sidewalk, take the stairs down to Sepulveda, and walk to In-N-Out. It took me exactly 21 minutes, then I requested the Waymo from In-N-Out."
+  - question: "Does Waymo drop off at airports?"
+    answer: "Some airports, yes. Phoenix Sky Harbor has supported Waymo pickups and dropoffs for years. LAX does not as of September 2026, so riders there use a nearby spot like the In-N-Out on Sepulveda or, per r/waymo, the LAX/Metro Transit Center plus the free airport shuttle. Check the Waymo app for current airport coverage."
+  - question: "Is Waymo cheaper than Uber from LAX?"
+    answer: "In my experience, yes, because picking up outside the airport avoids airport fees. On a Wednesday at 8pm from LAX to Beverly Hills, Waymo was $31.35 versus $40.93 for Lyft and $45.96 for Uber. Prices vary by time and demand."
 ---
 
-> **Can you take a Waymo from LAX?** Yes. As of September 2026, Waymo doesn't pick up at LAX terminals — but the workaround is easy: walk about 21 minutes from Terminal 3 to the In-N-Out on Sepulveda Blvd, just outside the airport pickup zone, and request your ride there. It's usually cheaper than Uber: $31 vs $46 to Beverly Hills on my last trip.
+> **TL;DR: Does Waymo go to LAX?** Yes, with a workaround: as of September 2026, Waymo doesn't pick up or drop off at the LAX terminals. Below are two workarounds: walk 21 minutes to the In-N-Out on Sepulveda (what I do, $31 vs $46 Uber), or take a Waymo to the LAX/Metro Transit Center and ride the free shuttle to your terminal.
 
 > 🚗 **Support me by using my referral link:** [MARCUSD56C](https://waymo.smart.link/4pcoqniy5?code=MARCUSD56C)
 
@@ -39,7 +48,7 @@ The positives of this move are:
 - planes fly right overhead on the walk, which is fun every time
 - if you want, you can add In-N-Out to your day
 
-## How to Do It
+## Method 1: Walk to In-N-Out on Sepulveda (Tested by Me)
 
 The route starts at Delta Terminal 3. If you land somewhere else in LAX, your walking time will be different, but the concept is the same: leave the terminal area and head toward the In-N-Out just east of the airport.
 
@@ -91,9 +100,29 @@ The main advantage is that once you are out of the airport system, the trip beco
 The timing is better too. Instead of waiting around hoping a driver shows up quickly, I can plan the walk and call the Waymo for the time I actually want. And now that Waymo can take the 405, it is just as fast getting back home.
 
 <div class="post-media-row">
-  <img src="/images/waymo-lax/IMG_2133.webp" alt="Waymo arriving for pickup near LAX" />
+  <img src="/images/waymo-lax/waymo-lax-pickup-in-n-out-sepulveda.webp" alt="Waymo arriving for pickup near LAX" />
   <img src="/images/waymo-lax/IMG_2137.webp" alt="Waymo ride home from LAX on the freeway" />
 </div>
+
+## Method 2: Waymo to the LAX/Metro Transit Center + Free Shuttle (Community-Reported)
+
+_I haven't tested this one myself. The shuttle part is official: LA Metro runs a [free, frequent shuttle](https://www.metro.net/riding/go-metro-to-lax/) from the LAX/Metro Transit Center (Bus Bays 1 and 2) to all LAX terminals. Using the Transit Center as a Waymo drop-off is something riders report on r/waymo, not something I or Waymo have confirmed, so check the Waymo app before relying on it._
+
+This is mostly a way to get **to** LAX. Instead of walking, riders set the LAX/Metro Transit Center as the Waymo drop-off, then take the free airport shuttle from the Transit Center to the terminals. The shuttle does the part of the trip that Waymo can't.
+
+The appeal is obvious if you have bags: no 21-minute walk and no outdoor stairwell. The tradeoff is that you add a shuttle wait and a transfer, and you're depending on the Transit Center stop being available as a Waymo destination when you ride.
+
+## Which Method Should You Use?
+
+|                  | Walk to In-N-Out (Method 1)                                   | Transit Center + Shuttle (Method 2)                    |
+| ---------------- | ------------------------------------------------------------- | ------------------------------------------------------ |
+| Tested by me     | Yes                                                           | No, reported on r/waymo                                |
+| Walking          | ~21 min from Delta Terminal 3, including an outdoor stairwell | Minimal: curb to shuttle                               |
+| Shuttle wait     | None                                                          | Metro says the shuttle is frequent; I haven't timed it |
+| Luggage-friendly | Fine with a carry-on, harder with big bags                    | Better: the shuttle carries you and your bags          |
+| Price            | $31.35 Waymo vs $45.96 Uber to Beverly Hills on my trip       | Waymo fare to the Transit Center; the shuttle is free  |
+
+If you're traveling light and like walking, Method 1 is what I do every time. If you have heavy luggage, Method 2 is worth checking in the app.
 
 ## Final Thoughts
 
