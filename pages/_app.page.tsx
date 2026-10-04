@@ -87,7 +87,6 @@ function MyApp({ Component, pageProps }) {
           modifiedDate={frontmatter?.lastUpdated}
           featuredImage={featuredImage}
           tags={tags}
-          faq={frontmatter?.faq}
         />
       )}
 

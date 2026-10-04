@@ -13,7 +13,6 @@ interface BlogStructuredDataProps {
     alt: string;
   };
   tags: string[];
-  faq?: { question: string; answer: string }[];
 }
 
 interface WebsiteStructuredDataProps {
@@ -89,21 +88,6 @@ export function StructuredData(props: StructuredDataProps): ReactElement {
     }),
   };
 
-  const faqSchema = blogProps.faq?.length
-    ? {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: blogProps.faq.map(({ question, answer }) => ({
-          "@type": "Question",
-          name: question,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: answer,
-          },
-        })),
-      }
-    : null;
-
   return (
     <Head>
       <script
@@ -112,14 +96,6 @@ export function StructuredData(props: StructuredDataProps): ReactElement {
           __html: JSON.stringify(blogSchema),
         }}
       />
-      {faqSchema && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqSchema),
-          }}
-        />
-      )}
     </Head>
   );
 }
