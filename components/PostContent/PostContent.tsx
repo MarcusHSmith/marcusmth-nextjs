@@ -82,6 +82,17 @@ export default function PostContent({
         </div>
         <hr className="mb-8" />
         {htmlContent ? renderServerHtml() : renderContent()}
+        {frontmatter.faq?.length > 0 && (
+          <section>
+            <h2>FAQ</h2>
+            {frontmatter.faq.map(({ question, answer }) => (
+              <div key={question}>
+                <h3>{question}</h3>
+                <p>{answer}</p>
+              </div>
+            ))}
+          </section>
+        )}
       </div>
       <style jsx global>{`
         .prose img {

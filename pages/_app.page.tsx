@@ -84,8 +84,10 @@ function MyApp({ Component, pageProps }) {
           description={descriptionWithFallback}
           url={canonicalUrl}
           publishedDate={frontmatter?.date || new Date().toISOString()}
+          modifiedDate={frontmatter?.lastUpdated}
           featuredImage={featuredImage}
           tags={tags}
+          faq={frontmatter?.faq}
         />
       )}
 
