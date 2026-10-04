@@ -7,7 +7,7 @@ description: "Yes, with a workaround. Walk 21 min to In-N-Out on Sepulveda, or W
 tags: ["travel", "lax"]
 isPublished: true
 featuredImage:
-  src: "waymo-lax/waymo-lax-pickup-in-n-out-sepulveda.jpg"
+  src: "waymo-lax/waymo-lax-pickup-in-n-out-sepulveda.webp"
   alt: "White Waymo Jaguar waiting at night at the In-N-Out pickup spot on Sepulveda Blvd near LAX"
 faq:
   - question: "Does Waymo pick up at LAX?"
@@ -100,7 +100,7 @@ The main advantage is that once you are out of the airport system, the trip beco
 The timing is better too. Instead of waiting around hoping a driver shows up quickly, I can plan the walk and call the Waymo for the time I actually want. And now that Waymo can take the 405, it is just as fast getting back home.
 
 <div class="post-media-row">
-  <img src="/images/waymo-lax/IMG_2133.webp" alt="Waymo arriving for pickup near LAX" />
+  <img src="/images/waymo-lax/waymo-lax-pickup-in-n-out-sepulveda.webp" alt="Waymo arriving for pickup near LAX" />
   <img src="/images/waymo-lax/IMG_2137.webp" alt="Waymo ride home from LAX on the freeway" />
 </div>
 
