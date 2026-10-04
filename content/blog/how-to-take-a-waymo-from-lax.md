@@ -106,7 +106,7 @@ The timing is better too. Instead of waiting around hoping a driver shows up qui
 
 ## Method 2: Waymo to the LAX/Metro Transit Center + Free Shuttle (Community-Reported)
 
-_I haven't tested this one myself. It comes from riders in the [r/waymo](https://www.reddit.com/r/waymo/) community, so treat it as a reported option and check the Waymo app before relying on it._
+_I haven't tested this one myself. The shuttle part is official: LA Metro runs a [free, frequent shuttle](https://www.metro.net/riding/go-metro-to-lax/) from the LAX/Metro Transit Center (Bus Bays 1 and 2) to all LAX terminals. Using the Transit Center as a Waymo drop-off is something riders report on r/waymo, not something I or Waymo have confirmed, so check the Waymo app before relying on it._
 
 This is mostly a way to get **to** LAX. Instead of walking, riders set the LAX/Metro Transit Center as the Waymo drop-off, then take the free airport shuttle from the Transit Center to the terminals. The shuttle does the part of the trip that Waymo can't.
 
@@ -114,13 +114,13 @@ The appeal is obvious if you have bags: no 21-minute walk and no outdoor stairwe
 
 ## Which Method Should You Use?
 
-|                  | Walk to In-N-Out (Method 1)                                   | Transit Center + Shuttle (Method 2)                   |
-| ---------------- | ------------------------------------------------------------- | ----------------------------------------------------- |
-| Tested by me     | Yes                                                           | No, reported on r/waymo                               |
-| Walking          | ~21 min from Delta Terminal 3, including an outdoor stairwell | Minimal: curb to shuttle                              |
-| Shuttle wait     | None                                                          | Adds a shuttle wait (I haven't timed it)              |
-| Luggage-friendly | Fine with a carry-on, harder with big bags                    | Better: the shuttle carries you and your bags         |
-| Price            | $31.35 Waymo vs $45.96 Uber to Beverly Hills on my trip       | Waymo fare to the Transit Center; the shuttle is free |
+|                  | Walk to In-N-Out (Method 1)                                   | Transit Center + Shuttle (Method 2)                    |
+| ---------------- | ------------------------------------------------------------- | ------------------------------------------------------ |
+| Tested by me     | Yes                                                           | No, reported on r/waymo                                |
+| Walking          | ~21 min from Delta Terminal 3, including an outdoor stairwell | Minimal: curb to shuttle                               |
+| Shuttle wait     | None                                                          | Metro says the shuttle is frequent; I haven't timed it |
+| Luggage-friendly | Fine with a carry-on, harder with big bags                    | Better: the shuttle carries you and your bags          |
+| Price            | $31.35 Waymo vs $45.96 Uber to Beverly Hills on my trip       | Waymo fare to the Transit Center; the shuttle is free  |
 
 If you're traveling light and like walking, Method 1 is what I do every time. If you have heavy luggage, Method 2 is worth checking in the app.
 
